@@ -1,5 +1,4 @@
 {
-  "checkedAt": "2026-11-13",
   "hust": {
     "repository": "SukunaShinmyoumaru-hust/Hust-opensource-Xuejie",
     "ref": "4a710e81d217c0b30e6968224bb953d11b0aca36",
@@ -30,12 +29,13 @@
     }
   ],
   "qq": {
-    "status": "curated",
-    "downloadedCount": 50,
-    "importedCount": 49,
+    "status": "published",
+    "downloadedCount": 117,
+    "importedCount": 125,
     "linkedShareCount": 2,
-    "omittedAfterReadingCount": 1,
-    "observedFileCount": 173,
-    "candidateCount": 52
+    "omittedAfterReadingCount": 57,
+    "observedFileCount": 175,
+    "candidateCount": 119,
+    "releaseTag": "group-library"
   }
 }

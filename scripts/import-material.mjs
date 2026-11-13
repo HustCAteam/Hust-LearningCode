@@ -1,31 +1,37 @@
-import { readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, constants } from 'node:fs';
+import { createReadStream, readFileSync, writeFileSync, mkdirSync, existsSync, copyFileSync, constants, statSync } from 'node:fs';
+import { createHash } from 'node:crypto';
 import { resolve, dirname } from 'node:path';
 import { ROOT, readJSON, catalog } from './lib.mjs';
-import { containedPath, validateMeta, validateBytes, sha256 } from './materials.mjs';
+import { containedPath, validateMeta, validateRelease, validateBytes } from './materials.mjs';
+
 const [manifest] = process.argv.slice(2);
 if (!manifest) throw Error('用法：node scripts/import-material.mjs inbox/资料说明.json');
-const meta=JSON.parse(readFileSync(resolve(manifest),'utf8'));
-const courses=catalog();
-const path=validateMeta(meta,courses);
-const input=containedPath(resolve(ROOT,'inbox'),meta.input);
-const bytes=readFileSync(input);
-const materials=readJSON('data/materials.json');
-validateBytes(bytes,materials.reduce((n,m)=>n+m.bytes,0));
-const hash=sha256(bytes);
-const same=materials.find(m=>m.sha256===hash);
-if (same) throw Error(`已有同内容资料：${same.path}；可在原记录中补充贡献者`);
-const target=containedPath(ROOT,path);
-if (existsSync(target)) throw Error('该资料路径已有文件，请调整版本字段');
-const {input:unused,...publicMeta}=meta;
-const record={...publicMeta,path,bytes:bytes.length,sha256:hash,source:'学码群群文件'};
-mkdirSync(dirname(target),{recursive:true});
-copyFileSync(input,target,constants.COPYFILE_EXCL);
-try { writeFileSync(resolve(ROOT,'data/materials.json'),JSON.stringify([...materials,record],null,2)+'\n'); }
-catch(e) { console.error(`文件已复制到 ${path}，请将资料记录补入 data/materials.json`); throw e; }
-const intake=readJSON('data/group-intake.json');
-const candidate=intake.files.find(m=>m.sourceFolder===meta.sourceFolder && m.originalName===meta.originalName);
-if (candidate) {
-  Object.assign(candidate,{status:'archived',path,sha256:hash});
-  writeFileSync(resolve(ROOT,'data/group-intake.json'),JSON.stringify(intake,null,2)+'\n');
+const meta = JSON.parse(readFileSync(resolve(manifest), 'utf8'));
+const path = validateMeta(meta, catalog());
+const input = containedPath(resolve(ROOT, 'inbox'), meta.input);
+const materials = readJSON('data/materials.json');
+const bytes = statSync(input).size;
+const hash = createHash('sha256');
+for await (const chunk of createReadStream(input)) hash.update(chunk);
+const sha256 = hash.digest('hex');
+if (materials.some(material => material.sha256 === sha256)) throw Error('已有同内容资料，可在原记录中补充贡献者');
+const { input: unused, localPath: unusedLocal, ...publicMeta } = meta;
+const record = { ...publicMeta, path, bytes, sha256, source: '学码群群文件' };
+if (meta.storage === 'release') {
+  validateRelease(record);
+} else {
+  validateBytes(readFileSync(input), materials.filter(material => material.storage !== 'release').reduce((sum, material) => sum + material.bytes, 0));
 }
-console.log(`已归档 ${path} (${bytes.length} B)，贡献者：${meta.contributor}`);
+const target = containedPath(ROOT, meta.storage === 'release' ? `archive/${path}` : path);
+if (existsSync(target)) throw Error('该资料路径已有文件，请调整版本字段');
+mkdirSync(dirname(target), { recursive: true });
+copyFileSync(input, target, constants.COPYFILE_EXCL);
+writeFileSync(resolve(ROOT, 'data/materials.json'), JSON.stringify([...materials, record], null, 2) + '\n');
+const intake = readJSON('data/group-intake.json');
+const candidate = intake.files.find(material => material.sourceFolder === meta.sourceFolder && material.originalName === meta.originalName);
+if (candidate) {
+  Object.assign(candidate, { status: 'archived', materialPaths: [...new Set([...(candidate.materialPaths ?? []), path])] });
+  if (meta.originalSha256) candidate.originalSha256 = meta.originalSha256;
+  writeFileSync(resolve(ROOT, 'data/group-intake.json'), JSON.stringify(intake, null, 2) + '\n');
+}
+console.log(`已归档 ${path} (${bytes} B)，贡献者：${meta.contributor}`);

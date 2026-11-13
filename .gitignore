@@ -1,9 +1,13 @@
 node_modules/
-docs/.vitepress/dist/
-docs/.vitepress/cache/
+dist/
+.astro/
 docs/public/materials/
+archive/
 inbox/
 .local/
+.agents/
+.aws/
+.codex/
 HANDOFF.md
 *.log
 .DS_Store

@@ -14,44 +14,65 @@ export const mdText = value => String(value)
 export function catalog() {
   return [...readJSON('data/courses.json'), ...(existsSync(join(ROOT, 'data/topics.json')) ? readJSON('data/topics.json') : [])];
 }
-export const courseAliases = {
-  'operating-systems': ['OS', 'Operating Systems'],
-  'data-structures': ['DS', 'Data Structures'],
-  algorithms: ['Algorithm', 'DSA'],
-  databases: ['DB', 'DBMS', 'SQL', 'Database'],
-  networks: ['CN', 'Computer Networks', 'TCP/IP'],
-  compilers: ['Compiler'],
-  'computer-organization': ['CO', 'Computer Organization'],
-  architecture: ['CA', 'Computer Architecture'],
-  'computer-systems': ['ICS', 'CSAPP', 'Computer Systems'],
-  'software-engineering': ['SE', 'Software Engineering'],
-  'discrete-1': ['DM', 'Discrete Mathematics'],
-  'discrete-2': ['DM', 'Discrete Mathematics'],
-  'machine-learning': ['ML', 'Machine Learning'],
-  'machine-learning-core': ['ML', 'Machine Learning'],
-  nlp: ['Natural Language Processing'],
-  'nlp-core': ['Natural Language Processing'],
-  'computer-vision': ['CV', 'Computer Vision'],
-  graphics: ['CG', 'Computer Graphics']
-};
-export function materialMarkdown(material, page) {
-  const href = encodePath(relative(dirname(join(ROOT, page)), join(ROOT, material.path)).split(sep).join('/'));
-  let text = `### ${mdText(material.title)}\n\n[打开或下载资料](${href}) · ${size(material.bytes)}\n\n`;
-  text += `- 原始文件名：${mdText(material.originalName)}\n- 群文件上传日期：${mdText(material.uploadedAt)}\n- 群文件上传者：${mdText(material.contributor)}\n`;
-  if (material.author) text += `- 作者：${mdText(material.author)}\n`;
-  if (material.contributors?.length) text += `- 整理者：${material.contributors.map(mdText).join('、')}\n`;
-  text += `\n${mdText(material.description)}\n\n`;
-  if (material.readingGuide) {
-    const guide = encodePath(relative(dirname(join(ROOT, page)), join(ROOT, material.readingGuide)).split(sep).join('/'));
-    text += `[配套阅读](${guide})\n\n`;
+export const BASE = '/Hust-LearningCode/';
+export const siteLink = slug => `${BASE}${slug.replace(/^\/|\/$/g, '')}/`;
+export function materialUrl(material, page) {
+  if (material.storage === 'release') return material.url;
+  return encodePath(relative(dirname(join(ROOT, page)), join(ROOT, material.path)).split(sep).join('/'));
+}
+function bookEdition(material) {
+  if (material.kind !== 'book' || !material.version || material.version === 'undated') return '';
+  const title = material.title.replace(/\s+/g, '');
+  const chineseNumber = value => {
+    const digits = '零一二三四五六七八九';
+    const number = Number(value);
+    return number < 10 ? digits[number] : number < 100
+      ? `${number >= 20 ? digits[Math.floor(number / 10)] : ''}十${number % 10 ? digits[number % 10] : ''}`
+      : value;
+  };
+  const labels = [];
+  const add = (label, aliases = [label]) => {
+    if (!aliases.some(alias => title.includes(alias))) labels.push(label);
+  };
+  let match;
+  if ((match = material.version.match(/^(\d+)(?:st|nd|rd|th)(?:-vol(\d+)|-(sample))?$/))) {
+    const [, edition, volume, sample] = match;
+    add(`第${edition}版`, [`第${edition}版`, `第${chineseNumber(edition)}版`]);
+    if (volume) add(`第${volume}卷`, [`第${volume}卷`, `第${chineseNumber(volume)}卷`, ...(volume === '1' ? ['卷I', '卷Ⅰ'] : [])]);
+    if (sample) add('样章');
+  } else if ((match = material.version.match(/^(\d{4})(?:-(0[1-9]|1[0-2]))?$/))) {
+    add(match[2] ? `${match[1]}年${Number(match[2])}月` : `${match[1]}年`);
+  } else if ((match = material.version.match(/^parts(\d+)-(\d+)$/))) {
+    add(`第${match[1]}—${match[2]}部分`);
+  } else if ((match = material.version.match(/^part(\d+)$/))) {
+    add(`第${match[1]}部分`);
+  } else if ((match = material.version.match(/^(\d+)-items$/))) {
+    if (!title.includes(match[1])) add(`${match[1]}个条目`);
+  } else if ((match = material.version.match(/^(进阶篇|基础篇|基础版|修订版)(?:-(v\d+(?:\.\d+)*))?$/))) {
+    add(match[1]);
+    if (match[2]) add(match[2]);
   }
-  if (material.historicalValue) text += `资料背景：${mdText(material.historicalValue)}\n\n`;
+  return labels.join('·');
+}
+export function materialMarkdown(material, page) {
+  const format = material.path.split('.').pop().toUpperCase();
+  const edition = bookEdition(material);
+  let text = `### ${mdText(material.title)}${edition ? ` · ${mdText(edition)}` : ''}\n\n${mdText(material.description)}\n\n`;
+  const details = [`[${format} · ${size(material.bytes)} · 打开下载](${materialUrl(material, page)})`];
+  if (material.author) details.push(`作者：${mdText(material.author)}`);
+  details.push(material.contributor ? `群友分享：${mdText(material.contributor)}` : '群友分享');
+  if (material.contributors?.length) details.push(`整理：${material.contributors.map(mdText).join('、')}`);
+  text += details.join(' · ') + '\n\n';
+  if (material.readingGuide) {
+    const href = encodePath(relative(dirname(join(ROOT, page)), join(ROOT, material.readingGuide)).split(sep).join('/'));
+    text += `[配套阅读](${href})\n\n`;
+  }
   return text;
 }
 export function syncPublicMaterials(root, materials) {
   const destination = resolve(root, 'docs/public/materials');
   rmSync(destination, { recursive: true, force: true });
-  for (const material of materials) {
+  for (const material of materials.filter(item => item.storage !== 'release')) {
     const source = resolve(root, material.path);
     const target = resolve(destination, material.path);
     if (!source.startsWith(resolve(root) + sep) || !target.startsWith(destination + sep)) throw Error(`资料路径越界：${material.path}`);
@@ -59,12 +80,12 @@ export function syncPublicMaterials(root, materials) {
     copyFileSync(source, target);
   }
 }
-export const size = bytes => bytes < 1024 * 1024 ? `${(bytes / 1024).toFixed(1)} KiB` : `${(bytes / 1024 / 1024).toFixed(2)} MiB`;
+export const size = bytes => bytes >= 1024 ** 3 ? `${(bytes / 1024 ** 3).toFixed(2)} GiB` : bytes < 1024 * 1024 ? `${(bytes / 1024).toFixed(1)} KiB` : `${(bytes / 1024 / 1024).toFixed(2)} MiB`;
 export const LIMITS = { file: 10 * 1024 * 1024, total: 80 * 1024 * 1024 };
-export const ignored = new Set(['.git', '.agents', '.aws', '.codex', 'node_modules', 'inbox', '.local', 'HANDOFF.md', '__pycache__']);
+export const ignored = new Set(['.git', '.agents', '.aws', '.codex', 'node_modules', 'inbox', 'archive', '.local', 'dist', '.astro', 'HANDOFF.md', '__pycache__']);
 export function files(dir = ROOT) {
   return readdirSync(dir, { withFileTypes: true }).flatMap(entry => {
-    if (ignored.has(entry.name) || ['dist', 'cache'].includes(entry.name) && dir.endsWith('.vitepress')) return [];
+    if (ignored.has(entry.name)) return [];
     const path = join(dir, entry.name);
     if (relative(ROOT, path).split(sep).join('/') === 'docs/public/materials') return [];
     if (entry.isSymbolicLink()) throw new Error(`请使用实际文件：${path}`);
@@ -97,6 +118,7 @@ export function storageRoot(course) {
     'embedded-1': '009-嵌入式与单片机', 'embedded-2': '009-嵌入式与单片机',
     graphics: '012-图形学与图像处理', 'computer-vision': '012-图形学与图像处理', 'image-processing': '012-图形学与图像处理',
     'parallel-computing': '013-并行与分布式系统', 'big-data-systems-project': '013-并行与分布式系统',
+    assembly: '010-计算机组成与硬件',
     competitions: 'A-计算机协会', 'hardware-project': '010-计算机组成与硬件'
   };
   return special[course.id] || {

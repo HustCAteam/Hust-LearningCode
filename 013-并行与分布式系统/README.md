@@ -1,16 +1,16 @@
-<!-- 此页由 scripts/generate.mjs 生成，内容源位于 data/。 -->
-
 # 并行与分布式系统
 
 并行计算与分布式系统实践。
 
-| 课程 / 专题 | 学习内容 |
-| --- | --- |
-| [并行计算](../docs/courses/systems/parallel-computing.md) | 任务划分、并行性能与同步 |
-| [大数据系统综合实践](../docs/courses/practice/big-data-systems-project.md) | 大数据系统综合开发 |
+## 学码群分享
 
-## 群内资料
+[浏览学码群现有资料](../docs/content/docs/group/index.md)。
 
-精选文件按“课程 / 资料类型”存放，资料记录见[群资料目录](../docs/group/index.md)。
+## [Hust-opensource-Xuejie] 外部补充
 
-感谢愿意把笔记、经验和好资料留给后来同学的每一位群友。[补充资料](../CONTRIBUTING.md)时可以留下希望展示的署名。
+来源：[\[Hust-opensource-Xuejie\] 项目主页](https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie)。
+
+- [\[Hust-opensource-Xuejie\] 并行计算](../docs/content/docs/supplement/hust/parallel-computing.md)
+- [\[Hust-opensource-Xuejie\] 大数据系统综合实践](../docs/content/docs/supplement/hust/big-data-systems-project.md)
+
+[分享资料](../CONTRIBUTING.md)。

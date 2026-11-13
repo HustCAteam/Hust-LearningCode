@@ -1,6 +1,5 @@
 {
-  "checkedAt": "2026-11-13",
-  "observedFileCount": 173,
+  "observedFileCount": 175,
   "displayedFileCount": 175,
   "omittedInstallerCount": 2,
   "folderCounts": {
@@ -18,7 +17,8 @@
     "计算机组成原理": 1,
     "计算机基础": 2,
     "数学": 2,
-    "HUSTCA计协": 2
+    "HUSTCA计协": 2,
+    "软件安装包": 2
   },
   "files": [
     {
@@ -28,8 +28,10 @@
       "displaySize": "5.31MB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "009-嵌入式与单片机/mcs51/slides/mcs51__slides__01-MCS-51结构__undated.pdf",
-      "sha256": "aa1bb27f188d7d620ef99ac1d317b2abd6f382490a5048fbb6352ddce871d8b8"
+      "materialPaths": [
+        "009-嵌入式与单片机/mcs51/slides/mcs51__slides__01-MCS-51结构__undated.pdf"
+      ],
+      "originalSha256": "a6cae667941a3bcf7bd4a46a451a4eff63ce4b6113c8296356b32dd2665efc67"
     },
     {
       "sourceFolder": "51单片机",
@@ -38,8 +40,10 @@
       "displaySize": "2.15MB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "009-嵌入式与单片机/mcs51/slides/mcs51__slides__02-汇编指令与程序设计__undated.pdf",
-      "sha256": "383bf773ada00bfb52c6d8d5444191d74dc717d46879bcc2efbf62eb6c4fc3ff"
+      "materialPaths": [
+        "009-嵌入式与单片机/mcs51/slides/mcs51__slides__02-汇编指令与程序设计__undated.pdf"
+      ],
+      "originalSha256": "71bd032b492c713162cab9871adbd5ff7f494991b5a4dbbc17c63b5ceaf81be3"
     },
     {
       "sourceFolder": "51单片机",
@@ -48,8 +52,10 @@
       "displaySize": "5.98MB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "009-嵌入式与单片机/mcs51/slides/mcs51__slides__03-实验板与GPIO__undated.pdf",
-      "sha256": "b6e77f9c167e71b28c5c915f196ce0c085adb7c54ed8c6540c034a16eb35dd56"
+      "materialPaths": [
+        "009-嵌入式与单片机/mcs51/slides/mcs51__slides__03-实验板与GPIO__undated.pdf"
+      ],
+      "originalSha256": "378fca7a037ebe834930b6e3767a53ab3666dd92dbec01bb8b2875556a23ea09"
     },
     {
       "sourceFolder": "51单片机",
@@ -58,8 +64,10 @@
       "displaySize": "5.68MB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "009-嵌入式与单片机/mcs51/slides/mcs51__slides__04-并口与数码管__undated.pdf",
-      "sha256": "731a28428469dfc20d88f89ce4ba8a7a495eb9598b21b55433961d5afa4fb4b5"
+      "materialPaths": [
+        "009-嵌入式与单片机/mcs51/slides/mcs51__slides__04-并口与数码管__undated.pdf"
+      ],
+      "originalSha256": "f81207dc174f80155dd166bf4ad2e915010ac6cd8afbc88f6b9090566406ad20"
     },
     {
       "sourceFolder": "51单片机",
@@ -68,8 +76,10 @@
       "displaySize": "4.87MB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "009-嵌入式与单片机/mcs51/slides/mcs51__slides__05-键盘与数码管__undated.pdf",
-      "sha256": "d40435eb07e1249e4eb851d4908576dc8223ec7b3990fa92b973a3b96dbef19d"
+      "materialPaths": [
+        "009-嵌入式与单片机/mcs51/slides/mcs51__slides__05-键盘与数码管__undated.pdf"
+      ],
+      "originalSha256": "a7d82447bf8a59347e9df23e176ed8abc35125805726cba0d6d5d827ecfdffbe"
     },
     {
       "sourceFolder": "51单片机",
@@ -78,8 +88,10 @@
       "displaySize": "3.38MB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "009-嵌入式与单片机/mcs51/slides/mcs51__slides__06-DS1302时钟__undated.pdf",
-      "sha256": "2766a0b8a8d8567668540cc2f21d743a62843313509208c5065b807405ebc892"
+      "materialPaths": [
+        "009-嵌入式与单片机/mcs51/slides/mcs51__slides__06-DS1302时钟__undated.pdf"
+      ],
+      "originalSha256": "0b546eac2d8c4eed4f0fe558005ae949b8a25323300c4a14bfab4fcf9287604d"
     },
     {
       "sourceFolder": "51单片机",
@@ -88,8 +100,10 @@
       "displaySize": "677KB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "009-嵌入式与单片机/mcs51/slides/mcs51__slides__07-中断与定时器-汇编__undated.pdf",
-      "sha256": "a1db3c97b71dc88b14f537739c66dcfe4cc948885489df233b4bcb5828690d8c"
+      "materialPaths": [
+        "009-嵌入式与单片机/mcs51/slides/mcs51__slides__07-中断与定时器-汇编__undated.pdf"
+      ],
+      "originalSha256": "f44c07f453048de64f2b44f510d8904bf1b08510b35fcdee5ea1542fdf62bac6"
     },
     {
       "sourceFolder": "51单片机",
@@ -98,8 +112,10 @@
       "displaySize": "367KB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "009-嵌入式与单片机/mcs51/slides/mcs51__slides__08-中断与定时器-C51__undated.pdf",
-      "sha256": "d5e366c0b4d7a5b4dcd8ed6e6eeaa2f8533093b895532195c20b2c5bd48a7764"
+      "materialPaths": [
+        "009-嵌入式与单片机/mcs51/slides/mcs51__slides__08-中断与定时器-C51__undated.pdf"
+      ],
+      "originalSha256": "4fee7c0c6a5139094d646f38e45af5e5e09d6006441868a40ea0a94add91d6b6"
     },
     {
       "sourceFolder": "51单片机",
@@ -108,8 +124,10 @@
       "displaySize": "2.94MB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "009-嵌入式与单片机/mcs51/slides/mcs51__slides__09-RS232串口__undated.pdf",
-      "sha256": "1d2fbcfe32cc8b5a87f5bfb10336fd64e178b966d149f9c902f7c0dc91ee5b86"
+      "materialPaths": [
+        "009-嵌入式与单片机/mcs51/slides/mcs51__slides__09-RS232串口__undated.pdf"
+      ],
+      "originalSha256": "f6a8ead7349e4fe2330e35db376c587df9ea4b04517d9f9590445f141a97f463"
     },
     {
       "sourceFolder": "51单片机",
@@ -118,8 +136,10 @@
       "displaySize": "4.82MB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "009-嵌入式与单片机/mcs51/slides/mcs51__slides__10-I2C与EEPROM__undated.pdf",
-      "sha256": "32f08e75054c43da69f362c48da38a431b265f79b35e2d072f87e9a6e8516f84"
+      "materialPaths": [
+        "009-嵌入式与单片机/mcs51/slides/mcs51__slides__10-I2C与EEPROM__undated.pdf"
+      ],
+      "originalSha256": "7f18186b2da96352b9f8ee586e3654fb304c670fd4b1410781367536ac5d2854"
     },
     {
       "sourceFolder": "课内应试资源",
@@ -128,8 +148,10 @@
       "displaySize": "1.35MB",
       "contributor": "23-电信-星云",
       "status": "archived",
-      "path": "001-计算机语言/c/notes/c__notes__期末解题笔记__2024-01-01.pdf",
-      "sha256": "72fc59701830f085c424b927a3e7aa7590d2bd83c33a64c5bdbbce6c5e8b1a39"
+      "materialPaths": [
+        "001-计算机语言/c/notes/c__notes__期末解题笔记__2024-01-01.pdf"
+      ],
+      "originalSha256": "72fc59701830f085c424b927a3e7aa7590d2bd83c33a64c5bdbbce6c5e8b1a39"
     },
     {
       "sourceFolder": "课内应试资源",
@@ -138,8 +160,10 @@
       "displaySize": "595KB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "001-计算机语言/c/exercise/c__exercise__电信学院2019级试题A-参考答案__2020-01-06.pdf",
-      "sha256": "9ed3905dd3e65f1ac41c9a37912860520e8891aeff143c01c9d7a4a662d72d13"
+      "materialPaths": [
+        "001-计算机语言/c/exercise/c__exercise__电信学院2019级试题A-参考答案__2020-01-06.pdf"
+      ],
+      "originalSha256": "9ed3905dd3e65f1ac41c9a37912860520e8891aeff143c01c9d7a4a662d72d13"
     },
     {
       "sourceFolder": "课内应试资源",
@@ -148,8 +172,10 @@
       "displaySize": "534KB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "001-计算机语言/c/exercise/c__exercise__电信学院2019级试题A__2020-01-06.pdf",
-      "sha256": "00ada5b7d6a085a5784a66317dd2195fd2c0d0aed5940cfd9c54cd2069c00ae4"
+      "materialPaths": [
+        "001-计算机语言/c/exercise/c__exercise__电信学院2019级试题A__2020-01-06.pdf"
+      ],
+      "originalSha256": "00ada5b7d6a085a5784a66317dd2195fd2c0d0aed5940cfd9c54cd2069c00ae4"
     },
     {
       "sourceFolder": "课内应试资源",
@@ -158,8 +184,10 @@
       "displaySize": "90.1KB",
       "contributor": "[    ]",
       "status": "archived",
-      "path": "001-计算机语言/c/exercise/c__exercise__原名2020秋答案-表头2019至2020__2019-2020-header.pdf",
-      "sha256": "158b50506a67c6c7c9f420b187d071e42900630f7746967a341b34d8f2815105"
+      "materialPaths": [
+        "001-计算机语言/c/exercise/c__exercise__原名2020秋答案-表头2019至2020__2019-2020-header.pdf"
+      ],
+      "originalSha256": "158b50506a67c6c7c9f420b187d071e42900630f7746967a341b34d8f2815105"
     },
     {
       "sourceFolder": "课内应试资源",
@@ -168,8 +196,10 @@
       "displaySize": "289KB",
       "contributor": "[    ]",
       "status": "archived",
-      "path": "001-计算机语言/c/exercise/c__exercise__2020秋期末试题A__2021-01-08.pdf",
-      "sha256": "9b33b24aa2df68875f04552444fb3ab40913ec5d7a08d86cebc6d95d70278de9"
+      "materialPaths": [
+        "001-计算机语言/c/exercise/c__exercise__2020秋期末试题A__2021-01-08.pdf"
+      ],
+      "originalSha256": "9b33b24aa2df68875f04552444fb3ab40913ec5d7a08d86cebc6d95d70278de9"
     },
     {
       "sourceFolder": "课内应试资源",
@@ -178,8 +208,10 @@
       "displaySize": "838KB",
       "contributor": "[    ]",
       "status": "archived",
-      "path": "001-计算机语言/c/exercise/c__exercise__2019秋期末答案A__2019-2020.pdf",
-      "sha256": "d3705d641f99f1e3795a0bb621877ccc7468b74cc195db1402df3e82ce86cb86"
+      "materialPaths": [
+        "001-计算机语言/c/exercise/c__exercise__2019秋期末答案A__2019-2020.pdf"
+      ],
+      "originalSha256": "d3705d641f99f1e3795a0bb621877ccc7468b74cc195db1402df3e82ce86cb86"
     },
     {
       "sourceFolder": "课内应试资源",
@@ -188,8 +220,10 @@
       "displaySize": "7.46MB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "001-计算机语言/cpp/exercise/cpp__exercise__2021秋期末试题A-扫描版__2021-12-11.pdf",
-      "sha256": "855e7e05a848f14e6416b445db29daf8a8b5589499cb8ec1d5f356a77a3ac8ef"
+      "materialPaths": [
+        "001-计算机语言/cpp/exercise/cpp__exercise__2021秋期末试题A-扫描版__2021-12-11.pdf"
+      ],
+      "originalSha256": "855e7e05a848f14e6416b445db29daf8a8b5589499cb8ec1d5f356a77a3ac8ef"
     },
     {
       "sourceFolder": "课内应试资源",
@@ -198,8 +232,10 @@
       "displaySize": "881KB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "001-计算机语言/c/exercise/c__exercise__模拟试题一-含答案__undated.pdf",
-      "sha256": "2125cc4de349efb11f21ef17ab88e1ce984028fe0b58ba9bd4ab2d9fcb137ab6"
+      "materialPaths": [
+        "001-计算机语言/c/exercise/c__exercise__模拟试题一-含答案__undated.pdf"
+      ],
+      "originalSha256": "2125cc4de349efb11f21ef17ab88e1ce984028fe0b58ba9bd4ab2d9fcb137ab6"
     },
     {
       "sourceFolder": "课内应试资源",
@@ -208,8 +244,10 @@
       "displaySize": "313KB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "001-计算机语言/cpp/exercise/cpp__exercise__面向对象模拟试题-含答案__2021.pdf",
-      "sha256": "20abefbdd1173505b746d41b06c3a20afa1895761c5251a7121b77be08892eba"
+      "materialPaths": [
+        "001-计算机语言/cpp/exercise/cpp__exercise__面向对象模拟试题-含答案__2021.pdf"
+      ],
+      "originalSha256": "20abefbdd1173505b746d41b06c3a20afa1895761c5251a7121b77be08892eba"
     },
     {
       "sourceFolder": "课内应试资源",
@@ -218,8 +256,10 @@
       "displaySize": "23.4KB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "001-计算机语言/c/exercise/c__exercise__2015春试卷A-评分标准__2015-06-25.pdf",
-      "sha256": "943e44617c30652c86a91f70490ada5a4c05f8a30038c5a72a11da6641525393"
+      "materialPaths": [
+        "001-计算机语言/c/exercise/c__exercise__2015春试卷A-评分标准__2015-06-25.pdf"
+      ],
+      "originalSha256": "d842959722516329998aede232ac5dbe28036764d14d6a2b4c88edf77e64ac86"
     },
     {
       "sourceFolder": "课内应试资源",
@@ -228,8 +268,10 @@
       "displaySize": "342KB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "001-计算机语言/cpp/exercise/cpp__exercise__2020秋期末试题A-含答案__2020-11-14.pdf",
-      "sha256": "f1ce9a71402a07abc412a62aa7dd3f1c4652bf96f2456bcbdfd3f9f4c10e3572"
+      "materialPaths": [
+        "001-计算机语言/cpp/exercise/cpp__exercise__2020秋期末试题A-含答案__2020-11-14.pdf"
+      ],
+      "originalSha256": "f1ce9a71402a07abc412a62aa7dd3f1c4652bf96f2456bcbdfd3f9f4c10e3572"
     },
     {
       "sourceFolder": "课内应试资源",
@@ -238,8 +280,10 @@
       "displaySize": "149KB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "001-计算机语言/c/exercise/c__exercise__2015春试卷A-含部分答案__2015-06-25.pdf",
-      "sha256": "0e8f68dad94ea9c10124bc19ec82c4e099d5c2790a2edbb5b0f6f9dde1043e14"
+      "materialPaths": [
+        "001-计算机语言/c/exercise/c__exercise__2015春试卷A-含部分答案__2015-06-25.pdf"
+      ],
+      "originalSha256": "465aa00052f4c74be5d9b34c332bfd42ea44723ce56a455d45d40c8ce00ae011"
     },
     {
       "sourceFolder": "其他应试资料",
@@ -248,8 +292,10 @@
       "displaySize": "192KB",
       "contributor": "23机械海臻黎",
       "status": "archived",
-      "path": "005-计算机网络/network-certification/guide/network-certification__guide__四级网络工程师-大纲整理__undated.pdf",
-      "sha256": "88fab2f65a08fdc3c653ce0165a8527cb4f8da683d51d262b975bb0390df9829"
+      "materialPaths": [
+        "005-计算机网络/network-certification/guide/network-certification__guide__四级网络工程师-大纲整理__undated.pdf"
+      ],
+      "originalSha256": "88fab2f65a08fdc3c653ce0165a8527cb4f8da683d51d262b975bb0390df9829"
     },
     {
       "sourceFolder": "其他应试资料",
@@ -258,8 +304,10 @@
       "displaySize": "64.3KB",
       "contributor": "23机械海臻黎",
       "status": "archived",
-      "path": "005-计算机网络/network-certification/notes/network-certification__notes__四级网络工程师-知识点__undated.pdf",
-      "sha256": "6d55eb5a81e5a87cc6ff163f36a4ac17d251e45292f4185c447a241555849187"
+      "materialPaths": [
+        "005-计算机网络/network-certification/notes/network-certification__notes__四级网络工程师-知识点__undated.pdf"
+      ],
+      "originalSha256": "28dea76cf88dc8326172d6196a820124762e6a6be8cd4f978c2ab6e90a4a905c"
     },
     {
       "sourceFolder": "其他应试资料",
@@ -268,8 +316,10 @@
       "displaySize": "290KB",
       "contributor": "23机械海臻黎",
       "status": "archived",
-      "path": "006-操作系统/operating-systems/exercise/operating-systems__exercise__银行家算法-安全序列例题__undated.pdf",
-      "sha256": "bbbd74891d46e3ca3c03fefd4e637b3c69e08d30d7bf9b0a0b5933acd3cd08a7"
+      "materialPaths": [
+        "006-操作系统/operating-systems/exercise/operating-systems__exercise__银行家算法-安全序列例题__undated.pdf"
+      ],
+      "originalSha256": "bbbd74891d46e3ca3c03fefd4e637b3c69e08d30d7bf9b0a0b5933acd3cd08a7"
     },
     {
       "sourceFolder": "其他应试资料",
@@ -278,8 +328,10 @@
       "displaySize": "45.1KB",
       "contributor": "23机械海臻黎",
       "status": "archived",
-      "path": "005-计算机网络/network-certification/notes/network-certification__notes__四级网络工程师-速查整理__undated.pdf",
-      "sha256": "666ab7f1dc579e5fcdcd91b565b16ffd63241a46c043fc5966b5454d2a6200b4"
+      "materialPaths": [
+        "005-计算机网络/network-certification/notes/network-certification__notes__四级网络工程师-速查整理__undated.pdf"
+      ],
+      "originalSha256": "92efde6e521cbdca1ed3b2dc5f1480a668596e1a5542c49b9e61c5a6e102656c"
     },
     {
       "sourceFolder": "其他应试资料",
@@ -288,8 +340,10 @@
       "displaySize": "3.41MB",
       "contributor": "23机械海臻黎",
       "status": "archived",
-      "path": "005-计算机网络/network-certification/exercise/network-certification__exercise__三级网络技术-综合题__undated.pdf",
-      "sha256": "689f6fe62b8488f19d98cfe48f13a396bf47b5df200789207b938f0bbd40a239"
+      "materialPaths": [
+        "005-计算机网络/network-certification/exercise/network-certification__exercise__三级网络技术-综合题__undated.pdf"
+      ],
+      "originalSha256": "7f5c8c354f24c264fb0e5aee6571b2be80a5b2f4d0a8123d6dc4cb4a935795e0"
     },
     {
       "sourceFolder": "其他应试资料",
@@ -298,8 +352,10 @@
       "displaySize": "4.77MB",
       "contributor": "23机械海臻黎",
       "status": "archived",
-      "path": "005-计算机网络/network-certification/notes/network-certification__notes__三级网络技术-知识整理__undated.pdf",
-      "sha256": "b0e214fcbfc214b806dfe9ca70a4ddd87ffbf1e8f1da2551669689dd4e13c596"
+      "materialPaths": [
+        "005-计算机网络/network-certification/notes/network-certification__notes__三级网络技术-知识整理__undated.pdf"
+      ],
+      "originalSha256": "b0e214fcbfc214b806dfe9ca70a4ddd87ffbf1e8f1da2551669689dd4e13c596"
     },
     {
       "sourceFolder": "其他应试资料",
@@ -308,8 +364,10 @@
       "displaySize": "2.79MB",
       "contributor": "23机械海臻黎",
       "status": "archived",
-      "path": "005-计算机网络/network-certification/notes/network-certification__notes__三级网络技术-选择题知识点__undated.pdf",
-      "sha256": "f4641518b5d5ea26b0c8073f1b0525abdbc376ee72bb3cd687b895f66e0ddf5c"
+      "materialPaths": [
+        "005-计算机网络/network-certification/notes/network-certification__notes__三级网络技术-选择题知识点__undated.pdf"
+      ],
+      "originalSha256": "f4641518b5d5ea26b0c8073f1b0525abdbc376ee72bb3cd687b895f66e0ddf5c"
     },
     {
       "sourceFolder": "其他应试资料",
@@ -318,8 +376,10 @@
       "displaySize": "1.58MB",
       "contributor": "23机械海臻黎",
       "status": "archived",
-      "path": "005-计算机网络/network-certification/notes/network-certification__notes__三级网络技术-高频考点__undated.pdf",
-      "sha256": "8dc0b9ae490e16bb20971809aed3f525c64b51a0f620efe519fe033297239683"
+      "materialPaths": [
+        "005-计算机网络/network-certification/notes/network-certification__notes__三级网络技术-高频考点__undated.pdf"
+      ],
+      "originalSha256": "8dc0b9ae490e16bb20971809aed3f525c64b51a0f620efe519fe033297239683"
     },
     {
       "sourceFolder": "其他应试资料",
@@ -328,8 +388,10 @@
       "displaySize": "1.07MB",
       "contributor": "23机械海臻黎",
       "status": "archived",
-      "path": "005-计算机网络/network-certification/exercise/network-certification__exercise__三级网络技术-计算题方法__undated.pdf",
-      "sha256": "f2c392db0cd1f27129639ecfc74369c1d3b6723c94de30dfa03ea9b08c5d968e"
+      "materialPaths": [
+        "005-计算机网络/network-certification/exercise/network-certification__exercise__三级网络技术-计算题方法__undated.pdf"
+      ],
+      "originalSha256": "f2c392db0cd1f27129639ecfc74369c1d3b6723c94de30dfa03ea9b08c5d968e"
     },
     {
       "sourceFolder": "其他应试资料",
@@ -338,8 +400,10 @@
       "displaySize": "4.52MB",
       "contributor": "迷雾迷雾麋鹿迷了路",
       "status": "archived",
-      "path": "014-课程与校园资料/postgraduate-408/exercise/postgraduate-408__exercise__408真题回忆版__2024.pdf",
-      "sha256": "2dd4a15180c2875a888f4152a69a99f6c435eac6bc4bb1dbce545a55d3c55b82"
+      "materialPaths": [
+        "014-课程与校园资料/postgraduate-408/exercise/postgraduate-408__exercise__408真题回忆版__2024.pdf"
+      ],
+      "originalSha256": "2dd4a15180c2875a888f4152a69a99f6c435eac6bc4bb1dbce545a55d3c55b82"
     },
     {
       "sourceFolder": "HUSTCA计协",
@@ -348,8 +412,10 @@
       "displaySize": "206KB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "A-计算机协会/hustca/guide/hustca__guide__CAteam团队招募__2023-share.pdf",
-      "sha256": "c7d22d1330fcd35b773fbfb8bf21145bc2576d964f086646475813d4afeb6a45"
+      "materialPaths": [
+        "A-计算机协会/hustca/guide/hustca__guide__CAteam团队招募__2023-share.pdf"
+      ],
+      "originalSha256": "c7d22d1330fcd35b773fbfb8bf21145bc2576d964f086646475813d4afeb6a45"
     },
     {
       "sourceFolder": "HUSTCA计协",
@@ -358,8 +424,10 @@
       "displaySize": "254KB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "archived",
-      "path": "A-计算机协会/hustca/guide/hustca__guide__HUST-CA协会介绍__2023-share.pdf",
-      "sha256": "397df0bd6716696eb30e4592a11d264dbebcdcbe5b861b005ba91aaecb4091dd"
+      "materialPaths": [
+        "A-计算机协会/hustca/guide/hustca__guide__HUST-CA协会介绍__2023-share.pdf"
+      ],
+      "originalSha256": "397df0bd6716696eb30e4592a11d264dbebcdcbe5b861b005ba91aaecb4091dd"
     },
     {
       "sourceFolder": "/",
@@ -368,8 +436,10 @@
       "displaySize": "126KB",
       "contributor": "24-集成-吕鑫洋",
       "status": "archived",
-      "path": "002-算法和数据结构/programming-project/lab/programming-project__lab__软件课程设计选题__undated.pdf",
-      "sha256": "2721bb0b966adb408b57f6d286cf78df4920b88a6ca86914cdc7ac1276a1488a"
+      "materialPaths": [
+        "002-算法和数据结构/programming-project/lab/programming-project__lab__软件课程设计选题__undated.pdf"
+      ],
+      "originalSha256": "fcca0f1b39f946c2304689b9f9138434b72419875f533f3e04edd2f434b023be"
     },
     {
       "sourceFolder": "/",
@@ -378,8 +448,10 @@
       "displaySize": "796KB",
       "contributor": "QQ用户",
       "status": "archived",
-      "path": "008-编译原理/programming-languages/talk/programming-languages__talk__Program-Verification-by-Coinduction__2018.pdf",
-      "sha256": "0f93b5625b8afb4c1234a0de1d0a210fe894d3801a1121fe82d67ee527b3128d"
+      "materialPaths": [
+        "008-编译原理/programming-languages/talk/programming-languages__talk__Program-Verification-by-Coinduction__2018.pdf"
+      ],
+      "originalSha256": "0f93b5625b8afb4c1234a0de1d0a210fe894d3801a1121fe82d67ee527b3128d"
     },
     {
       "sourceFolder": "/",
@@ -388,8 +460,10 @@
       "displaySize": "589KB",
       "contributor": "QQ用户",
       "status": "archived",
-      "path": "008-编译原理/programming-languages/talk/programming-languages__talk__Bidirectional-Typing__2021.pdf",
-      "sha256": "621199ac7a1726872176687f6f939df8b9d087401640832ae4b8d990f6193b4e"
+      "materialPaths": [
+        "008-编译原理/programming-languages/talk/programming-languages__talk__Bidirectional-Typing__2021.pdf"
+      ],
+      "originalSha256": "621199ac7a1726872176687f6f939df8b9d087401640832ae4b8d990f6193b4e"
     },
     {
       "sourceFolder": "/",
@@ -398,8 +472,10 @@
       "displaySize": "560KB",
       "contributor": "QQ用户",
       "status": "archived",
-      "path": "010-计算机组成与硬件/architecture/talk/architecture__talk__ZSSC处理器架构方案__undated.pdf",
-      "sha256": "53be03d3af566b4a4aba0b8b0e1a94d2798c85feb176bf6498eeb471b7e1beb9"
+      "materialPaths": [
+        "010-计算机组成与硬件/architecture/talk/architecture__talk__ZSSC处理器架构方案__undated.pdf"
+      ],
+      "originalSha256": "53be03d3af566b4a4aba0b8b0e1a94d2798c85feb176bf6498eeb471b7e1beb9"
     },
     {
       "sourceFolder": "/",
@@ -408,8 +484,10 @@
       "displaySize": "1.33MB",
       "contributor": "QQ用户",
       "status": "archived",
-      "path": "010-计算机组成与硬件/architecture/talk/architecture__talk__处理器功耗计数器__2024.pdf",
-      "sha256": "21188e04c8254735b598348bc166199034be285d31828e11574d42d15d7ca0a5"
+      "materialPaths": [
+        "010-计算机组成与硬件/architecture/talk/architecture__talk__处理器功耗计数器__2024.pdf"
+      ],
+      "originalSha256": "21188e04c8254735b598348bc166199034be285d31828e11574d42d15d7ca0a5"
     },
     {
       "sourceFolder": "/",
@@ -418,8 +496,10 @@
       "displaySize": "1.22MB",
       "contributor": "QQ用户",
       "status": "archived",
-      "path": "010-计算机组成与硬件/architecture/talk/architecture__talk__CIMR-V存内计算加速器__2024.pdf",
-      "sha256": "e9b0a827a6e71a8085f5fc46adf654023d0d32c745f607a609f8fa5c461baad8"
+      "materialPaths": [
+        "010-计算机组成与硬件/architecture/talk/architecture__talk__CIMR-V存内计算加速器__2024.pdf"
+      ],
+      "originalSha256": "e9b0a827a6e71a8085f5fc46adf654023d0d32c745f607a609f8fa5c461baad8"
     },
     {
       "sourceFolder": "/",
@@ -428,8 +508,10 @@
       "displaySize": "137KB",
       "contributor": "西西扶柿",
       "status": "archived",
-      "path": "001-计算机语言/cpp/guide/cpp__guide__2024秋期中范围与操作__2024-11-24.pdf",
-      "sha256": "129dc80a036c76e68cdd4bd078b7a0ac1d6a17f0b94d507b22c83002734febbf"
+      "materialPaths": [
+        "001-计算机语言/cpp/guide/cpp__guide__2024秋期中范围与操作__2024-11-24.pdf"
+      ],
+      "originalSha256": "a0a09ed8780f911e94f479de0354bfa5f9dcfb6fdbfd04b420744111d4a98fa2"
     },
     {
       "sourceFolder": "/",
@@ -438,8 +520,10 @@
       "displaySize": "415KB",
       "contributor": "Backseat Stargazer",
       "status": "archived",
-      "path": "001-计算机语言/c/lab/c__lab__实验03-循环程序设计__undated.pdf",
-      "sha256": "2b3e2fec0cf09c8c9baa3b42e5683c348b20fbddc543f76ea57747bb1996054c"
+      "materialPaths": [
+        "001-计算机语言/c/lab/c__lab__实验03-循环程序设计__undated.pdf"
+      ],
+      "originalSha256": "2b3e2fec0cf09c8c9baa3b42e5683c348b20fbddc543f76ea57747bb1996054c"
     },
     {
       "sourceFolder": "/",
@@ -448,8 +532,10 @@
       "displaySize": "596B",
       "contributor": "西西扶柿",
       "status": "archived",
-      "path": "001-计算机语言/cpp/source/cpp__source__交换排序-调试原稿__undated.cpp",
-      "sha256": "42e388081acec89407d69f8bac892da09d773644b1451111ac6f941501253a3c"
+      "materialPaths": [
+        "001-计算机语言/cpp/source/cpp__source__交换排序-调试原稿__undated.cpp"
+      ],
+      "originalSha256": "42e388081acec89407d69f8bac892da09d773644b1451111ac6f941501253a3c"
     },
     {
       "sourceFolder": "/",
@@ -459,7 +545,8 @@
       "contributor": "QQ昵称",
       "status": "linked",
       "url": "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
-      "description": "连接持续更新的中文版本，保留群友分享记录。"
+      "description": "技术提问中的资料准备、问题描述与交流方法。",
+      "materialPaths": []
     },
     {
       "sourceFolder": "/",
@@ -468,8 +555,10 @@
       "displaySize": "5.35MB",
       "contributor": "24AIAlioth",
       "status": "archived",
-      "path": "001-计算机语言/c/guide/c__guide__C语言与CPP基础-教材书稿__2015-12.docx",
-      "sha256": "849d05e042fdd8e790d8071d689b77413901746513d52f8eb489b79f2f5dfdd3"
+      "materialPaths": [
+        "001-计算机语言/c/book/c__book__C语言与CPP基础-教材书稿__2015-12.docx"
+      ],
+      "originalSha256": "849d05e042fdd8e790d8071d689b77413901746513d52f8eb489b79f2f5dfdd3"
     },
     {
       "sourceFolder": "/",
@@ -478,7 +567,8 @@
       "displaySize": "17.1KB",
       "contributor": "22截图郭烈材(看群公告学截图)",
       "status": "omitted",
-      "description": "内容为 2024 年社团活动的东西两区摊位清单。"
+      "description": "内容为 2024 年社团活动的东西两区摊位清单。",
+      "materialPaths": []
     },
     {
       "sourceFolder": "/",
@@ -487,8 +577,10 @@
       "displaySize": "541B",
       "contributor": "西西扶柿",
       "status": "archived",
-      "path": "001-计算机语言/cpp/source/cpp__source__数组插入-调试原稿__undated.cpp",
-      "sha256": "ad32ddfa224e49142a43e0a9c3b32219e1b7fc3a8c923c0e271dd6f94f98a1f6"
+      "materialPaths": [
+        "001-计算机语言/cpp/source/cpp__source__数组插入-调试原稿__undated.cpp"
+      ],
+      "originalSha256": "ad32ddfa224e49142a43e0a9c3b32219e1b7fc3a8c923c0e271dd6f94f98a1f6"
     },
     {
       "sourceFolder": "/",
@@ -497,8 +589,10 @@
       "displaySize": "535B",
       "contributor": "西西扶柿",
       "status": "archived",
-      "path": "001-计算机语言/cpp/source/cpp__source__数组删除-调试原稿__undated.cpp",
-      "sha256": "a13f17822deff04665b0c1e20b1b19f8a48366e7149abcd11287435fb9006411"
+      "materialPaths": [
+        "001-计算机语言/cpp/source/cpp__source__数组删除-调试原稿__undated.cpp"
+      ],
+      "originalSha256": "a13f17822deff04665b0c1e20b1b19f8a48366e7149abcd11287435fb9006411"
     },
     {
       "sourceFolder": "/",
@@ -507,8 +601,10 @@
       "displaySize": "513B",
       "contributor": "西西扶柿",
       "status": "archived",
-      "path": "001-计算机语言/cpp/source/cpp__source__阶乘与幂函数-调试原稿__undated.cpp",
-      "sha256": "790caae2107701bcfc1737bd535c62b8f5b414c6fef03d3511f86ec1cf4ed535"
+      "materialPaths": [
+        "001-计算机语言/cpp/source/cpp__source__阶乘与幂函数-调试原稿__undated.cpp"
+      ],
+      "originalSha256": "790caae2107701bcfc1737bd535c62b8f5b414c6fef03d3511f86ec1cf4ed535"
     },
     {
       "sourceFolder": "/",
@@ -517,8 +613,10 @@
       "displaySize": "709B",
       "contributor": "西西扶柿",
       "status": "archived",
-      "path": "001-计算机语言/cpp/source/cpp__source__猜数游戏-调试原稿__undated.cpp",
-      "sha256": "cbbd32b0a27d29b64611b684029aa9cb2e251e5e7b0d1dc743adf20d85fde35f"
+      "materialPaths": [
+        "001-计算机语言/cpp/source/cpp__source__猜数游戏-调试原稿__undated.cpp"
+      ],
+      "originalSha256": "d79595d6cbd92b9a42d53861764d6a4c473efbc415076a24ee1c8e32940ec631"
     },
     {
       "sourceFolder": "/",
@@ -527,8 +625,10 @@
       "displaySize": "8.82MB",
       "contributor": "小呆呆",
       "status": "archived",
-      "path": "001-计算机语言/cpp/guide/cpp__guide__CPP基础与开发环境-课件__undated.docx",
-      "sha256": "401732098b3a7c3d007be07934406a0d9e4ebfb35a6402728f7205623d9ae589"
+      "materialPaths": [
+        "001-计算机语言/cpp/book/cpp__book__CPP基础与开发环境-课件__undated.docx"
+      ],
+      "originalSha256": "401732098b3a7c3d007be07934406a0d9e4ebfb35a6402728f7205623d9ae589"
     },
     {
       "sourceFolder": "/",
@@ -538,7 +638,1297 @@
       "contributor": "？！区区！？",
       "status": "linked",
       "url": "https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way",
-      "description": "连接持续更新的中文版本，保留群友分享记录。"
+      "description": "技术提问中的资料准备、问题描述与交流方法。",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "C Primer Plus（第6版）中文版 (（美）史蒂芬·普拉达（Stephen Prata... (z-lib.org).zip",
+      "uploadedAt": "2026-11-10",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/c__book__c-primer-plus-chinese__6th__c23d60af4adb.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/c/book/c__book__C-Primer-Plus-中文版__6th.pdf"
+      ],
+      "originalSha256": "e7f13dbd894e55b8216574410a8e316df21ac8080a5c3ed72120f00cbf817b10"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "Real_World_OCaml__Functional_Programming_for_the_Masses.pdf",
+      "uploadedAt": "2024-12-15",
+      "contributor": "QQ用户",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/functional-programming__book__real-world-ocaml__2nd__6d4758932520.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/functional-programming/book/functional-programming__book__Real-World-OCaml__2nd.pdf"
+      ],
+      "originalSha256": "6d4758932520553bfbef7779a07b6703934eca7ddea963ff937c476498088bbc"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "On Java中文版基础版 书签修改版 (Bruce Eckel) (Z-Library).pdf",
+      "uploadedAt": "2024-09-02",
+      "contributor": "",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/java__book__on-java-chinese-basics__basic__7dc1f8507f4f.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/java/book/java__book__On-Java-中文版·基础版__基础版.pdf"
+      ],
+      "originalSha256": "7dc1f8507f4f66c3cf613624304a1d990ba9c4d509e7626d7bc82e9d06486b3f"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "C程序设计语言 (Kernighan, Ritchie) (z-lib.org).pdf",
+      "uploadedAt": "2023-03-01",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/c__book__the-c-programming-language__2nd__8b0618469452.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/c/book/c__book__C-程序设计语言__2nd.pdf"
+      ],
+      "originalSha256": "8b0618469452a134073ce331ce3b18cb8e6370c19e69ba9dc75dc89e9b46ebe8"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "名师讲坛——Java开发实战经典（第2版） (李兴华) (Z-Library).pdf",
+      "uploadedAt": "2024-09-02",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/java__book__java-development-practice__2nd__429775af19c5.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/java/book/java__book__Java-开发实战经典__2nd.pdf"
+      ],
+      "originalSha256": "429775af19c5cfa0b4c056746bc8c6f1e0c1da7792bf5f53dd53c1fb3092a003"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "C专家编程（异步图书） (C和C++经典著作)【文字版】 (Perter Van Der Li... (z-lib.org).pdf",
+      "uploadedAt": "2023-03-01",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/c__book__expert-c-programming__undated__b72776341d7e.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/c/book/c__book__C-专家编程__undated.pdf"
+      ],
+      "originalSha256": "b72776341d7e4a4b014d94df942f292f774ae34c7e9036c90ad1d7c747714b49"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "Effective Java (Joshua Bloch) (z-lib.org).pdf",
+      "uploadedAt": "2023-03-01",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/java__book__effective-java__3rd__da6d7d8dfdb0.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/java/book/java__book__Effective-Java__3rd.pdf"
+      ],
+      "originalSha256": "da6d7d8dfdb006af29b9e79e8ec5e04d590fbff31882baa6a0a23c6fffcaab40"
+    },
+    {
+      "sourceFolder": "计算机网络",
+      "originalName": "计算机网络（第8版） (谢希仁) (Z-Library).pdf",
+      "uploadedAt": "2024-09-10",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/networks__book__computer-networks__8th__75c9adba0af9.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "005-计算机网络/networks/book/networks__book__计算机网络__8th.pdf"
+      ],
+      "originalSha256": "75c9adba0af9696ffc5d90a14c7ee9dc86009628a5d66e7cbdef2f871b5abdc0"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "C和指针 ([美] Kenneth A.Reek [A.Reek, Kenneth]) (z-lib.org).pdf",
+      "uploadedAt": "2023-03-01",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/c__book__pointers-on-c__undated__88ee8c548fcf.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/c/book/c__book__C-和指针__undated.pdf"
+      ],
+      "originalSha256": "88ee8c548fcf61db8653f9b95800b1450be6013a5211b24843f5ca24fef416c4"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "算法：C语言实现 (第5部分)图算法 by 塞奇威克 (（美）塞奇威克　著) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/algorithms__book__algorithms-in-c-graph-algorithms__part5__0a422f3d28c0.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/algorithms/book/algorithms__book__算法：C-语言实现·第-5-部分-图算法__part5.pdf"
+      ],
+      "originalSha256": "0a422f3d28c023a58c185a02cec87cf4efbac7be9c20f7861311ee7fcbed290a"
+    },
+    {
+      "sourceFolder": "计算机网络",
+      "originalName": "计算机网络（原书第7版） 自顶向下方法 (James F. Kurose Keith W. R... (Z-Library).pdf",
+      "uploadedAt": "2023-12-14",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/networks__book__computer-networking-a-top-down-approach__7th__fa84d8dce3dc.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "005-计算机网络/networks/book/networks__book__计算机网络：自顶向下方法__7th.pdf"
+      ],
+      "originalSha256": "fa84d8dce3dc1dbe92c2b4108565abcd79d5ec5e87beb073bc5d7eb5b18a6800"
+    },
+    {
+      "sourceFolder": "软件工程",
+      "originalName": "重构 改善既有代码的设计 第2版 (【美】马丁·福勒(Martin Fowler),熊节,林从羽) (Z-Library).pdf",
+      "uploadedAt": "2024-08-05",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/software-engineering__book__refactoring-improving-the-design-of-existing-code__2nd__f25b94f9ed00.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "007-软件工程/software-engineering/book/software-engineering__book__重构：改善既有代码的设计__2nd.pdf"
+      ],
+      "originalSha256": "f25b94f9ed00d322b53d4a1873424600916329265be57c17b8350f398d6b5f86"
+    },
+    {
+      "sourceFolder": "数据库",
+      "originalName": "MySQL技术内幕  InnoDB存储引擎  第2版.pdf",
+      "uploadedAt": "2024-08-05",
+      "contributor": "bzm",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/databases__book__mysql-innodb-storage-engine-internals__2nd__b0e0960c1a75.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "004-数据库/databases/book/databases__book__MySQL-技术内幕：InnoDB-存储引擎__2nd.pdf"
+      ],
+      "originalSha256": "b0e0960c1a75a032ab499413a196191f1ca6da3c1bc3b1b243e27214f9cde0f7"
+    },
+    {
+      "sourceFolder": "编译原理",
+      "originalName": "编译原理 第二版 (Alfred V. Aho,Monica S.Lam, Ravi Seth... (Z-Library).pdf",
+      "uploadedAt": "2023-12-14",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/compilers__book__compilers-principles-techniques-and-tools__2nd__68f242244e8b.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "008-编译原理/compilers/book/compilers__book__编译原理__2nd.pdf"
+      ],
+      "originalSha256": "68f242244e8babad2948035ba3b88178994e19cde7577b9229ba063a2a355e3d"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "算法图解 (（美）巴尔加瓦（Aditya Bhargava）著, 袁国忠译) (z-lib.org).pdf",
+      "uploadedAt": "2023-03-01",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/algorithms__book__grokking-algorithms__undated__52ac403dbcfa.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/algorithms/book/algorithms__book__算法图解__undated.pdf"
+      ],
+      "originalSha256": "52ac403dbcfad06263cd90270391e0af883bc6209128a891c0398e8e03b7750d"
+    },
+    {
+      "sourceFolder": "操作系统",
+      "originalName": "操作系统真象还原 (郑纲) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/operating-systems__book__operating-system-implementation-demystified__undated__a5b9f863ed5b.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "006-操作系统/operating-systems/book/operating-systems__book__操作系统真象还原__undated.pdf"
+      ],
+      "originalSha256": "a5b9f863ed5bf8509b902ba7c05a80433f364c472e0008e38843cc96900ef3dd"
+    },
+    {
+      "sourceFolder": "操作系统",
+      "originalName": "自己动手写操作系统 (于渊) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/operating-systems__book__write-your-own-operating-system__undated__46442863e7c8.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "006-操作系统/operating-systems/book/operating-systems__book__自己动手写操作系统__undated.pdf"
+      ],
+      "originalSha256": "46442863e7c89df9a06c54590920835396d705fa35d340996812a6d82738197a"
+    },
+    {
+      "sourceFolder": "计算机基础",
+      "originalName": "编码 隐匿在计算机软硬件背后的语言 ([美] Charles Petzold) (z-lib.org) (2).pdf",
+      "uploadedAt": "2023-03-01",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/computer-organization__book__code-the-hidden-language-of-computer-hardware-and-software__undated__249786274d83.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "010-计算机组成与硬件/computer-organization/book/computer-organization__book__编码：隐匿在计算机软硬件背后的语言__undated.pdf"
+      ],
+      "originalSha256": "249786274d83909f0bddc34d77f81ed8f0b14d1eac8843c772a37a3ecbfe2cfc"
+    },
+    {
+      "sourceFolder": "操作系统",
+      "originalName": "现代操作系统（第四版） (Andrew S. Tanenbaum and Herbert Bos) (Z-Library).pdf",
+      "uploadedAt": "2023-12-14",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/operating-systems__book__modern-operating-systems__4th__ba8c1072fcc5.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "006-操作系统/operating-systems/book/operating-systems__book__现代操作系统__4th.pdf"
+      ],
+      "originalSha256": "ba8c1072fcc55bf6289a52cc7b40a8888fa14c18f4a223053de5a27e41e85c55"
+    },
+    {
+      "sourceFolder": "计算机组成原理",
+      "originalName": "深入理解计算机系统（原书第3版）扫描版可编辑 (Randal E.Bryant David OHallaron) (z-lib.org).pdf",
+      "uploadedAt": "2023-03-01",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/computer-systems__book__computer-systems-a-programmers-perspective__3rd__a1a8b38b00a0.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "000-计算机基础/computer-systems/book/computer-systems__book__深入理解计算机系统__3rd.pdf"
+      ],
+      "originalSha256": "a1a8b38b00a02eca2efb546312b8cf476ebd82a877fb9ae49fb47e3a8953b309"
+    },
+    {
+      "sourceFolder": "其他应试资料",
+      "originalName": "S7-1200+PLC编程及应用+廖常初编.pdf",
+      "uploadedAt": "2024-03-22",
+      "contributor": "国光 Stephen(O李子/codex嘉豪)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/plc__book__s7-1200-plc-programming-and-applications__undated__1ee98d83b6e3.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "009-嵌入式与单片机/plc/book/plc__book__S7-1200-PLC-编程及应用__undated.pdf"
+      ],
+      "originalSha256": "1ee98d83b6e3ce3af14d7eb0cfefe455a9e9a478dc6a0a894b58fbebf071dac0"
+    },
+    {
+      "sourceFolder": "数学",
+      "originalName": "离散数学及其应用 ([美] Kenneth H. Rosen) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/discrete-1__book__discrete-mathematics-and-its-applications__undated__216c03ebd914.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "003-计算机数学/discrete-1/book/discrete-1__book__离散数学及其应用__undated.pdf"
+      ],
+      "originalSha256": "216c03ebd914bc14a93862badac742b489c4a41cdb245c7267e0e1b9d41a447c"
+    },
+    {
+      "sourceFolder": "数学",
+      "originalName": "数学之美 (吴军) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/discrete-1__book__the-beauty-of-mathematics__undated__5167341ea8c3.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "003-计算机数学/discrete-1/book/discrete-1__book__数学之美__undated.pdf"
+      ],
+      "originalSha256": "5167341ea8c371261a3a332538dd19c53fa30182f440d0114ba9b02e92ca6386"
+    },
+    {
+      "sourceFolder": "计算机基础",
+      "originalName": "鸟哥的Linux私房菜 基础学习篇 第四版 (鸟哥) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/computer-systems__book__vbird-linux-basic-learning__4th__938d751a4342.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "000-计算机基础/computer-systems/book/computer-systems__book__鸟哥的-Linux-私房菜·基础学习篇__4th.pdf"
+      ],
+      "originalSha256": "938d751a434280118227e11dfc9d94b77a6506800b81f362ebd113c7880acc91"
+    },
+    {
+      "sourceFolder": "其他应试资料",
+      "originalName": "抓包.docx",
+      "uploadedAt": "2024-03-22",
+      "contributor": "23江西机器人…",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/networks__lab__network-packet-capture-lab__undated__91eb4944feae.docx",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "005-计算机网络/networks/lab/networks__lab__网络抓包实验__undated.docx"
+      ],
+      "originalSha256": "91eb4944feae3e9bd6716610c581b2735983b12f6a04a92d06acfc1aab631963"
+    },
+    {
+      "sourceFolder": "编译原理",
+      "originalName": "编译器设计（第2版） (Keith Cooper Linda Torczon) (Z-Library).pdf",
+      "uploadedAt": "2023-12-20",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/compilers__book__engineering-a-compiler__2nd__1c9fafb60467.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "008-编译原理/compilers/book/compilers__book__编译器设计__2nd.pdf"
+      ],
+      "originalSha256": "1c9fafb6046758e1b8968012f9e0ce3d1b4697f798c6ddc19d87d2a37ca926e1"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "数据结构 C++语言版 第三版 (邓俊辉) (z-lib.org).pdf",
+      "uploadedAt": "2023-03-01",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/data-structures__book__data-structures-in-cpp__3rd__e49efe83f587.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/data-structures/book/data-structures__book__数据结构：C++-语言版__3rd.pdf"
+      ],
+      "originalSha256": "e49efe83f58753cbae6aefc28d0783b361f733928a0b97fd79254a5b84d075bc"
+    },
+    {
+      "sourceFolder": "课内应试资源",
+      "originalName": "2019秋C语言期末试卷.pdf",
+      "uploadedAt": "2023-12-26",
+      "contributor": "[ ]",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/c__exercise__c-programming-final-exam__2019-autumn__7ba7b304df44.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/c/exercise/c__exercise__2019-秋-C-语言期末试卷__2019-autumn.pdf"
+      ],
+      "originalSha256": "7ba7b304df4450d3411e757eee2eec8672c40dc1a18769af021e76afd1b81fbb"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "算法导论 第三版 可复制 有目录 (Thmos.H.Cormen ,Charles E. Le... (Z-Library).pdf",
+      "uploadedAt": "2023-12-14",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/algorithms__book__introduction-to-algorithms__3rd__51d63f231ab5.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/algorithms/book/algorithms__book__算法导论__3rd.pdf"
+      ],
+      "originalSha256": "51d63f231ab522c15e1f7b60f235fc891fd585c8419f113c13447d7241ce7eec"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "数据结构与算法分析 C++描述(第三版) ([美] Mark Allen Weiss  张怀勇) (Z-Library).pdf.zip",
+      "uploadedAt": "2023-03-13",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/data-structures__book__data-structures-and-algorithm-analysis-in-cpp__3rd__ee145b4c2a62.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/data-structures/book/data-structures__book__数据结构与算法分析：C++-描述__3rd.pdf"
+      ],
+      "originalSha256": "8204f2b17ac0c6c0acd99f7505d1213b796179811ec3ace9b919ac9dc8989842"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "算法：C语言实现 (第1～4部分)基础知识、数据结构、排序及搜索 (塞奇威克) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/algorithms__book__algorithms-in-c-parts-one-through-four__parts1-4__cc078a5e7eef.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/algorithms/book/algorithms__book__算法：C-语言实现·第-1—4-部分__parts1-4.pdf"
+      ],
+      "originalSha256": "cc078a5e7eef0343721fe337db8588809c99c9b405ff180eb1e22ebef5960c74"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "算法竞赛入门经典（第2版） (刘汝佳) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/algorithms__book__competitive-programming-primer__2nd__9fbcb4dc46f9.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/algorithms/book/algorithms__book__算法竞赛入门经典__2nd.pdf"
+      ],
+      "originalSha256": "9fbcb4dc46f9fa61090e6bebb4ba390820a34d084d6039bdfc07da409e7cb3e8"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "数据结构(C语言) (严蔚敏) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/data-structures__book__data-structures-in-c__undated__516680374414.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/data-structures/book/data-structures__book__数据结构（C-语言）__undated.pdf"
+      ],
+      "originalSha256": "516680374414ead5f463f8be88fbf9907e806d7ead3c6cf780cb9c8e0915f794"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "深入浅出程序设计竞赛 (进阶篇 V0.8)   洛谷网校内部资料 (洛谷学术组) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/algorithms__book__programming-contests-in-depth-advanced__advanced-v0.8__c4d54de86a26.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/algorithms/book/algorithms__book__深入浅出程序设计竞赛·进阶篇__进阶篇-v0.8.pdf"
+      ],
+      "originalSha256": "c4d54de86a262f0388a92636f2fe4f69ad03164adf82699a5732643c7480e3c3"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "深入浅出程序设计竞赛（基础篇） (洛谷学术组 汪楚奇) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/algorithms__book__programming-contests-in-depth-basics__basic__01e826ef559b.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/algorithms/book/algorithms__book__深入浅出程序设计竞赛·基础篇__基础篇.pdf"
+      ],
+      "originalSha256": "01e826ef559b712dc426322e0ab463d080210cde4cb78989039d15a8c0ede694"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "计算机程序设计艺术(第1卷)(第3版) (Donald Knuth) (Z-Library).pdf",
+      "uploadedAt": "2024-08-05",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/algorithms__book__the-art-of-computer-programming-volume-one__3rd-vol1__1ef4889da3ed.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/algorithms/book/algorithms__book__计算机程序设计艺术·第-1-卷__3rd-vol1.pdf"
+      ],
+      "originalSha256": "1ef4889da3ed82be5591dd538c25759e230c902d9929c1ba577f35036ea8800d"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "算法笔记 (胡凡 曾磊) (Z-Library).pdf",
+      "uploadedAt": "2024-08-05",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/algorithms__book__algorithm-notes__undated__782dff784b91.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/algorithms/book/algorithms__book__算法笔记__undated.pdf"
+      ],
+      "originalSha256": "782dff784b9117cfa40c6df8485ab9f8b9dd0dac387e92e5087012a1583a116b"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "啊哈算法 (啊哈磊) (Z-Library).pdf",
+      "uploadedAt": "2024-08-05",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/algorithms__book__aha-algorithms__undated__072b3bdb4590.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/algorithms/book/algorithms__book__啊哈算法__undated.pdf"
+      ],
+      "originalSha256": "072b3bdb459077c81d7ad42e8085ee22eb87c023de944cc239312dfe1d543a02"
+    },
+    {
+      "sourceFolder": "计算机网络",
+      "originalName": "网络是怎样连接的 (户根勤) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/networks__book__how-networks-connect__undated__e50b80f40c16.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "005-计算机网络/networks/book/networks__book__网络是怎样连接的__undated.pdf"
+      ],
+      "originalSha256": "e50b80f40c16e8d35f4198a27e6edf37f71e09a6e4d08371a8bec5019dee9e7a"
+    },
+    {
+      "sourceFolder": "算法和数据结构",
+      "originalName": "算法（第四版）中文版 图灵程序设计丛书 Algorithms (样章) (美 Robert S... (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/algorithms__book__algorithms-sample-chapters__4th-sample__5bd8a09e3da2.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/algorithms/book/algorithms__book__算法（第四版）样章__4th-sample.pdf"
+      ],
+      "originalSha256": "5bd8a09e3da2b6d10945929f20f9cb06857584b4fe966c42099b11e2702a9ce0"
+    },
+    {
+      "sourceFolder": "软件工程",
+      "originalName": "软件工程  面向对象和传统的方法  原书第8版_中文版.pdf",
+      "uploadedAt": "2024-08-05",
+      "contributor": "bzm",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/software-engineering__book__object-oriented-and-classical-software-engineering__8th__c0ca9a80cb0f.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "007-软件工程/software-engineering/book/software-engineering__book__软件工程：面向对象和传统的方法__8th.pdf"
+      ],
+      "originalSha256": "c0ca9a80cb0f8aebcba2690bac98dae0ca9b6b316ecb4ca651c30404642b332d"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "Effective C++ Effective C++ 改善程序与设计的55个具体做法 第3版... (z-lib.org).pdf",
+      "uploadedAt": "2023-03-01",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/cpp__book__effective-cpp-55-specific-ways__3rd__475e5db94f79.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/cpp/book/cpp__book__Effective-C++：55-个具体做法__3rd.pdf"
+      ],
+      "originalSha256": "475e5db94f79fb373a4cca0f70ee5985ca446695bcff8cc42f589f11535b152f"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "Java核心技术  卷1  基础知识  原书第10版--中文版扫描--带书签已OCR.pdf",
+      "uploadedAt": "2024-08-08",
+      "contributor": "bzm",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/java__book__core-java-volume-one-fundamentals__10th-vol1__174ca710290a.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/java/book/java__book__Java-核心技术·卷-I-基础知识__10th-vol1.pdf"
+      ],
+      "originalSha256": "174ca710290a70d26d53bdab0f84fed6b83769c86e81ed1cc1a0e839a8fcbeba"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "啊哈C语言 (Administrator) (Z-Library).pdf",
+      "uploadedAt": "2024-08-05",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/c__book__aha-c-programming__undated__139c39bf7c07.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/c/book/c__book__啊哈-C-语言__undated.pdf"
+      ],
+      "originalSha256": "139c39bf7c076e8422314b4ffd3d3d56558c3624693c28c0e0e0d2bed5cb6d38"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "Java编程思想 ([美] Bruce Eckel) (z-lib.org).pdf",
+      "uploadedAt": "2023-03-01",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/java__book__thinking-in-java__undated__13d3343b8599.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/java/book/java__book__Java-编程思想__undated.pdf"
+      ],
+      "originalSha256": "13d3343b8599a0101e8b73ebb68d729493385297bf5f492586123da60dbed5e5"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "More Effective C++中文版35个改善编程与设计的有效方法 ([美] Scott... (z-lib.org).pdf",
+      "uploadedAt": "2023-03-01",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/cpp__book__more-effective-cpp-35-ways__35-items__1bac917c28e2.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/cpp/book/cpp__book__More-Effective-C++：35-个改善编程与设计的方法__35-items.pdf"
+      ],
+      "originalSha256": "1bac917c28e222036134d9fdf579c07a9d2750e38d4b13017571783591751e51"
+    },
+    {
+      "sourceFolder": "计算机网络",
+      "originalName": "图解HTTP (上野宣) (Z-Library).pdf",
+      "uploadedAt": "2023-12-15",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/networks__book__http-illustrated__undated__f430657b7fe3.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "005-计算机网络/networks/book/networks__book__图解-HTTP__undated.pdf"
+      ],
+      "originalSha256": "f430657b7fe30bd84c2e65fedfce00a21487187eeeeb5f33c471d74d0bfbab30"
+    },
+    {
+      "sourceFolder": "计算机语言",
+      "originalName": "流畅的Python = Fluent Python clear, concise, and e... (z-lib.org).zip",
+      "uploadedAt": "2023-03-01",
+      "contributor": "Cyan",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/python-basics__book__fluent-python__undated__10bfbaf44bc1.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/python-basics/book/python-basics__book__流畅的-Python__undated.pdf"
+      ],
+      "originalSha256": "e9f745821143f89faa5912e9965de85322819f063cc83f55c39c07177c95c90c"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "INCITSISOIEC 9899-2011[2012_ (Z-Library).pdf",
+      "uploadedAt": "2024-09-29",
+      "contributor": "三尺三",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/c__guide__c-language-standard-incits-iso-iec-9899-2011__C11-2012__98687e36598e.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/c/guide/c__guide__C-语言标准：INCITS-ISO-IEC-9899-2011[2012]__C11-2012.pdf"
+      ],
+      "originalSha256": "98687e36598e1cac323bb679559de59c2b639f4d456fd5a20856d8c66c908090"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "未命名1.c",
+      "uploadedAt": "2024-09-27",
+      "contributor": "。",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/c__source__fixed-window-subarray-sum-totals__undated__96842031e771.c",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/c/source/c__source__滑动窗口：所有定长子数组和的总和__undated.c"
+      ],
+      "originalSha256": "96842031e771e061162cc5e0c60a8783e81006d7ce7302ffc833402c70bb680f"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "main.cpp",
+      "uploadedAt": "2024-11-19",
+      "contributor": "Lawrence",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/cpp__source__easyx-minesweeper-mouse-and-region-expansion__undated__9b370ecbf26f.cpp",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/cpp/source/cpp__source__EasyX-扫雷：鼠标交互与区域展开__undated.cpp"
+      ],
+      "originalSha256": "9b370ecbf26fa7156a628ca034211a52e196611da6e802139b7bab54ce143205"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "软技能：代码之外的生存指南.pdf",
+      "uploadedAt": "2024-08-08",
+      "contributor": "bzm",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/software-engineering__book__soft-skills-the-software-developers-life-manual__undated__f1458cd3bf60.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "007-软件工程/software-engineering/book/software-engineering__book__软技能：代码之外的生存指南__undated.pdf"
+      ],
+      "originalSha256": "f1458cd3bf60b62a9fe156857341a67b09880de6f15ac10d1c47615890a69eee"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "XH-202621_多源异构数据驱动岗位和能力图谱构建与动态演化分析研究.pdf",
+      "uploadedAt": "2026-05-21",
+      "contributor": "shipship",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/competitions__lab__multisource-job-and-competency-graph-competition-plan__2026__c9b28e107027.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "A-计算机协会/competitions/lab/competitions__lab__多源异构数据驱动岗位与能力图谱比赛方案__2026.pdf"
+      ],
+      "originalSha256": "c9b28e107027893bc087c9ae2165a33e53bcf8d8a282601ecc01e02833f0684a"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "ISO-IEC 9899-1999 - Program_ (Z-Library).pdf",
+      "uploadedAt": "2024-09-29",
+      "contributor": "三尺三",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/c__guide__c-language-standard-iso-iec-9899-1999__C99-1999__55872022c9e6.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/c/guide/c__guide__C-语言标准：ISO-IEC-9899-1999__C99-1999.pdf"
+      ],
+      "originalSha256": "55872022c9e6e33c7f9d4ad7a144e34d38f351ce04bd95276ed693d1764ed780"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "数据结构 C语言 微课版 从概念到算法 (袁凌) (Z-Library).pdf",
+      "uploadedAt": "2025-02-15",
+      "contributor": "非液化",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/data-structures__book__data-structures-in-c-microcourse-concepts-to-algorithms__undated__f6d37d994712.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/data-structures/book/data-structures__book__数据结构：C-语言微课版，从概念到算法__undated.pdf"
+      ],
+      "originalSha256": "f6d37d994712d527e80d110c1403af185ca811d0f157fb6e239358d3ceece1cf"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "Vanilla OS - GUADEC 2023.pdf",
+      "uploadedAt": "2024-12-26",
+      "contributor": "QQ用户",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/operating-systems__talk__vanilla-os-guadec-talk__2023__da5bb252f0f0.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "006-操作系统/operating-systems/talk/operating-systems__talk__Vanilla-OS：GUADEC-2023-分享__2023.pdf"
+      ],
+      "originalSha256": "da5bb252f0f0fed4722312669d5964310c175ece7862da2436a349958d377c06"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "C语言程序设计_卢萍2021_简单影印版.pdf",
+      "uploadedAt": "2025-08-13",
+      "contributor": "底层大专生",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/c__book__c-programming-textbook__2021__03fafee75231.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/c/book/c__book__C-语言程序设计__2021.pdf"
+      ],
+      "originalSha256": "03fafee75231bd85a1658ba0ffd374800cf4097c21d25a78a84700973ede7eba"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "代码及运行截图及问题描述.7z",
+      "uploadedAt": "2024-11-19",
+      "contributor": "空",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/cpp__source__easyx-minesweeper-image-loading-project__undated__2dc4c888aebe.zip",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/cpp/source/cpp__source__EasyX-扫雷-图片加载问题-完整项目__undated.zip"
+      ],
+      "originalSha256": "ba6bf805c10c2fab6217d6bfa90b928165693447dc90b2ae275681cc9e5ab556"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "两个问题.zip",
+      "uploadedAt": "2024-12-02",
+      "contributor": "空",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/cpp__source__easyx-snake-source__undated__f7db423aea18.cpp",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/cpp/source/cpp__source__EasyX-贪吃蛇-源码__undated.cpp"
+      ],
+      "originalSha256": "fa38e8554d4ac419483cc5040795c3250539bed83b353e0c7209416193491ad4"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "历年试题2024.rar",
+      "uploadedAt": "2025-01-12",
+      "contributor": "非液化",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/data-structures__exercise__software-technology-foundations-exam-a-answers__2021__01ab99a2676e.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "002-算法和数据结构/data-structures/exercise/data-structures__exercise__2021软件技术基础考试A卷-答案__2021.pdf",
+        "002-算法和数据结构/data-structures/exercise/data-structures__exercise__2021软件技术基础考试A卷试卷__2021.pdf",
+        "002-算法和数据结构/data-structures/exercise/data-structures__exercise__2021软件技术基础考试B卷-答案__2021.pdf",
+        "002-算法和数据结构/data-structures/exercise/data-structures__exercise__2021软件技术基础考试B卷试卷__2021.pdf",
+        "002-算法和数据结构/data-structures/exercise/data-structures__exercise__2022软件技术基础考试A卷-答案__2022.pdf",
+        "002-算法和数据结构/data-structures/exercise/data-structures__exercise__2022软件技术基础考试A卷试卷__2022.pdf",
+        "002-算法和数据结构/data-structures/exercise/data-structures__exercise__2022软件技术基础考试B卷-答案__2022.pdf",
+        "002-算法和数据结构/data-structures/exercise/data-structures__exercise__2022软件技术基础考试B卷试卷__2022.pdf",
+        "002-算法和数据结构/data-structures/exercise/data-structures__exercise__2023软件技术基础考试A卷-答案__2023.pdf",
+        "002-算法和数据结构/data-structures/exercise/data-structures__exercise__2023软件技术基础考试A卷试卷__2023.pdf",
+        "002-算法和数据结构/data-structures/exercise/data-structures__exercise__2023软件技术基础考试B卷试卷__2023.pdf",
+        "002-算法和数据结构/data-structures/exercise/data-structures__exercise__2023软件技术基础课程考试B卷试卷答案__2023.pdf"
+      ],
+      "originalSha256": "4c5183d4e776942f8a2675c17ab359df722904e307a3fcae1ff9714812788e9b"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "1i.s",
+      "uploadedAt": "2025-08-04",
+      "contributor": "Zanoz",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/assembly__source__floating-point-printf-cpp-wrapper-assembly__gcc14.1__fd6a5423d775.s",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "010-计算机组成与硬件/assembly/source/assembly__source__浮点-printf-调用：C++-包装汇编__gcc14.1.s"
+      ],
+      "originalSha256": "fd6a5423d7752888493ac36d6097ada31ae2026ce7f749e095161ad55b653c6b"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "1s.s",
+      "uploadedAt": "2025-08-04",
+      "contributor": "Zanoz",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/assembly__source__floating-point-printf-direct-call-assembly__gcc14.1__a8b0504770f9.s",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "010-计算机组成与硬件/assembly/source/assembly__source__浮点-printf-调用：直接调用汇编__gcc14.1.s"
+      ],
+      "originalSha256": "a8b0504770f98b5dcd833771b2dbd6694fa77fa34c6b46b5097daaac67ca5841"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "C++ Primer Plus.pdf",
+      "uploadedAt": "2025-11-24",
+      "contributor": "牧森；24-AIA-温柠涵",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/cpp__book__cpp-primer-plus-chinese__6th__20f5b55a0fe4.pdf",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/cpp/book/cpp__book__C++-Primer-Plus-中文版__6th.pdf"
+      ],
+      "originalSha256": "20f5b55a0fe478ad2e4fc514b485490dfba40fef63f5a973e89133ed8ad4d8c5"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "C++ Primer Plus.pdf",
+      "uploadedAt": "2025-11-19",
+      "contributor": "24-AIA-温柠涵",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/cpp__book__cpp-primer-plus-chinese__6th__20f5b55a0fe4.pdf",
+      "releaseTag": "group-library",
+      "status": "duplicate",
+      "materialPaths": [
+        "001-计算机语言/cpp/book/cpp__book__C++-Primer-Plus-中文版__6th.pdf"
+      ],
+      "originalSha256": "20f5b55a0fe478ad2e4fc514b485490dfba40fef63f5a973e89133ed8ad4d8c5"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "电梯.txt",
+      "uploadedAt": "2024-12-22",
+      "contributor": "cv",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/c__source__elevator-scheduling-request-allocation-and-state-transitions__undated__96d0636d9501.txt",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/c/source/c__source__电梯调度：请求分配与状态转换__undated.txt"
+      ],
+      "originalSha256": "96d0636d95015c7de111461148cd04e1cc003402dbae53ec9fffa5ad97ede2ef"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "代码及运行截图及问题描述.7z",
+      "uploadedAt": "2024-11-19",
+      "contributor": "空",
+      "storage": "release",
+      "releaseTag": "group-library",
+      "status": "duplicate",
+      "materialPaths": [
+        "001-计算机语言/cpp/source/cpp__source__EasyX-扫雷-图片加载问题-完整项目__undated.zip"
+      ],
+      "originalSha256": "ba6bf805c10c2fab6217d6bfa90b928165693447dc90b2ae275681cc9e5ab556"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "啊哈C语言！逻辑的挑战（修订版） (啊哈磊 [啊哈磊]) (Z-Library).epub",
+      "uploadedAt": "2024-10-29",
+      "contributor": "Asterisk",
+      "storage": "release",
+      "url": "https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/c__book__aha-c-programming__revised__0a3cc9c1e5d6.epub",
+      "releaseTag": "group-library",
+      "status": "archived",
+      "materialPaths": [
+        "001-计算机语言/c/book/c__book__啊哈-C-语言__修订版.epub"
+      ],
+      "originalSha256": "0a3cc9c1e5d6e6f012d120b8174e66d3b30543aba8a5ad105ac30497027fc8b9"
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "86141a8ffd0494b0a67f002869219e0f.mp4",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "几猫国产3A大作_V1(4).zip",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2026-03-27 234848.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2026-03-27 234623.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2026-03-27 234526.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕录制 2026-03-26 132436.mp4",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕录制 2026-03-14 121823.mp4",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "1.bin",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2025-12-25 174454.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "2.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2025-10-19 150536.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2025-10-19 145859.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "Desktop 2025.03.18 - 12.44.14.02.mp4",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "20250226-0620-56.2384219.mp4",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "QQ202516-14145.mp4",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "20250101002259_rec_.mp4",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-12-15 153104.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕捕获_2024_12_06_14_22_38_784.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "mmexport1732526395955.jpg",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-11-21 144509.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-11-21 144454.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-11-19 231422.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-11-19 231246.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "JetBrains全家桶激活.rar",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕录制 2024-11-16 175323.mp4",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-11-14 180.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-11-14 132038.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-11-14 132007.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "QQ_1731379884017.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "QQ_1731379516654.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "QQ_1731379384596.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "QQ_1731379106907.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-11-07 213305.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-11-07 083606.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-11-07 080526.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-11-07 080513.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-10-30 200727.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "QQ20241029-222915.mp4",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "msys2-x86_64-20240727.exe",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "BL2URTONGAILSX0JOG{@KS.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-10-17 124017.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "access.log.txt",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "php8.3-fpm.log.txt",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "联想截图_20241010222309.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "联想截图_20241010222320.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "联想截图_20241010222327.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "联想截图_20241010222142.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "base.apk.1",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-10-08 204338.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "屏幕截图 2024-10-08 203240.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "QQ2024927-203759.mp4",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "DiskGenius Pro v5.1.1.696.exe",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "1b45024a-63ac-4d8e-9b4a-b54df917762b.png",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "/",
+      "originalName": "Black.Myth.Wukong.v1.0.Plus.35.Trainer-FLiNG.zip",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "软件安装包",
+      "originalName": "msys2-x86_64-20260927.exe",
+      "uploadedAt": "2026-10-07",
+      "contributor": "24 Nkns（欢迎…",
+      "contributorNameType": "display-truncated",
+      "status": "omitted",
+      "materialPaths": []
+    },
+    {
+      "sourceFolder": "软件安装包",
+      "originalName": "The Cyancular Ruins 202608272202.exe",
+      "uploadedAt": "2026-09-01",
+      "contributor": "RoFtaCD",
+      "status": "omitted",
+      "materialPaths": []
     }
   ]
 }

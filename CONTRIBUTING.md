@@ -2,11 +2,11 @@
 
 欢迎把自己写过的笔记、做过的实验、听过的分享和找到的好资料留在这里。整理一小段内容，也是在帮这本手册继续长大。
 
-完整说明见[补充资料](docs/guide/contributing.md)。常用入口：
+完整说明见[分享资料](docs/content/docs/guide/contributing.md)。常用入口：
 
 - [分享资料](https://github.com/HustCAteam/Hust-LearningCode/issues/new?template=resource.yml)
 - [修正内容或链接](https://github.com/HustCAteam/Hust-LearningCode/issues/new?template=correction.yml)
-- [贡献与致谢](docs/guide/credits.md)
+- [贡献与致谢](docs/content/docs/guide/credits.md)
 
 请一同留下资料用途、适用课程、原始来源，以及你希望展示的署名。作者、上传者、整理者都可以分别记录。
 

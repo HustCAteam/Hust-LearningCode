@@ -1,78 +1,107 @@
-import { mkdirSync, writeFileSync } from 'node:fs';
-import { dirname, join } from 'node:path';
-import { ROOT, readJSON, catalog, encodePath, mdText, size, storageRoots, storageRoot, courseAliases, materialMarkdown, syncPublicMaterials } from './lib.mjs';
+import { mkdirSync, writeFileSync, rmSync } from 'node:fs';
+import { dirname, join, relative, sep } from 'node:path';
+import { ROOT, readJSON, catalog, encodePath, mdText, size, storageRoots, storageRoot, materialMarkdown, syncPublicMaterials, siteLink } from './lib.mjs';
+import { learningPlan } from './plans.mjs';
 
 const courses = catalog();
-const upstreamCourses = courses.filter(c => !c.localOnly);
-const topics = courses.filter(c => c.localOnly);
+const materials = readJSON('data/materials.json');
 const studies = readJSON('data/selfstudy.json');
 const categories = readJSON('data/categories.json');
 const sources = readJSON('data/sources.json');
-const materials = readJSON('data/materials.json');
 const upstream = `https://github.com/${sources.hust.repository}`;
-const generated = '<!-- 此页由 scripts/generate.mjs 生成，内容源位于 data/。 -->\n\n';
-const write = (path, text) => { mkdirSync(dirname(join(ROOT, path)), { recursive: true }); writeFileSync(join(ROOT, path), text); };
-const resourceLink = file => `${upstream}/blob/${sources.hust.ref}/${encodePath(file.path)}`;
-const table = (head, rows) => `| ${head.join(' | ')} |\n| ${head.map(() => '---').join(' | ')} |\n${rows.map(r => `| ${r.join(' | ')} |`).join('\n')}\n`;
-let index = `${generated}# 课程与专题目录\n\n按主题找到课程，打开课程页后可以继续查看讲义、实验、复习资料与自学课程。\n\n目录包含 Hust-opensource-Xuejie 的 **${upstreamCourses.length} 个资料目录**，以及学码群整理的 **${topics.length} 个专题**，核对日期为 ${sources.checkedAt}。课程页保留原始目录名称，便于核对专业和学期。选课时请查阅自己的[培养方案](../guide/curriculum.md)。\n\n`;
-for (const [cat, label] of Object.entries(categories)) {
-  index += `## ${label}\n\n` + table(['课程 / 资料','内容'], courses.filter(c => c.category === cat).map(c => [`[${mdText(c.title)}](${c.category}/${c.id}.md)`,mdText(c.focus)])) + '\n';
-}
-write('docs/courses/index.md', index);
-for (const c of courses) {
-  let text = `${generated}# ${mdText(c.title)}\n\n${mdText(c.focus)}。\n\n## 学习起点\n\n- 建议基础：${mdText(c.prerequisites)}。\n- 动手练习：${mdText(c.practice)}\n`;
-  if (c.localOnly) {
-    text += '\n本专题由学码群整理，资料见下方的群内分享。\n\n';
-  } else {
-    text += `- 华科资料目录：${mdText(c.upstreamPath)}。\n\n这里的学习建议由学码群整理，可结合本学期的课堂安排选择内容。\n\n## 华科资料\n\n[打开完整课程目录](${upstream}/tree/${sources.hust.ref}/${encodePath(c.upstreamPath)}) · [查看上游最新版本](${upstream}/tree/${sources.hust.branch}/${encodePath(c.upstreamPath)})\n\n`;
+const content = 'docs/content/docs';
+const write = (path, text) => {
+  if (path.startsWith(content + '/')) {
+    text = text.replace(/\]\(\/Hust-LearningCode\/([^)#]*)(#[^)]*)?\)/g, (_, route, hash = '') => {
+      const index = ['group/', 'books/', 'supplement/hust/', 'supplement/csdiy/'].includes(route);
+      const target = join(ROOT, content, route.replace(/\/$/, '') || 'index') + (index ? '/index.md' : '.md');
+      return `](${encodePath(relative(dirname(join(ROOT, path)), target).split(sep).join('/'))}${hash})`;
+    });
   }
-  if (c.files.length) text += table(['资料','文件大小'], c.files.map(f => [`[${mdText(f.path.slice(c.upstreamPath.length + 1))}](${resourceLink(f)})`,size(f.bytes)])) + '\n文件标题和大小来自上游目录；打开原文件可查看具体版本与内容。\n\n';
-  if (c.projects.length) text += '### 实践项目\n\n' + c.projects.map(p => `- [${mdText(p.path.slice(c.upstreamPath.length + 1))}](${p.url})`).join('\n') + '\n\n';
-  if (c.selfstudy.length) text += '## 配套自学课程\n\n' + c.selfstudy.map(p => {const s=studies.find(x=>x.path===p); return `- [${mdText(s.title)}](${s.url})`;}).join('\n') + '\n\n先选择一门课，围绕当前最想弄懂的主题阅读讲义并做练习。具体教材、作业和授课网站可从 CS 自学指南的课程页继续查找。\n\n';
-  const local = materials.filter(m=>m.course===c.id);
-  text += '## 学码群资料\n\n';
-  const page = `docs/courses/${c.category}/${c.id}.md`;
-  text += local.length ? local.map(m => materialMarkdown(m, page)).join('') : '欢迎补充与本课程相关的笔记、实验记录和学习资料。\n';
-  text += '\n## 一起补充\n\n欢迎分享课堂笔记、实验经验、讲座材料和更清楚的解题思路。请留下你希望展示的名字，以及资料适用的课程和版本；这些信息会随资料一同保留。\n\n[补充资料的方法](../../guide/contributing.md) · [回到课程目录](../index.md)\n';
-  write(page,text);
+  mkdirSync(dirname(join(ROOT, path)), { recursive: true });
+  writeFileSync(join(ROOT, path), text);
+};
+const frontmatter = title => `---\ntitle: ${JSON.stringify(title)}${/^\[(?:Hust-opensource-Xuejie|CSdiy)\]/.test(title) ? '\npagefind: false' : ''}\n---\n\n`;
+const table = (head, rows) => `| ${head.join(' | ')} |\n| ${head.map(() => '---').join(' | ')} |\n${rows.map(row => `| ${row.join(' | ')} |`).join('\n')}\n\n`;
+const groupCourses = courses.filter(course => materials.some(material => material.course === course.id));
+const books = materials.filter(material => material.kind === 'book');
+const sorted = list => [...list].sort((a, b) => Number(b.kind === 'book') - Number(a.kind === 'book'));
+for (const directory of ['group', 'supplement', 'books']) rmSync(join(ROOT, content, directory), { recursive: true, force: true });
+
+let groupIndex = frontmatter('学码群资料');
+groupIndex += `群友分享的教材、讲义、代码和复习题，按实际资料所属主题阅读。\n\n共 **${materials.length} 份资料**，其中 **${books.length} 本书籍**。[直接浏览书籍](${siteLink('books')})。\n\n`;
+for (const [category, label] of Object.entries(categories)) {
+  const items = groupCourses.filter(course => course.category === category);
+  if (!items.length) continue;
+  groupIndex += `## ${label}\n\n` + table(['主题', '群内资料'], items.map(course => [`[${mdText(course.title)}](${siteLink(`group/${course.id}`)})`, `${materials.filter(material => material.course === course.id).length} 份`]));
 }
-let selfstudy = `${generated}# 自学课程与工具\n\n从华科课程页可以找到对应的自学课程。这里还收录了 CS 自学指南的完整导航入口，便于按兴趣继续探索。\n\n来源：[CS 自学指南](https://csdiy.wiki/)，目录核对日期 ${sources.checkedAt}。\n\n`;
-for (const group of [...new Set(studies.map(s=>s.category))]) {
- selfstudy += `## ${group}\n\n`+studies.filter(s=>s.category===group).map(s=>`- [${mdText(s.title)}](${s.url})`).join('\n')+'\n\n';
-}
-write('docs/selfstudy/index.md', selfstudy);
-let groups = `${generated}# 学码群资料\n\n群内分享会按课程和主题收录，原始文件名、上传时间、作者与上传者信息一同登记。\n\n当前已归档 **${materials.length} 份**群内资料。\n\n`;
-if (!materials.length) groups += '欢迎从课程笔记、实验记录与群内分享开始补充资料。\n\n';
-for (const m of materials) {
-  const course = courses.find(c => c.id === m.course);
-  groups += materialMarkdown(m, 'docs/group/index.md');
-  groups += `所属课程 / 专题：[${mdText(course.title)}](../courses/${course.category}/${course.id}.md)\n\n`;
-}
-const linked = readJSON('data/group-intake.json').files.filter(m => m.status === 'linked');
-if (linked.length) {
-  groups += '## 群友分享的在线阅读\n\n';
-  for (const url of new Set(linked.map(m => m.url))) {
-    const shares = linked.filter(m => m.url === url);
-    groups += `### [${mdText(shares[0].originalName.replace(/\.[^.]+$/, ''))}](${url})\n\n`;
-    groups += shares.map(m => `- ${mdText(m.contributor)} · 群内上传于 ${m.uploadedAt}`).join('\n') + '\n\n';
-    groups += `${mdText(shares[0].description)}\n\n`;
+const online = readJSON('data/group-intake.json').files.filter(item => item.status === 'linked');
+if (online.length) {
+  groupIndex += '## 群友分享的在线阅读\n\n';
+  for (const url of new Set(online.map(item => item.url))) {
+    const shares = online.filter(item => item.url === url);
+    groupIndex += `### [${mdText(shares[0].originalName.replace(/\.[^.]+$/, ''))}](${url})\n\n`;
+    groupIndex += `群友分享：${[...new Set(shares.map(item => item.contributor))].map(mdText).join('、')}\n\n`;
+    groupIndex += `${mdText(shares[0].description)}\n\n`;
   }
 }
-groups += '[参与补充](../guide/contributing.md) · [贡献与致谢](../guide/credits.md)\n';
-write('docs/group/index.md', groups);
-for (const [dir, description] of Object.entries(storageRoots)) {
- const associated = courses.filter(c=>storageRoot(c)===dir);
- let text = `${generated}# ${dir.replace(/^\w+-/,'')}\n\n${description}。\n\n`;
- text += table(['课程 / 专题','学习内容'],associated.map(c=>[`[${mdText(c.title)}](../docs/courses/${c.category}/${c.id}.md)`,mdText(c.focus)]))+'\n';
- text += '## 群内资料\n\n';
- const local = materials.filter(m=>m.path.startsWith(dir+'/'));
- text += local.length ? local.map(m => materialMarkdown(m, `${dir}/README.md`)).join('') : '精选文件按“课程 / 资料类型”存放，资料记录见[群资料目录](../docs/group/index.md)。\n';
- text += '\n感谢愿意把笔记、经验和好资料留给后来同学的每一位群友。[补充资料](../CONTRIBUTING.md)时可以留下希望展示的署名。\n';
- write(`${dir}/README.md`,text);
+write(`${content}/group/index.md`, groupIndex);
+write(`${content}/index.md`, groupIndex.replace('title: "学码群资料"', 'title: "学码群学习资料"'));
+for (const course of groupCourses) {
+  const path = `${content}/group/${course.id}.md`;
+  const local = sorted(materials.filter(material => material.course === course.id));
+  let text = frontmatter(course.title) + `${mdText(course.focus)}。\n\n`;
+  text += '## 群友分享\n\n' + local.map(material => materialMarkdown(material, path)).join('');
+  text += learningPlan(course);
+  text += `[动手工具](${siteLink('guide/tools')}) · [分享资料](${siteLink('guide/contributing')})\n`;
+  write(path, text);
 }
-const stats={courses:upstreamCourses.length,topics:topics.length,resources:upstreamCourses.reduce((n,c)=>n+c.files.length,0),selfstudy:studies.length,materials:materials.length,checkedAt:sources.checkedAt};
-write('docs/.vitepress/stats.json',JSON.stringify(stats,null,2)+'\n');
-write('docs/.vitepress/catalog.json', JSON.stringify(courses.map(({id,title,category,focus,upstreamPath,localOnly}) => ({id,title,category,focus,upstreamPath,localOnly:!!localOnly,aliases:courseAliases[id] || [],categoryTitle:categories[category]})), null, 2)+'\n');
-// The public copy is disposable; Markdown links keep pointing to the repository originals.
+let bookIndex = frontmatter('群友分享的书籍') + '从教材进入主题，作者、版本与群文件上传者随书展示。\n\n';
+for (const course of groupCourses) {
+  const local = books.filter(material => material.course === course.id);
+  if (!local.length) continue;
+  bookIndex += `## [${mdText(course.title)}](${siteLink(`group/${course.id}`)})\n\n`;
+  bookIndex += local.map(material => materialMarkdown(material, `${content}/books/index.md`)).join('');
+}
+if (!books.length) bookIndex += `现有教材书稿见 [C 语言群资料](${siteLink('group/c')})。\n`;
+write(`${content}/books/index.md`, bookIndex);
+
+let external = frontmatter('[Hust-opensource-Xuejie] 课程资料补充');
+external += `来源：[\\[Hust-opensource-Xuejie\\] 项目主页](${upstream})。由该项目的贡献者整理华科课程讲义、往年试题和实验资料。\n\n`;
+for (const [category, label] of Object.entries(categories)) {
+  const items = courses.filter(course => !course.localOnly && course.category === category);
+  if (!items.length) continue;
+  external += `## [Hust-opensource-Xuejie] ${label}\n\n`;
+  external += items.map(course => `- [\\[Hust-opensource-Xuejie\\] ${mdText(course.title)}](${siteLink(`supplement/hust/${course.id}`)})`).join('\n') + '\n\n';
+}
+write(`${content}/supplement/hust/index.md`, external);
+for (const course of courses.filter(course => !course.localOnly)) {
+  let text = frontmatter(`[Hust-opensource-Xuejie] ${course.title}`);
+  text += `来源：[\\[Hust-opensource-Xuejie\\] ${mdText(course.upstreamPath)}](${upstream}/tree/${sources.hust.ref}/${encodePath(course.upstreamPath)})。\n\n`;
+  if (course.files.length) text += table(['[Hust-opensource-Xuejie] 资料', '大小'], course.files.map(file => [`[\\[Hust-opensource-Xuejie\\] ${mdText(file.path.slice(course.upstreamPath.length + 1))}](${upstream}/blob/${sources.hust.ref}/${encodePath(file.path)})`, size(file.bytes)]));
+  if (course.projects.length) text += '## [Hust-opensource-Xuejie] 实践项目\n\n' + course.projects.map(project => `- [\\[Hust-opensource-Xuejie\\] ${mdText(project.path.slice(course.upstreamPath.length + 1))}](${project.url})`).join('\n') + '\n\n';
+  if (course.selfstudy.length) text += '## [CSdiy] 相关自学课程\n\n来源：[\\[CSdiy\\] CS 自学指南](https://csdiy.wiki/)。\n\n' + course.selfstudy.map(path => { const item = studies.find(study => study.path === path); return `- [\\[CSdiy\\] ${mdText(item.title)}](${item.url})`; }).join('\n') + '\n\n';
+  write(`${content}/supplement/hust/${course.id}.md`, text);
+}
+let selfstudy = frontmatter('[CSdiy] 自学课程补充') + '来源：[\\[CSdiy\\] CS 自学指南](https://csdiy.wiki/)，由 CS 自学指南贡献者整理。\n\n';
+for (const category of new Set(studies.map(study => study.category))) {
+  selfstudy += `## [CSdiy] ${category}\n\n` + studies.filter(study => study.category === category).map(study => `- [\\[CSdiy\\] ${mdText(study.title)}](${study.url})`).join('\n') + '\n\n';
+}
+write(`${content}/supplement/csdiy/index.md`, selfstudy);
+
+for (const [directory, description] of Object.entries(storageRoots)) {
+  const page = `${directory}/README.md`;
+  const local = sorted(materials.filter(material => material.path.startsWith(directory + '/')));
+  let text = `# ${directory.replace(/^\w+-/, '')}\n\n${description}。\n\n`;
+  text += '## 学码群分享\n\n';
+  text += local.length ? local.map(material => materialMarkdown(material, page)).join('') : '[浏览学码群现有资料](../docs/content/docs/group/index.md)。\n\n';
+  const supplements = courses.filter(course => !course.localOnly && storageRoot(course) === directory);
+  if (supplements.length) {
+    text += '## [Hust-opensource-Xuejie] 外部补充\n\n来源：[\\[Hust-opensource-Xuejie\\] 项目主页](' + upstream + ')。\n\n';
+    text += supplements.map(course => `- [\\[Hust-opensource-Xuejie\\] ${mdText(course.title)}](../docs/content/docs/supplement/hust/${course.id}.md)`).join('\n') + '\n\n';
+  }
+  text += '[分享资料](../CONTRIBUTING.md)。\n';
+  write(page, text);
+}
 syncPublicMaterials(ROOT, materials);
-console.log(`Generated ${upstreamCourses.length} course pages, ${topics.length} topics, ${stats.resources} file links, ${studies.length} self-study entries, ${materials.length} group files.`);
+console.log(`Generated ${materials.length} group materials, ${books.length} books, ${groupCourses.length} group topics.`);

@@ -5,7 +5,7 @@
     "category": "hardware",
     "focus": "MCS-51 结构、汇编与 C 语言、定时中断、串口和外设实验",
     "prerequisites": "C 语言、二进制与基本电路知识",
-    "practice": "按课件顺序完成数码管、键盘、定时器、串口、DS1302 与 EEPROM 实验，记录接线和调试过程。",
+    "practice": "以经典 12 MHz、12T MCS-51 为例，Timer 1 方式 1 装入 FC18H 产生 1 ms 定时中断；累计 1000 次翻转 P1.0，观察 LED 每秒改变亮灭状态。",
     "selfstudy": [],
     "files": [],
     "projects": [],
@@ -19,7 +19,7 @@
     "category": "campus",
     "focus": "协会介绍、社团参与和群友交流资料",
     "prerequisites": "带着兴趣和想做的小项目",
-    "practice": "从一次分享、一份笔记或一个小工具开始，与感兴趣的同学一起动手。",
+    "practice": "从招新资料辨认软件组与硬件组分工；软件方向完成一个带输入校验的命令行工具，硬件方向完成串口收发与 LED 控制。",
     "selfstudy": [],
     "files": [],
     "projects": [],
@@ -47,7 +47,7 @@
     "category": "campus",
     "focus": "数据结构、计算机组成、操作系统和计算机网络的综合练习",
     "prerequisites": "完成四门基础课程的第一轮学习",
-    "practice": "按题目记录涉及的知识点、推导过程和易错步骤，再回到对应课程补足理解。",
+    "practice": "用 Available=(3,3,2)、Allocation=((0,1,0),(2,0,0),(3,0,2),(2,1,1),(0,0,2)) 与 Max=((7,5,3),(3,2,2),(9,0,2),(2,2,2),(4,3,3)) 计算 Need，检验安全序列 P1、P3、P4、P0、P2。",
     "selfstudy": [],
     "files": [],
     "projects": [],
@@ -68,5 +68,34 @@
     "upstreamPath": null,
     "localOnly": true,
     "storageDirectory": "008-编译原理"
+  }
+,
+  {
+    "id": "python-basics",
+    "title": "Python 语言与对象协议",
+    "category": "programming",
+    "focus": "Python 数据模型、容器、迭代器、函数与协程",
+    "prerequisites": "变量、条件、循环与函数基础",
+    "practice": "实现一个支持 __len__、__getitem__ 和迭代的二维向量序列；用生成器逐行处理文本，比较列表与生成器的内存占用。",
+    "selfstudy": [],
+    "files": [],
+    "projects": [],
+    "upstreamPath": null,
+    "localOnly": true,
+    "storageDirectory": "001-计算机语言"
+  },
+  {
+    "id": "plc",
+    "title": "S7-1200 PLC 编程与应用",
+    "category": "hardware",
+    "focus": "PLC 硬件、梯形图、定时器、顺序控制和通信",
+    "prerequisites": "数字逻辑与基本电气控制",
+    "practice": "用启动、停止按钮控制电机自保持回路；加入 TON 延时 3 秒启动，检查停止按钮在延时中和运行中均可复位输出。",
+    "selfstudy": [],
+    "files": [],
+    "projects": [],
+    "upstreamPath": null,
+    "localOnly": true,
+    "storageDirectory": "009-嵌入式与单片机"
   }
 ]
