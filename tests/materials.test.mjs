@@ -1,0 +1,14 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { mkdtempSync, mkdirSync, symlinkSync, rmSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
+import { validateMeta, validateBytes, containedPath, sha256 } from '../scripts/materials.mjs';
+const courses=[{id:'operating-systems',category:'systems'}];
+const base={title:'同步笔记',originalName:'笔记.pdf',course:'operating-systems',kind:'notes',topic:'进程同步',version:'2024',contributor:'同学',sourceFolder:'/',uploadedAt:'2024-11-01',description:'同步机制的例题与推导'};
+test('导入保留课程、类型、主题与版本',()=>assert.equal(validateMeta(base,courses),'006-操作系统/operating-systems/notes/operating-systems__notes__进程同步__2024.pdf'));
+test('Office 阅读版使用 PDF 扩展名并保留原文件名，源码保持原格式',()=>{assert.equal(validateMeta({...base,originalName:'中断.ppt',archiveExtension:'.pdf'},courses),'006-操作系统/operating-systems/notes/operating-systems__notes__进程同步__2024.pdf');assert.throws(()=>validateMeta({...base,originalName:'示例.cpp',archiveExtension:'.pdf'},courses));assert.throws(()=>validateMeta({...base,originalName:'讲义.docx',archiveExtension:'.exe'},courses));});
+test('根目录早期资料需要具体用途，上传年份与版本分开',()=>{assert.throws(()=>validateMeta({...base,uploadedAt:'2018-01-01'},courses)); assert.ok(validateMeta({...base,version:'2015',historicalValue:'比较早期题型',uploadedAt:'2018-01-01'},courses));});
+test('导入识别路径、类型、日期错误',()=>{for(const change of [{topic:'../../escape'},{kind:'exe'},{originalName:'a.exe'},{uploadedAt:'2024-02-30'},{course:'missing'}])assert.throws(()=>validateMeta({...base,...change},courses));});
+test('容量与可执行内容检查',()=>{assert.throws(()=>validateBytes(Buffer.alloc(0)));assert.throws(()=>validateBytes(Buffer.alloc(10*1024*1024+1)));assert.throws(()=>validateBytes(Buffer.from('MZfake')));assert.throws(()=>validateBytes(Buffer.from('abc'),80*1024*1024));assert.equal(sha256(Buffer.from('abc')),'ba7816bf8f01cfea414140de5dae2223b00361a396177a9cb410ff61f20015ad');});
+test('目标路径保持在目录内，并检查符号链接',()=>{const root=mkdtempSync(join(tmpdir(),'learningcode-test-'));try{mkdirSync(join(root,'inbox'));assert.throws(()=>containedPath(root,'../escape'));symlinkSync(tmpdir(),join(root,'link'));assert.throws(()=>containedPath(root,'link/escape'));assert.equal(containedPath(root,'inbox/a.pdf'),join(root,'inbox/a.pdf'));}finally{rmSync(root,{recursive:true,force:true});}});

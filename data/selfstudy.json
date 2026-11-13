@@ -1,0 +1,947 @@
+[
+  {
+    "title": "前言",
+    "category": "使用指南",
+    "path": "index.md",
+    "url": "https://csdiy.wiki/",
+    "stem": "index"
+  },
+  {
+    "title": "如何使用这本书",
+    "category": "使用指南",
+    "path": "使用指南.md",
+    "url": "https://csdiy.wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/",
+    "stem": "使用指南"
+  },
+  {
+    "title": "一个仅供参考的CS学习规划",
+    "category": "使用指南",
+    "path": "CS学习规划.md",
+    "url": "https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/",
+    "stem": "CS学习规划"
+  },
+  {
+    "title": "翻墙",
+    "category": "必学工具",
+    "path": "必学工具/翻墙.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/%E7%BF%BB%E5%A2%99/",
+    "stem": "翻墙"
+  },
+  {
+    "title": "Vim",
+    "category": "必学工具",
+    "path": "必学工具/Vim.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Vim/",
+    "stem": "Vim"
+  },
+  {
+    "title": "Emacs",
+    "category": "必学工具",
+    "path": "必学工具/Emacs.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Emacs/",
+    "stem": "Emacs"
+  },
+  {
+    "title": "Git",
+    "category": "必学工具",
+    "path": "必学工具/Git.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/",
+    "stem": "Git"
+  },
+  {
+    "title": "GitHub",
+    "category": "必学工具",
+    "path": "必学工具/GitHub.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GitHub/",
+    "stem": "GitHub"
+  },
+  {
+    "title": "GNU Make",
+    "category": "必学工具",
+    "path": "必学工具/GNU_Make.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GNU_Make/",
+    "stem": "GNU_Make"
+  },
+  {
+    "title": "CMake",
+    "category": "必学工具",
+    "path": "必学工具/CMake.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/CMake/",
+    "stem": "CMake"
+  },
+  {
+    "title": "LaTeX",
+    "category": "必学工具",
+    "path": "必学工具/LaTeX.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/",
+    "stem": "LaTeX"
+  },
+  {
+    "title": "Docker",
+    "category": "必学工具",
+    "path": "必学工具/Docker.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Docker/",
+    "stem": "Docker"
+  },
+  {
+    "title": "Scoop",
+    "category": "必学工具",
+    "path": "必学工具/Scoop.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Scoop/",
+    "stem": "Scoop"
+  },
+  {
+    "title": "日常学习工作流",
+    "category": "必学工具",
+    "path": "必学工具/workflow.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/",
+    "stem": "workflow"
+  },
+  {
+    "title": "实用工具箱",
+    "category": "必学工具",
+    "path": "必学工具/tools.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/tools/",
+    "stem": "tools"
+  },
+  {
+    "title": "毕业论文",
+    "category": "必学工具",
+    "path": "必学工具/thesis.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/thesis/",
+    "stem": "thesis"
+  },
+  {
+    "title": "信息检索",
+    "category": "必学工具",
+    "path": "必学工具/信息检索.md",
+    "url": "https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2/",
+    "stem": "信息检索"
+  },
+  {
+    "title": "好书推荐",
+    "category": "使用指南",
+    "path": "好书推荐.md",
+    "url": "https://csdiy.wiki/%E5%A5%BD%E4%B9%A6%E6%8E%A8%E8%8D%90/",
+    "stem": "好书推荐"
+  },
+  {
+    "title": "MIT18.01/18.02: Calculus",
+    "category": "数学基础",
+    "path": "数学基础/MITmaths.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/MITmaths/",
+    "stem": "MITmaths"
+  },
+  {
+    "title": "MIT18.06: Linear Algebra",
+    "category": "数学基础",
+    "path": "数学基础/MITLA.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/MITLA/",
+    "stem": "MITLA"
+  },
+  {
+    "title": "MIT6.050J: Information theory and Entropy",
+    "category": "数学基础",
+    "path": "数学基础/information.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/information/",
+    "stem": "information"
+  },
+  {
+    "title": "UCB CS70: discrete Math and probability theory",
+    "category": "数学进阶",
+    "path": "数学进阶/CS70.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/CS70/",
+    "stem": "CS70"
+  },
+  {
+    "title": "UCB EE126: Probability and Random Processes",
+    "category": "数学进阶",
+    "path": "数学进阶/CS126.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/CS126/",
+    "stem": "CS126"
+  },
+  {
+    "title": "MIT 6.042J: Mathematics for Computer Science",
+    "category": "数学进阶",
+    "path": "数学进阶/6.042J.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/6.042J/",
+    "stem": "6.042J"
+  },
+  {
+    "title": "MIT18.330: Introduction to numerical analysis",
+    "category": "数学进阶",
+    "path": "数学进阶/numerical.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/numerical/",
+    "stem": "numerical"
+  },
+  {
+    "title": "Stanford EE364A: Convex Optimization",
+    "category": "数学进阶",
+    "path": "数学进阶/convex.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/convex/",
+    "stem": "convex"
+  },
+  {
+    "title": "The Information Theory, Pattern Recognition, and Neural Networks",
+    "category": "数学进阶",
+    "path": "数学进阶/The_Information_Theory_Pattern_Recognition_and_Neural_Networks.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/The_Information_Theory_Pattern_Recognition_and_Neural_Networks/",
+    "stem": "The_Information_Theory_Pattern_Recognition_and_Neural_Networks"
+  },
+  {
+    "title": "MIT-Missing-Semester",
+    "category": "编程入门",
+    "path": "编程入门/MIT-Missing-Semester.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/",
+    "stem": "MIT-Missing-Semester"
+  },
+  {
+    "title": "Sysadmin DeCal",
+    "category": "编程入门",
+    "path": "编程入门/DeCal.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/DeCal/",
+    "stem": "DeCal"
+  },
+  {
+    "title": "UCB CS61A: Structure and Interpretation of Computer Programs",
+    "category": "编程入门 / Python 语言",
+    "path": "编程入门/Python/CS61A.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Python/CS61A/",
+    "stem": "CS61A"
+  },
+  {
+    "title": "CS50P: CS50's Introduction to Programming with Python",
+    "category": "编程入门 / Python 语言",
+    "path": "编程入门/Python/CS50P.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Python/CS50P/",
+    "stem": "CS50P"
+  },
+  {
+    "title": "MIT6.100L: Introduction to CS and Programming using Python",
+    "category": "编程入门 / Python 语言",
+    "path": "编程入门/Python/MIT6.100L.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Python/MIT6.100L/",
+    "stem": "MIT6.100L"
+  },
+  {
+    "title": "Harvard CS50: This is CS50x",
+    "category": "编程入门 / C 语言",
+    "path": "编程入门/C/CS50.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/C/CS50/",
+    "stem": "CS50"
+  },
+  {
+    "title": "Duke University: Introductory C Programming Specialization",
+    "category": "编程入门 / C 语言",
+    "path": "编程入门/C/Duke-Coursera-Intro-C.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/C/Duke-Coursera-Intro-C/",
+    "stem": "Duke-Coursera-Intro-C"
+  },
+  {
+    "title": "AmirKabir University of Technology AP1400-2: Advanced Programming",
+    "category": "编程入门 / C++ 语言",
+    "path": "编程入门/cpp/AUT1400.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/cpp/AUT1400/",
+    "stem": "AUT1400"
+  },
+  {
+    "title": "Stanford CS106L: Standard C++ Programming",
+    "category": "编程入门 / C++ 语言",
+    "path": "编程入门/cpp/CS106L.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/cpp/CS106L/",
+    "stem": "CS106L"
+  },
+  {
+    "title": "Stanford CS106B/X",
+    "category": "编程入门 / C++ 语言",
+    "path": "编程入门/cpp/CS106B_CS106X.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/cpp/CS106B_CS106X/",
+    "stem": "CS106B_CS106X"
+  },
+  {
+    "title": "MIT 6.092: Introduction To Programming In Java",
+    "category": "编程入门 / Java 语言",
+    "path": "编程入门/Java/MIT 6.092.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Java/MIT%206.092/",
+    "stem": "MIT 6.092"
+  },
+  {
+    "title": "Stanford CS110L: Safety in Systems Programming",
+    "category": "编程入门 / Rust 语言",
+    "path": "编程入门/Rust/CS110L.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Rust/CS110L/",
+    "stem": "CS110L"
+  },
+  {
+    "title": "KAIST CS220: Programming Principles",
+    "category": "编程入门 / Rust 语言",
+    "path": "编程入门/Rust/cs220.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Rust/cs220/",
+    "stem": "cs220"
+  },
+  {
+    "title": "KAIST CS431: Concurrent Programming",
+    "category": "编程入门 / Rust 语言",
+    "path": "编程入门/Rust/cs431.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Rust/cs431/",
+    "stem": "cs431"
+  },
+  {
+    "title": "Cornell CS3110: OCaml Programming Correct + Efficient + Beautiful",
+    "category": "编程入门 / 函数式语言",
+    "path": "编程入门/Functional/CS3110.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Functional/CS3110/",
+    "stem": "CS3110"
+  },
+  {
+    "title": "Haskell MOOC",
+    "category": "编程入门 / 函数式语言",
+    "path": "编程入门/Functional/Haskell-MOOC.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Functional/Haskell-MOOC/",
+    "stem": "Haskell-MOOC"
+  },
+  {
+    "title": "EE16A&B: Designing Information Devices and Systems I&II",
+    "category": "电子基础",
+    "path": "电子基础/EE16.md",
+    "url": "https://csdiy.wiki/%E7%94%B5%E5%AD%90%E5%9F%BA%E7%A1%80/EE16/",
+    "stem": "EE16"
+  },
+  {
+    "title": "UCB EE120 : Signal and Systems",
+    "category": "电子基础",
+    "path": "电子基础/signal.md",
+    "url": "https://csdiy.wiki/%E7%94%B5%E5%AD%90%E5%9F%BA%E7%A1%80/signal/",
+    "stem": "signal"
+  },
+  {
+    "title": "MIT RES.6-007: Signals and Systems",
+    "category": "电子基础",
+    "path": "电子基础/Signals_and_Systems_AVO.md",
+    "url": "https://csdiy.wiki/%E7%94%B5%E5%AD%90%E5%9F%BA%E7%A1%80/Signals_and_Systems_AVO/",
+    "stem": "Signals_and_Systems_AVO"
+  },
+  {
+    "title": "UCB CS61B: Data Structures and Algorithms",
+    "category": "数据结构与算法",
+    "path": "数据结构与算法/CS61B.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/CS61B/",
+    "stem": "CS61B"
+  },
+  {
+    "title": "Coursera: Algorithms I & II",
+    "category": "数据结构与算法",
+    "path": "数据结构与算法/Algo.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/Algo/",
+    "stem": "Algo"
+  },
+  {
+    "title": "MIT 6.006: Introduction to Algorithms",
+    "category": "数据结构与算法",
+    "path": "数据结构与算法/6.006.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/6.006/",
+    "stem": "6.006"
+  },
+  {
+    "title": "MIT 6.046: Design and Analysis of Algorithms",
+    "category": "数据结构与算法",
+    "path": "数据结构与算法/6.046.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/6.046/",
+    "stem": "6.046"
+  },
+  {
+    "title": "UCB CS170: Efficient Algorithms and Intractable Problems",
+    "category": "数据结构与算法",
+    "path": "数据结构与算法/CS170.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/CS170/",
+    "stem": "CS170"
+  },
+  {
+    "title": "MIT 6.031: Software Construction",
+    "category": "软件工程",
+    "path": "软件工程/6031.md",
+    "url": "https://csdiy.wiki/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/6031/",
+    "stem": "6031"
+  },
+  {
+    "title": "UCB CS169: software engineering",
+    "category": "软件工程",
+    "path": "软件工程/CS169.md",
+    "url": "https://csdiy.wiki/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/CS169/",
+    "stem": "CS169"
+  },
+  {
+    "title": "CMU 17-803: Empirical Methods",
+    "category": "软件工程",
+    "path": "软件工程/17803.md",
+    "url": "https://csdiy.wiki/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/17803/",
+    "stem": "17803"
+  },
+  {
+    "title": "CMU 15-213: CSAPP",
+    "category": "计算机系统基础",
+    "path": "计算机系统基础/CSAPP.md",
+    "url": "https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/CSAPP/",
+    "stem": "CSAPP"
+  },
+  {
+    "title": "Stanford CS110: Principles of Computer Systems",
+    "category": "计算机系统基础",
+    "path": "计算机系统基础/CS110.md",
+    "url": "https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/CS110/",
+    "stem": "CS110"
+  },
+  {
+    "title": "Coursera: Nand2Tetris",
+    "category": "体系结构",
+    "path": "体系结构/N2T.md",
+    "url": "https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/N2T/",
+    "stem": "N2T"
+  },
+  {
+    "title": "UCB CS61C: Great Ideas in Computer Architecture",
+    "category": "体系结构",
+    "path": "体系结构/CS61C.md",
+    "url": "https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CS61C/",
+    "stem": "CS61C"
+  },
+  {
+    "title": "ETHz: Digital Design and Computer Architecture",
+    "category": "体系结构",
+    "path": "体系结构/DDCA.md",
+    "url": "https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/DDCA/",
+    "stem": "DDCA"
+  },
+  {
+    "title": "ETHz: Computer Architecture",
+    "category": "体系结构",
+    "path": "体系结构/CA.md",
+    "url": "https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CA/",
+    "stem": "CA"
+  },
+  {
+    "title": "MIT 6.1810 (6.S081): Operating System Engineering",
+    "category": "操作系统",
+    "path": "操作系统/MIT6.S081.md",
+    "url": "https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/MIT6.S081/",
+    "stem": "MIT6.S081"
+  },
+  {
+    "title": "UCB CS162: Operating Systems and Systems Programming",
+    "category": "操作系统",
+    "path": "操作系统/CS162.md",
+    "url": "https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/CS162/",
+    "stem": "CS162"
+  },
+  {
+    "title": "NJU OS: Operating System Design and Implementation",
+    "category": "操作系统",
+    "path": "操作系统/NJUOS.md",
+    "url": "https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/NJUOS/",
+    "stem": "NJUOS"
+  },
+  {
+    "title": "HIT OS: Operating System",
+    "category": "操作系统",
+    "path": "操作系统/HITOS.md",
+    "url": "https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/HITOS/",
+    "stem": "HITOS"
+  },
+  {
+    "title": "CMU 15-418/Stanford CS149: Parallel Computing",
+    "category": "并行与分布式系统",
+    "path": "并行与分布式系统/CS149.md",
+    "url": "https://csdiy.wiki/%E5%B9%B6%E8%A1%8C%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/CS149/",
+    "stem": "CS149"
+  },
+  {
+    "title": "MIT 6.5840 (6.824): Distributed System",
+    "category": "并行与分布式系统",
+    "path": "并行与分布式系统/MIT6.824.md",
+    "url": "https://csdiy.wiki/%E5%B9%B6%E8%A1%8C%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/MIT6.824/",
+    "stem": "MIT6.824"
+  },
+  {
+    "title": "UCB CS161: Computer Security",
+    "category": "计算机系统安全",
+    "path": "系统安全/CS161.md",
+    "url": "https://csdiy.wiki/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/CS161/",
+    "stem": "CS161"
+  },
+  {
+    "title": "MIT 6.1600: Foundations of Computer Security",
+    "category": "计算机系统安全",
+    "path": "系统安全/MIT6.1600.md",
+    "url": "https://csdiy.wiki/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/MIT6.1600/",
+    "stem": "MIT6.1600"
+  },
+  {
+    "title": "MIT 6.858: Computer System Security",
+    "category": "计算机系统安全",
+    "path": "系统安全/MIT6.858.md",
+    "url": "https://csdiy.wiki/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/MIT6.858/",
+    "stem": "MIT6.858"
+  },
+  {
+    "title": "ASU CSE365: Introduction to Cybersecurity",
+    "category": "计算机系统安全",
+    "path": "系统安全/CSE365.md",
+    "url": "https://csdiy.wiki/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/CSE365/",
+    "stem": "CSE365"
+  },
+  {
+    "title": "ASU CSE466: Computer Systems Security",
+    "category": "计算机系统安全",
+    "path": "系统安全/CSE466.md",
+    "url": "https://csdiy.wiki/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/CSE466/",
+    "stem": "CSE466"
+  },
+  {
+    "title": "SU SEED Labs",
+    "category": "计算机系统安全",
+    "path": "系统安全/SEEDLabs.md",
+    "url": "https://csdiy.wiki/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/SEEDLabs/",
+    "stem": "SEEDLabs"
+  },
+  {
+    "title": "UCB CS168: Introduction to the Internet: Architecture and Protocols",
+    "category": "计算机网络",
+    "path": "计算机网络/CS168.md",
+    "url": "https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/CS168/",
+    "stem": "CS168"
+  },
+  {
+    "title": "Stanford CS144: Computer Network",
+    "category": "计算机网络",
+    "path": "计算机网络/CS144.md",
+    "url": "https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/CS144/",
+    "stem": "CS144"
+  },
+  {
+    "title": "USTC Computer Networking:A Top-Down Approach",
+    "category": "计算机网络",
+    "path": "计算机网络/topdown_ustc.md",
+    "url": "https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/topdown_ustc/",
+    "stem": "topdown_ustc"
+  },
+  {
+    "title": "Computer Networking: A Top-Down Approach",
+    "category": "计算机网络",
+    "path": "计算机网络/topdown.md",
+    "url": "https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/topdown/",
+    "stem": "topdown"
+  },
+  {
+    "title": "UCB CS186: Introduction to Database System",
+    "category": "数据库系统",
+    "path": "数据库系统/CS186.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/CS186/",
+    "stem": "CS186"
+  },
+  {
+    "title": "CMU 15-445: Database Systems",
+    "category": "数据库系统",
+    "path": "数据库系统/15445.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/15445/",
+    "stem": "15445"
+  },
+  {
+    "title": "Caltech CS122: Database System Implementation",
+    "category": "数据库系统",
+    "path": "数据库系统/CS122.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/CS122/",
+    "stem": "CS122"
+  },
+  {
+    "title": "Stanford CS346: Database System Implementation",
+    "category": "数据库系统",
+    "path": "数据库系统/CS346.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/CS346/",
+    "stem": "CS346"
+  },
+  {
+    "title": "CMU 15-799: Special Topics in Database Systems",
+    "category": "数据库系统",
+    "path": "数据库系统/15799.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/15799/",
+    "stem": "15799"
+  },
+  {
+    "title": "PKU 编译原理实践",
+    "category": "编译原理",
+    "path": "编译原理/PKU-Compilers.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/PKU-Compilers/",
+    "stem": "PKU-Compilers"
+  },
+  {
+    "title": "Stanford CS143: Compilers",
+    "category": "编译原理",
+    "path": "编译原理/CS143.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/CS143/",
+    "stem": "CS143"
+  },
+  {
+    "title": "NJU 编译原理",
+    "category": "编译原理",
+    "path": "编译原理/NJU-Compilers.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/NJU-Compilers/",
+    "stem": "NJU-Compilers"
+  },
+  {
+    "title": "KAIST CS420: Compiler Design",
+    "category": "编译原理",
+    "path": "编译原理/CS420.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/CS420/",
+    "stem": "CS420"
+  },
+  {
+    "title": "USTC 编译原理与技术",
+    "category": "编译原理",
+    "path": "编译原理/USTC-Compilers.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/USTC-Compilers/",
+    "stem": "USTC-Compilers"
+  },
+  {
+    "title": "SJTU 编译原理",
+    "category": "编译原理",
+    "path": "编译原理/SJTU-Compilers.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/SJTU-Compilers/",
+    "stem": "SJTU-Compilers"
+  },
+  {
+    "title": "Stanford CS242: Programming Languages",
+    "category": "编程语言设计与分析",
+    "path": "编程语言设计与分析/CS242.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/CS242/",
+    "stem": "CS242"
+  },
+  {
+    "title": "NJU 软件分析",
+    "category": "编程语言设计与分析",
+    "path": "编程语言设计与分析/NJU-SoftwareAnalysis.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/NJU-SoftwareAnalysis/",
+    "stem": "NJU-SoftwareAnalysis"
+  },
+  {
+    "title": "PKU 软件分析",
+    "category": "编程语言设计与分析",
+    "path": "编程语言设计与分析/PKU-SoftwareAnalysis.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/PKU-SoftwareAnalysis/",
+    "stem": "PKU-SoftwareAnalysis"
+  },
+  {
+    "title": "Cambridge: Semantics of Programming Languages",
+    "category": "编程语言设计与分析",
+    "path": "编程语言设计与分析/Cambridge-Semantics.md",
+    "url": "https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/Cambridge-Semantics/",
+    "stem": "Cambridge-Semantics"
+  },
+  {
+    "title": "GAMES101",
+    "category": "计算机图形学",
+    "path": "计算机图形学/GAMES101.md",
+    "url": "https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/GAMES101/",
+    "stem": "GAMES101"
+  },
+  {
+    "title": "GAMES202",
+    "category": "计算机图形学",
+    "path": "计算机图形学/GAMES202.md",
+    "url": "https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/GAMES202/",
+    "stem": "GAMES202"
+  },
+  {
+    "title": "GAMES103",
+    "category": "计算机图形学",
+    "path": "计算机图形学/GAMES103.md",
+    "url": "https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/GAMES103/",
+    "stem": "GAMES103"
+  },
+  {
+    "title": "Stanford CS148",
+    "category": "计算机图形学",
+    "path": "计算机图形学/CS148.md",
+    "url": "https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/CS148/",
+    "stem": "CS148"
+  },
+  {
+    "title": "CMU 15-462",
+    "category": "计算机图形学",
+    "path": "计算机图形学/15462.md",
+    "url": "https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/15462/",
+    "stem": "15462"
+  },
+  {
+    "title": "USTC CG",
+    "category": "计算机图形学",
+    "path": "计算机图形学/USTC ComputerGraphics.md",
+    "url": "https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/USTC%20ComputerGraphics/",
+    "stem": "USTC ComputerGraphics"
+  },
+  {
+    "title": "MIT web development course",
+    "category": "Web开发",
+    "path": "Web开发/mitweb.md",
+    "url": "https://csdiy.wiki/Web%E5%BC%80%E5%8F%91/mitweb/",
+    "stem": "mitweb"
+  },
+  {
+    "title": "Stanford CS142: Web Applications",
+    "category": "Web开发",
+    "path": "Web开发/CS142.md",
+    "url": "https://csdiy.wiki/Web%E5%BC%80%E5%8F%91/CS142/",
+    "stem": "CS142"
+  },
+  {
+    "title": "University of Helsinki: Full Stack open 2022",
+    "category": "Web开发",
+    "path": "Web开发/fullstackopen.md",
+    "url": "https://csdiy.wiki/Web%E5%BC%80%E5%8F%91/fullstackopen/",
+    "stem": "fullstackopen"
+  },
+  {
+    "title": "CS571 Building UI (React & React Native)",
+    "category": "Web开发",
+    "path": "Web开发/CS571.md",
+    "url": "https://csdiy.wiki/Web%E5%BC%80%E5%8F%91/CS571/",
+    "stem": "CS571"
+  },
+  {
+    "title": "UCB Data100: Principles and Techniques of Data Science",
+    "category": "数据科学",
+    "path": "数据科学/Data100.md",
+    "url": "https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/Data100/",
+    "stem": "Data100"
+  },
+  {
+    "title": "Neural Networks: Zero to Hero",
+    "category": "人工智能",
+    "path": "人工智能/Neural Networks：Zero to Hero.md",
+    "url": "https://csdiy.wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/Neural%20Networks%EF%BC%9AZero%20to%20Hero/",
+    "stem": "Neural Networks：Zero to Hero"
+  },
+  {
+    "title": "Harvard CS50's Introduction to AI with Python",
+    "category": "人工智能",
+    "path": "人工智能/CS50.md",
+    "url": "https://csdiy.wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/CS50/",
+    "stem": "CS50"
+  },
+  {
+    "title": "UCB CS188: Introduction to Artificial Intelligence",
+    "category": "人工智能",
+    "path": "人工智能/CS188.md",
+    "url": "https://csdiy.wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/CS188/",
+    "stem": "CS188"
+  },
+  {
+    "title": "Coursera: Machine Learning",
+    "category": "机器学习",
+    "path": "机器学习/ML.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/",
+    "stem": "ML"
+  },
+  {
+    "title": "Stanford CS229: Machine Learning",
+    "category": "机器学习",
+    "path": "机器学习/CS229.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/CS229/",
+    "stem": "CS229"
+  },
+  {
+    "title": "UCB CS189: Introduction to Machine Learning",
+    "category": "机器学习",
+    "path": "机器学习/CS189.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/CS189/",
+    "stem": "CS189"
+  },
+  {
+    "title": "CMU 15-442/642: Machine Learning Systems",
+    "category": "机器学习系统",
+    "path": "机器学习系统/CMU15-442.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/CMU15-442/",
+    "stem": "CMU15-442"
+  },
+  {
+    "title": "智能计算系统",
+    "category": "机器学习系统",
+    "path": "机器学习系统/AICS.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/AICS/",
+    "stem": "AICS"
+  },
+  {
+    "title": "CMU 10-414/714: Deep Learning Systems",
+    "category": "机器学习系统",
+    "path": "机器学习系统/CMU10-414.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/CMU10-414/",
+    "stem": "CMU10-414"
+  },
+  {
+    "title": "MIT6.5940: TinyML and Efficient Deep Learning Computing",
+    "category": "机器学习系统",
+    "path": "机器学习系统/EML.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/EML/",
+    "stem": "EML"
+  },
+  {
+    "title": "Machine Learning Compilation",
+    "category": "机器学习系统",
+    "path": "机器学习系统/MLC.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/MLC/",
+    "stem": "MLC"
+  },
+  {
+    "title": "UCSD CSE234: Data Systems for Machine Learning",
+    "category": "机器学习系统",
+    "path": "机器学习系统/CSE234.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/CSE234/",
+    "stem": "CSE234"
+  },
+  {
+    "title": "Coursera: Deep Learning",
+    "category": "深度学习",
+    "path": "深度学习/CS230.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CS230/",
+    "stem": "CS230"
+  },
+  {
+    "title": "国立台湾大学: 李宏毅机器学习",
+    "category": "深度学习",
+    "path": "深度学习/LHY.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/LHY/",
+    "stem": "LHY"
+  },
+  {
+    "title": "CMU 11-785: Introduction to Deep Learning",
+    "category": "深度学习",
+    "path": "深度学习/CMU11-785.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CMU11-785/",
+    "stem": "CMU11-785"
+  },
+  {
+    "title": "MIT 6.7960: Deep Learning",
+    "category": "深度学习",
+    "path": "深度学习/MIT6-7960.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/MIT6-7960/",
+    "stem": "MIT6-7960"
+  },
+  {
+    "title": "NYU DLSP21: NYU Deep Learning Spring 2021",
+    "category": "深度学习",
+    "path": "深度学习/NYU-DLSP21.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/NYU-DLSP21/",
+    "stem": "NYU-DLSP21"
+  },
+  {
+    "title": "UMich EECS 498-007 / 598-005: Deep Learning for Computer Vision",
+    "category": "深度学习",
+    "path": "深度学习/EECS498-007.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/EECS498-007/",
+    "stem": "EECS498-007"
+  },
+  {
+    "title": "Stanford CS231n: CNN for Visual Recognition",
+    "category": "深度学习",
+    "path": "深度学习/CS231.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CS231/",
+    "stem": "CS231"
+  },
+  {
+    "title": "Stanford CS224n: Natural Language Processing",
+    "category": "深度学习",
+    "path": "深度学习/CS224n.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CS224n/",
+    "stem": "CS224n"
+  },
+  {
+    "title": "Stanford CS224w: Machine Learning with Graphs",
+    "category": "深度学习",
+    "path": "深度学习/CS224w.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CS224w/",
+    "stem": "CS224w"
+  },
+  {
+    "title": "UCB CS285: Deep Reinforcement Learning",
+    "category": "深度学习",
+    "path": "深度学习/CS285.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CS285/",
+    "stem": "CS285"
+  },
+  {
+    "title": "学习路线图",
+    "category": "深度生成模型",
+    "path": "深度生成模型/roadmap.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/roadmap/",
+    "stem": "roadmap"
+  },
+  {
+    "title": "MIT 6.S184: Generative AI with Stochastic Differential Equations",
+    "category": "深度生成模型",
+    "path": "深度生成模型/MIT6.S184.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/MIT6.S184/",
+    "stem": "MIT6.S184"
+  },
+  {
+    "title": "CMU 11-868: Large Language Model System",
+    "category": "深度生成模型 / 大语言模型",
+    "path": "深度生成模型/大语言模型/CMU11-868.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/CMU11-868/",
+    "stem": "CMU11-868"
+  },
+  {
+    "title": "CMU 11-667: Large Language Models: Methods and Applications",
+    "category": "深度生成模型 / 大语言模型",
+    "path": "深度生成模型/大语言模型/CMU11-667.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/CMU11-667/",
+    "stem": "CMU11-667"
+  },
+  {
+    "title": "CMU 11-711: Advanced Natural Language Processing",
+    "category": "深度生成模型 / 大语言模型",
+    "path": "深度生成模型/大语言模型/CMU11-711.md",
+    "url": "https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/CMU11-711/",
+    "stem": "CMU11-711"
+  },
+  {
+    "title": "学习路线图",
+    "category": "机器学习进阶",
+    "path": "机器学习进阶/roadmap.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6/roadmap/",
+    "stem": "roadmap"
+  },
+  {
+    "title": "CMU 10-708: Probabilistic Graphical Models",
+    "category": "机器学习进阶",
+    "path": "机器学习进阶/CMU10-708.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6/CMU10-708/",
+    "stem": "CMU10-708"
+  },
+  {
+    "title": "Columbia STAT 8201: Deep Generative Models",
+    "category": "机器学习进阶",
+    "path": "机器学习进阶/STAT8201.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6/STAT8201/",
+    "stem": "STAT8201"
+  },
+  {
+    "title": "U Toronto STA 4273 Winter 2021: Minimizing Expectations",
+    "category": "机器学习进阶",
+    "path": "机器学习进阶/STA4273.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6/STA4273/",
+    "stem": "STA4273"
+  },
+  {
+    "title": "Stanford STATS214 / CS229M: Machine Learning Theory",
+    "category": "机器学习进阶",
+    "path": "机器学习进阶/CS229M.md",
+    "url": "https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6/CS229M/",
+    "stem": "CS229M"
+  },
+  {
+    "title": "后记",
+    "category": "使用指南",
+    "path": "后记.md",
+    "url": "https://csdiy.wiki/%E5%90%8E%E8%AE%B0/",
+    "stem": "后记"
+  }
+]

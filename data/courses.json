@@ -1,0 +1,3341 @@
+[
+  {
+    "id": "c",
+    "title": "C语言程序设计",
+    "category": "programming",
+    "upstreamPath": "IA C语言程序设计",
+    "prerequisites": "高中数学",
+    "focus": "表达式、控制流、数组、指针与内存",
+    "practice": "写一个读取文本并统计词频的命令行程序。",
+    "selfstudy": [
+      "编程入门/C/CS50.md",
+      "编程入门/C/Duke-Coursera-Intro-C.md"
+    ],
+    "files": [
+      {
+        "path": "IA C语言程序设计/往年题目/其他参考资料/c语言期终复习(2018).pptx",
+        "bytes": 3234903,
+        "sha": "cd441c3bd8bd3099b4c0927854b0e603289b1df0"
+      },
+      {
+        "path": "IA C语言程序设计/往年题目/《C语言程序设计》复习提纲(2022版）.doc",
+        "bytes": 25600,
+        "sha": "df644dd3e7c5f404284eeea0f358d8eb53ff4917"
+      },
+      {
+        "path": "IA C语言程序设计/往年题目/其他参考资料/2019秋季考试复习内容C语言1.pdf",
+        "bytes": 306499,
+        "sha": "c1e26fe0b3ee34db5bf6e88d3c61e00d9c0f336a"
+      },
+      {
+        "path": "IA C语言程序设计/往年题目/其他参考资料/C语言全部知识点复习资料.pdf",
+        "bytes": 318139,
+        "sha": "55dabad7287e1f5279ea8098f3b6f96a2c3bc817"
+      },
+      {
+        "path": "IA C语言程序设计/往年题目/其他参考资料/C语言程序设计基础知识期末复习.pdf",
+        "bytes": 482915,
+        "sha": "b25088f387d8f62cb953f357d4e5c51b41973be1"
+      },
+      {
+        "path": "IA C语言程序设计/往年题目/其他参考资料/《C语言程序设计》复习提纲.doc",
+        "bytes": 14848,
+        "sha": "d7adc460080d6bce942aec98cdc234ab03178c1b"
+      },
+      {
+        "path": "IA C语言程序设计/往年题目/其他参考资料/《C语言程序设计》知识点总结.pdf",
+        "bytes": 721455,
+        "sha": "1d3055ae4f8d271b401e053a15a4dd4b2b61adde"
+      },
+      {
+        "path": "IA C语言程序设计/往年题目/其他参考资料/华中科技大学级C语言程序设计考试经典试卷复习资料.pdf",
+        "bytes": 17721,
+        "sha": "2d1d9436ed2e615f7a9f9da824c393c55c0d2a63"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "chinese",
+    "title": "中国语文",
+    "category": "general",
+    "upstreamPath": "IA 中国语文",
+    "prerequisites": "阅读与写作",
+    "focus": "文本阅读与表达",
+    "practice": "围绕课程阅读写一篇有论据的短文。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "IA 中国语文/阿求的语文复习.docx",
+        "bytes": 665651,
+        "sha": "a40d4a4e1d9c6e2994dcb931e780b515d4ec98c0"
+      },
+      {
+        "path": "IA 中国语文/2023秋中国语文期末考试题A卷.docx",
+        "bytes": 17241,
+        "sha": "27fbf890f852d7e685d220dccd9fb571ebdc69c5"
+      },
+      {
+        "path": "IA 中国语文/2023秋中国语文期末考试题B卷.docx",
+        "bytes": 12558,
+        "sha": "c53819c9e45f24f4fa40a43c7b1faf90bb28c116"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "calculus-1",
+    "title": "微积分（一）",
+    "category": "math",
+    "upstreamPath": "IA 微积分（一）",
+    "prerequisites": "高中函数与代数",
+    "focus": "极限、连续、导数与一元积分",
+    "practice": "用图像和计算各解释一次微积分基本定理。",
+    "selfstudy": [
+      "数学基础/MITmaths.md"
+    ],
+    "files": [
+      {
+        "path": "IA 微积分（一）/midterm/微积分上期中专题复习.pdf",
+        "bytes": 1551853,
+        "sha": "a8006d83934160ff3131e02d4acbd454c8eec095"
+      },
+      {
+        "path": "IA 微积分（一）/midterm/期中考试复习专题讲座.pdf",
+        "bytes": 288354,
+        "sha": "17d6e2317e60f887a50f8b531ffe325a139a1747"
+      },
+      {
+        "path": "IA 微积分（一）/final/2024~2025学年第一学期微积分（B）试题回忆版.pdf",
+        "bytes": 74571,
+        "sha": "b44672f70c21760f732b227b7429483a8e59211d"
+      },
+      {
+        "path": "IA 微积分（一）/2023数学分析A1期中(1).pdf",
+        "bytes": 348107,
+        "sha": "1804ce2c68052ebc14ca9e95b3cd8e61b9073506"
+      },
+      {
+        "path": "IA 微积分（一）/final/2023_2024学年第一学期微积分__2_.pdf",
+        "bytes": 209286,
+        "sha": "a1d5eabab70aa835669446b32f16d5df2fce40a6"
+      },
+      {
+        "path": "IA 微积分（一）/final/2023_2024学年第一学期模拟卷微积分__1_ (1).pdf",
+        "bytes": 315245,
+        "sha": "2ea78f5a26e39e941125a447bc5c2aa404c07b48"
+      },
+      {
+        "path": "IA 微积分（一）/final/2023—2024学年华中科技大学集成电路学院《微积分》期末模拟考试.docx",
+        "bytes": 83900,
+        "sha": "e0e10308d8d58840e060a66a8fc836408fb8129d"
+      },
+      {
+        "path": "IA 微积分（一）/final/2023模拟卷CalculateA (1).pdf",
+        "bytes": 243465,
+        "sha": "44c5519d611a0dc0551dcccff1b6e09898104c89"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "ethics",
+    "title": "思想道德与法律基础",
+    "category": "general",
+    "upstreamPath": "IA 思想道德与法律基础",
+    "prerequisites": "课程导论",
+    "focus": "思想道德与法治课程阅读",
+    "practice": "将课堂专题整理成有出处的主题卡片。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "IA 思想道德与法律基础/思修复习.pdf",
+        "bytes": 862861,
+        "sha": "291d6743f99a9cf3083cc3c05bcbc9bd2fb03e62"
+      },
+      {
+        "path": "IA 思想道德与法律基础/思想道德与法治（2023年版）.pdf",
+        "bytes": 51287788,
+        "sha": "88826f15db2ffa71287798d377c8b9d5b511ee80"
+      },
+      {
+        "path": "IA 思想道德与法律基础/思想道德与法治（完整版）.pdf",
+        "bytes": 285879,
+        "sha": "47814bcd539a4e3e172837d47b0e98fa8d82e1de"
+      },
+      {
+        "path": "IA 思想道德与法律基础/思政捞捞（）.docx",
+        "bytes": 9022,
+        "sha": "162bc8970b1bdc5d2692a48f9a39597937fd479b"
+      },
+      {
+        "path": "IA 思想道德与法律基础/思政重点.docx",
+        "bytes": 17036,
+        "sha": "4372a37f17f95da52b958d311cb10185a66ae4d1"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "linear-algebra",
+    "title": "线性代数",
+    "category": "math",
+    "upstreamPath": "IA 线性代数",
+    "prerequisites": "高中代数",
+    "focus": "线性方程组、线性空间、矩阵与特征值",
+    "practice": "用矩阵实现二维变换，并画出基向量的变化。",
+    "selfstudy": [
+      "数学基础/MITLA.md"
+    ],
+    "files": [
+      {
+        "path": "IA 线性代数/线性代数笔记.pdf",
+        "bytes": 8567342,
+        "sha": "639867f3648baa2a165d812b62d18286e3ead1b0"
+      },
+      {
+        "path": "IA 线性代数/2025.1线性代数（水印版）.pdf",
+        "bytes": 788323,
+        "sha": "3f9aa84ca576583ad9f99af5b3597f4f46a78fab"
+      },
+      {
+        "path": "IA 线性代数/2022-2023第一学期线性代数期末试卷.pdf",
+        "bytes": 311801,
+        "sha": "b3d49e6af89bc62533d95eee42eb200716188ab5"
+      },
+      {
+        "path": "IA 线性代数/2023年秋线性代数试题回忆版.pdf",
+        "bytes": 58646,
+        "sha": "a37646e8237e54df76cbf4d14521f06237a97b65"
+      },
+      {
+        "path": "IA 线性代数/线性代数A-2023-4-修改.pdf",
+        "bytes": 419344,
+        "sha": "c8b7bf29162fa7b55827b31dcdb84092745322b6"
+      },
+      {
+        "path": "IA 线性代数/2022线代春.pdf",
+        "bytes": 5437667,
+        "sha": "039d62a0f28e3b9115265c7972ba86f6959f396f"
+      },
+      {
+        "path": "IA 线性代数/线性代数2021秋试题A.pdf",
+        "bytes": 282769,
+        "sha": "0bdd64a56abe20283632376530e344a5e10926cd"
+      },
+      {
+        "path": "IA 线性代数/线性代数  第4版.pdf",
+        "bytes": 27261004,
+        "sha": "22d4d652c679dfce80340c3563918c81b02457e9"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "english",
+    "title": "综合英语(一)",
+    "category": "general",
+    "upstreamPath": "IA 综合英语(一)",
+    "prerequisites": "高中英语",
+    "focus": "听力、阅读与学术表达",
+    "practice": "精读一段课程英文文档并做术语表。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "IA 综合英语(一)/Further Listening Unit 1.docx",
+        "bytes": 12868,
+        "sha": "2a52bd7869d7f086acb8c4700ac8c5358bf849cb"
+      },
+      {
+        "path": "IA 综合英语(一)/Further Listening Unit 2.docx",
+        "bytes": 12791,
+        "sha": "5a1ad114b052bb5c9597dc9d6fd550eb70a41386"
+      },
+      {
+        "path": "IA 综合英语(一)/Further Listening Unit 3.docx",
+        "bytes": 12796,
+        "sha": "8c60cb1246637616845e5de170e6a453ac2bedd0"
+      },
+      {
+        "path": "IA 综合英语(一)/Further Listening Unit 4.docx",
+        "bytes": 12150,
+        "sha": "3dbac3b78fa4133581c05d1ae55eda93354f14e6"
+      },
+      {
+        "path": "IA 综合英语(一)/Further Listening Unit 5.docx",
+        "bytes": 10965,
+        "sha": "fc4a46eb4ce6c5f0933ca617dedeee79b88d56c1"
+      },
+      {
+        "path": "IA 综合英语(一)/Listen to China.docx",
+        "bytes": 13959,
+        "sha": "b7f0b3404d955cfc22af73b12f948c6a727eaee4"
+      },
+      {
+        "path": "IA 综合英语(一)/阿求的综合英语.doc",
+        "bytes": 449024,
+        "sha": "df120b1b4f37f76b89b881dff4916f053926ea5b"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "analysis",
+    "title": "计卓-一元分析",
+    "category": "math",
+    "upstreamPath": "IA 计卓-一元分析",
+    "prerequisites": "高中函数与证明",
+    "focus": "极限的严格定义与一元分析",
+    "practice": "完整写出一道极限证明，检查量词顺序。",
+    "selfstudy": [
+      "数学基础/MITmaths.md"
+    ],
+    "files": [
+      {
+        "path": "IA 计卓-一元分析/期末/2021级《微积分（一）》（上）（启明学院一元分析）期末试题（解答）.pdf",
+        "bytes": 187171,
+        "sha": "c417439c1f632e66c06ab6eb044cbfbebb355ae6"
+      },
+      {
+        "path": "IA 计卓-一元分析/期末/解答2018级《微积分（一）》（上）（启明学院一元分析）试题Apdf.pdf",
+        "bytes": 326130,
+        "sha": "d0dcc17cd47aebab5e0a594cfd2b6a695b40ea7e"
+      },
+      {
+        "path": "IA 计卓-一元分析/期中/启明学院2017级一元分析学期中试题1.doc",
+        "bytes": 126976,
+        "sha": "8add37b1503e30c463d096dac8ba4bc4990b9f5d"
+      },
+      {
+        "path": "IA 计卓-一元分析/期中/启明学院2017级一元分析学期中试题2.doc",
+        "bytes": 123392,
+        "sha": "6d27a2915aab3f934bfb6663377cdc833e7fcda1"
+      },
+      {
+        "path": "IA 计卓-一元分析/期中/启明学院2017级一元分析学期中试题2参考解答.doc",
+        "bytes": 286720,
+        "sha": "70fba20ce0df58bdbc8b14cc8395977b91e3f6b1"
+      },
+      {
+        "path": "IA 计卓-一元分析/期中/启明学院2016级一元分析学期中考试试题.pdf",
+        "bytes": 203250,
+        "sha": "67add11312b506ec84b55051282306d617e06017"
+      },
+      {
+        "path": "IA 计卓-一元分析/期中/启明学院2016级一元分析学期中考试试题参考解答.pdf",
+        "bytes": 257381,
+        "sha": "0e7c5cbd0bf772655868abd8bb1d15849e36352b"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "computational-thinking",
+    "title": "计算思维",
+    "category": "programming",
+    "upstreamPath": "IA 计算思维",
+    "prerequisites": "高中数学",
+    "focus": "计算模型、问题分解与算法表达",
+    "practice": "把一个生活中的流程写成明确的输入、处理和输出。",
+    "selfstudy": [
+      "编程入门/Python/CS61A.md"
+    ],
+    "files": [
+      {
+        "path": "IA 计算思维/课件/20220901-第3讲-符号化计算化-一看计算机的本质新.pdf",
+        "bytes": 3377984,
+        "sha": "f14a3041a5cae7102fa84293e4fd6e205edf7792"
+      },
+      {
+        "path": "IA 计算思维/课件/20220901-第4讲-程序与递归-二看计算机的本质.pdf",
+        "bytes": 2199360,
+        "sha": "02fc81224805e674ca6e2992860dc57c223dad05"
+      },
+      {
+        "path": "IA 计算思维/课件/20221001-第15讲-世界是怎样被联结在一起的--由机器网络到万物互联.pdf",
+        "bytes": 4338656,
+        "sha": "7deef2cfa3228e10350dcd0e9d7fe8e93cae96d4"
+      },
+      {
+        "path": "IA 计算思维/课件/20221001-第18讲-炒股不看股盘看微博—关联规则挖掘与大数据思维.pdf",
+        "bytes": 1304442,
+        "sha": "319087cd96b07c6916ed9df80cbf0c11d33932d4"
+      },
+      {
+        "path": "IA 计算思维/课件/20221001-第19讲-机器是怎样学习的—样本-训练与分类.pdf",
+        "bytes": 8060666,
+        "sha": "b9307fb93ef7c6d3cbc0cc48c390664be53716c3"
+      },
+      {
+        "path": "IA 计算思维/课件/20200901-第10讲-受限资源约束下的算法-排序问题求解示例2.pdf",
+        "bytes": 2645362,
+        "sha": "8865556197c5ae3efa9f6aa15cdb4cf50f9d6d63"
+      },
+      {
+        "path": "IA 计算思维/课件/20200901-第12讲-数据库与大数据I-数据库.pdf",
+        "bytes": 1928096,
+        "sha": "decc03c9d02c99bcfb1bee936968ca7c262e41c6"
+      },
+      {
+        "path": "IA 计算思维/课件/20200901-第5讲-1-图灵机和冯诺依曼机.pdf",
+        "bytes": 1572080,
+        "sha": "f87eb4d9f141d024f9fdfba15d395897ccaed77a"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "modern-history",
+    "title": "中国近现代史纲要",
+    "category": "general",
+    "upstreamPath": "IB 中国近现代史纲要",
+    "prerequisites": "历史阅读",
+    "focus": "中国近现代史课程专题",
+    "practice": "按事件、背景和史料整理一页时间线。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "IB 中国近现代史纲要/复习/近代史20问 (1).pdf",
+        "bytes": 607390,
+        "sha": "663f973b551619a250d9e8f5b55160f6998c09b8"
+      },
+      {
+        "path": "IB 中国近现代史纲要/复习/近代史20问.pdf",
+        "bytes": 770374,
+        "sha": "f07aaea40382b114f454f93e682a8995cc3f79ed"
+      },
+      {
+        "path": "IB 中国近现代史纲要/复习/近代史选择题题库1号.pdf",
+        "bytes": 1102491,
+        "sha": "5832dda8a9acf9c8e107b8fd5d27ca9ea47e6bcb"
+      },
+      {
+        "path": "IB 中国近现代史纲要/复习/近现代史纲要思考题回答by风声.pdf",
+        "bytes": 295271,
+        "sha": "e5dfba21f5853cf33e2e1674a7f9c7f65363c386"
+      },
+      {
+        "path": "IB 中国近现代史纲要/复习/近代史要选择题库2号 (答案).pdf",
+        "bytes": 318638,
+        "sha": "cafe89ad682cb514538dd0441e8b1c2e30ebb411"
+      },
+      {
+        "path": "IB 中国近现代史纲要/复习/近代史选择题题库1号（答案）.pdf",
+        "bytes": 2167030,
+        "sha": "b2f9f5b23d890eaba2ab05c66d55179e2c7e0e14"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "military-theory",
+    "title": "军事理论",
+    "category": "general",
+    "upstreamPath": "IB 军事理论",
+    "prerequisites": "课程导论",
+    "focus": "军事理论课程资料",
+    "practice": "按本学期课堂专题整理阅读摘要。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "IB 军事理论/3_军理新版(1) (1).docx",
+        "bytes": 31997,
+        "sha": "1b5901cc00aea2020953b674173b58787791567b"
+      },
+      {
+        "path": "IB 军事理论/军理资料(重点) (1).doc",
+        "bytes": 35328,
+        "sha": "f83ba9217acf2020f753dd0d8b5f7789ac4ab5f5"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "physics-lab",
+    "title": "大学物理实验",
+    "category": "hardware",
+    "upstreamPath": "IB 大学物理实验",
+    "prerequisites": "大学物理与误差计算",
+    "focus": "实验测量、误差分析与报告",
+    "practice": "记录一次测量的原始数据、拟合过程和不确定度。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "IB 大学物理实验/大学物理实验绪论-2021.ppt",
+        "bytes": 12148224,
+        "sha": "408d1dc5d8c07c4c6bb9f195464eb737e408a62c"
+      },
+      {
+        "path": "IB 大学物理实验/物理实验绪论20212 .ppt",
+        "bytes": 4970496,
+        "sha": "02b2f82ad4780811d2cad4907170cb8ec1a00252"
+      },
+      {
+        "path": "IB 大学物理实验/物理实验（一）绪论2024.pdf",
+        "bytes": 6922096,
+        "sha": "ff2db6db65d7a140439a3ea5b09ec7d5270316fc"
+      },
+      {
+        "path": "IB 大学物理实验/物理实验绪论2022.pdf",
+        "bytes": 7038958,
+        "sha": "b3f1c3c05f0535a337e4067e73f877bf3434df36"
+      },
+      {
+        "path": "IB 大学物理实验/大学物理实验部分样卷.pdf",
+        "bytes": 31110362,
+        "sha": "8aebaf5a0d805bfd7b16be7480e87ade6927c9ff"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "physics-1",
+    "title": "大学物理（一）",
+    "category": "hardware",
+    "upstreamPath": "IB 大学物理（一）",
+    "prerequisites": "微积分",
+    "focus": "力学与相关物理基础",
+    "practice": "用数值积分模拟一个力学模型并比较解析解。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "IB 大学物理（一）/课件/final 2024春-复习1.pdf",
+        "bytes": 3593273,
+        "sha": "7cd09fe17530353219fe82cebca19ead3de1a977"
+      },
+      {
+        "path": "IB 大学物理（一）/课件/final 2024春-复习2.pdf",
+        "bytes": 3058353,
+        "sha": "c070a52eb862fc0a61eb69918d99194fba1baedf"
+      },
+      {
+        "path": "IB 大学物理（一）/课件/final 第2章 牛顿运动定律(1-4节).pdf",
+        "bytes": 3990736,
+        "sha": "df4481f1f42b591c7980b8c68808086eded4cbf2"
+      },
+      {
+        "path": "IB 大学物理（一）/课件/final 第2章 牛顿运动定律(5-7节).pdf",
+        "bytes": 3344154,
+        "sha": "9e027a5282c09be41b1f465316094e48c1aa1a20"
+      },
+      {
+        "path": "IB 大学物理（一）/课件/final 第2章 牛顿运动定律(8-11节).pdf",
+        "bytes": 1941100,
+        "sha": "0dad04d89c5bacc37ef9ac4c05bfa7f06b3e9e90"
+      },
+      {
+        "path": "IB 大学物理（一）/课件/final 第3章(1-2节).pdf",
+        "bytes": 2335368,
+        "sha": "828161cd195c530aaeebcc957a3edffa2fa9ebaf"
+      },
+      {
+        "path": "IB 大学物理（一）/课件/final 第3章(3-4节).pdf",
+        "bytes": 2216803,
+        "sha": "c74127802684809887371bff8a766d0960cc8307"
+      },
+      {
+        "path": "IB 大学物理（一）/课件/final 第4章(1)理想流体.pdf",
+        "bytes": 5156375,
+        "sha": "c0a0f72dcdf3e87e4a4d3304e71e2ff4d0c7ef7b"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "calculus-2",
+    "title": "微积分（二）",
+    "category": "math",
+    "upstreamPath": "IB 微积分（二）",
+    "prerequisites": "一元微积分",
+    "focus": "多元函数、重积分与级数",
+    "practice": "为一个二维积分画出区域并比较两种积分次序。",
+    "selfstudy": [
+      "数学基础/MITmaths.md"
+    ],
+    "files": [
+      {
+        "path": "IB 微积分（二）/2023届下学期微积分期中模拟.pdf",
+        "bytes": 140841,
+        "sha": "a0224b2567177f3a4ea91158c255ec81d9c33a00"
+      },
+      {
+        "path": "IB 微积分（二）/2023届下学期微积分期末模拟.pdf",
+        "bytes": 159017,
+        "sha": "53748464203b6e1bea49c595907463d2a51e20cd"
+      },
+      {
+        "path": "IB 微积分（二）/2023级微积分（一）下期末A卷.pdf",
+        "bytes": 195977,
+        "sha": "4629d361e0ad0cf1dda453815aca6f67071783bc"
+      },
+      {
+        "path": "IB 微积分（二）/final/2023_2024学年第一学期模拟卷微积分__1_.pdf",
+        "bytes": 315245,
+        "sha": "2ea78f5a26e39e941125a447bc5c2aa404c07b48"
+      },
+      {
+        "path": "IB 微积分（二）/final/2023_2024学年第一学期模拟卷微积分__2_.pdf",
+        "bytes": 209286,
+        "sha": "a1d5eabab70aa835669446b32f16d5df2fce40a6"
+      },
+      {
+        "path": "IB 微积分（二）/final/本学期考试范围与不涉及问题_20240603144358(1).pdf",
+        "bytes": 336652,
+        "sha": "9e8f9225e54ec0a32b7d5d8a15c352ae1abd0689"
+      },
+      {
+        "path": "IB 微积分（二）/2022级微积分（一）下期末试题A卷.pdf",
+        "bytes": 182830,
+        "sha": "9ca6c49a3fd151d56e0f87c0e7dc3e86a3708ece"
+      },
+      {
+        "path": "IB 微积分（二）/final/2023级第二学期末试题.pdf",
+        "bytes": 291410,
+        "sha": "5e2a0b2982d4b5d0293a2c0c2d975b1425c49535"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "data-structures",
+    "title": "数据结构",
+    "category": "programming",
+    "upstreamPath": "IB 数据结构",
+    "prerequisites": "C 语言与递归",
+    "focus": "线性表、树、图与复杂度",
+    "practice": "给链表和二叉树写插入、删除与边界测试。",
+    "selfstudy": [
+      "数据结构与算法/CS61B.md"
+    ],
+    "files": [
+      {
+        "path": "IB 数据结构/数据结构复习.pdf",
+        "bytes": 5121095,
+        "sha": "7c7e30af2504f6429423deae54501204792d3288"
+      },
+      {
+        "path": "IB 数据结构/课件/ch-10.pdf",
+        "bytes": 3648844,
+        "sha": "dc48e67dff1297dd2886817b4b97efada64ff6ab"
+      },
+      {
+        "path": "IB 数据结构/课件/ch-2.pdf",
+        "bytes": 2158261,
+        "sha": "798f9a7e28ce3f9df7ad29284f986bc136e0876b"
+      },
+      {
+        "path": "IB 数据结构/课件/ch-3.pdf",
+        "bytes": 1640728,
+        "sha": "a4a81a8291f5f9a2f3e884a0b3b3173f39b50166"
+      },
+      {
+        "path": "IB 数据结构/课件/ch-4.pdf",
+        "bytes": 1513103,
+        "sha": "4be1e12c3be0424c7308d8f95288c6ced4282b4b"
+      },
+      {
+        "path": "IB 数据结构/课件/ch-5.pdf",
+        "bytes": 1455526,
+        "sha": "da83383cf524ebfeed609912e7f9faf907ea3eb9"
+      },
+      {
+        "path": "IB 数据结构/课件/ch-6.pdf",
+        "bytes": 2315181,
+        "sha": "f111d1bf1e26af89ddd1e8ac663843ec880f315e"
+      },
+      {
+        "path": "IB 数据结构/课件/ch-7.pdf",
+        "bytes": 2776973,
+        "sha": "09f5d26244a2227c06614fd7c54391cff02dd620"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IB 数据结构/21级数据结构实验/tqychy",
+        "url": "https://gitee.com/tqychy/hust_data_structure_homework_experiment.git"
+      }
+    ]
+  },
+  {
+    "id": "probability",
+    "title": "概率论与数理统计",
+    "category": "math",
+    "upstreamPath": "IB 概率论与数理统计",
+    "prerequisites": "微积分与排列组合",
+    "focus": "随机变量、分布、估计与检验",
+    "practice": "用模拟检验大数定律，记录样本量与误差。",
+    "selfstudy": [
+      "数学进阶/CS70.md",
+      "数学进阶/CS126.md"
+    ],
+    "files": [
+      {
+        "path": "IB 概率论与数理统计/复习参考题/课程复习.pptx",
+        "bytes": 673182,
+        "sha": "a1c56a4b379e4d5b5313d22525fadc684f5b45b9"
+      },
+      {
+        "path": "IB 概率论与数理统计/书本/中国科学技术大学 概率论习题课讲义.pdf",
+        "bytes": 1244184,
+        "sha": "3aa6a31cf07a182269a4875380b724d31f899989"
+      },
+      {
+        "path": "IB 概率论与数理统计/复习参考题/概率统计复习.doc",
+        "bytes": 436224,
+        "sha": "420622be36133b0fd1c6c9989127bc029aeb837e"
+      },
+      {
+        "path": "IB 概率论与数理统计/复习参考题/概率论与数理统计公式.docx",
+        "bytes": 1683873,
+        "sha": "a962e991fe9bcf1fb7781c8ba60799f32788ebdd"
+      },
+      {
+        "path": "IB 概率论与数理统计/往年题/2024春概率论（尚）期中考试.pdf",
+        "bytes": 79470,
+        "sha": "36be41e30f4929af7655c5ee0a01d366a7b39f6e"
+      },
+      {
+        "path": "IB 概率论与数理统计/往年题/2021级(一)《概率论与数理统计》试卷(A)参考解答本科(理工类 )DOCX 文档.docx",
+        "bytes": 163252,
+        "sha": "8e862c73031aae5eaf0dadf608efe97160cfa675"
+      },
+      {
+        "path": "IB 概率论与数理统计/往年题/2021级(一)《概率论与数理统计》试卷(A)（本科理工类2021～22学年第2学期）.docx",
+        "bytes": 227114,
+        "sha": "c0ee0259499b6d7b7c0cc050e97ca7a14ddf216d"
+      },
+      {
+        "path": "IB 概率论与数理统计/阿求的概率论与数理统计 I.pdf",
+        "bytes": 1898355,
+        "sha": "144e48446893cbae4763cb5271942db235602348"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "discrete-1",
+    "title": "离散数学(一)",
+    "category": "math",
+    "upstreamPath": "IB 离散数学(一)",
+    "prerequisites": "集合与基本证明",
+    "focus": "集合、关系、图与离散结构",
+    "practice": "为等价关系写出定义、例子和反例。",
+    "selfstudy": [
+      "数学进阶/6.042J.md",
+      "数学进阶/CS70.md"
+    ],
+    "files": [
+      {
+        "path": "IB 离散数学(一)/往年题/期中复习重点.pdf",
+        "bytes": 156685,
+        "sha": "6873d8b0898b6cb60b2ea9f6b5512bc880d74e08"
+      },
+      {
+        "path": "IB 离散数学(一)/ppt/003关系2024.pptx",
+        "bytes": 1340025,
+        "sha": "2c07b62fcab81af68fafbf14dfa8b7ae67257030"
+      },
+      {
+        "path": "IB 离散数学(一)/ppt/009树-20230427.ppt",
+        "bytes": 2524160,
+        "sha": "3b5d6ed4b9df8f387a3da2ca52a090ad56d3d3e2"
+      },
+      {
+        "path": "IB 离散数学(一)/ppt/000-介绍.ppt",
+        "bytes": 2723840,
+        "sha": "596da688524244939d21d5f053192326bdba5d12"
+      },
+      {
+        "path": "IB 离散数学(一)/ppt/001 集合论.ppt",
+        "bytes": 2095104,
+        "sha": "dd8a147417823538b0cdeb1f0a1e67ad61eeee2d"
+      },
+      {
+        "path": "IB 离散数学(一)/ppt/002 集合的运算与分类(改).ppt",
+        "bytes": 3392000,
+        "sha": "d78c14f827d8839ec9cd9ed0e184dbbf7a5bd7fb"
+      },
+      {
+        "path": "IB 离散数学(一)/ppt/004 特殊关系.ppt",
+        "bytes": 1978880,
+        "sha": "8ce5fbfc5d87e2a5da5b1e1f278dbbdd49fae62f"
+      },
+      {
+        "path": "IB 离散数学(一)/ppt/005函数.ppt",
+        "bytes": 1578496,
+        "sha": "8aa944a52c40dc33022437abe2b7e97fcbb0fa16"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "cpp",
+    "title": "C++程序设计",
+    "category": "programming",
+    "upstreamPath": "IIA C++程序设计",
+    "prerequisites": "C 语言",
+    "focus": "对象、资源管理、模板与标准库",
+    "practice": "使用标准容器和 RAII 重写一个 C 小程序。",
+    "selfstudy": [
+      "编程入门/cpp/CS106L.md"
+    ],
+    "files": [
+      {
+        "path": "IIA C++程序设计/C++ 最后整理.docx",
+        "bytes": 28049,
+        "sha": "450a2703da59954d6104041bdfa07bdaac09007e"
+      },
+      {
+        "path": "IIA C++程序设计/C++复习(for sukuna).pdf",
+        "bytes": 3717342,
+        "sha": "45ca275393725e23fbda3357d27346fb83cdec21"
+      },
+      {
+        "path": "IIA C++程序设计/c艹课件/Lambda表达式.pptx",
+        "bytes": 190533,
+        "sha": "327ca7489d90db20478cf950f58bd6441f85174a"
+      },
+      {
+        "path": "IIA C++程序设计/c艹课件/讲课次序10_C++程序设计精要教程-第11章_运算符重载V3.pptx",
+        "bytes": 1239231,
+        "sha": "3bdbfb6ffdb14676dcb0de038a5f024ba86dee3f"
+      },
+      {
+        "path": "IIA C++程序设计/c艹课件/讲课次序11_C++程序设计精要教程-第13章_模板V4.pptx",
+        "bytes": 218472,
+        "sha": "01190c46bcda282bc7e8146d6769561cfffd22e8"
+      },
+      {
+        "path": "IIA C++程序设计/c艹课件/讲课次序12_C++程序设计精要教程-第10章_多重继承V2.pptx",
+        "bytes": 545656,
+        "sha": "fc769fe58c67a0a6a6fe410ced055395d0e25422"
+      },
+      {
+        "path": "IIA C++程序设计/c艹课件/讲课次序13_C++程序设计精要教程-第12章_类型解析转换推导.pptx",
+        "bytes": 511751,
+        "sha": "c80357c637adb2031f57bb8d7efab0718089d9ec"
+      },
+      {
+        "path": "IIA C++程序设计/c艹课件/讲课次序1_C++程序设计精要教程-第1章_引论.pptx",
+        "bytes": 1580838,
+        "sha": "876dc8faad1d9ab153d4bf6017cbe0de043392a1"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "python-practice",
+    "title": "Python 大数据与人工智能实践",
+    "category": "programming",
+    "upstreamPath": "IIA Python 大数据与人工智能实践",
+    "prerequisites": "基本编程",
+    "focus": "Python 数据处理与人工智能实践",
+    "practice": "读取一份小型数据，完成清洗、统计与绘图。",
+    "selfstudy": [
+      "编程入门/Python/CS50P.md",
+      "数据科学/Data100.md"
+    ],
+    "files": [],
+    "projects": [
+      {
+        "path": "IIA Python 大数据与人工智能实践/头歌的作业",
+        "url": "https://gitee.com/tqychy/HUST_python_homework_on_educoder.git"
+      },
+      {
+        "path": "IIA Python 大数据与人工智能实践/大作业",
+        "url": "https://gitee.com/tqychy/python-homework.git"
+      }
+    ]
+  },
+  {
+    "id": "xi-thought",
+    "title": "习思想",
+    "category": "general",
+    "upstreamPath": "IIA 习思想",
+    "prerequisites": "课程导论",
+    "focus": "课程专题与阅读材料",
+    "practice": "结合本学期讲义整理各专题的关键词和出处。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "IIA 习思想/2024-2025秋 习概A卷 回忆版.pdf",
+        "bytes": 262504,
+        "sha": "0c33eaf646fba5844aa0638c68fcb070e62e4814"
+      },
+      {
+        "path": "IIA 习思想/《习概》单选多选混合题库（页面重排） (1).pdf",
+        "bytes": 8549484,
+        "sha": "7adebf24d541a0114ecf9499783cf33a8db568c4"
+      },
+      {
+        "path": "IIA 习思想/习概开卷必带资料(1) (1).pdf",
+        "bytes": 876221,
+        "sha": "788b9b2dd9f088d20a73347830aad08921b636d1"
+      },
+      {
+        "path": "IIA 习思想/习概开卷必带资料(1)_加水印.pdf",
+        "bytes": 1633416,
+        "sha": "62aeef48eb0953091d20e5eedb17f7ce7dc1bcb3"
+      },
+      {
+        "path": "IIA 习思想/习概提纲（重排版+二十大报告） (1).pdf",
+        "bytes": 1207846,
+        "sha": "bf06bac4aff4bc988048a8139c7e7083d716294f"
+      },
+      {
+        "path": "IIA 习思想/习概资料(2).docx",
+        "bytes": 21841,
+        "sha": "76bd803aba7a8f287c66f5af704e50a8d550ac22"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "signals-1",
+    "title": "信号与线性系统",
+    "category": "hardware",
+    "upstreamPath": "IIA 信号与线性系统",
+    "prerequisites": "微积分与复数",
+    "focus": "信号、系统、卷积与频域分析",
+    "practice": "对两个简单离散信号实现卷积并画出结果。",
+    "selfstudy": [
+      "电子基础/signal.md"
+    ],
+    "files": [
+      {
+        "path": "IIA 信号与线性系统/PPT/总复习.pdf",
+        "bytes": 650425,
+        "sha": "b15e07ea40f38bc3e03e243e7f6e64e534d16982"
+      },
+      {
+        "path": "IIA 信号与线性系统/PPT/Lec01-第1章.pdf",
+        "bytes": 1961836,
+        "sha": "60e35d46e940c626e45fddd199b6bb94dacda48b"
+      },
+      {
+        "path": "IIA 信号与线性系统/PPT/Lec02-第2章-1.pdf",
+        "bytes": 2643479,
+        "sha": "807ec8033fe508e39834f976fcd4784c7088c136"
+      },
+      {
+        "path": "IIA 信号与线性系统/PPT/Lec03-第2章-2.pdf",
+        "bytes": 2524041,
+        "sha": "db1654926075e7350b8405967509f54154993670"
+      },
+      {
+        "path": "IIA 信号与线性系统/PPT/Lec04-第3章-1.pdf",
+        "bytes": 3177842,
+        "sha": "8e2178bde1cff5d8eb950aebe1fe4e2223b89c00"
+      },
+      {
+        "path": "IIA 信号与线性系统/PPT/Lec05-第3章-2.pdf",
+        "bytes": 2920781,
+        "sha": "842d63ae753d3a99b4f475532e65fda42c2e3246"
+      },
+      {
+        "path": "IIA 信号与线性系统/PPT/Lec06-第3章-3.pdf",
+        "bytes": 2748945,
+        "sha": "6a60f8162c083385a02964f6b8eba7e92ae5856d"
+      },
+      {
+        "path": "IIA 信号与线性系统/PPT/Lec07-第4章.pdf",
+        "bytes": 860723,
+        "sha": "b47cc41eb2c6a307acb3b1d743a6d4695408408b"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "physics-2",
+    "title": "大学物理（二）",
+    "category": "hardware",
+    "upstreamPath": "IIA 大学物理（二）",
+    "prerequisites": "大学物理与微积分",
+    "focus": "大学物理后续专题",
+    "practice": "选一个电磁学模型，将公式与图像对应起来。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "IIA 大学物理（二）/往年题/2023秋大学物理期末.pdf",
+        "bytes": 7660272,
+        "sha": "5ec760752904f3f9f8ac56ebd10843e68496c116"
+      },
+      {
+        "path": "IIA 大学物理（二）/往年题/2022大学物理（II）-试卷 (1).pdf",
+        "bytes": 404722,
+        "sha": "196861ecada55e7eaa74012f269df6c9d3a2c836"
+      },
+      {
+        "path": "IIA 大学物理（二）/大学物理_下.pdf",
+        "bytes": 73204307,
+        "sha": "b9f58d9430a4799abf4490df1756bb6772fc7fb8"
+      },
+      {
+        "path": "IIA 大学物理（二）/往年题/2017-2018（1）大学物理（二）试卷 (1)(1).pdf",
+        "bytes": 704167,
+        "sha": "ec005241b0aabfc29683a038ffac648ec249d022"
+      },
+      {
+        "path": "IIA 大学物理（二）/往年题/2023秋季大学物理期末答案.pdf",
+        "bytes": 13136334,
+        "sha": "bfcc6d2e52a92b6b71b313c093783fee26631d90"
+      },
+      {
+        "path": "IIA 大学物理（二）/往年题/2011-2023集成电路试卷（含答案）/华中科技大学集成学院大学物理（二）2011 ~ 2012.pdf",
+        "bytes": 4009078,
+        "sha": "89af569ca9d3f357ce5427800c14e554f0bed890"
+      },
+      {
+        "path": "IIA 大学物理（二）/往年题/2011-2023集成电路试卷（含答案）/华中科技大学集成学院大学物理（二）2013 ~ 2014.pdf",
+        "bytes": 7791815,
+        "sha": "fb81d42176d8a1944265575d0f7f018fbd936b56"
+      },
+      {
+        "path": "IIA 大学物理（二）/往年题/2011-2023集成电路试卷（含答案）/华中科技大学集成学院大学物理（二）2014 ~ 2015.pdf",
+        "bytes": 7107758,
+        "sha": "fe2be2b0e909693fca83558dd3e86226d86270e8"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "big-data-intro",
+    "title": "大数据导论",
+    "category": "data",
+    "upstreamPath": "IIA 大数据导论",
+    "prerequisites": "Python 与概率基础",
+    "focus": "数据处理流程与大数据概念",
+    "practice": "写出从原始数据到结果报告的完整流程。",
+    "selfstudy": [
+      "数据科学/Data100.md"
+    ],
+    "files": [],
+    "projects": [
+      {
+        "path": "IIA 大数据导论/大作业",
+        "url": "https://gitee.com/tqychy/big-data-introduction.git"
+      }
+    ]
+  },
+  {
+    "id": "digital-logic",
+    "title": "数字逻辑",
+    "category": "hardware",
+    "upstreamPath": "IIA 数字逻辑",
+    "prerequisites": "二进制表示",
+    "focus": "组合逻辑、时序逻辑与状态机",
+    "practice": "设计一个交通灯状态机，并写出状态转移表。",
+    "selfstudy": [
+      "体系结构/N2T.md",
+      "体系结构/DDCA.md"
+    ],
+    "files": [
+      {
+        "path": "IIA 数字逻辑/2024数电实验交通灯/数字逻辑实验任务书-交通灯设计（学生版）.pdf",
+        "bytes": 175010,
+        "sha": "26e4efb379ed923e1c4cca9391dff14de9eb5a0e"
+      },
+      {
+        "path": "IIA 数字逻辑/数字逻辑复习题.pptx",
+        "bytes": 970941,
+        "sha": "1bff56660deac464e3f1f0d97473d14f7179a092"
+      },
+      {
+        "path": "IIA 数字逻辑/实验三/实验三实验要求.pdf",
+        "bytes": 382912,
+        "sha": "bbace66cd3ed3b916b8c4e5e6cec83c21fc3f343"
+      },
+      {
+        "path": "IIA 数字逻辑/实验二/实验二实验要求.pdf",
+        "bytes": 509653,
+        "sha": "8dc6877c150a02a8a67814531761bbb900810d3f"
+      },
+      {
+        "path": "IIA 数字逻辑/实验五/实验五实验要求.pdf",
+        "bytes": 610517,
+        "sha": "fbfd0cd2fdba8ff0738c0cb2facaf7ebd70d3357"
+      },
+      {
+        "path": "IIA 数字逻辑/实验六/实验六实验要求.pdf",
+        "bytes": 942716,
+        "sha": "db3b1d9e460d742fd706995ee6c365f5ada3bce9"
+      },
+      {
+        "path": "IIA 数字逻辑/实验四/实验四实验要求.pdf",
+        "bytes": 364028,
+        "sha": "18bb96a57ff6718093d6ba6c7105fe48aa5bced0"
+      },
+      {
+        "path": "IIA 数字逻辑/logism整理.docx",
+        "bytes": 464064,
+        "sha": "06f1369e076596659fc1df13dcacb305b915c178"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIA 数字逻辑/21级实验_tqychy",
+        "url": "https://gitee.com/tqychy/digital-circuit-experiment.git"
+      }
+    ]
+  },
+  {
+    "id": "circuits",
+    "title": "电路理论",
+    "category": "hardware",
+    "upstreamPath": "IIA 电路理论",
+    "prerequisites": "微积分与基础物理",
+    "focus": "电路模型、网络分析与动态响应",
+    "practice": "计算并仿真 RC 电路的阶跃响应。",
+    "selfstudy": [
+      "电子基础/EE16.md"
+    ],
+    "files": [
+      {
+        "path": "IIA 电路理论/电路自制复习.md",
+        "bytes": 75715,
+        "sha": "fcfd0fb52c085de0cdc48a35015769e5832f774f"
+      },
+      {
+        "path": "IIA 电路理论/课件/电路理论教学内容2024.pdf",
+        "bytes": 150888,
+        "sha": "85c0fc92cdc4ff02a5e3a7833c9a4e8d90517eb4"
+      },
+      {
+        "path": "IIA 电路理论/课件/电路课件第11章2024.pdf",
+        "bytes": 2680319,
+        "sha": "210ab708ad7318082320b86712b7dbfe9e56ef2e"
+      },
+      {
+        "path": "IIA 电路理论/课件/电路课件第12章2024.pdf",
+        "bytes": 2210228,
+        "sha": "376045f3801efff081f115cd1c33ed149bfa9620"
+      },
+      {
+        "path": "IIA 电路理论/课件/电路课件第13章2024.pdf",
+        "bytes": 1103414,
+        "sha": "7d359f466f751dd37fa23e678d09cf64068fa026"
+      },
+      {
+        "path": "IIA 电路理论/课件/电路课件第14章2024.pdf",
+        "bytes": 1523828,
+        "sha": "a5441bf3ebc4416a22213b376eba6494cdfe7559"
+      },
+      {
+        "path": "IIA 电路理论/课件/电路课件第15章2024.pdf",
+        "bytes": 630876,
+        "sha": "0fadb4753f74d3402838adf517f701fb5b5c0b09"
+      },
+      {
+        "path": "IIA 电路理论/课件/电路课件第一章2024.pdf",
+        "bytes": 1734640,
+        "sha": "9beb9bf9777da583ad64dca89c8acde6db1ffbab"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "discrete-2",
+    "title": "离散数学（二）",
+    "category": "math",
+    "upstreamPath": "IIA 离散数学（二）",
+    "prerequisites": "离散数学基础",
+    "focus": "逻辑、证明、计数与数论",
+    "practice": "为递推式给出归纳证明并写程序验证小规模结果。",
+    "selfstudy": [
+      "数学进阶/6.042J.md",
+      "数学进阶/CS70.md"
+    ],
+    "files": [
+      {
+        "path": "IIA 离散数学（二）/离散二习题整理.docx",
+        "bytes": 1382906,
+        "sha": "93901fba423089a1c39eb810dacc24c3e8e2ee9a"
+      },
+      {
+        "path": "IIA 离散数学（二）/ppt/第1章 逻辑与证明-离散数学.pptx",
+        "bytes": 15117978,
+        "sha": "1d1be057b253a43419f3a3a9599a13085c69f7be"
+      },
+      {
+        "path": "IIA 离散数学（二）/ppt/第2章 计数-离散数学.pptx",
+        "bytes": 16349435,
+        "sha": "96e55fe7f969c3a5e0a2d47b10cdf5f061a35f38"
+      },
+      {
+        "path": "IIA 离散数学（二）/ppt/第3章 高级计数-离散数学.pptx",
+        "bytes": 14999490,
+        "sha": "ca43339c2ebade39a522a2ea1c2c88072bb971ac"
+      },
+      {
+        "path": "IIA 离散数学（二）/ppt/第4章 数论初步及应用-离散数学.pptx",
+        "bytes": 17756079,
+        "sha": "6ad40f54c8e440d2a97bad5b080ffc0e07d2d8d4"
+      },
+      {
+        "path": "IIA 离散数学（二）/课件/000-介绍.ppt",
+        "bytes": 347136,
+        "sha": "b877784430a3b091d36ab5169c902fc057cf7cdb"
+      },
+      {
+        "path": "IIA 离散数学（二）/课件/001 数论和密码学(中文).pptx",
+        "bytes": 2234358,
+        "sha": "bb853a6c5f416996ebbd68c9ebc22cb641414e6b"
+      },
+      {
+        "path": "IIA 离散数学（二）/课件/001 数论和密码学.pptx",
+        "bytes": 2226148,
+        "sha": "31303b7901909acfdfcca48b7b4daabe8508b58f"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "programming-project",
+    "title": "程序设计课设",
+    "category": "practice",
+    "upstreamPath": "IIA 程序设计课设",
+    "prerequisites": "C 语言与数据结构",
+    "focus": "模块设计、SAT 与课程项目",
+    "practice": "把求解器拆成解析、求解、测试三个可独立验证的部分。",
+    "selfstudy": [
+      "数据结构与算法/CS61B.md",
+      "软件工程/6031.md"
+    ],
+    "files": [
+      {
+        "path": "IIA 程序设计课设/参考包/2024年秋-程序设计综合课程设计（2023级）.docx",
+        "bytes": 450821,
+        "sha": "71a38c63cde34e167a316f1e887b436bb7a21dba"
+      },
+      {
+        "path": "IIA 程序设计课设/21级程设 SAT和双数独/2022程序设计综合课程设计报告（大数据2101李嘉鹏） - 打印版.docx",
+        "bytes": 1167954,
+        "sha": "4151a4e34620b2ac0d5f3893753215304490d368"
+      },
+      {
+        "path": "IIA 程序设计课设/21级程设 SAT和双数独/2022程序设计综合课程设计报告（大数据2101李嘉鹏） - 打印版.pdf",
+        "bytes": 1456494,
+        "sha": "b4da0ca11537e7bbe5af1af87a7fa5006153eef8"
+      },
+      {
+        "path": "IIA 程序设计课设/21级程设 SAT和双数独/2022程序设计综合课程设计报告（大数据2101李嘉鹏）.docx",
+        "bytes": 1192003,
+        "sha": "1939ecb484bd4e68fbbfdb08e373d0088ba5fd42"
+      },
+      {
+        "path": "IIA 程序设计课设/21级程设 SAT和双数独/2022程序设计综合课程设计报告（大数据2101李嘉鹏）.pdf",
+        "bytes": 1557823,
+        "sha": "e1a05473e80c0ad66658fb6bab4d023c832e7041"
+      },
+      {
+        "path": "IIA 程序设计课设/课程设计报告.pdf",
+        "bytes": 5322322,
+        "sha": "101c3d849f9d5c781c8fb3f1a78db0319bc80b8c"
+      },
+      {
+        "path": "IIA 程序设计课设/23级程设 SAT和对角线数独/“程序设计”综合课程设计报告.docx",
+        "bytes": 923255,
+        "sha": "10b8e768d9bf004850ca4c079c6b3a9b2c73f885"
+      },
+      {
+        "path": "IIA 程序设计课设/参考包/程序设计综合课程设计报告撰写内容及规范化参考样本.docx",
+        "bytes": 333267,
+        "sha": "8811067a939bc65034889818d59b9931f447b56e"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIA 程序设计课设/高级语言源程序格式处理工具",
+        "url": "https://gitee.com/tqychy/data_structure_work.git"
+      }
+    ]
+  },
+  {
+    "id": "algorithms",
+    "title": "算法设计与分析",
+    "category": "programming",
+    "upstreamPath": "IIA 算法设计与分析",
+    "prerequisites": "数据结构与离散数学",
+    "focus": "分治、贪心、动态规划与图算法",
+    "practice": "给同一问题写暴力和优化版本，用随机小数据交叉检验。",
+    "selfstudy": [
+      "数据结构与算法/6.006.md",
+      "数据结构与算法/6.046.md",
+      "数据结构与算法/CS170.md"
+    ],
+    "files": [
+      {
+        "path": "IIA 算法设计与分析/实验/算法实践任务书与指导说明-2024.pdf",
+        "bytes": 560996,
+        "sha": "bd76d84fdfa196d505d40bd722a075b927a16140"
+      },
+      {
+        "path": "IIA 算法设计与分析/lzp课堂课件/算法设计与分析复习.pdf",
+        "bytes": 351477,
+        "sha": "c8dd87bae9c04e34a31befb87eaa6a5b47cec503"
+      },
+      {
+        "path": "IIA 算法设计与分析/讲义/算法讲义2024 LN1 渐进分析+LN2平铺问题.pdf",
+        "bytes": 2988814,
+        "sha": "8e926509fde15cad524cd87aeeb064b17167f2ba"
+      },
+      {
+        "path": "IIA 算法设计与分析/讲义/算法讲义2024 LN20-22 NP完全性与计算复杂性.pdf",
+        "bytes": 5104426,
+        "sha": "70e5dddc613042f6e4de5913804b7020ea033ef1"
+      },
+      {
+        "path": "IIA 算法设计与分析/讲义/算法讲义2024 LN3 匹配问题.pdf",
+        "bytes": 2713766,
+        "sha": "4d1923bdb5d57274aeceb9236835fff100cb859d"
+      },
+      {
+        "path": "IIA 算法设计与分析/讲义/算法讲义2024 LN4-5 贪心-区间调度.pdf",
+        "bytes": 3655333,
+        "sha": "6a05c00d90cb864dfaa3010edf71c57046f3c192"
+      },
+      {
+        "path": "IIA 算法设计与分析/讲义/算法讲义2024 LN6-8 贪心-MST-并查集.pdf",
+        "bytes": 2786946,
+        "sha": "ff1e2661b025df178f2a21f0d7b36f1ca76a37d2"
+      },
+      {
+        "path": "IIA 算法设计与分析/讲义/算法讲义2024 LN9-12 分治.pdf",
+        "bytes": 4519188,
+        "sha": "b98cd165e17d174f1c310b63fc698b9640b2a177"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIA 算法设计与分析/作业/21 级算法作业_tqychy",
+        "url": "https://gitee.com/tqychy/hust-algorithm-job.git"
+      }
+    ]
+  },
+  {
+    "id": "marxism",
+    "title": "马克思主义原理",
+    "category": "general",
+    "upstreamPath": "IIA 马克思主义原理",
+    "prerequisites": "课程导论",
+    "focus": "马克思主义原理课程专题",
+    "practice": "以课堂问题为线索整理概念之间的联系。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "IIA 马克思主义原理/2024-2025马原期末复习提纲.pptx2024-2025马原期末复习提纲.pdf",
+        "bytes": 971327,
+        "sha": "a82a6ff776df1a850d3739dbf9683ddf277dee15"
+      },
+      {
+        "path": "IIA 马克思主义原理/2024-2025马原期末复习提纲.pptx2024-2025马原期末复习提纲.pptx",
+        "bytes": 217099,
+        "sha": "91220d1ecc74cb0a7c51fda2c77ea932e6def3e8"
+      },
+      {
+        "path": "IIA 马克思主义原理/2024-2025马原复习提纲打印版-losyi.docx",
+        "bytes": 49977,
+        "sha": "df1ecc2e3b523bad04fdb351517801635ba9f3a3"
+      },
+      {
+        "path": "IIA 马克思主义原理/马克思主义原理 复习提纲.pdf",
+        "bytes": 1194783,
+        "sha": "1dce6722f1bc3737ecf32902f09b78a1050f2d20"
+      },
+      {
+        "path": "IIA 马克思主义原理/马原真题整理.docx",
+        "bytes": 9947647,
+        "sha": "be77ec0f784222473bc4d0e31102047f15d3027f"
+      },
+      {
+        "path": "IIA 马克思主义原理/2022-2023A.docx",
+        "bytes": 706378,
+        "sha": "bbf827a828e61dc998b48f2c15354f6bee91be77"
+      },
+      {
+        "path": "IIA 马克思主义原理/2021-2022年.pdf",
+        "bytes": 1322289,
+        "sha": "cff609afa3e0fb02466819e166b9808b1b23ff78"
+      },
+      {
+        "path": "IIA 马克思主义原理/马原2020-2021第一学期B卷.pdf",
+        "bytes": 785943,
+        "sha": "451ef8c584c6faadf41f9658f3523690d5304501"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "logic-computer-design",
+    "title": "（部分专业） 逻辑与计算机设计",
+    "category": "hardware",
+    "upstreamPath": "IIA （部分专业） 逻辑与计算机设计",
+    "prerequisites": "数字逻辑",
+    "focus": "逻辑电路、数据通路与控制",
+    "practice": "为一个简化处理器绘制数据通路并跟踪一条指令。",
+    "selfstudy": [
+      "体系结构/N2T.md",
+      "体系结构/CS61C.md"
+    ],
+    "files": [
+      {
+        "path": "IIA （部分专业） 逻辑与计算机设计/课件/逻辑与计算机系统设计基础  第九章  中央处理器(六)-2025.pdf",
+        "bytes": 4179844,
+        "sha": "987a2bf715642ed88d8ed06ec3b832f5694bc1d2"
+      },
+      {
+        "path": "IIA （部分专业） 逻辑与计算机设计/课件/逻辑与计算机系统设计基础 第五章 运算方法与运算器(三)- 乘法运算-2025.pdf",
+        "bytes": 6922332,
+        "sha": "726db93ea537f23ca55dca96420bb2298014da5d"
+      },
+      {
+        "path": "IIA （部分专业） 逻辑与计算机设计/课件/逻辑与计算机系统设计基础- 第九章 中央处理器(一)-2025.pdf",
+        "bytes": 7708272,
+        "sha": "b378cd6fb3a42be3b600ee58bbe8d864cadbc884"
+      },
+      {
+        "path": "IIA （部分专业） 逻辑与计算机设计/课件/逻辑与计算机系统设计基础- 第九章 中央处理器(三)-2025.pdf",
+        "bytes": 6973067,
+        "sha": "cdc53ba4c58ccb5673929cfba8841da765f5d3ec"
+      },
+      {
+        "path": "IIA （部分专业） 逻辑与计算机设计/课件/逻辑与计算机系统设计基础- 第九章 中央处理器(二)-2025 (1).pdf",
+        "bytes": 3121856,
+        "sha": "1cc4eb72ad32bb11a51bc79d15b37618034433e0"
+      },
+      {
+        "path": "IIA （部分专业） 逻辑与计算机设计/课件/逻辑与计算机系统设计基础- 第九章 中央处理器(二)-2025.pdf",
+        "bytes": 2438127,
+        "sha": "a4923a2bc70964c284cc1eba4e025cf8d2a53558"
+      },
+      {
+        "path": "IIA （部分专业） 逻辑与计算机设计/课件/逻辑与计算机系统设计基础- 第九章 中央处理器(五)-2025.pdf",
+        "bytes": 6489617,
+        "sha": "cb04f30a45f6c9b35d8cd5af82746480957ade39"
+      },
+      {
+        "path": "IIA （部分专业） 逻辑与计算机设计/课件/逻辑与计算机系统设计基础- 第九章 中央处理器(四)- 2025.pdf",
+        "bytes": 30547176,
+        "sha": "1e8cf22b8b8ae13a1ec96233254b6b31d1cd7fa6"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "java",
+    "title": "Java程序设计",
+    "category": "programming",
+    "upstreamPath": "IIB Java程序设计",
+    "prerequisites": "基本编程与数据结构",
+    "focus": "对象、集合、异常与工程结构",
+    "practice": "实现一个带索引的文本检索小程序。",
+    "selfstudy": [
+      "编程入门/Java/MIT 6.092.md",
+      "软件工程/6031.md"
+    ],
+    "files": [
+      {
+        "path": "IIB Java程序设计/复习题汇总.docx",
+        "bytes": 20493,
+        "sha": "ce8f53a513c96f0c5d5897d3a50e48033423c76e"
+      },
+      {
+        "path": "IIB Java程序设计/CSXJ1902+U201913821.doc",
+        "bytes": 1998336,
+        "sha": "fc90b8f199029b7b88d70957d7cc1f628347feea"
+      },
+      {
+        "path": "IIB Java程序设计/作业题汇总.docx",
+        "bytes": 1915655,
+        "sha": "1d21d6b8771c72caaa97913e6165674cdd9d134e"
+      },
+      {
+        "path": "IIB Java程序设计/往年试题/2019-2020第二学期计算机学院《JAVA程序设计》考题（A卷) -最终版.pdf",
+        "bytes": 369185,
+        "sha": "e0553503e5999aefed8a179fe93d26870c000757"
+      },
+      {
+        "path": "IIB Java程序设计/往年试题/2020试卷.pdf",
+        "bytes": 11261136,
+        "sha": "21da8a2364c7b2f8d6f01ee709a719f0523354ff"
+      },
+      {
+        "path": "IIB Java程序设计/往年试题/1.pdf",
+        "bytes": 119840,
+        "sha": "f5305393106ea05601a805af6ddd8a10b8c113c5"
+      },
+      {
+        "path": "IIB Java程序设计/往年试题/2.pdf",
+        "bytes": 207178,
+        "sha": "808fcf6fc85642785b9864ea83ac2315da850aea"
+      },
+      {
+        "path": "IIB Java程序设计/往年试题/3.pdf",
+        "bytes": 286572,
+        "sha": "b36bc52f7e600513323bdcb6e412544fe64057e2"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "verilog",
+    "title": "Verilog程序设计",
+    "category": "hardware",
+    "upstreamPath": "IIB Verilog程序设计",
+    "prerequisites": "数字逻辑",
+    "focus": "模块、时序描述与仿真",
+    "practice": "编写计数器及 testbench，观察复位和溢出波形。",
+    "selfstudy": [
+      "体系结构/DDCA.md"
+    ],
+    "files": [
+      {
+        "path": "IIB Verilog程序设计/Verilog语言笔记.docx",
+        "bytes": 1067085,
+        "sha": "8e3fb27eab9fa34c92af4809078348d9a695b5bd"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "signals-2",
+    "title": "信号与线性系统",
+    "category": "hardware",
+    "upstreamPath": "IIB 信号与线性系统",
+    "prerequisites": "微积分与复数",
+    "focus": "信号处理与线性系统复习",
+    "practice": "对采样信号比较时域和频域表示。",
+    "selfstudy": [
+      "电子基础/signal.md"
+    ],
+    "files": [
+      {
+        "path": "IIB 信号与线性系统/公式整理.md",
+        "bytes": 46267,
+        "sha": "9588e71dac290c9c752a418668e171c328593092"
+      },
+      {
+        "path": "IIB 信号与线性系统/总复习.pdf",
+        "bytes": 666712,
+        "sha": "23be7c2c76955c03106ace9b34bb1d19635c4d04"
+      },
+      {
+        "path": "IIB 信号与线性系统/信号与系统.pdf",
+        "bytes": 10655133,
+        "sha": "7ed7ab4c40e69992ee7e52737d0b0fea47bbceee"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "databases",
+    "title": "数据库系统原理",
+    "category": "systems",
+    "upstreamPath": "IIB 数据库系统原理",
+    "prerequisites": "数据结构与基本编程",
+    "focus": "关系模型、SQL、索引、事务与恢复",
+    "practice": "建立小型选课数据库，比较索引前后的查询计划。",
+    "selfstudy": [
+      "数据库系统/CS186.md",
+      "数据库系统/15445.md"
+    ],
+    "files": [
+      {
+        "path": "IIB 数据库系统原理/数据库实验/202404数据库系统原理实践任务书v2.docx",
+        "bytes": 812126,
+        "sha": "325165cf8789b6a7065dae29386e74893c872fef"
+      },
+      {
+        "path": "IIB 数据库系统原理/2023_by_francis/99 复习(1).ppt",
+        "bytes": 1022976,
+        "sha": "8dd53b54034f3ea5743400fcad04850e7df934d2"
+      },
+      {
+        "path": "IIB 数据库系统原理/markdown整理/整理.md",
+        "bytes": 118102,
+        "sha": "0f5d28bee32839ea99e2a8f97f64c2a8a8068a96"
+      },
+      {
+        "path": "IIB 数据库系统原理/2022级/2024年作业讲解/第一章作业讲解.ppt",
+        "bytes": 193536,
+        "sha": "2b2adaccbaf885999bbe5c8423153db2f61f972e"
+      },
+      {
+        "path": "IIB 数据库系统原理/2022级/2024年作业讲解/第七章作业讲解.ppt",
+        "bytes": 223744,
+        "sha": "d71c3af896f1ed812c1dead98b69c1003ee079a7"
+      },
+      {
+        "path": "IIB 数据库系统原理/2022级/2024年作业讲解/第三章作业讲解.ppt",
+        "bytes": 640512,
+        "sha": "96e9e321de6e5175d237c7d22dc71ea6c44af34e"
+      },
+      {
+        "path": "IIB 数据库系统原理/2022级/2024年作业讲解/第九章习题讲解.ppt",
+        "bytes": 537600,
+        "sha": "f74e0b3ad675a80be4757aae52f7c451741d2476"
+      },
+      {
+        "path": "IIB 数据库系统原理/2022级/2024年作业讲解/第二章作业讲解.pdf",
+        "bytes": 213946,
+        "sha": "7557cdc8977b1f4949bbeda6865c293fc7897224"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIB 数据库系统原理/数据库实验/21级实验_tqychy",
+        "url": "https://gitee.com/tqychy/hust-experiments-on-databases.git"
+      }
+    ]
+  },
+  {
+    "id": "machine-learning",
+    "title": "机器学习",
+    "category": "data",
+    "upstreamPath": "IIB 机器学习",
+    "prerequisites": "线性代数、概率与 Python",
+    "focus": "监督学习、模型评价与优化",
+    "practice": "训练一个线性分类器，分开记录训练与验证误差。",
+    "selfstudy": [
+      "机器学习/CS229.md",
+      "机器学习/CS189.md"
+    ],
+    "files": [
+      {
+        "path": "IIB 机器学习/机器学习导论2025考察题目及评分标准.pdf",
+        "bytes": 137503,
+        "sha": "6d355adb50723503c3beaddb4d8e7e661daac40a"
+      },
+      {
+        "path": "IIB 机器学习/《机器学习导论》大作业报告（losyi）.pdf",
+        "bytes": 943941,
+        "sha": "fc83cf0dce7b7d5b3bf5f81709f998084c9f825c"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIB 机器学习/21级作业_tqychy",
+        "url": "https://gitee.com/tqychy/machine-learning-assignment.git"
+      }
+    ]
+  },
+  {
+    "id": "machine-learning-core",
+    "title": "机器学习（必修课内容）",
+    "category": "data",
+    "upstreamPath": "IIB 机器学习（必修课内容）",
+    "prerequisites": "线性代数、概率与 Python",
+    "focus": "机器学习基础理论与课程练习",
+    "practice": "从零实现梯度下降，并解释学习率对收敛的影响。",
+    "selfstudy": [
+      "机器学习/CS229.md",
+      "机器学习/CS189.md"
+    ],
+    "files": [
+      {
+        "path": "IIB 机器学习（必修课内容）/PPT/01ML_机器学习讲义_1.pdf",
+        "bytes": 3388928,
+        "sha": "96d57e18fb0917c0853a06fd1ad0f7f707ff399c"
+      },
+      {
+        "path": "IIB 机器学习（必修课内容）/PPT/02ML_机器学习讲义_2.pdf",
+        "bytes": 1475530,
+        "sha": "8353eb967044200afd1afd88974dfba433d1e6b1"
+      },
+      {
+        "path": "IIB 机器学习（必修课内容）/PPT/03ML_机器学习讲义_3.pdf",
+        "bytes": 2590024,
+        "sha": "f985efe15a0610f2fd14ccd2f6e5a3499f7acb67"
+      },
+      {
+        "path": "IIB 机器学习（必修课内容）/PPT/04ML_机器学习讲义_4.pdf",
+        "bytes": 1726660,
+        "sha": "fa7d3ec36e0249cce4634cd8753a6edd5739638d"
+      },
+      {
+        "path": "IIB 机器学习（必修课内容）/PPT/05ML_机器学习讲义_5.pdf",
+        "bytes": 1388865,
+        "sha": "fafc7d2e44ee0a0c3a6567b6d167b8b54c215061"
+      },
+      {
+        "path": "IIB 机器学习（必修课内容）/PPT/06ML_机器学习讲义_6.pdf",
+        "bytes": 1179707,
+        "sha": "e51d975c32875a997fefed085f5c38007c5de8f8"
+      },
+      {
+        "path": "IIB 机器学习（必修课内容）/PPT/07ML_机器学习讲义_7.pdf",
+        "bytes": 1614784,
+        "sha": "b36f1fcdc400985b9c1eaa4209b3bbbd8161beb7"
+      },
+      {
+        "path": "IIB 机器学习（必修课内容）/PPT/08ML_机器学习讲义_8.pdf",
+        "bytes": 1339657,
+        "sha": "3330e6bf9f85fc88284e4f837d7ed733424648de"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "mao-theory",
+    "title": "毛泽东思想与中国特色社会主义思想概要",
+    "category": "general",
+    "upstreamPath": "IIB 毛泽东思想与中国特色社会主义思想概要",
+    "prerequisites": "课程导论",
+    "focus": "课程知识体系与专题阅读",
+    "practice": "把课堂专题组织成便于复习的概念索引。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "IIB 毛泽东思想与中国特色社会主义思想概要/20210603毛概复习课.pptx",
+        "bytes": 7253850,
+        "sha": "4739702a597be900f7d1f2bbd6747d82a68b8303"
+      },
+      {
+        "path": "IIB 毛泽东思想与中国特色社会主义思想概要/整理.md",
+        "bytes": 37212,
+        "sha": "730abd9e372c3045e499f01d896f480924e76215"
+      },
+      {
+        "path": "IIB 毛泽东思想与中国特色社会主义思想概要/20210603《毛泽东思想和中国特色社会主义理论体系概论》知识梳理.pdf",
+        "bytes": 810120,
+        "sha": "13aecfc54f71ece7b1a3af60247adebd69ab7e47"
+      },
+      {
+        "path": "IIB 毛泽东思想与中国特色社会主义思想概要/试卷/2021级《概论》B卷(1).pdf",
+        "bytes": 262412,
+        "sha": "51c934098299d82cccd5bea273c884a7b5edd2c7"
+      },
+      {
+        "path": "IIB 毛泽东思想与中国特色社会主义思想概要/试卷/2021级《概论》考试A第二版.doc",
+        "bytes": 103289,
+        "sha": "76a71e608bb31eb88ba3832a65263a38606c8af3"
+      },
+      {
+        "path": "IIB 毛泽东思想与中国特色社会主义思想概要/240628毛概纲要.ver.pdf",
+        "bytes": 1181891,
+        "sha": "d00968098f9a5bca76730ed6c0f120fbb482cd32"
+      },
+      {
+        "path": "IIB 毛泽东思想与中国特色社会主义思想概要/概论练习题（2018.6修订版）最终版0(1).pdf",
+        "bytes": 793608,
+        "sha": "49d4f47c695b8b486678100b36dc1ef9e1ddbfeb"
+      },
+      {
+        "path": "IIB 毛泽东思想与中国特色社会主义思想概要/试卷/2023毛概B参考答案 .pdf",
+        "bytes": 112212,
+        "sha": "365555b70e494acb683a6567b023ee4685edc846"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "assembly",
+    "title": "汇编语言程序设计",
+    "category": "systems",
+    "upstreamPath": "IIB 汇编语言程序设计",
+    "prerequisites": "C 语言与二进制",
+    "focus": "指令、寄存器、栈与调用约定",
+    "practice": "对照 C 与编译后的汇编跟踪一次函数调用。",
+    "selfstudy": [
+      "计算机系统基础/CSAPP.md",
+      "体系结构/CS61C.md"
+    ],
+    "files": [
+      {
+        "path": "IIB 汇编语言程序设计/2021汇编语言考试样卷.pdf",
+        "bytes": 656883,
+        "sha": "4d05cf03d3719a49da1915b7ae940a01b2c9d044"
+      },
+      {
+        "path": "IIB 汇编语言程序设计/汇编语言.pdf",
+        "bytes": 5723142,
+        "sha": "fdb5bcac2d1b11ece60cb04683903b6c790cf1f6"
+      },
+      {
+        "path": "IIB 汇编语言程序设计/2015试卷.docx",
+        "bytes": 494895,
+        "sha": "69643e19b6383b88d2e0b76b16d87740595c97b6"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIB 汇编语言程序设计/21级作业_tqychy",
+        "url": "https://gitee.com/tqychy/assembly-language-assignment.git"
+      },
+      {
+        "path": "IIB 汇编语言程序设计/21级实验_tqychy",
+        "url": "https://gitee.com/tqychy/hust_assembly-language-experiment.git"
+      }
+    ]
+  },
+  {
+    "id": "nlp",
+    "title": "自然语言处理",
+    "category": "data",
+    "upstreamPath": "IIB 自然语言处理",
+    "prerequisites": "Python、概率与机器学习",
+    "focus": "分词、序列建模与语言表示",
+    "practice": "比较词典分词与统计分词在同一组样例上的表现。",
+    "selfstudy": [
+      "深度学习/CS224n.md"
+    ],
+    "files": [
+      {
+        "path": "IIB 自然语言处理/1 自然语言处理_实验任务书-辜希武修订.docx",
+        "bytes": 619177,
+        "sha": "b2b55c49304f7257265f16fc937b845872b78c0b"
+      },
+      {
+        "path": "IIB 自然语言处理/U202315752-陈宇航-本硕博2301-课程报告源码/doc/NLP大作业PPT展示.pptx",
+        "bytes": 4028652,
+        "sha": "ed8baffb12410695312d391af3b54ac6e934563e"
+      },
+      {
+        "path": "IIB 自然语言处理/U202315752-陈宇航-本硕博2301-自然语言处理实验/code_and_dataset/lab1/base_on_dl/README.md",
+        "bytes": 1839,
+        "sha": "72fcc25a2b1242fb922177f08d951041aa84992a"
+      },
+      {
+        "path": "IIB 自然语言处理/U202315752-陈宇航-本硕博2301-自然语言处理实验/code_and_dataset/lab2/lab2/README.md",
+        "bytes": 1789,
+        "sha": "89242c4a40cc85b307952d44ba0a728dd4f65b54"
+      },
+      {
+        "path": "IIB 自然语言处理/U202315752-陈宇航-本硕博2301-课程报告源码/doc/自然语言处理大作业文档.docx",
+        "bytes": 49877,
+        "sha": "c29029eeb320cb10e2ce7ef339516fa31ffda8e6"
+      },
+      {
+        "path": "IIB 自然语言处理/2《自然语言处理》实验报告格式示例（2025版）-辜希武修订.docx",
+        "bytes": 322058,
+        "sha": "5fae4d90818978ca6da5cd92bd5de48085c81408"
+      },
+      {
+        "path": "IIB 自然语言处理/实验报告报告要求及说明-辜希武.docx",
+        "bytes": 17061,
+        "sha": "d034a63ff586ec791ab732dd7041f0a96b53d643"
+      },
+      {
+        "path": "IIB 自然语言处理/课程报告模板 ---参考样例.pdf",
+        "bytes": 1185440,
+        "sha": "7273388378b10698f57e926a63214b27e97ccabe"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "graphics",
+    "title": "计算机图形学",
+    "category": "data",
+    "upstreamPath": "IIB 计算机图形学",
+    "prerequisites": "线性代数与 C++",
+    "focus": "几何变换、光栅化与渲染",
+    "practice": "从三角形开始完成一次模型、视图和投影变换。",
+    "selfstudy": [
+      "计算机图形学/GAMES101.md"
+    ],
+    "files": [
+      {
+        "path": "IIB 计算机图形学/课程PPT/01绪论.pdf",
+        "bytes": 7857707,
+        "sha": "2790b2bbbc141a3a89d171aa20aa68f6400d1359"
+      },
+      {
+        "path": "IIB 计算机图形学/课程PPT/02图形系统.pdf",
+        "bytes": 2586651,
+        "sha": "9e5d4dcdbb41bb8531059ec8e801873538825c77"
+      },
+      {
+        "path": "IIB 计算机图形学/课程PPT/03造型技术2.pdf",
+        "bytes": 4744915,
+        "sha": "3414087dff481dd98d413f19829e83550f4bc19d"
+      },
+      {
+        "path": "IIB 计算机图形学/课程PPT/03造型技术I.pdf",
+        "bytes": 2218095,
+        "sha": "d317187c145b95b1396e02d25af02fd3bdcc6f15"
+      },
+      {
+        "path": "IIB 计算机图形学/课程PPT/04基本图形生成.pdf",
+        "bytes": 1425961,
+        "sha": "ac6638a8b846b38ac284170662885f33098c721b"
+      },
+      {
+        "path": "IIB 计算机图形学/课程PPT/05OpenGL初步.pdf",
+        "bytes": 4778804,
+        "sha": "7a52335ee712faa42bc87c41d2cb2fa0e3362ab4"
+      },
+      {
+        "path": "IIB 计算机图形学/课程PPT/06图形变换.pdf",
+        "bytes": 3559924,
+        "sha": "33b05f883b5f08e825f6f3b68622a9e6ac4709ee"
+      },
+      {
+        "path": "IIB 计算机图形学/课程PPT/07观察变换.pdf",
+        "bytes": 5727847,
+        "sha": "62129c110445f67df279e945d81b629c3bb7272f"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "analog-electronics",
+    "title": "模拟电子技术（历史课程）",
+    "category": "hardware",
+    "upstreamPath": "IIB 计算机已取消——模拟电子技术",
+    "prerequisites": "电路理论",
+    "focus": "模拟电路历史课程资料",
+    "practice": "仿真一个基本放大电路，观察输入与输出。",
+    "selfstudy": [
+      "电子基础/EE16.md"
+    ],
+    "files": [
+      {
+        "path": "IIB 计算机已取消——模拟电子技术/48-模电复习-2021春 - 康.pptx",
+        "bytes": 4927907,
+        "sha": "bb711c7f767d5706265de663b6bd0a757fda2927"
+      },
+      {
+        "path": "IIB 计算机已取消——模拟电子技术/2015试题-模电48学时.pdf",
+        "bytes": 5193942,
+        "sha": "118994d5553c579bf4626359e83131f1ca0e6dfe"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "computer-systems",
+    "title": "计算机系统基础",
+    "category": "systems",
+    "upstreamPath": "IIB 计算机系统基础",
+    "prerequisites": "C 语言与数据结构",
+    "focus": "数据表示、汇编、链接、缓存与进程",
+    "practice": "使用调试器追踪栈帧，再用小程序测量缓存局部性。",
+    "selfstudy": [
+      "计算机系统基础/CSAPP.md"
+    ],
+    "files": [
+      {
+        "path": "IIB 计算机系统基础/2024春csapp experiment by cyh/计算机系统基础实验2024春/实验1/2024年_计算机系统基础_实验任务书_1_数据表示.docx",
+        "bytes": 26323,
+        "sha": "c2bb71d756eda7ff9c525a89d589789af0da664a"
+      },
+      {
+        "path": "IIB 计算机系统基础/2024春csapp experiment by cyh/计算机系统基础实验2024春/实验2/2024年_计算机系统基础_实验任务书_2_二进制程序分析.docx",
+        "bytes": 24023,
+        "sha": "7df201c897798be0a114fda3944e91995c8c6b60"
+      },
+      {
+        "path": "IIB 计算机系统基础/2024春csapp experiment by cyh/计算机系统基础实验2024春/实验3/2024年_计算机系统基础_实验任务书_3_缓冲区溢出攻击.docx",
+        "bytes": 24910,
+        "sha": "3776c33fd65c488b5ffc94aa8a52dbe0619cd3b1"
+      },
+      {
+        "path": "IIB 计算机系统基础/2024春csapp experiment by cyh/计算机系统基础实验2024春/实验4/2024年_计算机系统基础_实验任务书_4_ELF文件与程序链接.docx",
+        "bytes": 24548,
+        "sha": "ab958da466efd2764fa7b79bf1664f42ba7a9b20"
+      },
+      {
+        "path": "IIB 计算机系统基础/2024春csapp experiment by cyh/计算机系统基础实验2024春/实验5/2024年_计算机系统基础_实验任务书_5_ARM指令系统的理解.docx",
+        "bytes": 25610,
+        "sha": "0ac70c923cf9e51dc8671b2f45833c2e019a9163"
+      },
+      {
+        "path": "IIB 计算机系统基础/考试复习题/ICS复习（2024）本硕博(1)(2).pdf",
+        "bytes": 4626160,
+        "sha": "c032250b9fa947172a39d3971b57e66fbb4d5a9d"
+      },
+      {
+        "path": "IIB 计算机系统基础/考试复习题/ICS复习（2022）.docx",
+        "bytes": 29973,
+        "sha": "92eaa977233376b16da21c00072b52c563708c03"
+      },
+      {
+        "path": "IIB 计算机系统基础/markdown整理/整理.md",
+        "bytes": 39485,
+        "sha": "fd7751835c44a53fae18fbc0be1aa8f7d45c26d2"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "computer-organization",
+    "title": "计算机组成原理",
+    "category": "hardware",
+    "upstreamPath": "IIB 计算机组成原理",
+    "prerequisites": "数字逻辑与 C 语言",
+    "focus": "指令系统、CPU、存储层次与 I/O",
+    "practice": "逐周期跟踪一条指令经过数据通路的过程。",
+    "selfstudy": [
+      "体系结构/CS61C.md",
+      "体系结构/N2T.md"
+    ],
+    "files": [
+      {
+        "path": "IIB 计算机组成原理/markdown整理/整理.md",
+        "bytes": 49591,
+        "sha": "315b7a4ea1ff69cf0134e949efda3f2aa7d8046a"
+      },
+      {
+        "path": "IIB 计算机组成原理/往年试卷/2024春季计算机组成原理试卷.pdf",
+        "bytes": 1097687,
+        "sha": "0ed8e14c1044d9a566359d81a64a986d2eb99d14"
+      },
+      {
+        "path": "IIB 计算机组成原理/2022_2023试卷/2022.pdf",
+        "bytes": 1781352,
+        "sha": "8e1ce71263f6aaf13b94779b4ed114940b58527b"
+      },
+      {
+        "path": "IIB 计算机组成原理/2022_2023试卷/2023.pdf",
+        "bytes": 1666018,
+        "sha": "011daad83c1baedd580e4780c0e49c932b7a039f"
+      },
+      {
+        "path": "IIB 计算机组成原理/往年试卷/2023春季计算机组成原理试卷.pdf",
+        "bytes": 922978,
+        "sha": "63be87bd5080cd70ea1e185f3d5619f9db6418de"
+      },
+      {
+        "path": "IIB 计算机组成原理/往年试卷/2022春季计算机组成原理试卷.pdf",
+        "bytes": 926530,
+        "sha": "973563022198a05fb425b322636fda8c5d734bc4"
+      },
+      {
+        "path": "IIB 计算机组成原理/往年试卷/2018.pdf",
+        "bytes": 673777,
+        "sha": "aa9c301786bfb00f02f5b7b09f557748d9704d9f"
+      },
+      {
+        "path": "IIB 计算机组成原理/往年试卷/2017.pdf",
+        "bytes": 564493,
+        "sha": "cea5d5026ffd1faa1e55af5534d9de068725bf97"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIB 计算机组成原理/组原课设小组任务_手写字母识别_tqychy",
+        "url": "https://gitee.com/tqychy/hust-CompositionOfTheComputer-course-design-teamwork.git"
+      }
+    ]
+  },
+  {
+    "id": "software-engineering",
+    "title": "软件工程",
+    "category": "practice",
+    "upstreamPath": "IIB 软件工程",
+    "prerequisites": "一门编程语言与 Git",
+    "focus": "需求、设计、测试与协作",
+    "practice": "把一项需求写成可运行的验收用例。",
+    "selfstudy": [
+      "软件工程/6031.md",
+      "软件工程/CS169.md"
+    ],
+    "files": [
+      {
+        "path": "IIB 软件工程/《软件工程》项目报告撰写内容及规范化参考样本.docx",
+        "bytes": 414671,
+        "sha": "bc1400ab5992519e091cffb139e6ad3fd9d73021"
+      },
+      {
+        "path": "IIB 软件工程/第1讲.软件与软件工程.pdf",
+        "bytes": 4582462,
+        "sha": "7bc8bf7dd6e10c98c19f97caecb9c0576daa6351"
+      },
+      {
+        "path": "IIB 软件工程/软件工程实践课程教案.pdf",
+        "bytes": 480300,
+        "sha": "4732ec1d15c3ff934c4458cca33829ec80c21e3b"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "functional-programming",
+    "title": "函数式编程",
+    "category": "programming",
+    "upstreamPath": "IIIA 函数式编程",
+    "prerequisites": "递归与一门命令式语言",
+    "focus": "模式匹配、高阶函数、类型与归纳",
+    "practice": "用 map、fold 和递归分别处理列表，并说明类型。",
+    "selfstudy": [
+      "编程入门/Functional/CS3110.md"
+    ],
+    "files": [
+      {
+        "path": "IIIA 函数式编程/Lecture 1-函数式编程概述.pdf",
+        "bytes": 2461931,
+        "sha": "b670adf2437b8ca2cdb4e2092845de5f4b242487"
+      },
+      {
+        "path": "IIIA 函数式编程/Lecture 2-ML编程基础.pdf",
+        "bytes": 401669,
+        "sha": "62bd8138c7fd5eee88108d097e7453e1d930fcb5"
+      },
+      {
+        "path": "IIIA 函数式编程/Lecture 3-ML编程基础与进阶.pdf",
+        "bytes": 578010,
+        "sha": "760939995949ee56d5a7933a4ced5778fe5922b7"
+      },
+      {
+        "path": "IIIA 函数式编程/Lecture 4-List结构的编程.pdf",
+        "bytes": 431806,
+        "sha": "2640ae3325a22d9b9c77f95690ad1a6cf5f0ff9b"
+      },
+      {
+        "path": "IIIA 函数式编程/Lecture 5-Tree程序性能分析、类型推导和多态.pdf",
+        "bytes": 456119,
+        "sha": "7447aab0f71ad858e2618cf6f99307760e523a99"
+      },
+      {
+        "path": "IIIA 函数式编程/Lecture 6-高阶函数.pdf",
+        "bytes": 467695,
+        "sha": "354b2024fbf6da41668778dc096c654ffae02a70"
+      },
+      {
+        "path": "IIIA 函数式编程/Lecture 7-函数柯里化及编程实践.pdf",
+        "bytes": 556559,
+        "sha": "b76206937531ce07a10154301b792a031438d940"
+      },
+      {
+        "path": "IIIA 函数式编程/函数式编程实验/exp 1.pptx",
+        "bytes": 95040,
+        "sha": "13264d01c93fdaf62a6d1c82a25777c658e45375"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIIA 函数式编程/21级作业_tqychy",
+        "url": "https://gitee.com/tqychy/hust-functional-programming-assignment.git"
+      },
+      {
+        "path": "IIIA 函数式编程/21级实验_tqychy",
+        "url": "https://gitee.com/tqychy/hust-functional-programming-experiment"
+      }
+    ]
+  },
+  {
+    "id": "big-data-analysis",
+    "title": "大数据分析",
+    "category": "data",
+    "upstreamPath": "IIIA 大数据分析",
+    "prerequisites": "算法、概率与 Python",
+    "focus": "MapReduce、PageRank 与数据分析",
+    "practice": "在小图上实现 PageRank，并检查概率和是否保持为 1。",
+    "selfstudy": [
+      "数据科学/Data100.md"
+    ],
+    "files": [
+      {
+        "path": "IIIA 大数据分析/Experiment1/大数据分析任务书-实验一-mapreduce.docx",
+        "bytes": 55963,
+        "sha": "941052050c72888b4bed232a3dcaf17851535911"
+      },
+      {
+        "path": "IIIA 大数据分析/Experiment2/大数据分析任务书-实验二-pagerank.docx",
+        "bytes": 56363,
+        "sha": "60270bcda22e06c4927285c073d318a9f9ec765b"
+      },
+      {
+        "path": "IIIA 大数据分析/Experiment3/大数据分析任务书-实验三-关系挖掘-最新.docx",
+        "bytes": 54232,
+        "sha": "81c9c06548af459d4b24ddec439c32e3bf5977cd"
+      },
+      {
+        "path": "IIIA 大数据分析/Experiment4/大数据分析任务书-实验四-聚类.docx",
+        "bytes": 81995,
+        "sha": "42bd406654ca009ddecd1a690711c66fa8235aff"
+      },
+      {
+        "path": "IIIA 大数据分析/Experiment5/大数据分析任务书-实验五-大项目.docx",
+        "bytes": 57695,
+        "sha": "aa768b86ff60147ad34ad113e7357dabb3274583"
+      },
+      {
+        "path": "IIIA 大数据分析/README.md",
+        "bytes": 328,
+        "sha": "f08bfa56dbb6eae377361fd7e10bc6302f651e7a"
+      },
+      {
+        "path": "IIIA 大数据分析/Experiment1/code.ipynb",
+        "bytes": 6098,
+        "sha": "b5802fc82fd453faf4286161fc8e4a1e420a76c6"
+      },
+      {
+        "path": "IIIA 大数据分析/Experiment1/实验一报告.pdf",
+        "bytes": 296741,
+        "sha": "48e91fd4dd7e833721015325e9013bc8dc8b9659"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "big-data-processing",
+    "title": "大数据处理",
+    "category": "data",
+    "upstreamPath": "IIIA 大数据处理",
+    "prerequisites": "数据库与基本系统知识",
+    "focus": "大规模数据处理与工程实践",
+    "practice": "记录一项数据处理任务的输入规模、耗时和瓶颈。",
+    "selfstudy": [
+      "数据科学/Data100.md",
+      "并行与分布式系统/MIT6.824.md"
+    ],
+    "files": [
+      {
+        "path": "IIIA 大数据处理/《大数据处理》课程个人报告.pdf",
+        "bytes": 6384665,
+        "sha": "d72137026b6aaf51e18be4da21999c11f26a1c40"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "embedded-1",
+    "title": "嵌入式系统",
+    "category": "hardware",
+    "upstreamPath": "IIIA 嵌入式系统",
+    "prerequisites": "C 语言、组成原理与电路",
+    "focus": "嵌入式开发环境与软硬件接口",
+    "practice": "从串口输出开始，完成一次可复现的外设实验。",
+    "selfstudy": [
+      "体系结构/N2T.md",
+      "体系结构/CS61C.md"
+    ],
+    "files": [
+      {
+        "path": "IIIA 嵌入式系统/华中科技大学 嵌入式系统实验 macos环境.pdf",
+        "bytes": 3677013,
+        "sha": "2bfcab4d5a3e51d8b0d53444fa9ee8c8cde7d4a3"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIIA 嵌入式系统/asterich",
+        "url": "https://github.com/asterich/hust-homework-and-labs/tree/master/labs/%E5%B5%8C%E5%85%A5%E5%BC%8F/lab-2022-st"
+      }
+    ]
+  },
+  {
+    "id": "operating-systems",
+    "title": "操作系统设计原理",
+    "category": "systems",
+    "upstreamPath": "IIIA 操作系统设计原理",
+    "prerequisites": "C 语言、汇编与计算机系统基础",
+    "focus": "进程、同步、虚拟内存与文件系统",
+    "practice": "跟踪一个系统调用，再给教学内核增加一个小功能。",
+    "selfstudy": [
+      "操作系统/MIT6.S081.md",
+      "操作系统/CS162.md",
+      "操作系统/NJUOS.md"
+    ],
+    "files": [
+      {
+        "path": "IIIA 操作系统设计原理/23级作业/第4章.pdf",
+        "bytes": 441214,
+        "sha": "0e8a30a483894d90544a26abfb0a893beeaf5c31"
+      },
+      {
+        "path": "IIIA 操作系统设计原理/23级作业/第5章.pdf",
+        "bytes": 267860,
+        "sha": "07e9973cef27015dbee3b23fcb0f38184c3c3c8c"
+      },
+      {
+        "path": "IIIA 操作系统设计原理/23级作业/第6章.pdf",
+        "bytes": 152355,
+        "sha": "853279b0ac8b19b7ca3a5d8a2c8dd2286769099f"
+      },
+      {
+        "path": "IIIA 操作系统设计原理/23级作业/第7章.pdf",
+        "bytes": 302399,
+        "sha": "a70f563576b62b15a8517e574ce777180319e489"
+      },
+      {
+        "path": "IIIA 操作系统设计原理/23级作业/第8章.pdf",
+        "bytes": 238776,
+        "sha": "1ee4d39379ae97fa7796b05649eae4e2e6854f3c"
+      },
+      {
+        "path": "IIIA 操作系统设计原理/23级作业/第9章.pdf",
+        "bytes": 9150155,
+        "sha": "0e94179b0952ef8642960ab4fc2c627626abc136"
+      },
+      {
+        "path": "IIIA 操作系统设计原理/23级作业/习题答案/第1章习题及答案.docx",
+        "bytes": 40301,
+        "sha": "310a50f2e8cfc59e0bbe8ab65a3b5f60ff273a2a"
+      },
+      {
+        "path": "IIIA 操作系统设计原理/23级作业/习题答案/第2章习题及答案.docx",
+        "bytes": 17142,
+        "sha": "1f4f0d2ce0550b2de3ef53d42211712733a61e90"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIIA 操作系统设计原理/21级作业_tqychy",
+        "url": "https://gitee.com/tqychy/operating-system-assignment.git"
+      },
+      {
+        "path": "IIIA 操作系统设计原理/21级实验_课设_tqychy",
+        "url": "https://gitee.com/tqychy/hust-operating-system-experiment.git"
+      }
+    ]
+  },
+  {
+    "id": "numerical-analysis",
+    "title": "数值分析",
+    "category": "math",
+    "upstreamPath": "IIIA 数值分析",
+    "prerequisites": "微积分与线性代数",
+    "focus": "误差、插值、数值积分与迭代",
+    "practice": "比较两种求根算法的收敛速度和停止条件。",
+    "selfstudy": [
+      "数学进阶/numerical.md"
+    ],
+    "files": [
+      {
+        "path": "IIIA 数值分析/数值分析复习.pdf",
+        "bytes": 15728414,
+        "sha": "13d9813c41814c618455952f16c5c7eeb5d120cc"
+      },
+      {
+        "path": "IIIA 数值分析/样卷.pdf",
+        "bytes": 6949641,
+        "sha": "3bc462c933678642e8ce6847205f2ec0464e1eac"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "hardware-project",
+    "title": "硬件综合课设",
+    "category": "practice",
+    "upstreamPath": "IIIA 硬件综合课设",
+    "prerequisites": "数字逻辑与组成原理",
+    "focus": "硬件综合设计与验证",
+    "practice": "为硬件模块建立输入输出约定和测试波形。",
+    "selfstudy": [
+      "体系结构/DDCA.md",
+      "体系结构/CS61C.md"
+    ],
+    "files": [
+      {
+        "path": "IIIA 硬件综合课设/IE1902_U201913821_硬件综合训练课程设计报告.pdf",
+        "bytes": 4935042,
+        "sha": "1cda816a700a0e0d648528cc21ce82b101317d45"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIIA 硬件综合课设/组原课设",
+        "url": "https://gitee.com/tqychy/hust-hardware-integration-training"
+      },
+      {
+        "path": "IIIA 硬件综合课设/组原课设的小组任务。",
+        "url": "https://gitee.com/tqychy/hust-CompositionOfTheComputer-course-design-teamwork.git"
+      }
+    ]
+  },
+  {
+    "id": "networks",
+    "title": "计算机网络与通信",
+    "category": "systems",
+    "upstreamPath": "IIIA 计算机网络与通信",
+    "prerequisites": "基本编程与操作系统基础",
+    "focus": "分层、路由、可靠传输与拥塞控制",
+    "practice": "解析一次 traceroute 的 ICMP 回包，并画出封装层次。",
+    "selfstudy": [
+      "计算机网络/CS168.md",
+      "计算机网络/CS144.md"
+    ],
+    "files": [
+      {
+        "path": "IIIA 计算机网络与通信/复习题(答案).pptx",
+        "bytes": 1312189,
+        "sha": "b10f21bffe4f6117d28bd699ca200c4d6390c7c2"
+      },
+      {
+        "path": "IIIA 计算机网络与通信/计网总复习.md",
+        "bytes": 49007,
+        "sha": "8679fdcc6cf283f34e16044e4419549f5acc1a98"
+      },
+      {
+        "path": "IIIA 计算机网络与通信/试卷/计算机通信与网络知识点汇总v8.docx",
+        "bytes": 19814,
+        "sha": "5fcfbf870850f9aaf2af8f7b261e1e0dfe0d2e14"
+      },
+      {
+        "path": "IIIA 计算机网络与通信/实验/实验二/可靠传输协议设计.pptx",
+        "bytes": 7255529,
+        "sha": "9289cd4f8036814a20e266f8c40c5a8fdfde82a4"
+      },
+      {
+        "path": "IIIA 计算机网络与通信/试卷/2022级计算机通信与网络A卷试题.pdf",
+        "bytes": 460618,
+        "sha": "67f69eca418b35ce11e1dcdb6a6ab428c2b0be4d"
+      },
+      {
+        "path": "IIIA 计算机网络与通信/试卷/计算机通信与网络A卷试题 - 2022年A卷.pdf",
+        "bytes": 397418,
+        "sha": "972f6dbe7a6e78e9d81d45248b185048027c640f"
+      },
+      {
+        "path": "IIIA 计算机网络与通信/试卷/2021级A卷gpt解答（纠错）.pdf",
+        "bytes": 12801045,
+        "sha": "45befe37308ca10a9d71f0e65fe8472d2097eea9"
+      },
+      {
+        "path": "IIIA 计算机网络与通信/试卷/2021级计算机通信与网络A卷试题.pdf",
+        "bytes": 408749,
+        "sha": "60ec0f36ad3c86f4841f66cc969f1c54d8a38f2a"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIIA 计算机网络与通信/作业",
+        "url": "https://gitee.com/tqychy/hust_computer_network_assignment.git"
+      },
+      {
+        "path": "IIIA 计算机网络与通信/实验/21级实验_tqychy",
+        "url": "https://gitee.com/tqychy/hust_computer_network_experiment"
+      }
+    ]
+  },
+  {
+    "id": "computer-vision",
+    "title": "计算机视觉",
+    "category": "data",
+    "upstreamPath": "IIIA 计算机视觉",
+    "prerequisites": "线性代数、Python 与机器学习",
+    "focus": "视觉特征、识别与模型实验",
+    "practice": "为一个小型视觉任务记录数据划分、指标与错误样例。",
+    "selfstudy": [
+      "深度学习/CS231.md",
+      "深度学习/EECS498-007.md"
+    ],
+    "files": [
+      {
+        "path": "IIIA 计算机视觉/2305.08196.pdf",
+        "bytes": 9042233,
+        "sha": "71afab486b24f7ca66bb9c4a457249d34eb15273"
+      },
+      {
+        "path": "IIIA 计算机视觉/2307.13721.pdf",
+        "bytes": 3852506,
+        "sha": "e295b26f2a18254f9c170664899e86e72e8a1ed2"
+      },
+      {
+        "path": "IIIA 计算机视觉/SAA+.pdf",
+        "bytes": 5580894,
+        "sha": "82afb0c21e4c26f32ef87a5962d971739812d4fb"
+      },
+      {
+        "path": "IIIA 计算机视觉/WS-SAM.pdf",
+        "bytes": 1834580,
+        "sha": "e28e189007fbaa3db1037bb2b1d2ea70fd4035fe"
+      },
+      {
+        "path": "IIIA 计算机视觉/作业-lxz.pdf",
+        "bytes": 1368077,
+        "sha": "0e660a060c5c33dec4591d952d2082308562cdf4"
+      },
+      {
+        "path": "IIIA 计算机视觉/实验一/上机实验一.docx",
+        "bytes": 16076,
+        "sha": "4f39655bccc8974ec7d95fbe9b364e75e689f7d3"
+      },
+      {
+        "path": "IIIA 计算机视觉/实验三/上机实验三.docx",
+        "bytes": 15148,
+        "sha": "cb76c770170debf309016c236ba78d9160ff7128"
+      },
+      {
+        "path": "IIIA 计算机视觉/实验二/上机实验二（更新）.docx",
+        "bytes": 14901,
+        "sha": "6c170eca549c301267946a9804ad1645ed56a842"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIIA 计算机视觉/21级实验_tqychy",
+        "url": "https://gitee.com/tqychy/hust-computer-vision-experiment.git"
+      }
+    ]
+  },
+  {
+    "id": "big-data-algorithms-project",
+    "title": "大数据算法综合实践",
+    "category": "practice",
+    "upstreamPath": "IIIB 大数据算法综合实践",
+    "prerequisites": "算法与数据处理",
+    "focus": "大数据算法综合实现",
+    "practice": "为任务建立简单基线，再用相同输入比较改进。",
+    "selfstudy": [
+      "数据结构与算法/CS170.md",
+      "数据科学/Data100.md"
+    ],
+    "files": [
+      {
+        "path": "IIIB 大数据算法综合实践/大数据算法综合实践-任务书(1).pdf",
+        "bytes": 180420,
+        "sha": "dd5afa406c7054a998f22a3a18dd2d9bb4f87cb3"
+      },
+      {
+        "path": "IIIB 大数据算法综合实践/大数据算法综合实践-任务书.pdf",
+        "bytes": 386570,
+        "sha": "1904f58a32b3416920c26dc5d5eb59ba75165d14"
+      },
+      {
+        "path": "IIIB 大数据算法综合实践/README.md",
+        "bytes": 279,
+        "sha": "fd4b3dfe75a9e82e31f3fe48f0b6da371d8db64e"
+      },
+      {
+        "path": "IIIB 大数据算法综合实践/大数据算法综合实践报告-大数据2101班-李嘉鹏-U202115652.pdf",
+        "bytes": 1610555,
+        "sha": "79eee09aa3457ef9a5958eb65695d2bb72c675c5"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "embedded-2",
+    "title": "嵌入式系统",
+    "category": "hardware",
+    "upstreamPath": "IIIB 嵌入式系统",
+    "prerequisites": "C 语言与组成原理",
+    "focus": "嵌入式系统课程实践",
+    "practice": "整理开发板、工具链、烧录与调试的可复现步骤。",
+    "selfstudy": [
+      "体系结构/CS61C.md"
+    ],
+    "files": [],
+    "projects": []
+  },
+  {
+    "id": "parallel-computing",
+    "title": "并行计算",
+    "category": "systems",
+    "upstreamPath": "IIIB 并行计算",
+    "prerequisites": "C/C++、体系结构与算法",
+    "focus": "任务划分、并行性能与同步",
+    "practice": "测量串行和并行版本的耗时，并报告加速比。",
+    "selfstudy": [
+      "并行与分布式系统/CS149.md"
+    ],
+    "files": [],
+    "projects": [
+      {
+        "path": "IIIB 并行计算/asterich-2021",
+        "url": "https://github.com/asterich/hust-homework-and-labs/tree/master/labs/%E5%B9%B6%E8%A1%8C%E8%AE%A1%E7%AE%97/parallel_computing_lab"
+      }
+    ]
+  },
+  {
+    "id": "reinforcement-learning",
+    "title": "强化学习",
+    "category": "data",
+    "upstreamPath": "IIIB 强化学习",
+    "prerequisites": "概率、机器学习与 Python",
+    "focus": "决策过程、价值函数与策略学习",
+    "practice": "在小型离散环境中实现 Q-learning，绘制回报曲线。",
+    "selfstudy": [
+      "深度学习/CS285.md"
+    ],
+    "files": [
+      {
+        "path": "IIIB 强化学习/RL任务书.docx",
+        "bytes": 63561,
+        "sha": "1dbcf74fe3d28c387e6460ce7e01c1644a7cac9e"
+      },
+      {
+        "path": "IIIB 强化学习/README.md",
+        "bytes": 4546,
+        "sha": "1370ecd9e799d349d35404442a7bc5f3726dbcdf"
+      },
+      {
+        "path": "IIIB 强化学习/exp1/README.md",
+        "bytes": 3360,
+        "sha": "a6a821cec820814bdcc6aa143574e535299e776b"
+      },
+      {
+        "path": "IIIB 强化学习/exp2/README.md",
+        "bytes": 3278,
+        "sha": "2615fa2da26033d490a085860f17331017fd824f"
+      },
+      {
+        "path": "IIIB 强化学习/exp3/README.md",
+        "bytes": 3158,
+        "sha": "70b3f0ab1889f361db3dcb681276a5f16fafffcc"
+      },
+      {
+        "path": "IIIB 强化学习/exp4/README.md",
+        "bytes": 3852,
+        "sha": "aac602546bb4e11080af8564b76e5df5ac1adf28"
+      },
+      {
+        "path": "IIIB 强化学习/exp5/README.md",
+        "bytes": 3503,
+        "sha": "beb4dd3084ee1fe0df7428027e8c4a48dbad2f4a"
+      },
+      {
+        "path": "IIIB 强化学习/exp6/README.md",
+        "bytes": 2929,
+        "sha": "8eb73862d922a85866642bfde787c33d483f7918"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "image-processing",
+    "title": "数字图像处理",
+    "category": "data",
+    "upstreamPath": "IIIB 数字图像处理",
+    "prerequisites": "线性代数与 Python",
+    "focus": "滤波、变换、图像增强与分析",
+    "practice": "实现均值和高斯滤波，比较边缘细节的变化。",
+    "selfstudy": [
+      "深度学习/CS231.md"
+    ],
+    "files": [
+      {
+        "path": "IIIB 数字图像处理/202009_图像处理实验_内容.pdf",
+        "bytes": 417205,
+        "sha": "691ba5927eab28239a2512badcfedead8fcafb5e"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "data-visualization",
+    "title": "数据可视化技术",
+    "category": "data",
+    "upstreamPath": "IIIB 数据可视化技术",
+    "prerequisites": "Python 与基本统计",
+    "focus": "数据表达、图表设计与交互",
+    "practice": "为同一组数据选择两种图形并解释各自的信息重点。",
+    "selfstudy": [
+      "数据科学/Data100.md"
+    ],
+    "files": [
+      {
+        "path": "IIIB 数据可视化技术/实验二/pyecharts.pptx",
+        "bytes": 1902253,
+        "sha": "93a2f730651d500113a508a49b37866e421521c5"
+      },
+      {
+        "path": "IIIB 数据可视化技术/实验一/实验一代码与结果-大数据2101班-李嘉鹏-U202115652.docx",
+        "bytes": 742538,
+        "sha": "4a19515d1213d818067ef6089f043307fc28eba8"
+      },
+      {
+        "path": "IIIB 数据可视化技术/实验一/实验一代码与结果-大数据2101班-李嘉鹏-U202115652.pdf",
+        "bytes": 753042,
+        "sha": "b51d1beae619b59ecf4aa00c03ff0148b29932da"
+      },
+      {
+        "path": "IIIB 数据可视化技术/实验二/实验二代码与结果-大数据2101班-李嘉鹏-U202115652.docx",
+        "bytes": 1372645,
+        "sha": "c892959b4b8b4b51981f53d75d01efa657525b58"
+      },
+      {
+        "path": "IIIB 数据可视化技术/实验二/实验二代码与结果-大数据2101班-李嘉鹏-U202115652.pdf",
+        "bytes": 1197458,
+        "sha": "efb7528a753123246973f381c814ebeff02d2a88"
+      },
+      {
+        "path": "IIIB 数据可视化技术/实验三/大数据2101-U202115652-李嘉鹏-可视化实验报告.doc",
+        "bytes": 2783232,
+        "sha": "e4606aba83447a3d7eb8d845496ea3c61b28f5c5"
+      },
+      {
+        "path": "IIIB 数据可视化技术/实验三/大数据2101-U202115652-李嘉鹏-可视化实验报告.pdf",
+        "bytes": 1998276,
+        "sha": "1ae60925c975ca473d63d54653bab2eb2e9a3e01"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "compilers",
+    "title": "编译原理",
+    "category": "systems",
+    "upstreamPath": "IIIB 编译原理",
+    "prerequisites": "数据结构、汇编与形式语言",
+    "focus": "词法、语法、语义、中间表示与代码生成",
+    "practice": "从表达式解析开始，逐步生成能运行的目标程序。",
+    "selfstudy": [
+      "编译原理/PKU-Compilers.md",
+      "编译原理/CS143.md"
+    ],
+    "files": [
+      {
+        "path": "IIIB 编译原理/编译原理复习提纲.pptx",
+        "bytes": 1080618,
+        "sha": "174d18e5313febfef0e10ddd110d32a426469192"
+      },
+      {
+        "path": "IIIB 编译原理/编译原理复习.pdf",
+        "bytes": 12463183,
+        "sha": "69523466911fe22c6df3844a748b2d5f32f45bff"
+      },
+      {
+        "path": "IIIB 编译原理/编译原理知识点整理.md",
+        "bytes": 87824,
+        "sha": "d18aa761b0b598b3526cfdecba2fa876017bdb03"
+      },
+      {
+        "path": "IIIB 编译原理/试卷/2024编译原理.pdf",
+        "bytes": 576308,
+        "sha": "b2f4b6459d279f2511f6707c5728899796c4d5ec"
+      },
+      {
+        "path": "IIIB 编译原理/试卷/2023编译原理.pdf",
+        "bytes": 814475,
+        "sha": "514f8a4e8206f25358b8c60f0940a267febfa34f"
+      },
+      {
+        "path": "IIIB 编译原理/试卷/2022编译原理.pdf",
+        "bytes": 610471,
+        "sha": "f89d520e4337bf08ecab3433f05e50663fde76fc"
+      },
+      {
+        "path": "IIIB 编译原理/试卷/2021编译原理.pdf",
+        "bytes": 609256,
+        "sha": "6c0f0d503157133018f8d152a008846154f3eaff"
+      },
+      {
+        "path": "IIIB 编译原理/试卷/2020编译原理.pdf",
+        "bytes": 970995,
+        "sha": "0e71f5ee3a44c4deb0e060feb937073ec5fb9aac"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIIB 编译原理/21级作业_tqychy",
+        "url": "https://gitee.com/tqychy/hust-compilation-principles-assignment.git"
+      },
+      {
+        "path": "IIIB 编译原理/21级实验_tqychy",
+        "url": "https://gitee.com/tqychy/compilation-principle-experiments.git"
+      }
+    ]
+  },
+  {
+    "id": "nlp-core",
+    "title": "自然语言处理（必修）",
+    "category": "data",
+    "upstreamPath": "IIIB 自然语言处理（必修）",
+    "prerequisites": "机器学习与 Python",
+    "focus": "中文处理、序列模型与语言模型实践",
+    "practice": "为分词或实体识别建立一个可重复的评价流程。",
+    "selfstudy": [
+      "深度学习/CS224n.md"
+    ],
+    "files": [
+      {
+        "path": "IIIB 自然语言处理（必修）/docs/official/natural-language-processing/自然语言处理_实验任务书.docx",
+        "bytes": 620785,
+        "sha": "806320801877e7f4b225de8979e12cc7edbe8803"
+      },
+      {
+        "path": "IIIB 自然语言处理（必修）/README.md",
+        "bytes": 5687,
+        "sha": "5ed9011164a39ab2e5c8006449f346458ebe371c"
+      },
+      {
+        "path": "IIIB 自然语言处理（必修）/3 实验室3-从零开始的LLM构建/README.md",
+        "bytes": 1351,
+        "sha": "29a84966cb28eeea480c68921dd6849097204391"
+      },
+      {
+        "path": "IIIB 自然语言处理（必修）/data/README.md",
+        "bytes": 1735,
+        "sha": "4eec59bf5672525f6590a431aa6bdf28667cedef"
+      },
+      {
+        "path": "IIIB 自然语言处理（必修）/1 实验室1-中文分词源码/2 基于深度学习版 （Bi-LSTM+CRF）/README.md",
+        "bytes": 1839,
+        "sha": "72fcc25a2b1242fb922177f08d951041aa84992a"
+      },
+      {
+        "path": "IIIB 自然语言处理（必修）/1 实验室1-中文分词源码/my_bert/README.md",
+        "bytes": 1527,
+        "sha": "7b7c8f8685447fdcdb082558409a032e47ce4af5"
+      },
+      {
+        "path": "IIIB 自然语言处理（必修）/2 实验室2-中文命名实体识别源码/my_bert_ner/README.md",
+        "bytes": 1440,
+        "sha": "daf0a862c242bcbb74e3fa70cc3345ef19531472"
+      },
+      {
+        "path": "IIIB 自然语言处理（必修）/2 实验室2-中文命名实体识别源码/实验二NER_基于深度学习版（Bi-LSTM+CRF）(1)/README.md",
+        "bytes": 1867,
+        "sha": "8cbd8058b96cc3acaed64713f7d631a943c9ca81"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "architecture",
+    "title": "计算机系统结构",
+    "category": "hardware",
+    "upstreamPath": "IIIB 计算机系统结构",
+    "prerequisites": "组成原理与计算机系统基础",
+    "focus": "流水线、缓存、并行性与性能分析",
+    "practice": "用小型模拟器比较不同缓存参数的缺失率。",
+    "selfstudy": [
+      "体系结构/CA.md",
+      "体系结构/CS61C.md"
+    ],
+    "files": [
+      {
+        "path": "IIIB 计算机系统结构/系统结构知识点整理.md",
+        "bytes": 128972,
+        "sha": "1612422ccd94ac5d7067940493f02a24ee0fd281"
+      },
+      {
+        "path": "IIIB 计算机系统结构/作业习题参考答案.pptx",
+        "bytes": 1931510,
+        "sha": "5d3b837e377c50ce3b957c3a5d5e3d63ff5435ed"
+      },
+      {
+        "path": "IIIB 计算机系统结构/习题课20250424_2.pdf",
+        "bytes": 1614675,
+        "sha": "48783fd91aa286f21b40b2ea32d17f5a5995c9db"
+      },
+      {
+        "path": "IIIB 计算机系统结构/cache实验/计算机系统结构实验.pdf",
+        "bytes": 524368,
+        "sha": "bc8ac794e9ae9b1d70050e638e804145fcd7fae6"
+      },
+      {
+        "path": "IIIB 计算机系统结构/《计算机系统结构》2020春季A卷V2.0 自制答案.pdf",
+        "bytes": 353314,
+        "sha": "140e609b319d5211a94ae0d834839014ce4eaefb"
+      },
+      {
+        "path": "IIIB 计算机系统结构/计算机系统结构实验报告模板.docx",
+        "bytes": 57996,
+        "sha": "153a5a7d2e99a1372f3d5e5ad7a7bf0f8adacff1"
+      }
+    ],
+    "projects": [
+      {
+        "path": "IIIB 计算机系统结构/21级作业_tqychy",
+        "url": "https://gitee.com/tqychy/hust-computer-system-achitecture-assignment.git"
+      },
+      {
+        "path": "IIIB 计算机系统结构/21级实验_tqychy",
+        "url": "https://gitee.com/tqychy/computer-system-architecture-experiment"
+      }
+    ]
+  },
+  {
+    "id": "big-data-systems-project",
+    "title": "大数据系统综合实践",
+    "category": "practice",
+    "upstreamPath": "IVA 大数据系统综合实践",
+    "prerequisites": "数据库、网络与系统基础",
+    "focus": "大数据系统综合开发",
+    "practice": "写出系统组件、数据流和一条完整的复现命令。",
+    "selfstudy": [
+      "并行与分布式系统/MIT6.824.md",
+      "数据库系统/15445.md"
+    ],
+    "files": [
+      {
+        "path": "IVA 大数据系统综合实践/大数据系统综合实践-任务书.pdf",
+        "bytes": 592272,
+        "sha": "bcff164ee02e6d88cf81421580f8f876b2f61bc8"
+      },
+      {
+        "path": "IVA 大数据系统综合实践/实验报告-大数据2101-李嘉鹏.pdf",
+        "bytes": 936992,
+        "sha": "d8c607453e92117c5d2e2d77d02f415750a8a15d"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "social-networks",
+    "title": "社会网络与计算",
+    "category": "data",
+    "upstreamPath": "IVA 社会网络与计算",
+    "prerequisites": "图论、概率与 Python",
+    "focus": "图数据与社会网络分析",
+    "practice": "比较一个网络的度分布、聚类系数和中心性。",
+    "selfstudy": [
+      "深度学习/CS224w.md"
+    ],
+    "files": [
+      {
+        "path": "IVA 社会网络与计算/课件-社会网络与计算.zip",
+        "bytes": 17778959,
+        "sha": "5a959b8a3c3d2606a4a50e91f1f264665278c913"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "systems-practice",
+    "title": "系统能力培养",
+    "category": "practice",
+    "upstreamPath": "IVA 系统能力培养",
+    "prerequisites": "数据库、操作系统与 C/C++",
+    "focus": "数据库管理系统的综合实现",
+    "practice": "沿 DBMS 项目的运行说明执行一条查询，跟踪解析、执行与存储模块。",
+    "selfstudy": [
+      "数据库系统/15445.md",
+      "数据库系统/CS186.md"
+    ],
+    "files": [],
+    "projects": [
+      {
+        "path": "IVA 系统能力培养/DBMS",
+        "url": "https://gitee.com/tqychy/system-capability-develope.git"
+      }
+    ]
+  },
+  {
+    "id": "modeling",
+    "title": "MCM_ICM2022_C_Finalist（美赛F奖代码论文）",
+    "category": "practice",
+    "upstreamPath": "特——MCM_ICM2022_C_Finalist（美赛F奖代码论文）",
+    "prerequisites": "数学、统计与 Python",
+    "focus": "数学建模与论文表达",
+    "practice": "从假设、模型、验证和局限四部分复现一个结果。",
+    "selfstudy": [
+      "数据科学/Data100.md"
+    ],
+    "files": [
+      {
+        "path": "特——MCM_ICM2022_C_Finalist（美赛F奖代码论文）/2214695.pdf",
+        "bytes": 1915958,
+        "sha": "204577ca43e8cda907642a168a990c9e47034417"
+      },
+      {
+        "path": "特——MCM_ICM2022_C_Finalist（美赛F奖代码论文）/LSTM.ipynb",
+        "bytes": 22231,
+        "sha": "c4a94308ff2f4bf67643264b212c0635233055f8"
+      },
+      {
+        "path": "特——MCM_ICM2022_C_Finalist（美赛F奖代码论文）/LinearRegression.ipynb",
+        "bytes": 201569,
+        "sha": "4e287476bce207f3a057fdc5be40ba3286645a01"
+      },
+      {
+        "path": "特——MCM_ICM2022_C_Finalist（美赛F奖代码论文）/buy.ipynb",
+        "bytes": 1743881,
+        "sha": "361ca97b777e473ba95da29ca6d410ab51a9e37b"
+      },
+      {
+        "path": "特——MCM_ICM2022_C_Finalist（美赛F奖代码论文）/dataProcess.ipynb",
+        "bytes": 400922,
+        "sha": "2abbce0ca7de094deb0396639fb7864b24a6d45a"
+      },
+      {
+        "path": "特——MCM_ICM2022_C_Finalist（美赛F奖代码论文）/dataProcess1.ipynb",
+        "bytes": 2155826,
+        "sha": "bf73e292905b30e91007402feb863b845bd59efa"
+      },
+      {
+        "path": "特——MCM_ICM2022_C_Finalist（美赛F奖代码论文）/plot.ipynb",
+        "bytes": 78764,
+        "sha": "0892d24ab990d168eff987d7c026e6c0e8019aef"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "information-theory",
+    "title": "信息论",
+    "category": "math",
+    "upstreamPath": "特——信息论",
+    "prerequisites": "概率论",
+    "focus": "熵、编码与信道",
+    "practice": "计算小型离散信源的熵并比较编码长度。",
+    "selfstudy": [
+      "数学基础/information.md"
+    ],
+    "files": [
+      {
+        "path": "特——信息论/信息论个人复习 (1).pdf",
+        "bytes": 11363291,
+        "sha": "06695739f942d85a3d90d52087ed6be31efd0b86"
+      },
+      {
+        "path": "特——信息论/第2章 离散信源熵  (1).pdf",
+        "bytes": 12406657,
+        "sha": "d9835ac8a006df07390f791c022432a676195f38"
+      },
+      {
+        "path": "特——信息论/第3章 无失真离散信源编码-新版.pdf",
+        "bytes": 6815580,
+        "sha": "7413b5f521f3b64174dec7d43cc3cb8242477a4e"
+      },
+      {
+        "path": "特——信息论/第4章 离散信道容量.pdf",
+        "bytes": 16847974,
+        "sha": "055f1458be8e88b1b5244f2b80190e04d416c1b7"
+      },
+      {
+        "path": "特——信息论/第5章 纠错编码(1).pdf",
+        "bytes": 3762213,
+        "sha": "40bb2412c141034aee5549b2dfb76975544a19d8"
+      },
+      {
+        "path": "特——信息论/信息论习题和答案.pdf",
+        "bytes": 55385755,
+        "sha": "c970c102d218e3027e37951a88458269e1d90715"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "kunpeng",
+    "title": "华为基于鲲鹏的即时交流平台开发及调优",
+    "category": "practice",
+    "upstreamPath": "特——华为基于鲲鹏的即时交流平台开发及调优",
+    "prerequisites": "Linux、数据库与网络",
+    "focus": "服务部署、迁移与性能调优",
+    "practice": "记录环境版本、部署命令和优化前后的测量结果。",
+    "selfstudy": [
+      "编程入门/MIT-Missing-Semester.md"
+    ],
+    "files": [
+      {
+        "path": "特——华为基于鲲鹏的即时交流平台开发及调优/关卡1：部署MySQL、Nginx、Hadoop和Hive_v1.1.pdf",
+        "bytes": 1678411,
+        "sha": "76ef26fe392a35d0b901cb7d9637d3ca87708c0c"
+      },
+      {
+        "path": "特——华为基于鲲鹏的即时交流平台开发及调优/关卡2：基于鲲鹏代码迁移工具的源码迁移_v1.0.pdf",
+        "bytes": 700521,
+        "sha": "4740857832a729c9b0d0d3371f99cad872be62cf"
+      },
+      {
+        "path": "特——华为基于鲲鹏的即时交流平台开发及调优/关卡3：部署并实现鲲鹏即时交流平台_v1.0.pdf",
+        "bytes": 835239,
+        "sha": "e2e1895dd2689bb0cccbf971d23126a2947259ec"
+      },
+      {
+        "path": "特——华为基于鲲鹏的即时交流平台开发及调优/关卡4：基于Hive的数据处理_v1.0.pdf",
+        "bytes": 874053,
+        "sha": "fc709951fe1979169ffc034e3c4564e3be03dab6"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "ascend",
+    "title": "华为昇腾企业课",
+    "category": "practice",
+    "upstreamPath": "特——华为昇腾企业课",
+    "prerequisites": "Python 与机器学习",
+    "focus": "昇腾平台实践与模型开发",
+    "practice": "先验证一个小模型的输入、输出和运行环境。",
+    "selfstudy": [
+      "机器学习系统/AICS.md",
+      "机器学习系统/MLC.md"
+    ],
+    "files": [
+      {
+        "path": "特——华为昇腾企业课/README.md",
+        "bytes": 10067,
+        "sha": "0e263cd709a26d48ed43c2357b29efecf54d246a"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "qiming-exam",
+    "title": "启明入学考试",
+    "category": "campus",
+    "upstreamPath": "特——启明入学考试",
+    "prerequisites": "高中数学与英语",
+    "focus": "启明选拔资料与经验",
+    "practice": "按拟申请方向整理考试信息、阅读材料和准备记录。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "特——启明入学考试/2024启明综合.pdf",
+        "bytes": 117870,
+        "sha": "8ae5879cf30c3c77928ad69d5555a014632f110a"
+      },
+      {
+        "path": "特——启明入学考试/2024启明英语.pdf",
+        "bytes": 61324,
+        "sha": "8a24941b68418c9cd469207c071ec02bfdcbdb66"
+      },
+      {
+        "path": "特——启明入学考试/2024启明面试.pdf",
+        "bytes": 302633,
+        "sha": "4dd908231fcea8ce15f86ab5c702566056fb40cb"
+      },
+      {
+        "path": "特——启明入学考试/启明数学合集__重制版2024_2014_.pdf",
+        "bytes": 856916,
+        "sha": "402f239980f7e99a306cbf2937555bda5645c95f"
+      },
+      {
+        "path": "特——启明入学考试/2023启明综合.pdf",
+        "bytes": 134145,
+        "sha": "03f407287528e86f45fbeb8c12fac896fb83c74b"
+      },
+      {
+        "path": "特——启明入学考试/启明数学合集__重制版2023_2014_.pdf",
+        "bytes": 747721,
+        "sha": "8bea7646b1b263df2b4dddc80484a7aa63b9d9e2"
+      },
+      {
+        "path": "特——启明入学考试/附件1.2023级各类实验班学生拟录取名单（20230910）.docx",
+        "bytes": 38398,
+        "sha": "69a96185e4a8e95386ebbddacf786894ac9c73ec"
+      },
+      {
+        "path": "特——启明入学考试/启明数学2022.pdf",
+        "bytes": 94355,
+        "sha": "e7dd175b03695fd0bb3fac60a403b5ff659f159d"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "competitions",
+    "title": "竞赛指南",
+    "category": "campus",
+    "upstreamPath": "特——竞赛指南",
+    "prerequisites": "基本编程",
+    "focus": "竞赛信息与准备经验",
+    "practice": "选择一项比赛，写出题目、时间安排和最小作品。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "特——竞赛指南/双创中心竞赛讲座PPT_tqychy.pdf",
+        "bytes": 3055330,
+        "sha": "2221e52c5d444e6a7e59194237fc0a162f4437fb"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "college-reference",
+    "title": "计算机学院参考文件",
+    "category": "campus",
+    "upstreamPath": "特——计算机学院参考文件",
+    "prerequisites": "个人培养方案",
+    "focus": "专业分流、培养资料与学院文档",
+    "practice": "找到自己年级和专业的培养方案，整理选课清单。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "特——计算机学院参考文件/ppt模版/华科模板1.pptx",
+        "bytes": 24560641,
+        "sha": "208a4de5dff7ad958b9250b58acb03fb730fe848"
+      },
+      {
+        "path": "特——计算机学院参考文件/ppt模版/华科模板10.pptx",
+        "bytes": 3807050,
+        "sha": "42bfb51c4159b7c525da875225d21f7416d244bf"
+      },
+      {
+        "path": "特——计算机学院参考文件/ppt模版/华科模板11.pptx",
+        "bytes": 8654016,
+        "sha": "ab5506854eaa4d137e1e97aa9c257c3b7cac2223"
+      },
+      {
+        "path": "特——计算机学院参考文件/ppt模版/华科模板12.pptx",
+        "bytes": 16025551,
+        "sha": "fa61a456157779d68222e49d6e6ce5e0b4f15292"
+      },
+      {
+        "path": "特——计算机学院参考文件/ppt模版/华科模板13.pptx",
+        "bytes": 24078531,
+        "sha": "c66cf8bde0806234855bbc33b0cd368238b6703d"
+      },
+      {
+        "path": "特——计算机学院参考文件/ppt模版/华科模板2.pptx",
+        "bytes": 19515142,
+        "sha": "59305d365b1d30d0222a8bc10d8305aa3485fa94"
+      },
+      {
+        "path": "特——计算机学院参考文件/ppt模版/华科模板3.pptx",
+        "bytes": 8951549,
+        "sha": "bb7a99de3e0f7eddafc3b72119217b765396e67d"
+      },
+      {
+        "path": "特——计算机学院参考文件/ppt模版/华科模板4.pptx",
+        "bytes": 21575653,
+        "sha": "0c9e70f04433cd54ef10adc8643be8b0adb773d0"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "major-transfer",
+    "title": "转专业联考",
+    "category": "campus",
+    "upstreamPath": "特——转专业联考",
+    "prerequisites": "数学与英语",
+    "focus": "转专业资料与准备经验",
+    "practice": "按学校当年通知整理报名条件、科目和时间。",
+    "selfstudy": [],
+    "files": [
+      {
+        "path": "特——转专业联考/2019-2024转专业考试报录比（备份版）.docx",
+        "bytes": 61567,
+        "sha": "592acac37c2f45102db19a560c40681012941839"
+      },
+      {
+        "path": "特——转专业联考/2024年转专业数学试题与参考思路.pdf",
+        "bytes": 122349,
+        "sha": "568105be04cf7861a7385fdafc53f23fe29e80d0"
+      },
+      {
+        "path": "特——转专业联考/2024转专业英语试题回忆版.pdf",
+        "bytes": 33493,
+        "sha": "008d914c38919f3a159a017583bfad6ab576f500"
+      },
+      {
+        "path": "特——转专业联考/2023年转专业英语试题回忆版.pdf",
+        "bytes": 75545,
+        "sha": "fcdc55ad0ab53e269674bda854eac73ec66eb775"
+      },
+      {
+        "path": "特——转专业联考/2023年转专业试题—官方解析版.pdf",
+        "bytes": 424541,
+        "sha": "de188164a3d259b70fccf6aa36496e20f863f31a"
+      },
+      {
+        "path": "特——转专业联考/华中科技大学 2023 级本科生转专业联合考试.pdf",
+        "bytes": 398534,
+        "sha": "b2bdd42f58e80643f4d2a35c23773e69bf5c3c11"
+      },
+      {
+        "path": "特——转专业联考/华中科技大学2022转专业考试数学.pdf",
+        "bytes": 176835,
+        "sha": "cc77fe4fdb48abb9f4e2f8a09ee2690e64e3fc2f"
+      },
+      {
+        "path": "特——转专业联考/转专业统一考试指南（2022版）.docx",
+        "bytes": 368047,
+        "sha": "b6f37c431c199dd2b42a698ba688eefaf487c6b9"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "security-math",
+    "title": "（网安专业）信息安全数学基础",
+    "category": "advanced",
+    "upstreamPath": "特——（网安专业）信息安全数学基础",
+    "prerequisites": "离散数学与概率",
+    "focus": "数论、代数与信息安全基础",
+    "practice": "实现模幂和扩展欧几里得算法，验证小规模样例。",
+    "selfstudy": [
+      "数学进阶/CS70.md",
+      "系统安全/CS161.md"
+    ],
+    "files": [
+      {
+        "path": "特——（网安专业）信息安全数学基础/2020信息安全数学基础A.docx",
+        "bytes": 66617,
+        "sha": "ca370db7ac732319e5410f01484a60336cc79477"
+      },
+      {
+        "path": "特——（网安专业）信息安全数学基础/2019信息安全数学基础试题A.docx",
+        "bytes": 70615,
+        "sha": "1d221dd1c1fdae4ee16d3aaf097f79b98f08a265"
+      },
+      {
+        "path": "特——（网安专业）信息安全数学基础/2018信息安全数学基础试题A.docx",
+        "bytes": 74046,
+        "sha": "0483196b3fa17b90a14eb85917884fff58a45c14"
+      },
+      {
+        "path": "特——（网安专业）信息安全数学基础/2017信息安全数学基础试题A.docx",
+        "bytes": 68564,
+        "sha": "e43de00e8d02c82d82a5264ae0c61b7e1671aa91"
+      },
+      {
+        "path": "特——（网安专业）信息安全数学基础/2016信息安全数学基础试题A.docx",
+        "bytes": 77036,
+        "sha": "927bbee51aaeb085cd0a416400d09b6aef2735e6"
+      },
+      {
+        "path": "特——（网安专业）信息安全数学基础/2015信息安全数学基础试题A.docx",
+        "bytes": 68083,
+        "sha": "2fe52fbb50ae137de830a43b46a07c7d07ae5be5"
+      },
+      {
+        "path": "特——（网安专业）信息安全数学基础/2020信息安全数学基础A - 参考答案.docx",
+        "bytes": 80305,
+        "sha": "cf0d9c22bc03107c58421264859406fec5372c97"
+      },
+      {
+        "path": "特——（网安专业）信息安全数学基础/2016信息安全数学基础试题A -答案.docx",
+        "bytes": 95311,
+        "sha": "d966df68706987b90b41023ba85bba40f01ef172"
+      }
+    ],
+    "projects": []
+  },
+  {
+    "id": "matrix-theory",
+    "title": "矩阵论",
+    "category": "advanced",
+    "upstreamPath": "研——矩阵论",
+    "prerequisites": "线性代数",
+    "focus": "矩阵分析与进阶代数",
+    "practice": "比较特征值分解与奇异值分解的适用条件。",
+    "selfstudy": [
+      "数学基础/MITLA.md",
+      "数学进阶/convex.md"
+    ],
+    "files": [
+      {
+        "path": "研——矩阵论/2020年 2 拷贝.pdf",
+        "bytes": 2313527,
+        "sha": "1fd2702e09b902e29f94c830974b3fc7f2d6aa28"
+      },
+      {
+        "path": "研——矩阵论/2020年矩阵论试题.pdf",
+        "bytes": 268941,
+        "sha": "5ef7d66396737ba72a40d8b39c4c9bf1ba7d9dbd"
+      },
+      {
+        "path": "研——矩阵论/2000-2009年.pdf",
+        "bytes": 6636078,
+        "sha": "1cbbfc2ceb765170dbcf4da3ce16270a704e5600"
+      },
+      {
+        "path": "研——矩阵论/2019年矩阵论试题.pdf",
+        "bytes": 347719,
+        "sha": "0d3f55243194fbacc4516af1f0d72a6e4e122b2c"
+      },
+      {
+        "path": "研——矩阵论/2018年矩阵论试题.pdf",
+        "bytes": 413934,
+        "sha": "071c087a62252a9a8827e6135c03052220aa3c43"
+      },
+      {
+        "path": "研——矩阵论/2017年矩阵论试题.pdf",
+        "bytes": 588341,
+        "sha": "2416ae460c43a098471474298051129a7acddb43"
+      },
+      {
+        "path": "研——矩阵论/2016年矩阵论试题.pdf",
+        "bytes": 705805,
+        "sha": "85ca841204086c63e100be892ca1c55d0ee23997"
+      },
+      {
+        "path": "研——矩阵论/2015年矩阵论试题/2015年矩阵论样题.pdf",
+        "bytes": 412180,
+        "sha": "e2e9787bd9ebbe1fe76dd7e79895684d125cf034"
+      }
+    ],
+    "projects": []
+  }
+]

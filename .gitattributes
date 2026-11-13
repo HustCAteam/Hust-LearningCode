@@ -1,0 +1,8 @@
+# Small learning materials are stored as ordinary Git objects for direct Pages downloads.
+* text=auto
+*.pdf -text -filter -diff -merge
+*.zip -text -filter -diff -merge
+*.doc -text -filter -diff -merge
+*.docx -text -filter -diff -merge
+*.ppt -text -filter -diff -merge
+*.pptx -text -filter -diff -merge

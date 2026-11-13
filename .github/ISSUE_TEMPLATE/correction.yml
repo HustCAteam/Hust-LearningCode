@@ -1,0 +1,23 @@
+name: 改进内容或链接
+description: 分享使用资料时发现的问题和更清楚的解释。
+title: "[改进] "
+body:
+  - type: input
+    id: page
+    attributes:
+      label: 页面或资料链接
+      description: 填写需要更新的页面、文件或课程名称。
+    validations:
+      required: true
+  - type: textarea
+    id: improvement
+    attributes:
+      label: 希望改进的内容
+      description: 可以补充错误位置、推导过程、新链接或适用版本。
+    validations:
+      required: true
+  - type: input
+    id: credit
+    attributes:
+      label: 希望展示的署名
+      description: 留下你希望使用的名字，我们会认真记录这次补充。

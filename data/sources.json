@@ -1,0 +1,41 @@
+{
+  "checkedAt": "2026-11-13",
+  "hust": {
+    "repository": "SukunaShinmyoumaru-hust/Hust-opensource-Xuejie",
+    "ref": "4a710e81d217c0b30e6968224bb953d11b0aca36",
+    "branch": "main",
+    "directoryCount": 74
+  },
+  "csdiy": {
+    "repository": "pkuflyingpig/cs-self-learning",
+    "ref": "2c591834a1e4101e2e7579dc7f49bdeb4a6153a2",
+    "branch": "master"
+  },
+  "curriculum": [
+    {
+      "year": 2026,
+      "url": "https://cs.hust.edu.cn/info/1076/6346.htm"
+    },
+    {
+      "year": 2025,
+      "url": "https://cs.hust.edu.cn/info/1076/5608.htm"
+    },
+    {
+      "year": 2024,
+      "url": "https://cs.hust.edu.cn/info/1076/4512.htm"
+    },
+    {
+      "year": 2023,
+      "url": "https://cs.hust.edu.cn/info/1076/3376.htm"
+    }
+  ],
+  "qq": {
+    "status": "curated",
+    "downloadedCount": 50,
+    "importedCount": 49,
+    "linkedShareCount": 2,
+    "omittedAfterReadingCount": 1,
+    "observedFileCount": 173,
+    "candidateCount": 52
+  }
+}

@@ -1,0 +1,43 @@
+name: 分享或改进学习资料
+description: 补充课程资料、学习经验，或更新已有条目。
+title: "[资料] "
+body:
+  - type: input
+    id: course
+    attributes:
+      label: 课程 / 专题
+      description: 填写课程名称；已有课程也可填写 data/courses.json 中的 id。
+    validations:
+      required: true
+  - type: textarea
+    id: resource
+    attributes:
+      label: 资料与用途
+      description: 请提供原文件或可访问的链接，介绍内容、适用版本和学习用途。
+    validations:
+      required: true
+  - type: input
+    id: original-name
+    attributes:
+      label: 原始文件名
+      description: 原名帮助我们与来源记录对应。
+  - type: input
+    id: author
+    attributes:
+      label: 作者与来源
+      description: 请填写已知的作者、原始发布地址或课程页面。
+  - type: input
+    id: uploader
+    attributes:
+      label: 群文件上传者与上传日期
+      description: 来自群文件的资料请保留页面显示的上传者和 YYYY-MM-DD 日期。
+  - type: input
+    id: credit
+    attributes:
+      label: 整理者署名
+      description: 填写你希望公开展示的名字。
+  - type: textarea
+    id: context
+    attributes:
+      label: 使用环境与补充说明
+      description: 可以补充适用班级、软件版本、使用经验，以及希望保留的来源和署名。

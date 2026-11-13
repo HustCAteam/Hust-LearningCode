@@ -1,0 +1,16 @@
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+docs/public/materials/
+inbox/
+.local/
+HANDOFF.md
+*.log
+.DS_Store
+__pycache__/
+*.pyc
+~$*
+*.part
+*.crdownload
+.env
+.env.*

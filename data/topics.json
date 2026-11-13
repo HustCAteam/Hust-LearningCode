@@ -1,0 +1,72 @@
+[
+  {
+    "id": "mcs51",
+    "title": "51 单片机入门与外设实验",
+    "category": "hardware",
+    "focus": "MCS-51 结构、汇编与 C 语言、定时中断、串口和外设实验",
+    "prerequisites": "C 语言、二进制与基本电路知识",
+    "practice": "按课件顺序完成数码管、键盘、定时器、串口、DS1302 与 EEPROM 实验，记录接线和调试过程。",
+    "selfstudy": [],
+    "files": [],
+    "projects": [],
+    "upstreamPath": null,
+    "localOnly": true,
+    "storageDirectory": "009-嵌入式与单片机"
+  },
+  {
+    "id": "hustca",
+    "title": "华科计算机协会与学码群",
+    "category": "campus",
+    "focus": "协会介绍、社团参与和群友交流资料",
+    "prerequisites": "带着兴趣和想做的小项目",
+    "practice": "从一次分享、一份笔记或一个小工具开始，与感兴趣的同学一起动手。",
+    "selfstudy": [],
+    "files": [],
+    "projects": [],
+    "upstreamPath": null,
+    "localOnly": true,
+    "storageDirectory": "A-计算机协会"
+  },
+  {
+    "id": "network-certification",
+    "title": "网络技术与等级考试练习",
+    "category": "systems",
+    "focus": "三级网络技术与四级网络工程师的知识整理和练习",
+    "prerequisites": "计算机网络基础、操作系统基础",
+    "practice": "先梳理协议分层、地址规划和路由，再结合题目检查知识点；报考安排从当期考试公告查看。",
+    "selfstudy": [],
+    "files": [],
+    "projects": [],
+    "upstreamPath": null,
+    "localOnly": true,
+    "storageDirectory": "005-计算机网络"
+  },
+  {
+    "id": "postgraduate-408",
+    "title": "408 综合复习",
+    "category": "campus",
+    "focus": "数据结构、计算机组成、操作系统和计算机网络的综合练习",
+    "prerequisites": "完成四门基础课程的第一轮学习",
+    "practice": "按题目记录涉及的知识点、推导过程和易错步骤，再回到对应课程补足理解。",
+    "selfstudy": [],
+    "files": [],
+    "projects": [],
+    "upstreamPath": null,
+    "localOnly": true,
+    "storageDirectory": "014-课程与校园资料"
+  },
+  {
+    "id": "programming-languages",
+    "title": "类型系统与形式化验证分享",
+    "category": "programming",
+    "focus": "双向类型检查、归纳与共归纳及形式化验证",
+    "prerequisites": "函数式编程、离散数学和逻辑推理",
+    "practice": "跟随讲义实现小型类型检查器，写出判断规则和证明步骤。",
+    "selfstudy": [],
+    "files": [],
+    "projects": [],
+    "upstreamPath": null,
+    "localOnly": true,
+    "storageDirectory": "008-编译原理"
+  }
+]
