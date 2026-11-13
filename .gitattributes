@@ -1,5 +1,8 @@
 # Small learning materials are stored as ordinary Git objects for direct Pages downloads.
 * text=auto
+# Archive digests describe exact file bytes, including source line endings.
+[0-9][0-9][0-9]-*/*/*/* -text
+A-*/*/*/* -text
 *.pdf -text -filter -diff -merge
 *.zip -text -filter -diff -merge
 *.doc -text -filter -diff -merge
