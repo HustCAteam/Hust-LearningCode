@@ -1,0 +1,1323 @@
+{
+  "counts": {
+    "materials": 125,
+    "books": 53,
+    "topics": 25,
+    "contributors": 29
+  },
+  "categories": [
+    {
+      "id": "languages",
+      "label": "编程语言",
+      "topics": [
+        {
+          "id": "c",
+          "title": "C 语言",
+          "description": "表达式、控制流、数组、指针与内存",
+          "count": 23
+        },
+        {
+          "id": "cpp",
+          "title": "C++ 与面向对象",
+          "description": "对象、资源管理、模板与标准库",
+          "count": 16
+        },
+        {
+          "id": "java",
+          "title": "Java",
+          "description": "对象、集合、异常与工程结构",
+          "count": 5
+        },
+        {
+          "id": "python-basics",
+          "title": "Python",
+          "description": "Python 数据模型、容器、迭代器、函数与协程",
+          "count": 1
+        },
+        {
+          "id": "functional-programming",
+          "title": "函数式编程与 OCaml",
+          "description": "模式匹配、高阶函数、类型与归纳",
+          "count": 1
+        },
+        {
+          "id": "programming-languages",
+          "title": "程序语言与类型系统",
+          "description": "双向类型检查、归纳与共归纳及形式化验证",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "algorithms",
+      "label": "算法与数学",
+      "topics": [
+        {
+          "id": "data-structures",
+          "title": "数据结构",
+          "description": "线性表、树、图与复杂度",
+          "count": 16
+        },
+        {
+          "id": "algorithms",
+          "title": "算法与程序设计竞赛",
+          "description": "分治、贪心、动态规划与图算法",
+          "count": 11
+        },
+        {
+          "id": "discrete-1",
+          "title": "离散数学与数学阅读",
+          "description": "集合、关系、图与离散结构",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "systems",
+      "label": "系统与网络",
+      "topics": [
+        {
+          "id": "computer-systems",
+          "title": "计算机系统与 Linux",
+          "description": "数据表示、汇编、链接、缓存与进程",
+          "count": 2
+        },
+        {
+          "id": "operating-systems",
+          "title": "操作系统",
+          "description": "进程、同步、虚拟内存与文件系统",
+          "count": 5
+        },
+        {
+          "id": "networks",
+          "title": "计算机网络",
+          "description": "分层、路由、可靠传输与拥塞控制",
+          "count": 5
+        },
+        {
+          "id": "databases",
+          "title": "数据库",
+          "description": "关系模型、SQL、索引、事务与恢复",
+          "count": 1
+        },
+        {
+          "id": "compilers",
+          "title": "编译原理",
+          "description": "词法、语法、语义、中间表示与代码生成",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "hardware",
+      "label": "硬件与底层",
+      "topics": [
+        {
+          "id": "mcs51",
+          "title": "51 单片机",
+          "description": "MCS-51 结构、汇编与 C 语言、定时中断、串口和外设实验",
+          "count": 10
+        },
+        {
+          "id": "plc",
+          "title": "PLC 与控制实践",
+          "description": "PLC 硬件、梯形图、定时器、顺序控制和通信",
+          "count": 1
+        },
+        {
+          "id": "computer-organization",
+          "title": "计算机组成",
+          "description": "指令系统、CPU、存储层次与 I/O",
+          "count": 1
+        },
+        {
+          "id": "architecture",
+          "title": "处理器与体系结构",
+          "description": "流水线、缓存、并行性与性能分析",
+          "count": 3
+        },
+        {
+          "id": "assembly",
+          "title": "汇编与调用约定",
+          "description": "指令、寄存器、栈与调用约定",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "id": "practice",
+      "label": "工程与项目",
+      "topics": [
+        {
+          "id": "software-engineering",
+          "title": "软件工程与代码设计",
+          "description": "需求、设计、测试与协作",
+          "count": 3
+        },
+        {
+          "id": "programming-project",
+          "title": "软件课程设计",
+          "description": "模块设计、SAT 与课程项目",
+          "count": 1
+        },
+        {
+          "id": "competitions",
+          "title": "竞赛与项目分享",
+          "description": "竞赛信息与准备经验",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "id": "community",
+      "label": "考试与社群",
+      "topics": [
+        {
+          "id": "network-certification",
+          "title": "网络等级考试",
+          "description": "三级网络技术与四级网络工程师的知识整理和练习",
+          "count": 8
+        },
+        {
+          "id": "postgraduate-408",
+          "title": "408 复习",
+          "description": "数据结构、计算机组成、操作系统和计算机网络的综合练习",
+          "count": 1
+        },
+        {
+          "id": "hustca",
+          "title": "华科计算机协会",
+          "description": "协会介绍、社团参与和群友交流资料",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "materials": [
+    {
+      "id": "mcs51-aa1bb27f188d",
+      "route": "group/mcs51/files/aa1bb27f188d",
+      "title": "01 · MCS-51 单片机结构",
+      "description": "79 页讲义，从嵌入式系统与计算机基本结构讲起，介绍 MCS-51 的存储器、寄存器、引脚和片内资源。",
+      "course": "mcs51",
+      "kind": "slides",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "mcs51-383bf773ada0",
+      "route": "group/mcs51/files/383bf773ada0",
+      "title": "02 · 51 单片机汇编指令与程序设计",
+      "description": "70 页讲义，包含寻址方式、数据传送、算术与逻辑运算、控制转移和位操作，适合配合小程序逐条观察寄存器变化。",
+      "course": "mcs51",
+      "kind": "slides",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "mcs51-b6e77f9c167e",
+      "route": "group/mcs51/files/b6e77f9c167e",
+      "title": "03 · 51 单片机实验板与 GPIO",
+      "description": "17 页实验讲义，介绍实验板、GPIO 跑马灯、延时计算与交通灯练习，连接 Keil 仿真和实板调试。",
+      "course": "mcs51",
+      "kind": "slides",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "mcs51-731a28428469",
+      "route": "group/mcs51/files/731a28428469",
+      "title": "04 · 并口与数码管显示实验",
+      "description": "26 页讲义，介绍四组并行接口、七段数码管、位选与段选，包含静态和动态显示的接线及程序。",
+      "course": "mcs51",
+      "kind": "slides",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "mcs51-d40435eb07e1",
+      "route": "group/mcs51/files/d40435eb07e1",
+      "title": "05 · 键盘与数码管实验",
+      "description": "17 页讲义，回顾 Keil 调试、单片机开发环境和数码管驱动，继续完成键盘扫描与显示实验。",
+      "course": "mcs51",
+      "kind": "slides",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "mcs51-2766a0b8a8d8",
+      "route": "group/mcs51/files/2766a0b8a8d8",
+      "title": "06 · DS1302 实时时钟程序设计",
+      "description": "26 页讲义，介绍 RTC、DS1302 命令字与寄存器、串行读写时序，以及 C51 中的时钟访问程序。",
+      "course": "mcs51",
+      "kind": "slides",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "mcs51-a1db3c97b71d",
+      "route": "group/mcs51/files/a1db3c97b71d",
+      "title": "07 · 中断与定时计数器：汇编语言",
+      "description": "29 页讲义，包含中断源、向量地址、控制寄存器、定时计数器及汇编程序练习。",
+      "course": "mcs51",
+      "kind": "slides",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "mcs51-d5e366c0b4d7",
+      "route": "group/mcs51/files/d5e366c0b4d7",
+      "title": "08 · 中断与定时计数器：C51",
+      "description": "9 页讲义，介绍 C51 的 interrupt 与 using 声明、中断服务函数和显示中断次数的程序示例。",
+      "course": "mcs51",
+      "kind": "slides",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "mcs51-1d2fbcfe32cc",
+      "route": "group/mcs51/files/1d2fbcfe32cc",
+      "title": "09 · RS-232 串行接口与软件设计",
+      "description": "53 页讲义，介绍 RS-232、异步串行通信、实验板串口和串口调试工具，连接接口原理与数据收发程序。",
+      "course": "mcs51",
+      "kind": "slides",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "mcs51-32f08e75054c",
+      "route": "group/mcs51/files/32f08e75054c",
+      "title": "10 · I²C 与串行 EEPROM",
+      "description": "38 页讲义，介绍两线总线、主从通信、仲裁、时序和串行 EEPROM 访问。",
+      "course": "mcs51",
+      "kind": "slides",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "c-72fc59701830",
+      "route": "group/c/files/72fc59701830",
+      "title": "C 语言程序设计考前解题笔记",
+      "description": "围绕华科 C 语言试题整理数组指针、表达式计算和程序阅读的解题过程。",
+      "course": "c",
+      "kind": "notes",
+      "contributor": "23-电信-星云"
+    },
+    {
+      "id": "c-9ed3905dd3e6",
+      "route": "group/c/files/9ed3905dd3e6",
+      "title": "电信学院 2019 级 C 语言试题 A：参考答案",
+      "description": "2019 级《计算机与程序设计基础（C）》试题与参考答案，卷面日期 2020-01-06，包含判断、表达式、程序阅读和编程题。",
+      "course": "c",
+      "kind": "exercise",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "c-00ada5b7d6a0",
+      "route": "group/c/files/00ada5b7d6a0",
+      "title": "电信学院 2019 级 C 语言试题 A",
+      "description": "2019 级《计算机与程序设计基础（C）》试题 A，卷面日期 2020-01-06，可先独立练习，再查看同目录参考答案。",
+      "course": "c",
+      "kind": "exercise",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "c-158b50506a67",
+      "route": "group/c/files/158b50506a67",
+      "title": "2019—2020 第一学期 C 语言参考答案",
+      "description": "2019—2020 第一学期参考答案，包含表达式、程序改错、简答与编程题评分要点。",
+      "course": "c",
+      "kind": "exercise",
+      "contributor": "[    ]"
+    },
+    {
+      "id": "c-9b33b24aa2df",
+      "route": "group/c/files/9b33b24aa2df",
+      "title": "2020 秋 C 语言期末试题 A",
+      "description": "2020—2021 第一学期试题，卷面考试日期 2021-01-08，包含表达式计算、改错、简答与程序设计。",
+      "course": "c",
+      "kind": "exercise",
+      "contributor": "[    ]"
+    },
+    {
+      "id": "c-d3705d641f99",
+      "route": "group/c/files/d3705d641f99",
+      "title": "2019 秋 C 语言期末参考答案 A",
+      "description": "2019—2020 第一学期参考答案，包含表达式、改错、简答与编程题评分要点。",
+      "course": "c",
+      "kind": "exercise",
+      "contributor": "[    ]"
+    },
+    {
+      "id": "cpp-855e7e05a848",
+      "route": "group/cpp/files/855e7e05a848",
+      "title": "2021 秋 C++ 程序设计期末试题 A",
+      "description": "2021—2022 第一学期试卷，卷面日期 2021-12-11，3 页横向扫描图对应 6 页纸质试卷，包含类型、重载、继承和程序设计。",
+      "course": "cpp",
+      "kind": "exercise",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "c-2125cc4de349",
+      "route": "group/c/files/2125cc4de349",
+      "title": "C 语言模拟试题一：含答案",
+      "description": "12 页模拟练习，覆盖基础类型、表达式、数组、指针、程序阅读与编程，可分题型检查掌握情况。",
+      "course": "c",
+      "kind": "exercise",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "cpp-20abefbdd117",
+      "route": "group/cpp/files/20abefbdd117",
+      "title": "面向对象程序设计模拟试题：含答案",
+      "description": "5 页练习与答案，包含 cv 限定、引用、继承访问权限和面向对象程序阅读。",
+      "course": "cpp",
+      "kind": "exercise",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "c-943e44617c30",
+      "route": "group/c/files/943e44617c30",
+      "title": "2015 春 C 语言试卷 A：评分标准",
+      "description": "2014—2015 第二学期 C 语言考试的参考答案与评分要点，配合历史题目观察基础知识的考查方式。",
+      "course": "c",
+      "kind": "exercise",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "cpp-f1ce9a71402a",
+      "route": "group/cpp/files/f1ce9a71402a",
+      "title": "2020 秋 C++ 程序设计期末试题 A：含答案",
+      "description": "2020—2021 第一学期试题与答案，卷面日期 2020-11-14，包含类型、引用、继承权限和程序设计。",
+      "course": "cpp",
+      "kind": "exercise",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "c-0e8f68dad94e",
+      "route": "group/c/files/0e8f68dad94e",
+      "title": "2015 春 C 语言试卷 A：含部分答案",
+      "description": "2014—2015 第二学期试卷，卷面日期 2015-06-25，正文保留部分选择题答案，可与评分标准配合练习。",
+      "course": "c",
+      "kind": "exercise",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "network-certification-88fab2f65a08",
+      "route": "group/network-certification/files/88fab2f65a08",
+      "title": "四级网络工程师：考试内容整理",
+      "description": "按操作系统原理和计算机网络梳理复习范围，包含进程线程、存储、文件系统、网络规划和协议知识。",
+      "course": "network-certification",
+      "kind": "guide",
+      "contributor": "23机械海臻黎"
+    },
+    {
+      "id": "network-certification-6d55eb5a81e5",
+      "route": "group/network-certification/files/6d55eb5a81e5",
+      "title": "四级网络工程师知识点",
+      "description": "按操作系统与计算机网络两部分整理进程、内存、协议、安全与网络管理知识，适合配合课程复习。",
+      "course": "network-certification",
+      "kind": "notes",
+      "contributor": "23机械海臻黎"
+    },
+    {
+      "id": "operating-systems-bbbd74891d46",
+      "route": "group/operating-systems/files/bbbd74891d46",
+      "title": "银行家算法：安全序列例题",
+      "description": "从资源总量、最大需求和已分配矩阵计算可用资源，逐步检查进程执行序列，配有例题与计算过程。",
+      "course": "operating-systems",
+      "kind": "exercise",
+      "contributor": "23机械海臻黎"
+    },
+    {
+      "id": "network-certification-666ab7f1dc57",
+      "route": "group/network-certification/files/666ab7f1dc57",
+      "title": "四级网络工程师：复习速查",
+      "description": "按单选、多选和专题整理操作系统、网络协议与安全知识，可用于完成课程学习后的快速回顾。",
+      "course": "network-certification",
+      "kind": "notes",
+      "contributor": "23机械海臻黎"
+    },
+    {
+      "id": "network-certification-689f6fe62b84",
+      "route": "group/network-certification/files/689f6fe62b84",
+      "title": "三级网络技术：综合题与应用题整理",
+      "description": "包含 IP 地址与子网计算、路由及交换机配置、DHCP、DNS 和抓包题型，按综合题与应用题列出解题步骤。",
+      "course": "network-certification",
+      "kind": "exercise",
+      "contributor": "23机械海臻黎"
+    },
+    {
+      "id": "network-certification-b0e214fcbfc2",
+      "route": "group/network-certification/files/b0e214fcbfc2",
+      "title": "三级网络技术知识整理",
+      "description": "从网络系统结构和设计原则展开，梳理网络设备、地址规划、服务配置、管理与安全等知识。",
+      "course": "network-certification",
+      "kind": "notes",
+      "contributor": "23机械海臻黎"
+    },
+    {
+      "id": "network-certification-f4641518b5d5",
+      "route": "group/network-certification/files/f4641518b5d5",
+      "title": "三级网络技术：选择题知识点",
+      "description": "围绕选择题梳理网络结构、设备、地址、服务和协议知识，原文包含复习安排与知识点示例。",
+      "course": "network-certification",
+      "kind": "notes",
+      "contributor": "23机械海臻黎"
+    },
+    {
+      "id": "network-certification-8dc0b9ae490e",
+      "route": "group/network-certification/files/8dc0b9ae490e",
+      "title": "三级网络技术：高频考点随身学",
+      "description": "按网络设计、规划、设备、互联、服务与安全分章列出考点，可对照较完整的网络知识笔记进行复习。",
+      "course": "network-certification",
+      "kind": "notes",
+      "contributor": "23机械海臻黎"
+    },
+    {
+      "id": "network-certification-f2c392db0cd1",
+      "route": "group/network-certification/files/f2c392db0cd1",
+      "title": "三级网络技术：计算题与知识点",
+      "description": "包含传输速率、交换机带宽、可用性、子网掩码和地址聚合的计算题与方法。",
+      "course": "network-certification",
+      "kind": "exercise",
+      "contributor": "23机械海臻黎"
+    },
+    {
+      "id": "postgraduate-408-2dd4a15180c2",
+      "route": "group/postgraduate-408/files/2dd4a15180c2",
+      "title": "2024 年 408 试题回忆版",
+      "description": "2024 年计算机学科专业基础试题回忆整理，覆盖四门基础课程，可按题目回到对应课程复习。",
+      "course": "postgraduate-408",
+      "kind": "exercise",
+      "contributor": "迷雾迷雾麋鹿迷了路"
+    },
+    {
+      "id": "hustca-c7d22d1330fc",
+      "route": "group/hustca/files/c7d22d1330fc",
+      "title": "HUST CAteam 团队招募介绍",
+      "description": "介绍软件组、硬件组、美工和宣传方向的工作与参与方式。",
+      "course": "hustca",
+      "kind": "guide",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "hustca-397df0bd6716",
+      "route": "group/hustca/files/397df0bd6716",
+      "title": "HUST CA 计算机协会介绍",
+      "description": "介绍协会的技术交流、部门架构、维修活动和项目实践。",
+      "course": "hustca",
+      "kind": "guide",
+      "contributor": "22截图郭烈材(看群公告学截图)"
+    },
+    {
+      "id": "programming-project-2721bb0b966a",
+      "route": "group/programming-project/files/2721bb0b966a",
+      "title": "软件课程设计选题与文档要求",
+      "description": "15 页选题材料，包含游戏、信息管理和拓展项目，列出需求、界面与设计文档要求，可作为 C/C++ 小组项目的起点。",
+      "course": "programming-project",
+      "kind": "lab",
+      "contributor": "24-集成-吕鑫洋"
+    },
+    {
+      "id": "programming-languages-0f93b5625b8a",
+      "route": "group/programming-languages/files/0f93b5625b8a",
+      "title": "Program Verification by Coinduction",
+      "description": "ESOP 2018 论文，30 页，提出以操作语义为输入的共归纳验证框架。DOI：10.1007/978-3-319-89884-1_21。",
+      "course": "programming-languages",
+      "kind": "talk",
+      "contributor": "QQ用户"
+    },
+    {
+      "id": "programming-languages-621199ac7a17",
+      "route": "group/programming-languages/files/621199ac7a17",
+      "title": "Bidirectional Typing",
+      "description": "ACM Computing Surveys 综述，38 页，讲述类型检查与类型综合两种模式、设计原则与发展脉络。DOI：10.1145/3450952。",
+      "course": "programming-languages",
+      "kind": "talk",
+      "contributor": "QQ用户"
+    },
+    {
+      "id": "architecture-53be03d3af56",
+      "route": "group/architecture/files/53be03d3af56",
+      "title": "一种新型通用处理器架构：ZSSC 方案",
+      "description": "24 页处理器设计方案，介绍作者提出的 ZSSC、BZCP 与共享功能模块，可结合计算机体系结构课程阅读指令集、资源组织与服务机制。",
+      "course": "architecture",
+      "kind": "talk",
+      "contributor": "QQ用户"
+    },
+    {
+      "id": "architecture-21188e04c825",
+      "route": "group/architecture/files/21188e04c825",
+      "title": "基于功耗计数器的处理器功耗实时估算方法",
+      "description": "《高技术通讯》2024 年第 34 卷第 1 期论文，8 页，介绍龙芯 GS364 上的功耗计数器、模型构建和实时估算。DOI：10.3772/j.issn.1002-0470.2024.01.003。",
+      "course": "architecture",
+      "kind": "talk",
+      "contributor": "QQ用户"
+    },
+    {
+      "id": "architecture-e9b0a827a6e7",
+      "route": "group/architecture/files/e9b0a827a6e7",
+      "title": "CIMR-V：面向边缘 AI 的 SRAM 存内计算加速器",
+      "description": "ISCAS 2024 论文，5 页，介绍结合 RISC-V 的端到端 SRAM 存内计算加速器与数据流。DOI：10.1109/ISCAS58744.2024.10558177。",
+      "course": "architecture",
+      "kind": "talk",
+      "contributor": "QQ用户"
+    },
+    {
+      "id": "cpp-129dc80a036c",
+      "route": "group/cpp/files/129dc80a036c",
+      "title": "2024 秋 C++ 期中考试指南",
+      "description": "4 页历史考试指南，记录 2024-11-24 场次的范围、题型、输入输出和机房操作要求，便于了解当时的一维数组与控制流练习重点。",
+      "course": "cpp",
+      "kind": "guide",
+      "contributor": "西西扶柿"
+    },
+    {
+      "id": "c-2b3e2fec0cf0",
+      "route": "group/c/files/2b3e2fec0cf0",
+      "title": "实验三：循环程序设计",
+      "description": "7 页实验材料，包含 while、for、do-while、循环控制与嵌套，以及求和、图形输出、分数运算等练习。",
+      "course": "c",
+      "kind": "lab",
+      "contributor": "Backseat Stargazer"
+    },
+    {
+      "id": "cpp-42e388081ace",
+      "route": "group/cpp/files/42e388081ace",
+      "title": "交换排序：群分享调试练习",
+      "description": "西西扶柿分享的相邻交换排序练习。阅读时跟踪 flag 的检查位置与内层遍历；配套《C++ 群分享调试手记》给出修订片段和输出。",
+      "course": "cpp",
+      "kind": "source",
+      "contributor": "西西扶柿"
+    },
+    {
+      "id": "c-849d05e042fd",
+      "route": "group/c/files/849d05e042fd",
+      "title": "C 语言程序设计及 C++ 基础：教材书稿 · 2015年12月",
+      "description": "456 页书稿，包含 C 语言基础、数组、指针、函数及 C++ 类、继承、多态。",
+      "course": "c",
+      "kind": "book",
+      "contributor": "24AIAlioth"
+    },
+    {
+      "id": "cpp-ad32ddfa224e",
+      "route": "group/cpp/files/ad32ddfa224e",
+      "title": "动态数组插入：群分享调试练习",
+      "description": "西西扶柿分享的动态数组插入练习。跟踪原下标与目标下标、插入偏移和内存释放；配套调试手记给出完整结果。",
+      "course": "cpp",
+      "kind": "source",
+      "contributor": "西西扶柿"
+    },
+    {
+      "id": "cpp-a13f17822def",
+      "route": "group/cpp/files/a13f17822def",
+      "title": "动态数组删除：群分享调试练习",
+      "description": "西西扶柿分享的动态数组删除练习。比较 break、continue 对剩余元素复制的影响，配套调试手记使用 1、2、3、4、5 作为样例。",
+      "course": "cpp",
+      "kind": "source",
+      "contributor": "西西扶柿"
+    },
+    {
+      "id": "cpp-790caae21077",
+      "route": "group/cpp/files/790caae21077",
+      "title": "阶乘与幂函数：群分享调试练习",
+      "description": "西西扶柿分享的阶乘与乘方函数练习。配套调试手记通过 3 的 0 次方、3 次方检查乘方循环。",
+      "course": "cpp",
+      "kind": "source",
+      "contributor": "西西扶柿"
+    },
+    {
+      "id": "cpp-cbbd32b0a27d",
+      "route": "group/cpp/files/cbbd32b0a27d",
+      "title": "猜数游戏：群分享调试练习",
+      "description": "随机猜数练习；配套调试手记从首次读取变量和输入结束两条路径展开。",
+      "course": "cpp",
+      "kind": "source",
+      "contributor": "西西扶柿"
+    },
+    {
+      "id": "cpp-401732098b3a",
+      "route": "group/cpp/files/401732098b3a",
+      "title": "C++ 基础课件与源代码：含 Linux 环境",
+      "description": "530 页入门课件，包含 Visual Studio 2022、Linux GCC/GDB、基础语法、函数、数组、指针和面向对象示例。",
+      "course": "cpp",
+      "kind": "book",
+      "contributor": "小呆呆"
+    },
+    {
+      "id": "c-c23d60af4adb",
+      "route": "group/c/files/c23d60af4adb",
+      "title": "C Primer Plus 中文版 · 第6版",
+      "description": "C 类型、表达式、控制流、指针、结构体和文件输入输出。",
+      "course": "c",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "functional-programming-6d4758932520",
+      "route": "group/functional-programming/files/6d4758932520",
+      "title": "Real World OCaml · 第2版",
+      "description": "OCaml 的类型、模式匹配、模块、函数式数据结构和并发编程。",
+      "course": "functional-programming",
+      "kind": "book",
+      "contributor": "QQ用户"
+    },
+    {
+      "id": "java-7dc1f8507f4f",
+      "route": "group/java/files/7dc1f8507f4f",
+      "title": "On Java 中文版·基础版",
+      "description": "Java 对象、接口、泛型、集合、流与异常处理。",
+      "course": "java",
+      "kind": "book",
+      "contributor": "群友分享"
+    },
+    {
+      "id": "c-8b0618469452",
+      "route": "group/c/files/8b0618469452",
+      "title": "C 程序设计语言 · 第2版",
+      "description": "C 表达式、控制流、函数、指针、结构和标准输入输出。",
+      "course": "c",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "java-429775af19c5",
+      "route": "group/java/files/429775af19c5",
+      "title": "Java 开发实战经典 · 第2版",
+      "description": "Java 语言、面向对象、类库和应用开发实例。",
+      "course": "java",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "c-b72776341d7e",
+      "route": "group/c/files/b72776341d7e",
+      "title": "C 专家编程",
+      "description": "C 声明、数组与指针、链接、运行时内存和语言细节。",
+      "course": "c",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "java-da6d7d8dfdb0",
+      "route": "group/java/files/da6d7d8dfdb0",
+      "title": "Effective Java · 第3版",
+      "description": "对象创建、方法设计、泛型、枚举、异常、并发和序列化的条目式建议。",
+      "course": "java",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "networks-75c9adba0af9",
+      "route": "group/networks/files/75c9adba0af9",
+      "title": "计算机网络 · 第8版",
+      "description": "物理层、数据链路层、网络层、运输层、应用层和网络安全。",
+      "course": "networks",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "c-88ee8c548fcf",
+      "route": "group/c/files/88ee8c548fcf",
+      "title": "C 和指针",
+      "description": "C 指针、数组、字符串、结构、动态内存和数据结构。",
+      "course": "c",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "algorithms-0a422f3d28c0",
+      "route": "group/algorithms/files/0a422f3d28c0",
+      "title": "算法：C 语言实现·第 5 部分 图算法",
+      "description": "图的表示与遍历、最小生成树、最短路径和网络流。",
+      "course": "algorithms",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "networks-fa84d8dce3dc",
+      "route": "group/networks/files/fa84d8dce3dc",
+      "title": "计算机网络：自顶向下方法 · 第7版",
+      "description": "从应用层到运输层、网络层和链路层讲解互联网协议与实现。",
+      "course": "networks",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "software-engineering-f25b94f9ed00",
+      "route": "group/software-engineering/files/f25b94f9ed00",
+      "title": "重构：改善既有代码的设计 · 第2版",
+      "description": "用测试保护行为，通过提炼函数、移动特性和简化条件等重构改善设计。",
+      "course": "software-engineering",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "databases-b0e0960c1a75",
+      "route": "group/databases/files/b0e0960c1a75",
+      "title": "MySQL 技术内幕：InnoDB 存储引擎 · 第2版",
+      "description": "InnoDB 体系结构、文件、表、索引、锁、事务及备份恢复。",
+      "course": "databases",
+      "kind": "book",
+      "contributor": "bzm"
+    },
+    {
+      "id": "compilers-68f242244e8b",
+      "route": "group/compilers/files/68f242244e8b",
+      "title": "编译原理 · 第2版",
+      "description": "词法分析、语法分析、语义分析、中间代码、运行环境和优化。",
+      "course": "compilers",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "algorithms-52ac403dbcfa",
+      "route": "group/algorithms/files/52ac403dbcfa",
+      "title": "算法图解",
+      "description": "二分查找、复杂度、递归、快速排序、散列表、图和动态规划。",
+      "course": "algorithms",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "operating-systems-a5b9f863ed5b",
+      "route": "group/operating-systems/files/a5b9f863ed5b",
+      "title": "操作系统真象还原",
+      "description": "在 x86 上构建引导、内核、线程、内存管理、文件系统与用户进程。",
+      "course": "operating-systems",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "operating-systems-46442863e7c8",
+      "route": "group/operating-systems/files/46442863e7c8",
+      "title": "自己动手写操作系统",
+      "description": "从引导、保护模式和中断到进程、内存、输入输出与文件系统。",
+      "course": "operating-systems",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "computer-organization-249786274d83",
+      "route": "group/computer-organization/files/249786274d83",
+      "title": "编码：隐匿在计算机软硬件背后的语言",
+      "description": "从编码、电路和逻辑门构建处理器、存储器及计算机。",
+      "course": "computer-organization",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "operating-systems-ba8c1072fcc5",
+      "route": "group/operating-systems/files/ba8c1072fcc5",
+      "title": "现代操作系统 · 第4版",
+      "description": "进程与线程、内存、文件系统、输入输出、死锁、虚拟化和安全。",
+      "course": "operating-systems",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "computer-systems-a1a8b38b00a0",
+      "route": "group/computer-systems/files/a1a8b38b00a0",
+      "title": "深入理解计算机系统 · 第3版",
+      "description": "机器级程序、处理器、存储层次、链接、异常、虚拟内存与并发。",
+      "course": "computer-systems",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "plc-1ee98d83b6e3",
+      "route": "group/plc/files/1ee98d83b6e3",
+      "title": "S7-1200 PLC 编程及应用",
+      "description": "S7-1200 硬件、指令、梯形图、顺序控制、通信及应用实例。",
+      "course": "plc",
+      "kind": "book",
+      "contributor": "国光 Stephen(O李子/codex嘉豪)"
+    },
+    {
+      "id": "discrete-1-216c03ebd914",
+      "route": "group/discrete-1/files/216c03ebd914",
+      "title": "离散数学及其应用",
+      "description": "逻辑与证明、集合、关系、计数、离散概率、图和树。",
+      "course": "discrete-1",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "discrete-1-5167341ea8c3",
+      "route": "group/discrete-1/files/5167341ea8c3",
+      "title": "数学之美",
+      "description": "信息论、概率、搜索、语言处理与互联网应用中的数学思想。",
+      "course": "discrete-1",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "computer-systems-938d751a4342",
+      "route": "group/computer-systems/files/938d751a4342",
+      "title": "鸟哥的 Linux 私房菜·基础学习篇 · 第4版",
+      "description": "Linux 安装、文件权限、Shell、文本处理、进程和系统管理。",
+      "course": "computer-systems",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "networks-91eb4944feae",
+      "route": "group/networks/files/91eb4944feae",
+      "title": "网络抓包实验",
+      "description": "网络协议抓包与报文分析的图文操作材料。",
+      "course": "networks",
+      "kind": "lab",
+      "contributor": "23江西机器人…"
+    },
+    {
+      "id": "compilers-1c9fafb60467",
+      "route": "group/compilers/files/1c9fafb60467",
+      "title": "编译器设计 · 第2版",
+      "description": "词法语法分析、中间表示、优化、指令选择和寄存器分配。",
+      "course": "compilers",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "data-structures-e49efe83f587",
+      "route": "group/data-structures/files/e49efe83f587",
+      "title": "数据结构：C++ 语言版 · 第3版",
+      "description": "向量、列表、栈与队列、二叉树、图、搜索树、词典和排序。",
+      "course": "data-structures",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "c-7ba7b304df44",
+      "route": "group/c/files/7ba7b304df44",
+      "title": "2019 秋 C 语言期末试卷",
+      "description": "2019 年秋季 C 语言课程期末试卷扫描原件。",
+      "course": "c",
+      "kind": "exercise",
+      "contributor": "[ ]"
+    },
+    {
+      "id": "algorithms-51d63f231ab5",
+      "route": "group/algorithms/files/51d63f231ab5",
+      "title": "算法导论 · 第3版",
+      "description": "算法分析、分治、动态规划、贪心、数据结构、图和计算复杂性。",
+      "course": "algorithms",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "data-structures-ee145b4c2a62",
+      "route": "group/data-structures/files/ee145b4c2a62",
+      "title": "数据结构与算法分析：C++ 描述 · 第3版",
+      "description": "算法分析、表、栈、队列、树、散列、堆、排序和图算法。",
+      "course": "data-structures",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "algorithms-cc078a5e7eef",
+      "route": "group/algorithms/files/cc078a5e7eef",
+      "title": "算法：C 语言实现·第 1—4 部分",
+      "description": "基础知识、数据结构、排序与搜索算法。",
+      "course": "algorithms",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "algorithms-9fbcb4dc46f9",
+      "route": "group/algorithms/files/9fbcb4dc46f9",
+      "title": "算法竞赛入门经典 · 第2版",
+      "description": "C++ 竞赛入门、数据结构、搜索、动态规划、图论与数论。",
+      "course": "algorithms",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "data-structures-516680374414",
+      "route": "group/data-structures/files/516680374414",
+      "title": "数据结构（C 语言）",
+      "description": "线性表、栈、队列、串、树、图、查找和排序。",
+      "course": "data-structures",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "algorithms-c4d54de86a26",
+      "route": "group/algorithms/files/c4d54de86a26",
+      "title": "深入浅出程序设计竞赛·进阶篇 · v0.8",
+      "description": "洛谷网校内部资料，涵盖进阶数据结构、图论和动态规划。",
+      "course": "algorithms",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "algorithms-01e826ef559b",
+      "route": "group/algorithms/files/01e826ef559b",
+      "title": "深入浅出程序设计竞赛·基础篇",
+      "description": "竞赛编程基础、模拟、递推、搜索、数据结构和基础算法。",
+      "course": "algorithms",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "algorithms-1ef4889da3ed",
+      "route": "group/algorithms/files/1ef4889da3ed",
+      "title": "计算机程序设计艺术·第 1 卷 · 第3版",
+      "description": "基本概念、信息结构、链表、树以及算法分析的数学准备。",
+      "course": "algorithms",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "algorithms-782dff784b91",
+      "route": "group/algorithms/files/782dff784b91",
+      "title": "算法笔记",
+      "description": "算法竞赛所需的 C/C++ 基础、数据结构、搜索、动态规划和图算法。",
+      "course": "algorithms",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "algorithms-072b3bdb4590",
+      "route": "group/algorithms/files/072b3bdb4590",
+      "title": "啊哈算法",
+      "description": "排序、栈与队列、搜索、图、最短路径和树的入门实例。",
+      "course": "algorithms",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "networks-e50b80f40c16",
+      "route": "group/networks/files/e50b80f40c16",
+      "title": "网络是怎样连接的",
+      "description": "从浏览器请求出发追踪 DNS、协议栈、网卡、交换机、路由器和服务器。",
+      "course": "networks",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "algorithms-5bd8a09e3da2",
+      "route": "group/algorithms/files/5bd8a09e3da2",
+      "title": "算法（第四版）样章",
+      "description": "第四版《算法》的 129 页样章，介绍算法基础、分析方法及 Java 示例。",
+      "course": "algorithms",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "software-engineering-c0ca9a80cb0f",
+      "route": "group/software-engineering/files/c0ca9a80cb0f",
+      "title": "软件工程：面向对象和传统的方法 · 第8版",
+      "description": "软件过程、需求、分析、设计、实现、测试和维护。",
+      "course": "software-engineering",
+      "kind": "book",
+      "contributor": "bzm"
+    },
+    {
+      "id": "cpp-475e5db94f79",
+      "route": "group/cpp/files/475e5db94f79",
+      "title": "Effective C++：55 个具体做法 · 第3版",
+      "description": "C++ 构造与析构、资源管理、类设计、继承、模板和泛型编程。",
+      "course": "cpp",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "java-174ca710290a",
+      "route": "group/java/files/174ca710290a",
+      "title": "Java 核心技术·卷 I 基础知识 · 第10版",
+      "description": "Java 对象与继承、接口、异常、集合、泛型、图形界面和并发基础。",
+      "course": "java",
+      "kind": "book",
+      "contributor": "bzm"
+    },
+    {
+      "id": "c-139c39bf7c07",
+      "route": "group/c/files/139c39bf7c07",
+      "title": "啊哈 C 语言",
+      "description": "从输入输出、条件、循环和数组开始的 C 语言编程入门。",
+      "course": "c",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "java-13d3343b8599",
+      "route": "group/java/files/13d3343b8599",
+      "title": "Java 编程思想",
+      "description": "Java 对象模型、初始化、继承、多态、泛型、集合和并发。",
+      "course": "java",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "cpp-1bac917c28e2",
+      "route": "group/cpp/files/1bac917c28e2",
+      "title": "More Effective C++：35 个改善编程与设计的方法",
+      "description": "C++ 资源管理、异常、效率、操作符与对象设计的 35 个条目。",
+      "course": "cpp",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "networks-f430657b7fe3",
+      "route": "group/networks/files/f430657b7fe3",
+      "title": "图解 HTTP",
+      "description": "HTTP 请求响应、状态码、首部、连接、HTTPS 与 Web 安全。",
+      "course": "networks",
+      "kind": "book",
+      "contributor": "22-电磁-郭烈材(来水学码华科谢谢喵)"
+    },
+    {
+      "id": "python-basics-10bfbaf44bc1",
+      "route": "group/python-basics/files/10bfbaf44bc1",
+      "title": "流畅的 Python",
+      "description": "Python 数据模型、序列、映射、函数、迭代器、协程与对象协议。",
+      "course": "python-basics",
+      "kind": "book",
+      "contributor": "Cyan"
+    },
+    {
+      "id": "c-98687e36598e",
+      "route": "group/c/files/98687e36598e",
+      "title": "C 语言标准：INCITS ISO/IEC 9899-2011[2012]",
+      "description": "C11 语言语法、约束、语义、标准库与附录。",
+      "course": "c",
+      "kind": "guide",
+      "contributor": "三尺三"
+    },
+    {
+      "id": "c-96842031e771",
+      "route": "group/c/files/96842031e771",
+      "title": "滑动窗口：所有定长子数组和的总和",
+      "description": "读取 n、k 和数列，利用滑动窗口累加所有长度为 k 的连续子数组的和。",
+      "course": "c",
+      "kind": "source",
+      "contributor": "。"
+    },
+    {
+      "id": "cpp-9b370ecbf26f",
+      "route": "group/cpp/files/9b370ecbf26f",
+      "title": "EasyX 扫雷：鼠标交互与区域展开",
+      "description": "10×10 扫雷实现，包含随机布雷、邻雷计数、鼠标揭格与标记、递归展开和胜负判定。",
+      "course": "cpp",
+      "kind": "source",
+      "contributor": "Lawrence"
+    },
+    {
+      "id": "software-engineering-f1458cd3bf60",
+      "route": "group/software-engineering/files/f1458cd3bf60",
+      "title": "软技能：代码之外的生存指南",
+      "description": "程序员职业规划、自学、效率、沟通、个人品牌与财务管理。",
+      "course": "software-engineering",
+      "kind": "book",
+      "contributor": "bzm"
+    },
+    {
+      "id": "competitions-c9b28e107027",
+      "route": "group/competitions/files/c9b28e107027",
+      "title": "多源异构数据驱动岗位与能力图谱比赛方案",
+      "description": "岗位与能力图谱构建、动态演化分析的赛题背景、研究任务和交付要求。",
+      "course": "competitions",
+      "kind": "lab",
+      "contributor": "shipship"
+    },
+    {
+      "id": "c-55872022c9e6",
+      "route": "group/c/files/55872022c9e6",
+      "title": "C 语言标准：ISO/IEC 9899:1999",
+      "description": "C99 语言、标准库和规范性附录，可按条款查询未定义行为与实现要求。",
+      "course": "c",
+      "kind": "guide",
+      "contributor": "三尺三"
+    },
+    {
+      "id": "data-structures-f6d37d994712",
+      "route": "group/data-structures/files/f6d37d994712",
+      "title": "数据结构：C 语言微课版，从概念到算法",
+      "description": "线性表、栈与队列、字符串、多维数组、树、图、排序、查找和大数据存储检索。",
+      "course": "data-structures",
+      "kind": "book",
+      "contributor": "非液化"
+    },
+    {
+      "id": "operating-systems-da5bb252f0f0",
+      "route": "group/operating-systems/files/da5bb252f0f0",
+      "title": "Vanilla OS：GUADEC 2023 分享",
+      "description": "Vanilla OS 在 GUADEC 2023 的项目介绍幻灯片。",
+      "course": "operating-systems",
+      "kind": "talk",
+      "contributor": "QQ用户"
+    },
+    {
+      "id": "c-03fafee75231",
+      "route": "group/c/files/03fafee75231",
+      "title": "C 语言程序设计 · 2021年",
+      "description": "2021 年 C 语言教材影印本，包含数据类型、控制结构、函数、数组与指针。",
+      "course": "c",
+      "kind": "book",
+      "contributor": "底层大专生"
+    },
+    {
+      "id": "cpp-2dc4c888aebe",
+      "route": "group/cpp/files/2dc4c888aebe",
+      "title": "EasyX 扫雷图片加载问题与资源",
+      "description": "包含扫雷源代码、数字与地雷图片、文件层次和运行界面，以及 loadimage 图片加载问题说明。",
+      "course": "cpp",
+      "kind": "source",
+      "contributor": "空"
+    },
+    {
+      "id": "cpp-f7db423aea18",
+      "route": "group/cpp/files/f7db423aea18",
+      "title": "EasyX 贪吃蛇：源码与问题",
+      "description": "包含 snake.cpp、运行截图和问题文档，使用 EasyX 实现蛇身、食物与键盘交互。",
+      "course": "cpp",
+      "kind": "source",
+      "contributor": "空"
+    },
+    {
+      "id": "data-structures-01ab99a2676e",
+      "route": "group/data-structures/files/01ab99a2676e",
+      "title": "2021软件技术基础考试A卷-答案",
+      "description": "软件技术基础课程的参考答案与评分要点。",
+      "course": "data-structures",
+      "kind": "exercise",
+      "contributor": "非液化"
+    },
+    {
+      "id": "data-structures-a4cfe72f5c14",
+      "route": "group/data-structures/files/a4cfe72f5c14",
+      "title": "2021软件技术基础考试A卷试卷",
+      "description": "软件技术基础课程的历史考试试题。",
+      "course": "data-structures",
+      "kind": "exercise",
+      "contributor": "非液化"
+    },
+    {
+      "id": "data-structures-1c1044e04c72",
+      "route": "group/data-structures/files/1c1044e04c72",
+      "title": "2021软件技术基础考试B卷-答案",
+      "description": "软件技术基础课程的参考答案与评分要点。",
+      "course": "data-structures",
+      "kind": "exercise",
+      "contributor": "非液化"
+    },
+    {
+      "id": "data-structures-becc1651d399",
+      "route": "group/data-structures/files/becc1651d399",
+      "title": "2021软件技术基础考试B卷试卷",
+      "description": "软件技术基础课程的历史考试试题。",
+      "course": "data-structures",
+      "kind": "exercise",
+      "contributor": "非液化"
+    },
+    {
+      "id": "data-structures-8323f9823855",
+      "route": "group/data-structures/files/8323f9823855",
+      "title": "2022软件技术基础考试A卷-答案",
+      "description": "软件技术基础课程的参考答案与评分要点。",
+      "course": "data-structures",
+      "kind": "exercise",
+      "contributor": "非液化"
+    },
+    {
+      "id": "data-structures-3d76d3667386",
+      "route": "group/data-structures/files/3d76d3667386",
+      "title": "2022软件技术基础考试A卷试卷",
+      "description": "软件技术基础课程的历史考试试题。",
+      "course": "data-structures",
+      "kind": "exercise",
+      "contributor": "非液化"
+    },
+    {
+      "id": "data-structures-bc0dab45f5aa",
+      "route": "group/data-structures/files/bc0dab45f5aa",
+      "title": "2022软件技术基础考试B卷-答案",
+      "description": "软件技术基础课程的参考答案与评分要点。",
+      "course": "data-structures",
+      "kind": "exercise",
+      "contributor": "非液化"
+    },
+    {
+      "id": "data-structures-1e758a3100ca",
+      "route": "group/data-structures/files/1e758a3100ca",
+      "title": "2022软件技术基础考试B卷试卷",
+      "description": "软件技术基础课程的历史考试试题。",
+      "course": "data-structures",
+      "kind": "exercise",
+      "contributor": "非液化"
+    },
+    {
+      "id": "data-structures-b4ccd50236a4",
+      "route": "group/data-structures/files/b4ccd50236a4",
+      "title": "2023软件技术基础考试A卷-答案",
+      "description": "软件技术基础课程的参考答案与评分要点。",
+      "course": "data-structures",
+      "kind": "exercise",
+      "contributor": "非液化"
+    },
+    {
+      "id": "data-structures-7054166453fe",
+      "route": "group/data-structures/files/7054166453fe",
+      "title": "2023软件技术基础考试A卷试卷",
+      "description": "软件技术基础课程的历史考试试题。",
+      "course": "data-structures",
+      "kind": "exercise",
+      "contributor": "非液化"
+    },
+    {
+      "id": "data-structures-9115aff6f88e",
+      "route": "group/data-structures/files/9115aff6f88e",
+      "title": "2023软件技术基础考试B卷试卷",
+      "description": "软件技术基础课程的历史考试试题。",
+      "course": "data-structures",
+      "kind": "exercise",
+      "contributor": "非液化"
+    },
+    {
+      "id": "data-structures-5114de66a078",
+      "route": "group/data-structures/files/5114de66a078",
+      "title": "2023软件技术基础课程考试B卷试卷答案",
+      "description": "软件技术基础课程的参考答案与评分要点。",
+      "course": "data-structures",
+      "kind": "exercise",
+      "contributor": "非液化"
+    },
+    {
+      "id": "assembly-fd6a5423d775",
+      "route": "group/assembly/files/fd6a5423d775",
+      "title": "浮点 printf 调用：C++ 包装汇编",
+      "description": "GCC 14.1 的 Windows x86-64 汇编，使用 x87 加载 long double，并经 C++ printf 包装调用 MinGW 输出。",
+      "course": "assembly",
+      "kind": "source",
+      "contributor": "Zanoz"
+    },
+    {
+      "id": "assembly-a8b0504770f9",
+      "route": "group/assembly/files/a8b0504770f9",
+      "title": "浮点 printf 调用：直接调用汇编",
+      "description": "与 1i.s 对照的 x86-64 汇编，保留相同浮点加载与参数准备，直接调用 printf。",
+      "course": "assembly",
+      "kind": "source",
+      "contributor": "Zanoz"
+    },
+    {
+      "id": "cpp-20f5b55a0fe4",
+      "route": "group/cpp/files/20f5b55a0fe4",
+      "title": "C++ Primer Plus 中文版 · 第6版",
+      "description": "C++ 基础、类、继承、模板、异常、标准库、智能指针和移动语义，覆盖 C++11。",
+      "course": "cpp",
+      "kind": "book",
+      "contributor": "牧森；24-AIA-温柠涵"
+    },
+    {
+      "id": "c-96d0636d9501",
+      "route": "group/c/files/96d0636d9501",
+      "title": "电梯调度：请求分配与状态转换",
+      "description": "以结构体保存电梯楼层、方向和请求，按距离寻找可用电梯并分配楼层请求。",
+      "course": "c",
+      "kind": "source",
+      "contributor": "cv"
+    },
+    {
+      "id": "c-0a3cc9c1e5d6",
+      "route": "group/c/files/0a3cc9c1e5d6",
+      "title": "啊哈 C 语言！逻辑的挑战（修订版）",
+      "description": "从输入输出、条件、循环和数组开始的 C 语言编程入门。",
+      "course": "c",
+      "kind": "book",
+      "contributor": "Asterisk"
+    }
+  ]
+}

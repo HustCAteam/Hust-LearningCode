@@ -8,6 +8,13 @@ export default function remarkLinks() {
   return (tree, file) => {
     const source = file.path.startsWith('file:') ? fileURLToPath(file.path) : file.path;
     const walk = node => {
+      if (node.type === 'link' && node.children?.[0]?.type === 'text') {
+        const label = node.children[0].value;
+        const source = /^(Hust-opensource-Xuejie|CSdiy)(?:\s+(.+))?$/.exec(label);
+        if (source) node.children.splice(0, 1,
+          { type: 'sourceBadge', data: { hName: 'span', hProperties: { className: ['source-tag'] } }, children: [{ type: 'text', value: source[1] }] },
+          ...(source[2] ? [{ type: 'text', value: ` ${source[2]}` }] : []));
+      }
       if ((node.type === 'link' || node.type === 'definition') && node.url && !/^(?:[a-z][a-z\d+.-]*:|\/|#)/i.test(node.url)) {
         const suffixStart = node.url.search(/[?#]/);
         const pathname = suffixStart === -1 ? node.url : node.url.slice(0, suffixStart);

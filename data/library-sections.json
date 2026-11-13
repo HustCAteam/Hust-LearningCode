@@ -1,0 +1,8 @@
+[
+  {"id":"languages","label":"编程语言","topics":["c","cpp","java","python-basics","functional-programming","programming-languages"]},
+  {"id":"algorithms","label":"算法与数学","topics":["data-structures","algorithms","discrete-1"]},
+  {"id":"systems","label":"系统与网络","topics":["computer-systems","operating-systems","networks","databases","compilers"]},
+  {"id":"hardware","label":"硬件与底层","topics":["mcs51","plc","computer-organization","architecture","assembly"]},
+  {"id":"practice","label":"工程与项目","topics":["software-engineering","programming-project","competitions"]},
+  {"id":"community","label":"考试与社群","topics":["network-certification","postgraduate-408","hustca"]}
+]

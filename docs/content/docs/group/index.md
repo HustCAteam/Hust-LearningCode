@@ -1,71 +1,72 @@
 ---
-title: "学码群资料"
+title: "学码群资料目录"
+description: "按主题浏览群友分享的教材、讲义、试题与源程序。"
 ---
 
-群友分享的教材、讲义、代码和复习题，按实际资料所属主题阅读。
+这里汇集了 **125 份群资料**，分在 **25 个主题**下。每个主题先介绍收录内容，再按书籍、讲义、笔记、实验和代码展开；点开资料名称，可以查看具体介绍、上传者与文件入口。
 
-共 **125 份资料**，其中 **53 本书籍**。[直接浏览书籍](../books/index.md)。
+[浏览书架](../books/index.md) · [按资料形式查找](../formats/index.md) · [第一次来，从这里开始](../guide/start.md)
 
-## 编程与语言
+## 编程语言
 
-| 主题 | 群内资料 |
-| --- | --- |
-| [C语言程序设计](c.md) | 23 份 |
-| [数据结构](data-structures.md) | 16 份 |
-| [C\+\+程序设计](cpp.md) | 16 份 |
-| [算法设计与分析](algorithms.md) | 11 份 |
-| [Java程序设计](java.md) | 5 份 |
-| [函数式编程](functional-programming.md) | 1 份 |
-| [类型系统与形式化验证分享](programming-languages.md) | 2 份 |
-| [Python 语言与对象协议](python-basics.md) | 1 份 |
+| 主题 | 内容 | 资料 |
+| --- | --- | --- |
+| [C 语言](c.md) | 表达式、控制流、数组、指针与内存 | 23 份 |
+| [C\+\+ 与面向对象](cpp.md) | 对象、资源管理、模板与标准库 | 16 份 |
+| [Java](java.md) | 对象、集合、异常与工程结构 | 5 份 |
+| [Python](python-basics.md) | Python 数据模型、容器、迭代器、函数与协程 | 1 份 |
+| [函数式编程与 OCaml](functional-programming.md) | 模式匹配、高阶函数、类型与归纳 | 1 份 |
+| [程序语言与类型系统](programming-languages.md) | 双向类型检查、归纳与共归纳及形式化验证 | 2 份 |
 
-## 数学基础
+## 算法与数学
 
-| 主题 | 群内资料 |
-| --- | --- |
-| [离散数学\(一\)](discrete-1.md) | 2 份 |
+| 主题 | 内容 | 资料 |
+| --- | --- | --- |
+| [数据结构](data-structures.md) | 线性表、树、图与复杂度 | 16 份 |
+| [算法与程序设计竞赛](algorithms.md) | 分治、贪心、动态规划与图算法 | 11 份 |
+| [离散数学与数学阅读](discrete-1.md) | 集合、关系、图与离散结构 | 2 份 |
 
-## 硬件与电子
+## 系统与网络
 
-| 主题 | 群内资料 |
-| --- | --- |
-| [计算机组成原理](computer-organization.md) | 1 份 |
-| [计算机系统结构](architecture.md) | 3 份 |
-| [51 单片机入门与外设实验](mcs51.md) | 10 份 |
-| [S7\-1200 PLC 编程与应用](plc.md) | 1 份 |
+| 主题 | 内容 | 资料 |
+| --- | --- | --- |
+| [计算机系统与 Linux](computer-systems.md) | 数据表示、汇编、链接、缓存与进程 | 2 份 |
+| [操作系统](operating-systems.md) | 进程、同步、虚拟内存与文件系统 | 5 份 |
+| [计算机网络](networks.md) | 分层、路由、可靠传输与拥塞控制 | 5 份 |
+| [数据库](databases.md) | 关系模型、SQL、索引、事务与恢复 | 1 份 |
+| [编译原理](compilers.md) | 词法、语法、语义、中间表示与代码生成 | 2 份 |
 
-## 计算机系统
+## 硬件与底层
 
-| 主题 | 群内资料 |
-| --- | --- |
-| [数据库系统原理](databases.md) | 1 份 |
-| [汇编语言程序设计](assembly.md) | 2 份 |
-| [计算机系统基础](computer-systems.md) | 2 份 |
-| [操作系统设计原理](operating-systems.md) | 5 份 |
-| [计算机网络与通信](networks.md) | 5 份 |
-| [编译原理](compilers.md) | 2 份 |
-| [网络技术与等级考试练习](network-certification.md) | 8 份 |
+| 主题 | 内容 | 资料 |
+| --- | --- | --- |
+| [51 单片机](mcs51.md) | MCS\-51 结构、汇编与 C 语言、定时中断、串口和外设实验 | 10 份 |
+| [PLC 与控制实践](plc.md) | PLC 硬件、梯形图、定时器、顺序控制和通信 | 1 份 |
+| [计算机组成](computer-organization.md) | 指令系统、CPU、存储层次与 I/O | 1 份 |
+| [处理器与体系结构](architecture.md) | 流水线、缓存、并行性与性能分析 | 3 份 |
+| [汇编与调用约定](assembly.md) | 指令、寄存器、栈与调用约定 | 2 份 |
 
-## 项目与实践
+## 工程与项目
 
-| 主题 | 群内资料 |
-| --- | --- |
-| [程序设计课设](programming-project.md) | 1 份 |
-| [软件工程](software-engineering.md) | 3 份 |
+| 主题 | 内容 | 资料 |
+| --- | --- | --- |
+| [软件工程与代码设计](software-engineering.md) | 需求、设计、测试与协作 | 3 份 |
+| [软件课程设计](programming-project.md) | 模块设计、SAT 与课程项目 | 1 份 |
+| [竞赛与项目分享](competitions.md) | 竞赛信息与准备经验 | 1 份 |
 
-## 校园与升学
+## 考试与社群
 
-| 主题 | 群内资料 |
-| --- | --- |
-| [竞赛指南](competitions.md) | 1 份 |
-| [华科计算机协会与学码群](hustca.md) | 2 份 |
-| [408 综合复习](postgraduate-408.md) | 1 份 |
+| 主题 | 内容 | 资料 |
+| --- | --- | --- |
+| [网络等级考试](network-certification.md) | 三级网络技术与四级网络工程师的知识整理和练习 | 8 份 |
+| [408 复习](postgraduate-408.md) | 数据结构、计算机组成、操作系统和计算机网络的综合练习 | 1 份 |
+| [华科计算机协会](hustca.md) | 协会介绍、社团参与和群友交流资料 | 2 份 |
 
-## 群友分享的在线阅读
+## 群友分享的在线读物
 
-### [提问的智慧](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way)
-
-群友分享：QQ昵称、？！区区！？
+### 提问的智慧
 
 技术提问中的资料准备、问题描述与交流方法。
+
+[打开原文](https://github.com/ryanhanwu/How-To-Ask-Questions-The-Smart-Way) · 分享者：QQ昵称、？！区区！？
 

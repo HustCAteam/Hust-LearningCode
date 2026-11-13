@@ -1,54 +1,32 @@
 ---
-title: "软件工程"
+title: "软件工程与代码设计"
+description: "这里的分享涵盖重构、软件工程方法和技术工作中的个人成长。既可以围绕代码本身阅读，也可以了解一个项目怎样组织与演进。"
 ---
 
-需求、设计、测试与协作。
+这里的分享涵盖重构、软件工程方法和技术工作中的个人成长。既可以围绕代码本身阅读，也可以了解一个项目怎样组织与演进。
 
-## 群友分享
+## 怎么开始读
 
-### 重构：改善既有代码的设计 · 第2版
+有现成代码可以修改时，适合结合《重构》逐项实践；学习课程体系时，可读软件工程教材。书目简介中说明了各自的范围。
 
-用测试保护行为，通过提炼函数、移动特性和简化条件等重构改善设计。
+[配套动手练习：步骤、预期结果与排查提示](software-engineering/practice.md)
 
-[PDF · 122.68 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/software-engineering__book__refactoring-improving-the-design-of-existing-code__2nd__f25b94f9ed00.pdf) · 作者：Martin Fowler · 群友分享：22\-电磁\-郭烈材\(来水学码华科谢谢喵\)
+本主题收录 3 份资料。
 
-### 软件工程：面向对象和传统的方法 · 第8版
+## 书籍
 
-软件过程、需求、分析、设计、实现、测试和维护。
+| 资料 | 形式 | 分享者 |
+| --- | --- | --- |
+| [重构：改善既有代码的设计 · 第2版](software-engineering/files/f25b94f9ed00.md) | 书籍 · PDF | 22\-电磁\-郭烈材\(来水学码华科谢谢喵\) |
+| [软件工程：面向对象和传统的方法 · 第8版](software-engineering/files/c0ca9a80cb0f.md) | 书籍 · PDF | bzm |
+| [软技能：代码之外的生存指南](software-engineering/files/f1458cd3bf60.md) | 书籍 · PDF | bzm |
 
-[PDF · 109.03 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/software-engineering__book__object-oriented-and-classical-software-engineering__8th__c0ca9a80cb0f.pdf) · 群友分享：bzm
+## 谢谢分享
 
-### 软技能：代码之外的生存指南
+22\-电磁\-郭烈材\(来水学码华科谢谢喵\)、bzm 等群友在群里留下了这些材料。作者与上传者的署名保留在每份资料中，也欢迎继续补上自己的笔记和阅读经验。
 
-程序员职业规划、自学、效率、沟通、个人品牌与财务管理。
+## Hust-opensource-Xuejie 课程补充
 
-[PDF · 6.01 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/software-engineering__book__soft-skills-the-software-developers-life-manual__undated__f1458cd3bf60.pdf) · 群友分享：bzm
+[Hust\-opensource\-Xuejie 软件工程](../supplement/hust/software-engineering.md)
 
-## 为价格计算写可运行测试
-
-用 Python unittest 把“满 100 减 10”的边界写成具体测试：
-
-```sh
-cat > test_price.py <<'PY'
-import unittest
-
-def price(total):
-    return total - 10 if total >= 100 else total
-
-class PriceTest(unittest.TestCase):
-    def test_threshold(self):
-        for total, expected in [(0, 0), (99, 99), (100, 90), (101, 91)]:
-            with self.subTest(total=total):
-                self.assertEqual(price(total), expected)
-
-if __name__ == '__main__':
-    unittest.main()
-PY
-python3 -m unittest -v test_price.py
-```
-
-预期结果：输出 test_threshold ... ok 和 OK。把 >= 改为 >，输入 100 的子测试显示 100 != 90。
-
-排查：若显示 Ran 0 tests，检查文件名 test_price.py、方法名前缀 test_ 与类继承 unittest.TestCase。
-
-[动手工具](../guide/tools.md) · [分享资料](../guide/contributing.md)
+[分享资料与补充介绍](../guide/contributing.md)

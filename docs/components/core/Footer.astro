@@ -1,0 +1,41 @@
+---
+import { FOOTER_SOCIAL_LINKS, SITE } from "@data/config";
+import { Icon } from "astro-icon/components";
+
+import { buttonVariants } from "@/components/ui/button";
+
+interface Props {
+  class?: string;
+}
+
+const { class: className = "" } = Astro.props;
+const activeSocials = FOOTER_SOCIAL_LINKS.filter((social) => social.active);
+const authorHref = SITE.authorUrl;
+const showAuthorLine = Boolean(authorHref && SITE.author);
+---
+
+<footer class={`bg-popover/80 mt-4 ${className}`}>
+  <div
+    class="text-muted-foreground mx-auto flex max-w-7xl flex-col gap-3 px-5 py-6 text-sm sm:flex-row sm:items-center sm:justify-between"
+  >
+    {showAuthorLine && (
+        <p class="text-center leading-relaxed sm:text-left">
+          由学码群友共同整理 · 
+          <a href={authorHref} class="text-foreground hover:text-primary">
+            感谢每一位分享者
+          </a>
+        </p>
+      )}
+
+    <div class="flex items-center justify-center gap-3 sm:justify-end">
+      <a href="https://github.com/HYP3R00T/CelestialDocs" class="text-xs">CelestialDocs</a>
+      {activeSocials.map(({ name, href, linkTitle }) => (
+          <a href={href} target="_blank" rel="noopener noreferrer" aria-label={linkTitle ?? name} class={buttonVariants({variant:"ghost",size:"icon"})}>
+
+              <Icon name={name} class="size-5" />
+
+          </a>
+        ))}
+    </div>
+  </div>
+</footer>

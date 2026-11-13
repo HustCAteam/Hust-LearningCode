@@ -111,6 +111,6 @@ int main() {
 ## 继续练习
 
 - 在纸上画出数组中的每一次写入，再尝试用 `std::vector` 表达插入与删除。
-- 配合 [\[CSdiy\] Stanford CS106L](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/cpp/CS106L/) 学习容器、迭代器与资源管理，来源为 CS 自学指南。
+- 配合 [CSdiy Stanford CS106L](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/cpp/CS106L/) 学习容器、迭代器与资源管理，来源为 CS 自学指南。
 
 [回到 C++ 群资料](../group/cpp.md) · [GCC 与 GDB 完整练习](tools.md)

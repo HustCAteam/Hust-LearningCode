@@ -1,11 +1,17 @@
 ---
-title: "[Hust-opensource-Xuejie] 竞赛指南"
-pagefind: false
+title: "Hust-opensource-Xuejie 竞赛指南"
+description: "竞赛信息与准备经验"
+source: "Hust-opensource-Xuejie"
 ---
 
-来源：[\[Hust-opensource-Xuejie\] 特——竞赛指南](https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie/tree/4a710e81d217c0b30e6968224bb953d11b0aca36/%E7%89%B9%E2%80%94%E2%80%94%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97)。
+竞赛信息与准备经验。
 
-| [Hust-opensource-Xuejie] 资料 | 大小 |
+来源：[Hust-opensource-Xuejie 特——竞赛指南](https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie/tree/4a710e81d217c0b30e6968224bb953d11b0aca36/%E7%89%B9%E2%80%94%E2%80%94%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97)。感谢原项目贡献者整理这些课程材料。
+
+## Hust-opensource-Xuejie 课程文件
+
+| 资料 | 大小 |
 | --- | --- |
-| [\[Hust-opensource-Xuejie\] 双创中心竞赛讲座PPT\_tqychy\.pdf](https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie/blob/4a710e81d217c0b30e6968224bb953d11b0aca36/%E7%89%B9%E2%80%94%E2%80%94%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97/%E5%8F%8C%E5%88%9B%E4%B8%AD%E5%BF%83%E7%AB%9E%E8%B5%9B%E8%AE%B2%E5%BA%A7PPT_tqychy.pdf) | 2.91 MiB |
+| [Hust-opensource-Xuejie 双创中心竞赛讲座PPT\_tqychy\.pdf](https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie/blob/4a710e81d217c0b30e6968224bb953d11b0aca36/%E7%89%B9%E2%80%94%E2%80%94%E7%AB%9E%E8%B5%9B%E6%8C%87%E5%8D%97/%E5%8F%8C%E5%88%9B%E4%B8%AD%E5%BF%83%E7%AB%9E%E8%B5%9B%E8%AE%B2%E5%BA%A7PPT_tqychy.pdf) | 2.91 MiB |
 
+[回到学码群专题](../../group/competitions.md)

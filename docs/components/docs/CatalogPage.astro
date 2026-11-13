@@ -1,0 +1,16 @@
+---
+import CatalogCards from './CatalogCards.astro';
+import SourceLabel from './SourceLabel';
+import type { CatalogView } from '@/lib/catalog/types';
+interface Props { view: CatalogView; }
+const { view } = Astro.props;
+---
+<div class="catalog-page">
+  {view.intro.map(text => <p>{text}</p>)}
+  {view.sections.map(section => <section aria-labelledby={section.title ? section.id : undefined}>
+    {section.title && <h2 id={section.id}><SourceLabel text={section.title} /></h2>}
+    {section.description && <p class="text-muted-foreground">{section.description}</p>}
+    <CatalogCards cards={section.cards} layout={section.layout} />
+  </section>)}
+  {view.note && <blockquote><p>{view.note}</p></blockquote>}
+</div>

@@ -1,0 +1,12 @@
+---
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import { buttonVariants } from '@/components/ui/button';
+---
+<BaseLayout title="页面未找到 · 学码群">
+  <section class="mx-auto max-w-2xl px-5 py-24 text-center">
+    <p class="font-mono text-primary">404</p>
+    <h1 class="my-6">从目录重新出发</h1>
+    <p class="mb-8 text-muted-foreground">这份资料的地址可能已经变化。可以按主题浏览，或搜索资料名称。</p>
+    <a class={buttonVariants({ size: "default", variant: "default" })} href="/Hust-LearningCode/group/">打开资料目录</a>
+  </section>
+</BaseLayout>

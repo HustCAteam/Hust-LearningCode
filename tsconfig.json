@@ -1,0 +1,36 @@
+{
+  "extends": "astro/tsconfigs/strict",
+  "include": [
+    ".astro/types.d.ts",
+    "docs/**/*.ts",
+    "docs/**/*.tsx",
+    "docs/**/*.astro",
+    "data/config.ts"
+  ],
+  "exclude": [
+    "dist",
+    "node_modules",
+    ".local"
+  ],
+  "compilerOptions": {
+    "target": "ES2022",
+    "lib": [
+      "ES2022",
+      "DOM",
+      "DOM.Iterable"
+    ],
+    "module": "ESNext",
+    "moduleResolution": "bundler",
+    "strictNullChecks": true,
+    "paths": {
+      "@/*": [
+        "./docs/*"
+      ],
+      "@data/*": [
+        "./data/*"
+      ]
+    },
+    "jsx": "react-jsx",
+    "jsxImportSource": "react"
+  }
+}

@@ -1,43 +1,27 @@
 ---
-title: "类型系统与形式化验证分享"
+title: "程序语言与类型系统"
+description: "两份群友分享材料分别讨论余归纳程序验证与双向类型检查，适合在接触逻辑、类型规则后深入阅读。"
 ---
 
-双向类型检查、归纳与共归纳及形式化验证。
+两份群友分享材料分别讨论余归纳程序验证与双向类型检查，适合在接触逻辑、类型规则后深入阅读。
 
-## 群友分享
+## 怎么开始读
 
-### Program Verification by Coinduction
+先沿着材料中的定义和推导阅读，再对照例子理解规则怎样作用于程序。各资料页保留原题名和内容简介，便于继续查阅。
 
-ESOP 2018 论文，30 页，提出以操作语义为输入的共归纳验证框架。DOI：10\.1007/978\-3\-319\-89884\-1\_21。
+[配套动手练习：步骤、预期结果与排查提示](programming-languages/practice.md)
 
-[PDF · 796.2 KiB · 打开下载](../../../../008-%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/programming-languages/talk/programming-languages__talk__Program-Verification-by-Coinduction__2018.pdf) · 作者：Brandon Moore、Lucas Peña、Grigore Roșu · 群友分享：QQ用户
+本主题收录 2 份资料。
 
-### Bidirectional Typing
+## 技术分享
 
-ACM Computing Surveys 综述，38 页，讲述类型检查与类型综合两种模式、设计原则与发展脉络。DOI：10\.1145/3450952。
+| 资料 | 形式 | 分享者 |
+| --- | --- | --- |
+| [Program Verification by Coinduction](programming-languages/files/0f93b5625b8a.md) | 技术分享 · PDF | QQ用户 |
+| [Bidirectional Typing](programming-languages/files/621199ac7a17.md) | 技术分享 · PDF | QQ用户 |
 
-[PDF · 589.5 KiB · 打开下载](../../../../008-%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/programming-languages/talk/programming-languages__talk__Bidirectional-Typing__2021.pdf) · 作者：Jana Dunfield、Neel Krishnaswami · 群友分享：QQ用户
+## 谢谢分享
 
-## 把双向类型判断写成检查函数
+QQ用户 等群友在群里留下了这些材料。作者与上传者的署名保留在每份资料中，也欢迎继续补上自己的笔记和阅读经验。
 
-先读 Bidirectional Typing 的合成与检查规则。下面让整数合成 Int 类型，并检查注解：
-
-```sh
-cat > typing.py <<'PY'
-def synth(term):
-    if type(term) is int:
-        return 'Int'
-    raise TypeError('no synthesis rule')
-def check(term, expected):
-    return synth(term) == expected
-print(check(3, 'Int'))
-print(check(3, 'Bool'))
-PY
-python3 typing.py
-```
-
-预期结果：输出 True、False。扩展布尔值分支前，先为 True 写一个调用；目前会抛出 no synthesis rule。
-
-排查：Python 的 bool 是 int 的子类，使用 type(term) is int 可将两者分开；按照讲义的判断规则增加分支。
-
-[动手工具](../guide/tools.md) · [分享资料](../guide/contributing.md)
+[分享资料与补充介绍](../guide/contributing.md)

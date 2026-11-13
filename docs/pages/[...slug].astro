@@ -1,0 +1,24 @@
+---
+import { getCollection, render } from 'astro:content';
+import { SIDEBAR_NAVIGATION } from '@data/config';
+import DocsLayout from '@/layouts/DocsLayout.astro';
+import MdxImage from '@/components/docs/markdown/MdxImage.astro';
+import MdxLink from '@/components/docs/markdown/MdxLink.astro';
+import { buildNavigation } from '@/lib/navigation';
+import CatalogPage from '@/components/docs/CatalogPage.astro';
+import catalogViews from '@data/catalog-views.json';
+import type { CatalogView } from '@/lib/catalog/types';
+
+export async function getStaticPaths() {
+  const nav = await buildNavigation(SIDEBAR_NAVIGATION, 'docs');
+  return (await getCollection('docs')).filter(doc => doc.id !== 'index' && !doc.data.draft)
+    .map(doc => ({ params: { slug: doc.id }, props: { doc, nav } }));
+}
+const { doc, nav } = Astro.props;
+const { Content, headings } = await render(doc);
+const view = (catalogViews as Record<string, CatalogView>)[doc.id];
+const pageHeadings = view ? view.sections.filter(s => s.title).map(s => ({depth: 2, slug: s.id, text: s.title!})) : headings;
+---
+<DocsLayout frontmatter={doc} headings={pageHeadings} collection="docs" nav={nav}>
+  {view ? <CatalogPage view={view} /> : <Content components={{ img: MdxImage, a: MdxLink }} />}
+</DocsLayout>

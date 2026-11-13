@@ -20,7 +20,7 @@ export function materialUrl(material, page) {
   if (material.storage === 'release') return material.url;
   return encodePath(relative(dirname(join(ROOT, page)), join(ROOT, material.path)).split(sep).join('/'));
 }
-function bookEdition(material) {
+export function bookEdition(material) {
   if (material.kind !== 'book' || !material.version || material.version === 'undated') return '';
   const title = material.title.replace(/\s+/g, '');
   const chineseNumber = value => {

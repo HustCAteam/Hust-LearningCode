@@ -1,241 +1,40 @@
 ---
-title: "[CSdiy] 自学课程补充"
-pagefind: false
+title: "CSdiy 自学课程补充"
+description: "按方向查找 CS 自学指南中的课程。"
 ---
 
-来源：[\[CSdiy\] CS 自学指南](https://csdiy.wiki/)，由 CS 自学指南贡献者整理。
-
-## [CSdiy] 使用指南
-
-- [\[CSdiy\] 前言](https://csdiy.wiki/)
-- [\[CSdiy\] 如何使用这本书](https://csdiy.wiki/%E4%BD%BF%E7%94%A8%E6%8C%87%E5%8D%97/)
-- [\[CSdiy\] 一个仅供参考的CS学习规划](https://csdiy.wiki/CS%E5%AD%A6%E4%B9%A0%E8%A7%84%E5%88%92/)
-- [\[CSdiy\] 好书推荐](https://csdiy.wiki/%E5%A5%BD%E4%B9%A6%E6%8E%A8%E8%8D%90/)
-- [\[CSdiy\] 后记](https://csdiy.wiki/%E5%90%8E%E8%AE%B0/)
-
-## [CSdiy] 必学工具
-
-- [\[CSdiy\] 翻墙](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/%E7%BF%BB%E5%A2%99/)
-- [\[CSdiy\] Vim](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Vim/)
-- [\[CSdiy\] Emacs](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Emacs/)
-- [\[CSdiy\] Git](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Git/)
-- [\[CSdiy\] GitHub](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GitHub/)
-- [\[CSdiy\] GNU Make](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/GNU_Make/)
-- [\[CSdiy\] CMake](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/CMake/)
-- [\[CSdiy\] LaTeX](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/LaTeX/)
-- [\[CSdiy\] Docker](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Docker/)
-- [\[CSdiy\] Scoop](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/Scoop/)
-- [\[CSdiy\] 日常学习工作流](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/workflow/)
-- [\[CSdiy\] 实用工具箱](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/tools/)
-- [\[CSdiy\] 毕业论文](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/thesis/)
-- [\[CSdiy\] 信息检索](https://csdiy.wiki/%E5%BF%85%E5%AD%A6%E5%B7%A5%E5%85%B7/%E4%BF%A1%E6%81%AF%E6%A3%80%E7%B4%A2/)
-
-## [CSdiy] 数学基础
-
-- [\[CSdiy\] MIT18\.01/18\.02: Calculus](https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/MITmaths/)
-- [\[CSdiy\] MIT18\.06: Linear Algebra](https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/MITLA/)
-- [\[CSdiy\] MIT6\.050J: Information theory and Entropy](https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E5%9F%BA%E7%A1%80/information/)
-
-## [CSdiy] 数学进阶
-
-- [\[CSdiy\] UCB CS70: discrete Math and probability theory](https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/CS70/)
-- [\[CSdiy\] UCB EE126: Probability and Random Processes](https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/CS126/)
-- [\[CSdiy\] MIT 6\.042J: Mathematics for Computer Science](https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/6.042J/)
-- [\[CSdiy\] MIT18\.330: Introduction to numerical analysis](https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/numerical/)
-- [\[CSdiy\] Stanford EE364A: Convex Optimization](https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/convex/)
-- [\[CSdiy\] The Information Theory, Pattern Recognition, and Neural Networks](https://csdiy.wiki/%E6%95%B0%E5%AD%A6%E8%BF%9B%E9%98%B6/The_Information_Theory_Pattern_Recognition_and_Neural_Networks/)
-
-## [CSdiy] 编程入门
-
-- [\[CSdiy\] MIT\-Missing\-Semester](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/MIT-Missing-Semester/)
-- [\[CSdiy\] Sysadmin DeCal](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/DeCal/)
-
-## [CSdiy] 编程入门 / Python 语言
-
-- [\[CSdiy\] UCB CS61A: Structure and Interpretation of Computer Programs](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Python/CS61A/)
-- [\[CSdiy\] CS50P: CS50's Introduction to Programming with Python](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Python/CS50P/)
-- [\[CSdiy\] MIT6\.100L: Introduction to CS and Programming using Python](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Python/MIT6.100L/)
-
-## [CSdiy] 编程入门 / C 语言
-
-- [\[CSdiy\] Harvard CS50: This is CS50x](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/C/CS50/)
-- [\[CSdiy\] Duke University: Introductory C Programming Specialization](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/C/Duke-Coursera-Intro-C/)
-
-## [CSdiy] 编程入门 / C++ 语言
-
-- [\[CSdiy\] AmirKabir University of Technology AP1400\-2: Advanced Programming](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/cpp/AUT1400/)
-- [\[CSdiy\] Stanford CS106L: Standard C\+\+ Programming](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/cpp/CS106L/)
-- [\[CSdiy\] Stanford CS106B/X](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/cpp/CS106B_CS106X/)
-
-## [CSdiy] 编程入门 / Java 语言
-
-- [\[CSdiy\] MIT 6\.092: Introduction To Programming In Java](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Java/MIT%206.092/)
-
-## [CSdiy] 编程入门 / Rust 语言
-
-- [\[CSdiy\] Stanford CS110L: Safety in Systems Programming](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Rust/CS110L/)
-- [\[CSdiy\] KAIST CS220: Programming Principles](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Rust/cs220/)
-- [\[CSdiy\] KAIST CS431: Concurrent Programming](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Rust/cs431/)
-
-## [CSdiy] 编程入门 / 函数式语言
-
-- [\[CSdiy\] Cornell CS3110: OCaml Programming Correct \+ Efficient \+ Beautiful](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Functional/CS3110/)
-- [\[CSdiy\] Haskell MOOC](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E5%85%A5%E9%97%A8/Functional/Haskell-MOOC/)
-
-## [CSdiy] 电子基础
-
-- [\[CSdiy\] EE16A&amp;B: Designing Information Devices and Systems I&amp;II](https://csdiy.wiki/%E7%94%B5%E5%AD%90%E5%9F%BA%E7%A1%80/EE16/)
-- [\[CSdiy\] UCB EE120 : Signal and Systems](https://csdiy.wiki/%E7%94%B5%E5%AD%90%E5%9F%BA%E7%A1%80/signal/)
-- [\[CSdiy\] MIT RES\.6\-007: Signals and Systems](https://csdiy.wiki/%E7%94%B5%E5%AD%90%E5%9F%BA%E7%A1%80/Signals_and_Systems_AVO/)
-
-## [CSdiy] 数据结构与算法
-
-- [\[CSdiy\] UCB CS61B: Data Structures and Algorithms](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/CS61B/)
-- [\[CSdiy\] Coursera: Algorithms I &amp; II](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/Algo/)
-- [\[CSdiy\] MIT 6\.006: Introduction to Algorithms](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/6.006/)
-- [\[CSdiy\] MIT 6\.046: Design and Analysis of Algorithms](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/6.046/)
-- [\[CSdiy\] UCB CS170: Efficient Algorithms and Intractable Problems](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%BB%93%E6%9E%84%E4%B8%8E%E7%AE%97%E6%B3%95/CS170/)
-
-## [CSdiy] 软件工程
-
-- [\[CSdiy\] MIT 6\.031: Software Construction](https://csdiy.wiki/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/6031/)
-- [\[CSdiy\] UCB CS169: software engineering](https://csdiy.wiki/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/CS169/)
-- [\[CSdiy\] CMU 17\-803: Empirical Methods](https://csdiy.wiki/%E8%BD%AF%E4%BB%B6%E5%B7%A5%E7%A8%8B/17803/)
-
-## [CSdiy] 计算机系统基础
-
-- [\[CSdiy\] CMU 15\-213: CSAPP](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/CSAPP/)
-- [\[CSdiy\] Stanford CS110: Principles of Computer Systems](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%B3%BB%E7%BB%9F%E5%9F%BA%E7%A1%80/CS110/)
-
-## [CSdiy] 体系结构
-
-- [\[CSdiy\] Coursera: Nand2Tetris](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/N2T/)
-- [\[CSdiy\] UCB CS61C: Great Ideas in Computer Architecture](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CS61C/)
-- [\[CSdiy\] ETHz: Digital Design and Computer Architecture](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/DDCA/)
-- [\[CSdiy\] ETHz: Computer Architecture](https://csdiy.wiki/%E4%BD%93%E7%B3%BB%E7%BB%93%E6%9E%84/CA/)
-
-## [CSdiy] 操作系统
-
-- [\[CSdiy\] MIT 6\.1810 \(6\.S081\): Operating System Engineering](https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/MIT6.S081/)
-- [\[CSdiy\] UCB CS162: Operating Systems and Systems Programming](https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/CS162/)
-- [\[CSdiy\] NJU OS: Operating System Design and Implementation](https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/NJUOS/)
-- [\[CSdiy\] HIT OS: Operating System](https://csdiy.wiki/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/HITOS/)
-
-## [CSdiy] 并行与分布式系统
-
-- [\[CSdiy\] CMU 15\-418/Stanford CS149: Parallel Computing](https://csdiy.wiki/%E5%B9%B6%E8%A1%8C%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/CS149/)
-- [\[CSdiy\] MIT 6\.5840 \(6\.824\): Distributed System](https://csdiy.wiki/%E5%B9%B6%E8%A1%8C%E4%B8%8E%E5%88%86%E5%B8%83%E5%BC%8F%E7%B3%BB%E7%BB%9F/MIT6.824/)
-
-## [CSdiy] 计算机系统安全
-
-- [\[CSdiy\] UCB CS161: Computer Security](https://csdiy.wiki/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/CS161/)
-- [\[CSdiy\] MIT 6\.1600: Foundations of Computer Security](https://csdiy.wiki/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/MIT6.1600/)
-- [\[CSdiy\] MIT 6\.858: Computer System Security](https://csdiy.wiki/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/MIT6.858/)
-- [\[CSdiy\] ASU CSE365: Introduction to Cybersecurity](https://csdiy.wiki/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/CSE365/)
-- [\[CSdiy\] ASU CSE466: Computer Systems Security](https://csdiy.wiki/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/CSE466/)
-- [\[CSdiy\] SU SEED Labs](https://csdiy.wiki/%E7%B3%BB%E7%BB%9F%E5%AE%89%E5%85%A8/SEEDLabs/)
-
-## [CSdiy] 计算机网络
-
-- [\[CSdiy\] UCB CS168: Introduction to the Internet: Architecture and Protocols](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/CS168/)
-- [\[CSdiy\] Stanford CS144: Computer Network](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/CS144/)
-- [\[CSdiy\] USTC Computer Networking:A Top\-Down Approach](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/topdown_ustc/)
-- [\[CSdiy\] Computer Networking: A Top\-Down Approach](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C/topdown/)
-
-## [CSdiy] 数据库系统
-
-- [\[CSdiy\] UCB CS186: Introduction to Database System](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/CS186/)
-- [\[CSdiy\] CMU 15\-445: Database Systems](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/15445/)
-- [\[CSdiy\] Caltech CS122: Database System Implementation](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/CS122/)
-- [\[CSdiy\] Stanford CS346: Database System Implementation](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/CS346/)
-- [\[CSdiy\] CMU 15\-799: Special Topics in Database Systems](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E5%BA%93%E7%B3%BB%E7%BB%9F/15799/)
-
-## [CSdiy] 编译原理
-
-- [\[CSdiy\] PKU 编译原理实践](https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/PKU-Compilers/)
-- [\[CSdiy\] Stanford CS143: Compilers](https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/CS143/)
-- [\[CSdiy\] NJU 编译原理](https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/NJU-Compilers/)
-- [\[CSdiy\] KAIST CS420: Compiler Design](https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/CS420/)
-- [\[CSdiy\] USTC 编译原理与技术](https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/USTC-Compilers/)
-- [\[CSdiy\] SJTU 编译原理](https://csdiy.wiki/%E7%BC%96%E8%AF%91%E5%8E%9F%E7%90%86/SJTU-Compilers/)
-
-## [CSdiy] 编程语言设计与分析
-
-- [\[CSdiy\] Stanford CS242: Programming Languages](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/CS242/)
-- [\[CSdiy\] NJU 软件分析](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/NJU-SoftwareAnalysis/)
-- [\[CSdiy\] PKU 软件分析](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/PKU-SoftwareAnalysis/)
-- [\[CSdiy\] Cambridge: Semantics of Programming Languages](https://csdiy.wiki/%E7%BC%96%E7%A8%8B%E8%AF%AD%E8%A8%80%E8%AE%BE%E8%AE%A1%E4%B8%8E%E5%88%86%E6%9E%90/Cambridge-Semantics/)
-
-## [CSdiy] 计算机图形学
-
-- [\[CSdiy\] GAMES101](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/GAMES101/)
-- [\[CSdiy\] GAMES202](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/GAMES202/)
-- [\[CSdiy\] GAMES103](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/GAMES103/)
-- [\[CSdiy\] Stanford CS148](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/CS148/)
-- [\[CSdiy\] CMU 15\-462](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/15462/)
-- [\[CSdiy\] USTC CG](https://csdiy.wiki/%E8%AE%A1%E7%AE%97%E6%9C%BA%E5%9B%BE%E5%BD%A2%E5%AD%A6/USTC%20ComputerGraphics/)
-
-## [CSdiy] Web开发
-
-- [\[CSdiy\] MIT web development course](https://csdiy.wiki/Web%E5%BC%80%E5%8F%91/mitweb/)
-- [\[CSdiy\] Stanford CS142: Web Applications](https://csdiy.wiki/Web%E5%BC%80%E5%8F%91/CS142/)
-- [\[CSdiy\] University of Helsinki: Full Stack open 2022](https://csdiy.wiki/Web%E5%BC%80%E5%8F%91/fullstackopen/)
-- [\[CSdiy\] CS571 Building UI \(React &amp; React Native\)](https://csdiy.wiki/Web%E5%BC%80%E5%8F%91/CS571/)
-
-## [CSdiy] 数据科学
-
-- [\[CSdiy\] UCB Data100: Principles and Techniques of Data Science](https://csdiy.wiki/%E6%95%B0%E6%8D%AE%E7%A7%91%E5%AD%A6/Data100/)
-
-## [CSdiy] 人工智能
-
-- [\[CSdiy\] Neural Networks: Zero to Hero](https://csdiy.wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/Neural%20Networks%EF%BC%9AZero%20to%20Hero/)
-- [\[CSdiy\] Harvard CS50's Introduction to AI with Python](https://csdiy.wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/CS50/)
-- [\[CSdiy\] UCB CS188: Introduction to Artificial Intelligence](https://csdiy.wiki/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD/CS188/)
-
-## [CSdiy] 机器学习
-
-- [\[CSdiy\] Coursera: Machine Learning](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/ML/)
-- [\[CSdiy\] Stanford CS229: Machine Learning](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/CS229/)
-- [\[CSdiy\] UCB CS189: Introduction to Machine Learning](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0/CS189/)
-
-## [CSdiy] 机器学习系统
-
-- [\[CSdiy\] CMU 15\-442/642: Machine Learning Systems](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/CMU15-442/)
-- [\[CSdiy\] 智能计算系统](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/AICS/)
-- [\[CSdiy\] CMU 10\-414/714: Deep Learning Systems](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/CMU10-414/)
-- [\[CSdiy\] MIT6\.5940: TinyML and Efficient Deep Learning Computing](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/EML/)
-- [\[CSdiy\] Machine Learning Compilation](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/MLC/)
-- [\[CSdiy\] UCSD CSE234: Data Systems for Machine Learning](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E7%B3%BB%E7%BB%9F/CSE234/)
-
-## [CSdiy] 深度学习
-
-- [\[CSdiy\] Coursera: Deep Learning](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CS230/)
-- [\[CSdiy\] 国立台湾大学: 李宏毅机器学习](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/LHY/)
-- [\[CSdiy\] CMU 11\-785: Introduction to Deep Learning](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CMU11-785/)
-- [\[CSdiy\] MIT 6\.7960: Deep Learning](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/MIT6-7960/)
-- [\[CSdiy\] NYU DLSP21: NYU Deep Learning Spring 2021](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/NYU-DLSP21/)
-- [\[CSdiy\] UMich EECS 498\-007 / 598\-005: Deep Learning for Computer Vision](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/EECS498-007/)
-- [\[CSdiy\] Stanford CS231n: CNN for Visual Recognition](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CS231/)
-- [\[CSdiy\] Stanford CS224n: Natural Language Processing](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CS224n/)
-- [\[CSdiy\] Stanford CS224w: Machine Learning with Graphs](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CS224w/)
-- [\[CSdiy\] UCB CS285: Deep Reinforcement Learning](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E5%AD%A6%E4%B9%A0/CS285/)
-
-## [CSdiy] 深度生成模型
-
-- [\[CSdiy\] 学习路线图](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/roadmap/)
-- [\[CSdiy\] MIT 6\.S184: Generative AI with Stochastic Differential Equations](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/MIT6.S184/)
-
-## [CSdiy] 深度生成模型 / 大语言模型
-
-- [\[CSdiy\] CMU 11\-868: Large Language Model System](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/CMU11-868/)
-- [\[CSdiy\] CMU 11\-667: Large Language Models: Methods and Applications](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/CMU11-667/)
-- [\[CSdiy\] CMU 11\-711: Advanced Natural Language Processing](https://csdiy.wiki/%E6%B7%B1%E5%BA%A6%E7%94%9F%E6%88%90%E6%A8%A1%E5%9E%8B/%E5%A4%A7%E8%AF%AD%E8%A8%80%E6%A8%A1%E5%9E%8B/CMU11-711/)
-
-## [CSdiy] 机器学习进阶
-
-- [\[CSdiy\] 学习路线图](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6/roadmap/)
-- [\[CSdiy\] CMU 10\-708: Probabilistic Graphical Models](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6/CMU10-708/)
-- [\[CSdiy\] Columbia STAT 8201: Deep Generative Models](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6/STAT8201/)
-- [\[CSdiy\] U Toronto STA 4273 Winter 2021: Minimizing Expectations](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6/STA4273/)
-- [\[CSdiy\] Stanford STATS214 / CS229M: Machine Learning Theory](https://csdiy.wiki/%E6%9C%BA%E5%99%A8%E5%AD%A6%E4%B9%A0%E8%BF%9B%E9%98%B6/CS229M/)
-
+[CS 自学指南](https://csdiy.wiki/) 汇集公开课程与学习经验，感谢 PKUFlyingPig 和指南贡献者的整理。按方向进入，再选择一门课程了解内容与作业安排。
+
+- [CSdiy 使用指南](subject-1.md)
+- [CSdiy 必学工具](subject-2.md)
+- [CSdiy 数学基础](subject-3.md)
+- [CSdiy 数学进阶](subject-4.md)
+- [CSdiy 编程入门](subject-5.md)
+- [CSdiy 编程入门 / Python 语言](subject-6.md)
+- [CSdiy 编程入门 / C 语言](subject-7.md)
+- [CSdiy 编程入门 / C\+\+ 语言](subject-8.md)
+- [CSdiy 编程入门 / Java 语言](subject-9.md)
+- [CSdiy 编程入门 / Rust 语言](subject-10.md)
+- [CSdiy 编程入门 / 函数式语言](subject-11.md)
+- [CSdiy 电子基础](subject-12.md)
+- [CSdiy 数据结构与算法](subject-13.md)
+- [CSdiy 软件工程](subject-14.md)
+- [CSdiy 计算机系统基础](subject-15.md)
+- [CSdiy 体系结构](subject-16.md)
+- [CSdiy 操作系统](subject-17.md)
+- [CSdiy 并行与分布式系统](subject-18.md)
+- [CSdiy 计算机系统安全](subject-19.md)
+- [CSdiy 计算机网络](subject-20.md)
+- [CSdiy 数据库系统](subject-21.md)
+- [CSdiy 编译原理](subject-22.md)
+- [CSdiy 编程语言设计与分析](subject-23.md)
+- [CSdiy 计算机图形学](subject-24.md)
+- [CSdiy Web开发](subject-25.md)
+- [CSdiy 数据科学](subject-26.md)
+- [CSdiy 人工智能](subject-27.md)
+- [CSdiy 机器学习](subject-28.md)
+- [CSdiy 机器学习系统](subject-29.md)
+- [CSdiy 深度学习](subject-30.md)
+- [CSdiy 深度生成模型](subject-31.md)
+- [CSdiy 深度生成模型 / 大语言模型](subject-32.md)
+- [CSdiy 机器学习进阶](subject-33.md)

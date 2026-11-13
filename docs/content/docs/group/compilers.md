@@ -1,47 +1,31 @@
 ---
 title: "编译原理"
+description: "这里收录《编译原理》和《编译器设计》两本群友分享的教材，覆盖从源程序分析到代码生成的编译流程。"
 ---
 
-词法、语法、语义、中间表示与代码生成。
+这里收录《编译原理》和《编译器设计》两本群友分享的教材，覆盖从源程序分析到代码生成的编译流程。
 
-## 群友分享
+## 怎么开始读
 
-### 编译原理 · 第2版
+从词法分析与语法分析开始，理解一段源码怎样变成结构化表示；随后阅读类型检查、中间表示和优化。两本教材可以按同一主题交叉参照。
 
-词法分析、语法分析、语义分析、中间代码、运行环境和优化。
+[配套动手练习：步骤、预期结果与排查提示](compilers/practice.md)
 
-[PDF · 24.46 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/compilers__book__compilers-principles-techniques-and-tools__2nd__68f242244e8b.pdf) · 群友分享：22\-电磁\-郭烈材\(来水学码华科谢谢喵\)
+本主题收录 2 份资料。
 
-### 编译器设计 · 第2版
+## 书籍
 
-词法语法分析、中间表示、优化、指令选择和寄存器分配。
+| 资料 | 形式 | 分享者 |
+| --- | --- | --- |
+| [编译原理 · 第2版](compilers/files/68f242244e8b.md) | 书籍 · PDF | 22\-电磁\-郭烈材\(来水学码华科谢谢喵\) |
+| [编译器设计 · 第2版](compilers/files/1c9fafb60467.md) | 书籍 · PDF | 22\-电磁\-郭烈材\(来水学码华科谢谢喵\) |
 
-[PDF · 181.50 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/compilers__book__engineering-a-compiler__2nd__1c9fafb60467.pdf) · 作者：Keith Cooper；Linda Torczon · 群友分享：22\-电磁\-郭烈材\(来水学码华科谢谢喵\)
+## 谢谢分享
 
-## 为算术表达式写词法分析器
+22\-电磁\-郭烈材\(来水学码华科谢谢喵\) 等群友在群里留下了这些材料。作者与上传者的署名保留在每份资料中，也欢迎继续补上自己的笔记和阅读经验。
 
-配合词法分析章节，把输入拆成整数、加号、乘号和括号：
+## Hust-opensource-Xuejie 课程补充
 
-```sh
-cat > lexer.py <<'PY'
-import re
-source = '12 + 3 * (4 + 5)'
-pattern = re.compile(r'\s*(?:(\d+)|([+*()]))')
-pos = 0
-tokens = []
-while pos < len(source):
-    match = pattern.match(source, pos)
-    if not match:
-        raise ValueError(f'invalid token at {pos}')
-    tokens.append(('INT', int(match[1])) if match[1] else (match[2], match[2]))
-    pos = match.end()
-print(tokens)
-PY
-python3 lexer.py
-```
+[Hust\-opensource\-Xuejie 编译原理](../supplement/hust/compilers.md)
 
-预期结果：输出以 ('INT', 12)、('+', '+') 开头的 9 个 token。语法树按乘法优先解析，表达式值为 39。把 + 改为 @，错误位置为 2。
-
-排查：若空格触发错误，检查模式开头的 \s*；若 12 被拆为两个 token，检查整数分支的 +。
-
-[动手工具](../guide/tools.md) · [分享资料](../guide/contributing.md)
+[分享资料与补充介绍](../guide/contributing.md)

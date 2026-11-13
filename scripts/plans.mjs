@@ -1,7 +1,7 @@
 const fence = (language, code) => `\n\n\`\`\`${language}\n${code.trim()}\n\`\`\`\n\n`;
 const exercise = (title, intro, code, result, help) => `## ${title}\n\n${intro}${fence('sh', code)}预期结果：${result}\n\n排查：${help}\n\n`;
 const plans = {
-  c: exercise('从循环题跑到边界错误', '先做本页《实验三：循环程序设计》的循环题，再打开工具练习页的 bounds.c，运行 GCC AddressSanitizer 和 GDB。创建 sum.c：', `cat > sum.c <<'C'
+  c: exercise('从循环题跑到边界错误', '先做本页《实验三：循环程序设计》的循环题，再打开[工具练习](/Hust-LearningCode/guide/tools/#c-数组越界与-addresssanitizer)的 bounds.c，运行 GCC AddressSanitizer 和 GDB。创建 sum.c：', `cat > sum.c <<'C'
 #include <stdio.h>
 int main(void) {
     int sum = 0;
@@ -131,13 +131,13 @@ if __name__ == '__main__':
     unittest.main()
 PY
 python3 -m unittest -v test_price.py`, '输出 test_threshold ... ok 和 OK。把 >= 改为 >，输入 100 的子测试显示 100 != 90。', '若显示 Ran 0 tests，检查文件名 test_price.py、方法名前缀 test_ 与类继承 unittest.TestCase。'),
-  'programming-project': '## 做一个带测试的课程设计切片\n\n先打开本页《软件课程设计选题与文档要求》，选择其中一个题目。以学生成绩管理为例，先按[工具实作：SQLite 查询计划](/Hust-LearningCode/guide/tools/#sqlite-查询计划)建立 students 表，完成按专业查询、成绩修改和回滚三个操作；再用[软件工程练习](/Hust-LearningCode/group/software-engineering/)的 unittest 形式为 99/100 两个边界写测试。界面接入前，SQL 查询应返回 A 的分数 85，回滚后仍为 85。\n\n',
+  'programming-project': '## 做一个带测试的课程设计切片\n\n先打开本页《软件课程设计选题与文档要求》，选择其中一个题目。以学生成绩管理为例，先按[工具实作：SQLite 查询计划](/Hust-LearningCode/guide/tools/#sqlite-查询计划)建立 students 表，完成按专业查询、成绩修改和回滚三个操作；再用[软件工程练习](/Hust-LearningCode/group/software-engineering/practice/)的 unittest 形式为 99/100 两个边界写测试。界面接入前，SQL 查询应返回 A 的分数 85，回滚后仍为 85。\n\n',
   'discrete-1': exercise('枚举命题等价式的真值表', '阅读离散数学的命题逻辑章节，验证蕴含式 p→q 与 ¬p∨q：', `python3 - <<'PY'
 from itertools import product
 for p, q in product([False, True], repeat=2):
     implication = (not p) or q
-    contrapositive = q or (not p)
-    print(int(p), int(q), int(implication), implication == contrapositive)
+    equivalent = q or (not p)
+    print(int(p), int(q), int(implication), implication == equivalent)
 PY`, '四行的最后一列全为 True，蕴含值依次为 1、1、0、1。再将右式改为 p or (not q)，第三行出现 False。', 'Python 的 not、and、or 对应逻辑运算；先加括号，把每个子式的值算清楚。'),
   'functional-programming': exercise('用 OCaml 模式匹配处理列表', '安装 OCaml 后，把以下内容写入 sum.ml，配合 Real World OCaml 的列表与递归章节：', `cat > sum.ml <<'ML'
 let rec sum = function
@@ -159,8 +159,8 @@ PY
 python3 typing.py`, '输出 True、False。扩展布尔值分支前，先为 True 写一个调用；目前会抛出 no synthesis rule。', 'Python 的 bool 是 int 的子类，使用 type(term) is int 可将两者分开；按照讲义的判断规则增加分支。'),
   mcs51: '## 按课件完成定时器实验\n\n阅读 01 结构、03 实验板与 GPIO，再打开 08 C51 定时器课件。使用 Keil µVision 的 8051 工程，器件选择 AT89C52；新建 main.c，在定时器 0 中断函数中翻转 P1.0。12 MHz 晶振、传统 12T 内核的 1 ms 重装值为 65536−1000=64536，即 TH0=0xFC、TL0=0x18。设置 TMOD=0x01、ET0=1、EA=1、TR0=1。进入 Simulator，在 Logic Analyzer 添加 P1.0，预期相邻翻转间隔约 1 ms，完整周期约 2 ms。若引脚恒定，检查中断向量 interrupt 1、总中断 EA 与运行位 TR0；若周期偏差 12 倍，检查目标芯片的 1T/12T 模式。硬件接线与外设地址使用群内对应实验板课件。\n\n',
   plc: '## 在 PLCSIM 做自保持启停\n\n配合 S7-1200 书籍，使用 TIA Portal 与对应版本 S7-PLCSIM，新建 S7-1200 项目，在 Main [OB1] 建三个 Bool 标签：Start=%I0.0、Stop=%I0.1、Motor=%Q0.0。梯形图使用 Stop 常闭触点串联 Start 与 Motor 常开触点的并联支路，线圈为 Motor。编译后下载到仿真 CPU 并切换 RUN。在监控表将 Start 设为 1 再设回 0，Motor 应保持 1；将 Stop 设为 1，Motor 变为 0。若 Motor 随 Start 归零，检查并联的自保持触点地址是否也为 Q0.0；若停止按钮无效，检查 Stop 触点类型与输入地址。\n\n',
-  architecture: '## 从群内论文还原一次乘加的数据流\n\n先打开本页 CIMR-V 论文，定位 SRAM 存内计算的结构图，标出输入向量、权重、累加器三条路径。取输入 [1,2]、权重 [3,4]，手算点积为 11；沿论文的数据通路逐级填入乘积 3、8 与累加结果 11。继续阅读处理器功耗估算论文的计数器定义，选取其中一个计数器解释采样窗口与单位。需要先补指令基础时，执行[组成原理的 gcc/objdump 实验](/Hust-LearningCode/group/computer-organization/)。\n\n',
-  'postgraduate-408': '## 用一道题串起四门基础课\n\n先独立完成本页 2024 年 408 回忆版中的一道进程同步题，明确每个信号量的初值、P/V 操作位置和临界区。再执行[操作系统安全序列练习](/Hust-LearningCode/group/operating-systems/)，比较 available=1 与 0 两种输入。网络题配合[子网计算练习](/Hust-LearningCode/group/network-certification/)完成 192.168.10.37/27 的网络地址 192.168.10.32、广播地址 192.168.10.63 和可用主机数 30。\n\n',
+  architecture: '## 从群内论文还原一次乘加的数据流\n\n先打开本页 CIMR-V 论文，定位 SRAM 存内计算的结构图，标出输入向量、权重、累加器三条路径。取输入 [1,2]、权重 [3,4]，手算点积为 11；沿论文的数据通路逐级填入乘积 3、8 与累加结果 11。继续阅读处理器功耗估算论文的计数器定义，选取其中一个计数器解释采样窗口与单位。需要先补指令基础时，执行[组成原理的 gcc/objdump 实验](/Hust-LearningCode/group/computer-organization/practice/)。\n\n',
+  'postgraduate-408': '## 用一道题串起四门基础课\n\n先独立完成本页 2024 年 408 回忆版中的一道进程同步题，明确每个信号量的初值、P/V 操作位置和临界区。再执行[操作系统安全序列练习](/Hust-LearningCode/group/operating-systems/practice/)，比较 available=1 与 0 两种输入。网络题配合[子网计算练习](/Hust-LearningCode/group/network-certification/practice/)完成 192.168.10.37/27 的网络地址 192.168.10.32、广播地址 192.168.10.63 和可用主机数 30。\n\n',
   assembly: exercise('对照浮点输出的两份汇编', '下载两份群友汇编，分别保存为 1i.s 与 1s.s。在 Windows 的 MSYS2 UCRT64 终端中使用 GCC 与 binutils，将它们组装为目标文件并查看带重定位的反汇编：', `gcc -c 1i.s -o wrapped.o
 gcc -c 1s.s -o direct.o
 objdump -dr wrapped.o

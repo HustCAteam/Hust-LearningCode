@@ -2,18 +2,14 @@
 
 关系数据库、SQL、索引与事务。
 
-## 学码群分享
+## 学码群资料
 
-### MySQL 技术内幕：InnoDB 存储引擎 · 第2版
+| 主题 | 资料数 | 内容 |
+| --- | --- | --- |
+| [数据库](../docs/content/docs/group/databases.md) | 1 | 关系模型、SQL、索引、事务与恢复 |
 
-InnoDB 体系结构、文件、表、索引、锁、事务及备份恢复。
+## Hust-opensource-Xuejie 课程补充
 
-[PDF · 39.36 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/databases__book__mysql-innodb-storage-engine-internals__2nd__b0e0960c1a75.pdf) · 群友分享：bzm
+- [Hust\-opensource\-Xuejie 数据库系统原理](../docs/content/docs/supplement/hust/databases.md)
 
-## [Hust-opensource-Xuejie] 外部补充
-
-来源：[\[Hust-opensource-Xuejie\] 项目主页](https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie)。
-
-- [\[Hust-opensource-Xuejie\] 数据库系统原理](../docs/content/docs/supplement/hust/databases.md)
-
-[分享资料](../CONTRIBUTING.md)。
+[分享笔记、代码与阅读经验](../CONTRIBUTING.md)

@@ -1,0 +1,22 @@
+---
+import { Icon } from "astro-icon/components";
+
+import { buttonVariants } from "@/components/ui/button";
+import { getSystemRoute } from "@/lib/resolveSystem";
+
+interface Props {
+  slug: string;
+  collectionId?: string;
+}
+
+const { slug, collectionId } = Astro.props;
+const file = ['group', 'books', 'formats', 'supplement', 'supplement/hust', 'supplement/csdiy'].includes(slug) ? `${slug}/index` : slug;
+const source = `https://github.com/HustCAteam/Hust-LearningCode/blob/main/docs/content/docs/${file}.md`;
+---
+
+<a href={source} class={buttonVariants({variant:"outline",size:"sm"})} target="_blank" rel="noopener noreferrer">
+
+    <Icon name="github" class="size-4" />
+    在 GitHub 阅读
+
+</a>

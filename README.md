@@ -1,45 +1,44 @@
-# 华科学码群 · 学习资料
+# 学码群 · 共同的计算机书架
 
-把学过的东西留下来，把好资料传下去。
+这是华中科技大学学码群的资料库。群友分享的教材、课堂笔记、讲义、试题与程序，在这里按主题整理，供大家继续阅读和实践。
 
-这里是华科学码群的官方资料库，收录 QQ 群友分享的教材、课堂笔记、实验、试题与源程序。每份资料旁展示作者与群友分享署名。
+**[打开网站](https://hustcateam.github.io/Hust-LearningCode/)** · [资料目录](docs/content/docs/group/index.md) · [共同书架](docs/content/docs/books/index.md) · [贡献与致谢](docs/content/docs/guide/credits.md)
 
-**[在线阅读](https://hustcateam.github.io/Hust-LearningCode/)** · [学码群主题](docs/content/docs/group/index.md) · [群友分享的书籍](docs/content/docs/books/index.md)
+## 从哪里开始
 
-## 开始学习
+想找一门课的材料，可以先进入主题。每个主题介绍收录内容和阅读顺序，再按资料形式列出文件。每份文件都有独立页面，保留内容简介、作者、群文件上传者、原始文件名与下载入口。
 
-- [按主题找群资料](docs/content/docs/group/index.md)：教材、讲义、代码和复习题。
-- [动手工具练习](docs/content/docs/guide/tools.md)：完整 C 越界文件、GCC ASan、GDB、本地 HTTP 与 SQLite 查询计划。
-- [C++ 群程序调试](docs/content/docs/guide/cpp-debugging.md)：数组插入、删除、排序和猜数的具体输入与结果。
-- [四周学习安排](docs/content/docs/guide/roadmap.md)：从循环、数据结构走到网络、数据库与操作系统。
-- [分享自己的资料](CONTRIBUTING.md)：教材、笔记、实验和解题思路。
-
-## 资料怎么放
-
-| 目录 | 内容 |
+| 想看的内容 | 入口 |
 | --- | --- |
-| [000-计算机基础](000-计算机基础/README.md) | 计算思维、工具与系统入门 |
-| [001-计算机语言](001-计算机语言/README.md) | C、C++、Java、Python、函数式编程等 |
-| [002-算法和数据结构](002-算法和数据结构/README.md) | 数据结构、算法与程序设计实践 |
-| [003-计算机数学](003-计算机数学/README.md) | 微积分、线性代数、离散数学与概率 |
-| [004-数据库](004-数据库/README.md) | SQL、索引、事务与数据库实现 |
-| [005-计算机网络](005-计算机网络/README.md) | 网络协议与网络编程 |
-| [006-操作系统](006-操作系统/README.md) | 进程、内存、文件系统与内核实验 |
-| [007-软件工程](007-软件工程/README.md) | 软件构造、测试与项目实践 |
-| [008-编译原理](008-编译原理/README.md) | 编译器与程序分析 |
-| [009-嵌入式与单片机](009-嵌入式与单片机/README.md) | 单片机、嵌入式系统与外设 |
-| [010-计算机组成与硬件](010-计算机组成与硬件/README.md) | 电路、数字逻辑与体系结构 |
-| [011-人工智能与数据科学](011-人工智能与数据科学/README.md) | 机器学习、自然语言处理与数据分析 |
-| [012-图形学与图像处理](012-图形学与图像处理/README.md) | 图形学、计算机视觉与图像处理 |
-| [013-并行与分布式系统](013-并行与分布式系统/README.md) | 并行计算与分布式实践 |
-| [014-课程与校园资料](014-课程与校园资料/README.md) | 通识课程、培养方案与升学经验 |
-| [A-计算机协会](A-计算机协会/README.md) | 学码群分享、讲座与竞赛交流 |
+| C、C++、Java、Python 与函数式编程 | [编程与语言](001-计算机语言/README.md) |
+| 数据结构、算法与竞赛 | [算法和数据结构](002-算法和数据结构/README.md) |
+| 进程、内存与内核实现 | [操作系统](006-操作系统/README.md) |
+| 协议、网络教材与抓包 | [计算机网络](005-计算机网络/README.md) |
+| 51 单片机、外设与控制实践 | [嵌入式与单片机](009-嵌入式与单片机/README.md) |
+| 系统、组成与处理器 | [计算机基础](000-计算机基础/README.md) · [硬件](010-计算机组成与硬件/README.md) |
+| 数据库、编译器与软件设计 | [数据库](004-数据库/README.md) · [编译原理](008-编译原理/README.md) · [软件工程](007-软件工程/README.md) |
+| 想先找讲义、试题或代码 | [按资料形式查找](docs/content/docs/formats/index.md) |
 
-## 感谢分享
+[第一次来](docs/content/docs/guide/start.md)介绍几种进入资料库的方式。[C++ 调试手记](docs/content/docs/guide/cpp-debugging.md)配合群里分享的五份程序，把问题、输入与结果放在一起。[动手工具](docs/content/docs/guide/tools.md)提供编译、调试、HTTP 和数据库的小练习。
 
-感谢原作者、授课老师与在学码群分享资料的每位群友。欢迎在[贡献入口](CONTRIBUTING.md)留下希望展示的署名；作者、上传者和整理者分别展示。
+## 把你的收获留下
 
-## 外部补充
+感谢每一位在群里上传资料的同学。十份单片机讲义、一次耐心整理的复习笔记、一段还在调试的代码，都让后来者多了一个起点。[贡献页](docs/content/docs/guide/credits.md)按实际分享记录列出群友与材料；作者、上传者与整理者的署名也随资料保留。
 
-- [\[Hust-opensource-Xuejie\] 华科课程资料](docs/content/docs/supplement/hust/index.md)，来源：[ \[Hust-opensource-Xuejie\] 项目](https://github.com/SukunaShinmyoumaru-hust/Hust-opensource-Xuejie)，感谢 Sukuna 与项目贡献者。
-- [\[CSdiy\] 自学课程](docs/content/docs/supplement/csdiy/index.md)，来源：[\[CSdiy\] CS 自学指南](https://csdiy.wiki/)，感谢 PKUFlyingPig 与指南贡献者。
+欢迎继续补充材料，写下读后体会，或者完善一句内容介绍。请在提交时留下希望展示的名字与主页，我们会把你的贡献一起记录。具体方式见[参与分享](CONTRIBUTING.md)。
+
+## 延伸阅读
+
+- [Hust-opensource-Xuejie 华科课程补充](docs/content/docs/supplement/hust/index.md)：Sukuna 与项目贡献者整理的华科讲义、试题与实验。
+- [CSdiy 自学课程补充](docs/content/docs/supplement/csdiy/index.md)：PKUFlyingPig 与指南贡献者整理的公开课程和学习经验。
+
+## 本地维护
+
+站点使用 Astro 与 [CelestialDocs](https://github.com/HYP3R00T/CelestialDocs) 的原始组件。资料记录在 `data/materials.json`，主题介绍在 `data/editorial.json`，资料页、目录与署名页由同一份数据生成。大文件沿用仓库 Releases，轻量文件放在对应学科目录。
+
+```sh
+npm ci
+npm run docs:dev
+```
+
+提交前运行 `npm test`、`npm run typecheck` 与 `npm run docs:build`。组件来源与适配说明见 [主题维护说明](docs/THEME.md)。

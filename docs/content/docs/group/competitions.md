@@ -1,41 +1,30 @@
 ---
-title: "竞赛指南"
+title: "竞赛与项目分享"
+description: "群友留下的多源异构数据驱动岗位与能力图谱比赛方案，展示一个具体竞赛问题的技术思路。"
 ---
 
-竞赛信息与准备经验。
+群友留下的多源异构数据驱动岗位与能力图谱比赛方案，展示一个具体竞赛问题的技术思路。
 
-## 群友分享
+## 怎么开始读
 
-### 多源异构数据驱动岗位与能力图谱比赛方案
+从任务目标、数据和方案结构进入，结合原文了解实现过程与结果。
 
-岗位与能力图谱构建、动态演化分析的赛题背景、研究任务和交付要求。
+[配套动手练习：步骤、预期结果与排查提示](competitions/practice.md)
 
-[PDF · 258.0 KiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/competitions__lab__multisource-job-and-competency-graph-competition-plan__2026__c9b28e107027.pdf) · 作者：科大讯飞股份有限公司 · 群友分享：shipship
+本主题收录 1 份资料。
 
-## 从两条岗位样例生成技能边
+## 实验
 
-先读群友分享的岗位与能力图谱比赛方案，列出输入、研究任务与交付物。用两条手工样例跑通岗位—技能边的生成过程，再逐步接入方案要求的数据：
+| 资料 | 形式 | 分享者 |
+| --- | --- | --- |
+| [多源异构数据驱动岗位与能力图谱比赛方案](competitions/files/c9b28e107027.md) | 实验 · PDF | shipship |
 
-```sh
-cat > skills.py <<'PY'
-from collections import Counter
-jobs = [
-    {"id": "backend", "skills": ["Python", "SQL", "Python"]},
-    {"id": "analysis", "skills": ["Python", "pandas"]},
-]
-edges = sorted((job["id"], skill)
-               for job in jobs for skill in set(job["skills"]))
-counts = Counter(skill for _, skill in edges)
-print(edges)
-print(sorted(counts.items()))
-assert len(edges) == 4
-assert counts["Python"] == 2
-PY
-python3 skills.py
-```
+## 谢谢分享
 
-预期结果：第一行有四条边：analysis→Python、analysis→pandas、backend→Python、backend→SQL；第二行计数为 Python 2、SQL 1、pandas 1。一个岗位重复出现的 Python 只生成一条边。
+shipship 等群友在群里留下了这些材料。作者与上传者的署名保留在每份资料中，也欢迎继续补上自己的笔记和阅读经验。
 
-排查：如果 Python 计数为 3，检查是否先对单个岗位的技能去重；如果岗位来源使用 python、Python 两种写法，先建立规范名称映射，再生成边。接入真实数据后，为每条边保留岗位来源和日期字段，按时间窗口比较同一技能的岗位数。
+## Hust-opensource-Xuejie 课程补充
 
-[动手工具](../guide/tools.md) · [分享资料](../guide/contributing.md)
+[Hust\-opensource\-Xuejie 竞赛指南](../supplement/hust/competitions.md)
+
+[分享资料与补充介绍](../guide/contributing.md)

@@ -6,7 +6,7 @@ title: 四周动手学习安排
 
 ## 第一周：循环、数组与调试
 
-1. 在 [C 语言群资料](../group/c.md)中读循环实验与教材对应章节，创建 sum.c，输入上界 5 时输出 15。
+1. 在 [C 语言动手练习](../group/c/practice.md)中创建 sum.c，计算 1 到 5 的和，输出 15；再配合循环实验与教材修改边界。
 2. 完成[工具练习](tools.md#c-数组越界与-addresssanitizer)的 bounds.c。ASan 应定位到 sum 函数中的越界读；用 GDB 在 i=3 时停住，数组应显示 {10,20,30}。
 3. 打开[C++ 群源程序](../group/cpp.md)，完成数组删除，将 1 2 3 4 5 的下标 2 删除后输出 1 2 4 5。
 
@@ -20,8 +20,8 @@ title: 四周动手学习安排
 
 ## 第四周：操作系统与项目
 
-阅读[银行家算法群例题](../group/operating-systems.md)，执行专题里的 banker.py：available=1 时安全序列为 [1,0,2]，available=0 时输出 unsafe。然后为学生成绩管理写一个 Python unittest：在事务里把 85 更新为 100，ROLLBACK 后查询值应等于 85。把查询模块与命令行输入分开，使用 python3 -m unittest 运行这个场景。
+阅读[银行家算法群例题](../group/operating-systems.md)，执行[配套练习](../group/operating-systems/practice.md)中的 banker.py：available=1 时安全序列为 [1,0,2]，available=0 时输出 unsafe。然后为学生成绩管理写一个 Python unittest：在事务里把 85 更新为 100，ROLLBACK 后查询值应等于 85。把查询模块与命令行输入分开，使用 python3 -m unittest 运行这个场景。
 
 ## 继续进入硬件
 
-[51 单片机](../group/mcs51.md)专题给出 12 MHz、12T 内核下的定时器重装值 0xFC18 与逻辑分析仪观察方法。按群内实验板课件连接 GPIO，再做 1 ms 中断与约 2 ms 方波周期实验。
+[51 单片机动手练习](../group/mcs51/practice.md)给出 12 MHz、12T 内核下的定时器重装值 0xFC18 与逻辑分析仪观察方法。按群内实验板课件连接 GPIO，再做 1 ms 中断与约 2 ms 方波周期实验。

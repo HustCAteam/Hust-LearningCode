@@ -1,0 +1,65 @@
+---
+import { Icon } from 'astro-icon/components';
+import { buttonVariants } from '@/components/ui/button';
+import BaseLayout from '@/layouts/BaseLayout.astro';
+import caCharacters from '@/assets/ca-ascii.txt?raw';
+import catalog from '@data/site-catalog.json';
+import CatalogCards from '@/components/docs/CatalogCards.astro';
+import SourceLabel from '@/components/docs/SourceLabel';
+const base = '/Hust-LearningCode/';
+const featured = [
+  { n: '01', id: 'c', label: '写下第一个程序', title: '从 C 语言开始', text: '循环、指针与内存。跟着教材写程序，也从群友的代码里找出问题。', meta: '教材 · 实验 · 试题', symbol: '{ }' },
+  { n: '02', id: 'computer-systems', label: '向计算机内部走', title: '程序怎样运行', text: '从编译链接到进程与内存，在系统教材和 Linux 实践之间来回探索。', meta: 'CSAPP · Linux · 操作系统', symbol: '>_' },
+  { n: '03', id: 'mcs51', label: '让代码接触现实', title: '点亮一块实验板', text: '十份 51 单片机讲义，从 GPIO 一路读到中断、时钟和串行通信。', meta: '10 份讲义 · 完整系列', symbol: '01' },
+];
+---
+<BaseLayout title="学码群 · 共同的计算机书架" fullWidth>
+  <div class="home-shell">
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="status-dot"></span> HUST COMPUTER ASSOCIATION <span class="eyebrow-slash">/</span> 学码群</p>
+        <h1 id="hero-title">一起学码，<br /><span>各有所获。</span></h1>
+        <p class="hero-intro">一本翻过的书，一页理清思路的笔记，<br class="hidden sm:block" />一个终于跑通的程序。把这些留下，给下一个好奇的人。</p>
+        <div class="hero-actions">
+          <a class={buttonVariants({ size: "lg", variant: "default" })} href={`${base}group/`}>打开资料目录 <Icon name="right" class="size-4" /></a>
+          <a class={buttonVariants({ size: "lg", variant: "outline" })} href={`${base}books/`}>逛逛共同书架</a>
+        </div>
+        <p class="hero-caption">来自学码群的分享 · 由同学们一起整理</p>
+      </div>
+      <div class="hero-art" aria-hidden="true">
+        <div class="art-grid"></div>
+        <div class="art-cross cross-a">+</div><div class="art-cross cross-b">+</div>
+        <div class="art-axis axis-top">CURIOSITY → KNOWLEDGE</div>
+        <div class="logo-frame"><pre class="ca-character-art">{caCharacters}</pre><span class="frame-corner tl"></span><span class="frame-corner tr"></span><span class="frame-corner bl"></span><span class="frame-corner br"></span></div>
+        <div class="art-label"><span>HUST</span><strong>CA</strong><span>LEARNING TOGETHER</span></div>
+        <span class="art-coordinate">30.51° N / 114.42° E</span>
+      </div>
+    </section>
+    <div class="collection-strip" aria-label="资料库概览">
+      <p>群友的分享，<br /><strong>一点点积累成书架。</strong></p>
+      <dl><div><dt>群资料</dt><dd>{catalog.counts.materials}<span> 份</span></dd></div><div><dt>计算机读物</dt><dd>{catalog.counts.books}<span> 本</span></dd></div><div><dt>学习主题</dt><dd>{catalog.counts.topics}<span> 个</span></dd></div></dl>
+      <a href={`${base}guide/credits/`} class="strip-link">认识分享者 <Icon name="right" class="size-4" /></a>
+    </div>
+    <section class="home-section" aria-labelledby="starting-points">
+      <div class="section-heading"><div><p class="eyebrow">01 / START SOMEWHERE</p><h2 id="starting-points">从一点好奇开始</h2></div><a href={`${base}guide/start/`}>第一次来 <Icon name="right" class="size-4" /></a></div>
+      <div class="feature-grid">
+        {featured.map(item => <a href={`${base}group/${item.id}/`} class="feature-item"><div class="feature-top"><span>{item.n} / {item.label}</span><Icon name="right" class="size-5" /></div><span class="feature-symbol" aria-hidden="true">{item.symbol}</span><h3>{item.title}</h3><p>{item.text}</p><span class="feature-meta">{item.meta}</span></a>)}
+      </div>
+    </section>
+    <section class="home-section" aria-labelledby="browse-topics">
+      <div class="section-heading"><div><p class="eyebrow">02 / FIND YOUR SUBJECT</p><h2 id="browse-topics">沿着兴趣，继续往下读</h2></div><a href={`${base}formats/`}>按资料形式找 <Icon name="right" class="size-4" /></a></div>
+      <CatalogCards cards={catalog.categories.map(category => ({
+        title: category.label,
+        href: `${base}group/#${category.id}`,
+        icon: 'folder',
+        description: category.topics.map(topic => topic.title).join(' · '),
+        eyebrow: `${category.topics.length} 个主题 · ${category.topics.reduce((sum, topic) => sum + topic.count, 0)} 份资料`,
+      }))} />
+    </section>
+    <section class="share-section" aria-labelledby="share-title">
+      <div><p class="eyebrow">03 / PASS IT ON</p><h2 id="share-title">这里也有你的一格。</h2><p>读懂一章之后的笔记，调通程序时的发现，<br class="hidden sm:block" />都可以成为下一位同学的起点。谢谢每一次具体的分享。</p><a class={buttonVariants({ size: "default", variant: "outline" })} href={`${base}guide/contributing/`}>把你的收获留下 <Icon name="right" class="size-4" /></a></div>
+      <div class="share-note"><span class="font-mono">A NOTE FROM THE COMMUNITY</span><blockquote>愿每一个认真分享的人，<br />都能在这里留下名字。</blockquote><a href={`${base}guide/credits/`}>看看群友留下了什么 ↗</a></div>
+    </section>
+    <div class="supplement-line"><span>继续向外探索</span><a href={`${base}supplement/hust/`}><SourceLabel text="Hust-opensource-Xuejie 华科课程" /></a><a href={`${base}supplement/csdiy/`}><SourceLabel text="CSdiy 自学课程" /></a></div>
+  </div>
+</BaseLayout>

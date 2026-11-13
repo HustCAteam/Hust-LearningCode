@@ -1,33 +1,30 @@
 ---
-title: "函数式编程"
+title: "函数式编程与 OCaml"
+description: "这里收录群友分享的 Real World OCaml，围绕类型、模块与函数式程序设计展开。"
 ---
 
-模式匹配、高阶函数、类型与归纳。
+这里收录群友分享的 Real World OCaml，围绕类型、模块与函数式程序设计展开。
 
-## 群友分享
+## 怎么开始读
 
-### Real World OCaml · 第2版
+阅读时可以同步打开 OCaml 交互环境，从模式匹配、递归和列表开始，再进入模块与较完整的程序结构。
 
-OCaml 的类型、模式匹配、模块、函数式数据结构和并发编程。
+[配套动手练习：步骤、预期结果与排查提示](functional-programming/practice.md)
 
-[PDF · 8.76 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/functional-programming__book__real-world-ocaml__2nd__6d4758932520.pdf) · 作者：Anil Madhavapeddy；Yaron Minsky · 群友分享：QQ用户
+本主题收录 1 份资料。
 
-## 用 OCaml 模式匹配处理列表
+## 书籍
 
-安装 OCaml 后，把以下内容写入 sum.ml，配合 Real World OCaml 的列表与递归章节：
+| 资料 | 形式 | 分享者 |
+| --- | --- | --- |
+| [Real World OCaml · 第2版](functional-programming/files/6d4758932520.md) | 书籍 · PDF | QQ用户 |
 
-```sh
-cat > sum.ml <<'ML'
-let rec sum = function
-  | [] -> 0
-  | head :: tail -> head + sum tail
-let () = Printf.printf "%d\n" (sum [1; 2; 3; 4])
-ML
-ocaml sum.ml
-```
+## 谢谢分享
 
-预期结果：输出 10。将输入改为 []，输出 0；改为 [-2; 5]，输出 3。
+QQ用户 等群友在群里留下了这些材料。作者与上传者的署名保留在每份资料中，也欢迎继续补上自己的笔记和阅读经验。
 
-排查：列表元素用分号分隔；出现模式匹配不完整警告时检查 [] 分支。
+## Hust-opensource-Xuejie 课程补充
 
-[动手工具](../guide/tools.md) · [分享资料](../guide/contributing.md)
+[Hust\-opensource\-Xuejie 函数式编程](../supplement/hust/functional-programming.md)
+
+[分享资料与补充介绍](../guide/contributing.md)

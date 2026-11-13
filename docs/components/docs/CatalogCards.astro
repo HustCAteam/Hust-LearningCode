@@ -1,0 +1,54 @@
+---
+import { Icon } from 'astro-icon/components';
+import { BookOpen, FileText, NotebookPen, FlaskConical, ListChecks, Code2, Presentation, Compass, Library, GraduationCap, Users, FolderOpen, Network } from 'lucide-react';
+import type { CatalogCard } from '@/lib/catalog/types';
+import SourceLabel from './SourceLabel';
+
+interface Props { cards: CatalogCard[]; layout?: 'grid' | 'path'; }
+const { cards, layout = 'grid' } = Astro.props;
+const icons = { book: BookOpen, slides: Presentation, notes: NotebookPen, lab: FlaskConical, exercise: ListChecks, source: Code2, talk: Presentation, guide: Compass, library: Library, course: GraduationCap, people: Users, folder: FolderOpen, network: Network, document: FileText };
+---
+
+<!-- Card surface and grid extracted from CelestialDocs' original homepage feature section. -->
+<div class:list={['catalog-cards grid gap-4 sm:grid-cols-2', { 'catalog-path': layout === 'path' }]}>
+  {cards.map((card, index) => {
+    const Tag = card.href ? 'a' : 'article';
+    const CardIcon = icons[card.icon as keyof typeof icons] ?? FileText;
+    const external = card.href?.startsWith('https://');
+    return <Tag href={card.href} class:list={['catalog-card bg-popover rounded-lg p-6', { 'catalog-card-link': !!card.href }]}>
+      <div class="card-top text-muted-foreground">
+        <span class="card-icon text-primary" aria-hidden="true">{layout === 'path' ? String(index + 1).padStart(2, '0') : <CardIcon size={21} strokeWidth={1.6} />}</span>
+        {card.eyebrow && <span class="card-eyebrow">{card.eyebrow}</span>}
+        {card.href && <Icon name="right" class:list={['card-arrow size-4', { 'external-arrow': external }]} />}
+      </div>
+      <h3 class="card-title text-foreground"><SourceLabel text={card.title} /></h3>
+      {card.description && <p class="card-description text-muted-foreground">{card.description}</p>}
+      {card.meta?.length && <div class="card-meta text-muted-foreground">{card.meta.map(text => <span>{text}</span>)}</div>}
+      {card.links?.length && <div class="card-related">{card.links.map(link => <a href={link.href}>{link.label}<Icon name="right" class="size-3" /></a>)}</div>}
+    </Tag>;
+  })}
+</div>
+
+<style>
+  .catalog-cards { margin-block: 1.4rem; }
+  .catalog-card { min-width: 0; display: flex; flex-direction: column; border: 1px solid var(--border); text-decoration: none; color: var(--foreground); transition: border-color .18s, background .18s; }
+  .catalog-card-link:hover { border-color: var(--primary); background: color-mix(in srgb, var(--primary) 5%, var(--popover)); }
+  .card-top { display: flex; align-items: center; gap: 10px; margin-bottom: 14px; }
+  .card-icon { display: flex; font: 13px var(--font-mono); }
+  .card-eyebrow { font-size: 11px; line-height: 1.5; }
+  .card-arrow { margin-left: auto; flex-shrink: 0; }
+  .external-arrow { transform: rotate(-45deg); }
+  .catalog-card .card-title { margin: 0; font-size: 16px; font-weight: 600; line-height: 1.55; overflow-wrap: anywhere; }
+  .catalog-card .card-description { margin: 9px 0 0; font-size: 13px; line-height: 1.8; }
+  .card-meta { display: flex; flex-wrap: wrap; gap: 5px 12px; margin-top: auto; padding-top: 17px; font-size: 11px; line-height: 1.7; overflow-wrap: anywhere; }
+  .card-related { display: grid; gap: 9px; border-top: 1px solid var(--border); margin-top: 16px; padding-top: 14px; }
+  .card-related a { display: flex; align-items: center; justify-content: space-between; gap: 8px; font-size: 12px; text-decoration: none; }
+  .card-related svg { flex-shrink: 0; }
+  .catalog-path { grid-template-columns: 1fr; gap: 24px; }
+  .catalog-path .catalog-card { position: relative; padding-left: 64px; }
+  .catalog-path .card-top { position: absolute; left: 23px; top: 25px; margin: 0; }
+  .catalog-path .card-arrow { display: none; }
+  .catalog-path .catalog-card:not(:last-child)::after { content: ''; position: absolute; left: 30px; bottom: -25px; height: 24px; border-left: 1px solid var(--primary); }
+  @media (max-width: 767px) { .catalog-card { padding: 20px; } .catalog-path .catalog-card { padding-left: 58px; } .catalog-path .card-top { left: 19px; top: 23px; } .catalog-path .catalog-card:not(:last-child)::after { left: 26px; } }
+  @media (prefers-reduced-motion: reduce) { .catalog-card { transition: none; } }
+</style>

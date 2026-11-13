@@ -1,39 +1,31 @@
 ---
-title: "计算机系统基础"
+title: "计算机系统与 Linux"
+description: "这一栏连接程序与机器：一本《深入理解计算机系统》，一本《鸟哥的 Linux 私房菜》。前者帮助理解程序如何编译、执行和访问内存，后者提供 Linux 使用与管理的系统介绍。"
 ---
 
-数据表示、汇编、链接、缓存与进程。
+这一栏连接程序与机器：一本《深入理解计算机系统》，一本《鸟哥的 Linux 私房菜》。前者帮助理解程序如何编译、执行和访问内存，后者提供 Linux 使用与管理的系统介绍。
 
-## 群友分享
+## 怎么开始读
 
-### 深入理解计算机系统 · 第3版
+可以随着《深入理解计算机系统》观察汇编、链接与虚拟内存，同时用 Linux 命令行完成编译和文件操作。两个入口各自保留书籍版本、作者与群友分享署名。
 
-机器级程序、处理器、存储层次、链接、异常、虚拟内存与并发。
+[配套动手练习：步骤、预期结果与排查提示](computer-systems/practice.md)
 
-[PDF · 87.17 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/computer-systems__book__computer-systems-a-programmers-perspective__3rd__a1a8b38b00a0.pdf) · 作者：Randal E\. Bryant；David R\. O’Hallaron · 群友分享：Cyan
+本主题收录 2 份资料。
 
-### 鸟哥的 Linux 私房菜·基础学习篇 · 第4版
+## 书籍
 
-Linux 安装、文件权限、Shell、文本处理、进程和系统管理。
+| 资料 | 形式 | 分享者 |
+| --- | --- | --- |
+| [深入理解计算机系统 · 第3版](computer-systems/files/a1a8b38b00a0.md) | 书籍 · PDF | Cyan |
+| [鸟哥的 Linux 私房菜·基础学习篇 · 第4版](computer-systems/files/938d751a4342.md) | 书籍 · PDF | 22\-电磁\-郭烈材\(来水学码华科谢谢喵\) |
 
-[PDF · 26.45 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/computer-systems__book__vbird-linux-basic-learning__4th__938d751a4342.pdf) · 作者：鸟哥 · 群友分享：22\-电磁\-郭烈材\(来水学码华科谢谢喵\)
+## 谢谢分享
 
-## 从 C 函数找到机器指令
+Cyan、22\-电磁\-郭烈材\(来水学码华科谢谢喵\) 等群友在群里留下了这些材料。作者与上传者的署名保留在每份资料中，也欢迎继续补上自己的笔记和阅读经验。
 
-Linux x86-64、GCC 与 GNU binutils 环境中创建 add.c，比较优化前后的指令：
+## Hust-opensource-Xuejie 课程补充
 
-```sh
-cat > add.c <<'C'
-int add(int a, int b) { return a + b; }
-C
-gcc -O0 -g -c add.c -o add-o0.o
-gcc -O2 -c add.c -o add-o2.o
-objdump -d -Mintel add-o0.o
-objdump -d -Mintel add-o2.o
-```
+[Hust\-opensource\-Xuejie 计算机系统基础](../supplement/hust/computer-systems.md)
 
-预期结果：两份反汇编都含 add 符号和 ret；x86-64 GCC 的 -O2 常用 lea eax,[rdi+rsi] 完成加法。对照教材解释寄存器、操作数与返回值。
-
-排查：其他架构使用 objdump -d，去掉 -Mintel；找不到 objdump 时安装 binutils。-c 生成目标文件，无需 main。
-
-[动手工具](../guide/tools.md) · [分享资料](../guide/contributing.md)
+[分享资料与补充介绍](../guide/contributing.md)

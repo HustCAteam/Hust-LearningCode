@@ -1,33 +1,30 @@
 ---
-title: "计算机组成原理"
+title: "计算机组成"
+description: "《编码：隐匿在计算机软硬件背后的语言》从信息表示与基本器件出发，逐步解释计算机如何工作。"
 ---
 
-指令系统、CPU、存储层次与 I/O。
+《编码：隐匿在计算机软硬件背后的语言》从信息表示与基本器件出发，逐步解释计算机如何工作。
 
-## 群友分享
+## 怎么开始读
 
-### 编码：隐匿在计算机软硬件背后的语言
+可以沿着书中的构造顺序阅读，把编码、逻辑电路与计算机组成课程中的概念联系起来。
 
-从编码、电路和逻辑门构建处理器、存储器及计算机。
+[配套动手练习：步骤、预期结果与排查提示](computer-organization/practice.md)
 
-[PDF · 15.73 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/computer-organization__book__code-the-hidden-language-of-computer-hardware-and-software__undated__249786274d83.pdf) · 作者：Charles Petzold · 群友分享：Cyan
+本主题收录 1 份资料。
 
-## 从 C 函数找到机器指令
+## 书籍
 
-Linux x86-64、GCC 与 GNU binutils 环境中创建 add.c，比较优化前后的指令：
+| 资料 | 形式 | 分享者 |
+| --- | --- | --- |
+| [编码：隐匿在计算机软硬件背后的语言](computer-organization/files/249786274d83.md) | 书籍 · PDF | Cyan |
 
-```sh
-cat > add.c <<'C'
-int add(int a, int b) { return a + b; }
-C
-gcc -O0 -g -c add.c -o add-o0.o
-gcc -O2 -c add.c -o add-o2.o
-objdump -d -Mintel add-o0.o
-objdump -d -Mintel add-o2.o
-```
+## 谢谢分享
 
-预期结果：两份反汇编都含 add 符号和 ret；x86-64 GCC 的 -O2 常用 lea eax,[rdi+rsi] 完成加法。对照教材解释寄存器、操作数与返回值。
+Cyan 等群友在群里留下了这些材料。作者与上传者的署名保留在每份资料中，也欢迎继续补上自己的笔记和阅读经验。
 
-排查：其他架构使用 objdump -d，去掉 -Mintel；找不到 objdump 时安装 binutils。-c 生成目标文件，无需 main。
+## Hust-opensource-Xuejie 课程补充
 
-[动手工具](../guide/tools.md) · [分享资料](../guide/contributing.md)
+[Hust\-opensource\-Xuejie 计算机组成原理](../supplement/hust/computer-organization.md)
+
+[分享资料与补充介绍](../guide/contributing.md)

@@ -1,33 +1,26 @@
 ---
-title: "Python 语言与对象协议"
+title: "Python"
+description: "群友分享的《流畅的 Python》围绕 Python 的数据模型、函数与对象展开，适合已经写过一些 Python 程序后继续阅读。"
 ---
 
-Python 数据模型、容器、迭代器、函数与协程。
+群友分享的《流畅的 Python》围绕 Python 的数据模型、函数与对象展开，适合已经写过一些 Python 程序后继续阅读。
 
-## 群友分享
+## 怎么开始读
 
-### 流畅的 Python
+可以先从序列、映射与函数对象入手，再结合正在写的程序阅读迭代器、生成器等章节。
 
-Python 数据模型、序列、映射、函数、迭代器、协程与对象协议。
+[配套动手练习：步骤、预期结果与排查提示](python-basics/practice.md)
 
-[PDF · 14.53 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/python-basics__book__fluent-python__undated__10bfbaf44bc1.pdf) · 群友分享：Cyan
+本主题收录 1 份资料。
 
-## 统计 Unicode 单词
+## 书籍
 
-阅读 Python 书籍的字符串、字典与 Counter 章节。Python 3 下创建 words.py：
+| 资料 | 形式 | 分享者 |
+| --- | --- | --- |
+| [流畅的 Python](python-basics/files/10bfbaf44bc1.md) | 书籍 · PDF | Cyan |
 
-```sh
-cat > words.py <<'PY'
-from collections import Counter
-text = "群友 Python 群友 C Python 群友"
-for word, count in Counter(text.split()).most_common():
-    print(word, count)
-PY
-python3 words.py
-```
+## 谢谢分享
 
-预期结果：输出三行：群友 3、Python 2、C 1。把输入改为一个空字符串，输出为空。
+Cyan 等群友在群里留下了这些材料。作者与上传者的署名保留在每份资料中，也欢迎继续补上自己的笔记和阅读经验。
 
-排查：若中文显示异常，用 UTF-8 保存文件；把 split() 改成 split(" ") 后试两个连续空格，观察空单词如何进入计数。
-
-[动手工具](../guide/tools.md) · [分享资料](../guide/contributing.md)
+[分享资料与补充介绍](../guide/contributing.md)

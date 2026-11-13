@@ -1,39 +1,31 @@
 ---
-title: "离散数学(一)"
+title: "离散数学与数学阅读"
+description: "这里收录《离散数学及其应用》和《数学之美》，从形式化的课程知识延伸到计算机问题中的数学思考。"
 ---
 
-集合、关系、图与离散结构。
+这里收录《离散数学及其应用》和《数学之美》，从形式化的课程知识延伸到计算机问题中的数学思考。
 
-## 群友分享
+## 怎么开始读
 
-### 离散数学及其应用
+跟随课程学习时可以查阅离散数学教材中的逻辑、关系与图论；想了解数学怎样进入实际问题时，可以阅读《数学之美》。
 
-逻辑与证明、集合、关系、计数、离散概率、图和树。
+[配套动手练习：步骤、预期结果与排查提示](discrete-1/practice.md)
 
-[PDF · 85.60 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/discrete-1__book__discrete-mathematics-and-its-applications__undated__216c03ebd914.pdf) · 作者：Kenneth H\. Rosen · 群友分享：22\-电磁\-郭烈材\(来水学码华科谢谢喵\)
+本主题收录 2 份资料。
 
-### 数学之美
+## 书籍
 
-信息论、概率、搜索、语言处理与互联网应用中的数学思想。
+| 资料 | 形式 | 分享者 |
+| --- | --- | --- |
+| [离散数学及其应用](discrete-1/files/216c03ebd914.md) | 书籍 · PDF | 22\-电磁\-郭烈材\(来水学码华科谢谢喵\) |
+| [数学之美](discrete-1/files/5167341ea8c3.md) | 书籍 · PDF | 22\-电磁\-郭烈材\(来水学码华科谢谢喵\) |
 
-[PDF · 50.87 MiB · 打开下载](https://github.com/HustCAteam/Hust-LearningCode/releases/download/group-library/discrete-1__book__the-beauty-of-mathematics__undated__5167341ea8c3.pdf) · 作者：吴军 · 群友分享：22\-电磁\-郭烈材\(来水学码华科谢谢喵\)
+## 谢谢分享
 
-## 枚举命题等价式的真值表
+22\-电磁\-郭烈材\(来水学码华科谢谢喵\) 等群友在群里留下了这些材料。作者与上传者的署名保留在每份资料中，也欢迎继续补上自己的笔记和阅读经验。
 
-阅读离散数学的命题逻辑章节，验证蕴含式 p→q 与 ¬p∨q：
+## Hust-opensource-Xuejie 课程补充
 
-```sh
-python3 - <<'PY'
-from itertools import product
-for p, q in product([False, True], repeat=2):
-    implication = (not p) or q
-    contrapositive = q or (not p)
-    print(int(p), int(q), int(implication), implication == contrapositive)
-PY
-```
+[Hust\-opensource\-Xuejie 离散数学\(一\)](../supplement/hust/discrete-1.md)
 
-预期结果：四行的最后一列全为 True，蕴含值依次为 1、1、0、1。再将右式改为 p or (not q)，第三行出现 False。
-
-排查：Python 的 not、and、or 对应逻辑运算；先加括号，把每个子式的值算清楚。
-
-[动手工具](../guide/tools.md) · [分享资料](../guide/contributing.md)
+[分享资料与补充介绍](../guide/contributing.md)
