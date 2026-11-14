@@ -12,7 +12,7 @@ export default function remarkLinks() {
         const label = node.children[0].value;
         const source = /^(Hust-opensource-Xuejie|CSdiy)(?:\s+(.+))?$/.exec(label);
         if (source) node.children.splice(0, 1,
-          { type: 'sourceBadge', data: { hName: 'span', hProperties: { className: ['source-tag'] } }, children: [{ type: 'text', value: source[1] }] },
+          { type: 'sourceBadge', data: { hName: 'span', hProperties: { className: ['source-tag'], title: source[1] } }, children: [{ type: 'text', value: source[1] === 'Hust-opensource-Xuejie' ? 'Xuejie' : source[1] }] },
           ...(source[2] ? [{ type: 'text', value: ` ${source[2]}` }] : []));
       }
       if ((node.type === 'link' || node.type === 'definition') && node.url && !/^(?:[a-z][a-z\d+.-]*:|\/|#)/i.test(node.url)) {

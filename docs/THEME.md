@@ -8,7 +8,7 @@
 
 目录页的 `CatalogCards` 从上游首页 Features 区提取卡片网格，沿用 `bg-popover`、`rounded-lg`、`p-6` 与主题颜色，补充链接、数量、署名与响应式间距。`CatalogPage` 组合分类卡片、贡献者卡片和带连接线的阅读步骤。上游没有独立的卡片或导图组件；这些组合复用其现有样式和图标体系，采用静态 HTML 输出。
 
-外部来源使用 `SourceLabel` 统一渲染：`Hust-opensource-Xuejie` 与 `CSdiy` 为无方括号的徽标，覆盖首页、标题、卡片、侧栏、面包屑、页内目录和搜索。Markdown 正文链接通过 `remark-links.mjs` 使用相同的 `source-tag` 样式；原始文本保留来源名称以便检索。
+外部来源使用 `SourceLabel` 统一渲染：`Hust-opensource-Xuejie` 显示为短标签 `Xuejie`，`CSdiy` 保留原名，悬停可查看完整来源。小号、常规字重的徽标覆盖首页、标题、卡片、侧栏、面包屑、页内目录和搜索。Markdown 正文链接通过 `remark-links.mjs` 使用相同的 `source-tag` 样式；原始文本保留来源名称以便检索。
 
 ## 内容结构
 
