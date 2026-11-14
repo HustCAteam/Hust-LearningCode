@@ -13,7 +13,7 @@ const filteredHeadings = headings.filter((h) => h.depth === 2 || h.depth === 3);
 ---
 
 {filteredHeadings.length > 0 && (
-    <aside class="sticky top-17 hidden h-[calc(100vh-5.25rem)] min-w-2xs xl:block">
+    <aside class="sticky top-17 hidden h-[calc(100vh-5.25rem)] min-w-2xs pt-4 xl:block">
       <div class="flex h-full flex-col gap-4">
         <section class="bg-popover rounded-lg p-5" style={`max-height: ${tocMaxHeight}`}>
           <nav aria-label="本页目录" class="flex h-full flex-col">

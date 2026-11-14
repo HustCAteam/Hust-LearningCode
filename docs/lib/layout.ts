@@ -8,7 +8,7 @@ const STORAGE_KEY = "layout-width-mode";
 
 function getMode(): LayoutMode {
   const saved = localStorage.getItem(STORAGE_KEY);
-  return saved === "wide" ? "wide" : "comfort";
+  return saved === "comfort" ? "comfort" : "wide";
 }
 
 function applyMode(mode: LayoutMode): void {
