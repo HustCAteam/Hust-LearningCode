@@ -1,4 +1,5 @@
 import { defineConfig } from 'astro/config';
+import { unified } from '@astrojs/markdown-remark';
 import mdx from '@astrojs/mdx';
 import react from '@astrojs/react';
 import sitemap from '@astrojs/sitemap';
@@ -15,7 +16,7 @@ export default defineConfig({
   prefetch: true,
   vite: { plugins: [tailwindcss()] },
   markdown: {
-    remarkPlugins: [remarkLinks],
+    processor: unified({ remarkPlugins: [remarkLinks] }),
     shikiConfig: { themes: { light: 'one-light', dark: 'one-dark-pro' } },
   },
   integrations: [mdx(), react(), icon({ iconDir: 'docs/assets/icons', svgoOptions: { plugins: [{ name: 'convertColors', params: { currentColor: true } }] } }), sitemap()],
