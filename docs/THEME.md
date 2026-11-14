@@ -6,6 +6,8 @@
 
 适配内容包括中文界面、CA logo、GitHub Pages 子路径、群资料搜索筛选、每页 SEO、面包屑地址、移动端导航与搜索的可访问性。`docs/styles/global.css` 保留上游样式，`docs/styles/learningcode.css` 设置 CA 配色、中文排版与首页内容布局。首页复用 BaseLayout、Icon 和 Button 的样式系统。
 
+文档页沿用原版的居中主标题、标题层级、三栏排版和舒适／宽屏切换。正文容器通过 `.docs-article` 定位，避免正文宽度与居中规则影响内部卡片；贡献者卡片填满等宽网格。
+
 目录页的 `CatalogCards` 从上游首页 Features 区提取卡片网格，沿用 `bg-popover`、`rounded-lg`、`p-6` 与主题颜色，补充链接、数量、署名与响应式间距。`CatalogPage` 组合分类卡片、贡献者卡片和带连接线的阅读步骤。上游没有独立的卡片或导图组件；这些组合复用其现有样式和图标体系，采用静态 HTML 输出。
 
 外部来源使用 `SourceLabel` 统一渲染：`Hust-opensource-Xuejie` 显示为短标签 `Xuejie`，`CSdiy` 保留原名，悬停可查看完整来源。小号、常规字重的徽标覆盖首页、标题、卡片、侧栏、面包屑、页内目录和搜索。Markdown 正文链接通过 `remark-links.mjs` 使用相同的 `source-tag` 样式；原始文本保留来源名称以便检索。

@@ -60,7 +60,7 @@ const tableOfContentsHeadings = headings
           <SourceButton slug={frontmatter.id} collectionId={collectionId} />
         </div>
       </div>
-      <article class:list={["prose prose-slate dark:prose-invert min-w-0", {"material-detail": frontmatter.id.includes("/files/")}]}>
+      <article class:list={["docs-article prose prose-slate dark:prose-invert min-w-0", {"material-detail": frontmatter.id.includes("/files/")}]}>
         <h1><SourceLabel text={frontmatter.data.title} /></h1>
         <slot />
       </article>
