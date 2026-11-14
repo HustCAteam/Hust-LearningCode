@@ -25,4 +25,6 @@
 
 ## 验证
 
+本地与 GitHub Actions 统一使用 `.node-version` 中的 Node.js 版本。依赖通过 `npm ci` 从锁文件安装；更新依赖后，在空的依赖目录验证安装与构建，再提交锁文件。
+
 `npm test` 验证资料校验、文件链接、来源标签与生成关系；`npm run typecheck` 检查类型；`npm run docs:build` 检查仓库体积、内部链接并生成静态站点。GitHub Actions 使用相同的构建命令发布 Pages。

@@ -36,6 +36,8 @@
 
 站点使用 Astro 与 [CelestialDocs](https://github.com/HYP3R00T/CelestialDocs) 的原始组件。资料记录在 `data/materials.json`，主题介绍在 `data/editorial.json`，资料页、目录与署名页由同一份数据生成。大文件沿用仓库 Releases，轻量文件放在对应学科目录。
 
+使用 `.node-version` 指定的 Node.js 版本，与 CI 和 Pages 保持一致。
+
 ```sh
 npm ci
 npm run docs:dev
